@@ -1,0 +1,18 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace FA78B0257AA80CDE
+{
+	inline static constexpr unsigned int FC45C8D1ECDADFF5_TypeDefinitionIndex = 17840;
+
+	enum class FC45C8D1ECDADFF5 : ::System::Int32
+	{
+		HAPI_XYZ = 0,
+		HAPI_XZY = 1,
+		HAPI_YXZ = 2,
+		HAPI_YZX = 3,
+		HAPI_ZXY = 4,
+		HAPI_ZYX = 5,
+		HAPI_XYZORDER_DEFAULT = 0,
+	};
+}

@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class ED2E6327DCF098BC;
+class EFC18F563E2A1E5E;
+namespace System::Collections { class IEnumerator; }
+
+#define F82B48DDDB14EDB8_A70E929DCAF65A19_OFFSET UNITYSDK_OFFSET(0x3F01AF0)
+#define F82B48DDDB14EDB8_E34B6CA02139E820_OFFSET UNITYSDK_OFFSET(0x3F01B90)
+#define F82B48DDDB14EDB8_E6CAD58306FCDCB5_OFFSET UNITYSDK_OFFSET(0x3F01AA0)
+#define F82B48DDDB14EDB8_EB0354AC58FB077D_OFFSET UNITYSDK_OFFSET(0x3F01C80)
+#define F82B48DDDB14EDB8_F38E5001C7AA1BB5_OFFSET UNITYSDK_OFFSET(0x3F01B40)
+#define F82B48DDDB14EDB8__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3F01BE0)
+#define F82B48DDDB14EDB8__CTOR_OFFSET UNITYSDK_OFFSET(0x3F01C10)
+
+inline static constexpr unsigned int F82B48DDDB14EDB8_TypeDefinitionIndex = 15209;
+
+class F82B48DDDB14EDB8 : public ::System::Object
+{
+public:
+	::System::Collections::IEnumerator* AE3F1A16EC225A69; // 0x10
+
+	::System::Void _ctor(::EFC18F563E2A1E5E* AD8845A117909DE0)
+	{
+		return ((::System::Void(*)(::PVOID, ::EFC18F563E2A1E5E*))((::PBYTE)hIl2Cpp + F82B48DDDB14EDB8__CTOR_OFFSET))(this, AD8845A117909DE0);
+	}
+
+	::System::Void F38E5001C7AA1BB5()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F82B48DDDB14EDB8_F38E5001C7AA1BB5_OFFSET))(this);
+	}
+
+	::ED2E6327DCF098BC* EB0354AC58FB077D()
+	{
+		return ((::ED2E6327DCF098BC*(*)(::PVOID))((::PBYTE)hIl2Cpp + F82B48DDDB14EDB8_EB0354AC58FB077D_OFFSET))(this);
+	}
+
+	::System::Boolean A70E929DCAF65A19()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + F82B48DDDB14EDB8_A70E929DCAF65A19_OFFSET))(this);
+	}
+
+	::System::Object* E34B6CA02139E820()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + F82B48DDDB14EDB8_E34B6CA02139E820_OFFSET))(this);
+	}
+
+	::System::Void _ctor_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F82B48DDDB14EDB8__CTOR_1_OFFSET))(this);
+	}
+
+	::System::Boolean E6CAD58306FCDCB5()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + F82B48DDDB14EDB8_E6CAD58306FCDCB5_OFFSET))(this);
+	}
+};

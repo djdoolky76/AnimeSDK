@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define A4EC150A71881572_BABFD0AF5FE21BE6_OFFSET UNITYSDK_OFFSET(0x28F34C0)
+#define A4EC150A71881572_E6A4EDFB781D1DCC_OFFSET UNITYSDK_OFFSET(0x28F33C0)
+#define A4EC150A71881572_E8AF1E0387A100FA_1_OFFSET UNITYSDK_OFFSET(0x28F3240)
+#define A4EC150A71881572_E8AF1E0387A100FA_OFFSET UNITYSDK_OFFSET(0x28F31D0)
+#define A4EC150A71881572_F0BDA4C0F8857362_OFFSET UNITYSDK_OFFSET(0x28F3540)
+#define A4EC150A71881572__CTOR_1_OFFSET UNITYSDK_OFFSET(0x28F3430)
+#define A4EC150A71881572__CTOR_OFFSET UNITYSDK_OFFSET(0x28F2E50)
+
+inline static constexpr unsigned int A4EC150A71881572_TypeDefinitionIndex = 19770;
+
+class A4EC150A71881572 : public ::System::Object
+{
+public:
+	::System::IntPtr E432FC1D74EB921A; // 0x10
+	::System::Boolean FC6A01549854C270; // 0x18
+
+	::System::Void _ctor(::System::IntPtr AC0A5E8A4F485F1F, ::System::Boolean A8CED94AB62D02E7)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr, ::System::Boolean))((::PBYTE)hIl2Cpp + A4EC150A71881572__CTOR_OFFSET))(this, AC0A5E8A4F485F1F, A8CED94AB62D02E7);
+	}
+
+	::System::Boolean BABFD0AF5FE21BE6()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + A4EC150A71881572_BABFD0AF5FE21BE6_OFFSET))(this);
+	}
+
+	::System::Void F0BDA4C0F8857362(::System::IntPtr AC0A5E8A4F485F1F)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + A4EC150A71881572_F0BDA4C0F8857362_OFFSET))(this, AC0A5E8A4F485F1F);
+	}
+
+	::System::Void _ctor_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A4EC150A71881572__CTOR_1_OFFSET))(this);
+	}
+
+	::System::Void E8AF1E0387A100FA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A4EC150A71881572_E8AF1E0387A100FA_OFFSET))(this);
+	}
+
+	::System::Void E8AF1E0387A100FA_1(::System::Boolean FB4A1BD5C4242BE9)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + A4EC150A71881572_E8AF1E0387A100FA_1_OFFSET))(this, FB4A1BD5C4242BE9);
+	}
+
+	::System::Void E6A4EDFB781D1DCC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A4EC150A71881572_E6A4EDFB781D1DCC_OFFSET))(this);
+	}
+};

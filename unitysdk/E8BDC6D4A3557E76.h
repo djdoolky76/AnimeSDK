@@ -1,0 +1,46 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define E8BDC6D4A3557E76_BA7EE2D89194723D_OFFSET UNITYSDK_OFFSET(0x3DECE30)
+#define E8BDC6D4A3557E76_E5717B0D3AB1BF84_OFFSET UNITYSDK_OFFSET(0x3DECD20)
+#define E8BDC6D4A3557E76_FB281CD72EFCA9B8_OFFSET UNITYSDK_OFFSET(0x3DECDB0)
+#define E8BDC6D4A3557E76__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3DECE50)
+#define E8BDC6D4A3557E76__CTOR_OFFSET UNITYSDK_OFFSET(0x3DECE90)
+
+inline static constexpr unsigned int E8BDC6D4A3557E76_TypeDefinitionIndex = 20166;
+
+class E8BDC6D4A3557E76 : public ::System::Object
+{
+public:
+	::System::Int32 F0895D445B0C3A94; // 0x10
+	::System::Byte _padding0[0x4];
+	::PVOID BCA3B4FDE9A9B6DD; // 0x18
+	::Il2CppArray<::System::Int32>* E9F0E24F3EFC2D07; // 0x20
+	::System::Boolean EB943F7C25B8E735; // 0x28
+
+	::System::Void _ctor(::Il2CppArray<::System::Int32>* BE8BD58A096F567D, ::System::Int32 A96B867D8BBB8B00)
+	{
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int32>*, ::System::Int32))((::PBYTE)hIl2Cpp + E8BDC6D4A3557E76__CTOR_OFFSET))(this, BE8BD58A096F567D, A96B867D8BBB8B00);
+	}
+
+	::System::Void FB281CD72EFCA9B8(::System::Int32 E889DC042020A40F)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + E8BDC6D4A3557E76_FB281CD72EFCA9B8_OFFSET))(this, E889DC042020A40F);
+	}
+
+	static ::System::Int32 BA7EE2D89194723D(::System::Int32 B8A243EF3616E270)
+	{
+		return ((::System::Int32(*)(::System::Int32))((::PBYTE)hIl2Cpp + E8BDC6D4A3557E76_BA7EE2D89194723D_OFFSET))(B8A243EF3616E270);
+	}
+
+	::System::Boolean E5717B0D3AB1BF84(::System::Int32 E889DC042020A40F)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + E8BDC6D4A3557E76_E5717B0D3AB1BF84_OFFSET))(this, E889DC042020A40F);
+	}
+
+	::System::Void _ctor_1(::PVOID B0F76B1A94F277B5, ::System::Int32 A96B867D8BBB8B00)
+	{
+		return ((::System::Void(*)(::PVOID, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + E8BDC6D4A3557E76__CTOR_1_OFFSET))(this, B0F76B1A94F277B5, A96B867D8BBB8B00);
+	}
+};

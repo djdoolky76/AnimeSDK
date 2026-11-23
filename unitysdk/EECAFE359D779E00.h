@@ -1,0 +1,79 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/E865F6F8B8B44C1E.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine::Playables { class PlayableDirector; }
+
+#define EECAFE359D779E00_A1E97155B145443C_OFFSET UNITYSDK_OFFSET(0x22AC2C0)
+#define EECAFE359D779E00_A431D3FC6542321B_OFFSET UNITYSDK_OFFSET(0x16BD320)
+#define EECAFE359D779E00_B506BB0ED7765BEE_OFFSET UNITYSDK_OFFSET(0x22AC570)
+#define EECAFE359D779E00_B54FC0AE37431C42_OFFSET UNITYSDK_OFFSET(0x16BD3B0)
+#define EECAFE359D779E00_B89D2341B8AD3925_OFFSET UNITYSDK_OFFSET(0x1F86890)
+#define EECAFE359D779E00_BDABD41CD945DFC1_OFFSET UNITYSDK_OFFSET(0x17F35D0)
+#define EECAFE359D779E00_E8FD4225B6A62CC7_OFFSET UNITYSDK_OFFSET(0x17D5EA0)
+#define EECAFE359D779E00_FA967726EC0E2D1D_OFFSET UNITYSDK_OFFSET(0x17F35A0)
+#define EECAFE359D779E00_FCC7443573DD0222_OFFSET UNITYSDK_OFFSET(0x22AC180)
+#define EECAFE359D779E00__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int EECAFE359D779E00_TypeDefinitionIndex = 7127;
+
+class EECAFE359D779E00 : public ::System::Object
+{
+public:
+	::E865F6F8B8B44C1E A1E156415E471D8D; // 0x10
+	::UnityEngine::GameObject* FCEE6AA018F34E51; // 0x18
+	::UnityEngine::Playables::PlayableDirector* FB0E228B8C5F734D; // 0x20
+
+	::System::Void BDABD41CD945DFC1(::UnityEngine::GameObject* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + EECAFE359D779E00_BDABD41CD945DFC1_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::System::Boolean A1E97155B145443C(::E865F6F8B8B44C1E FCC35A2DD14AEFFD)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::E865F6F8B8B44C1E))((::PBYTE)hIl2Cpp + EECAFE359D779E00_A1E97155B145443C_OFFSET))(this, FCC35A2DD14AEFFD);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EECAFE359D779E00__CTOR_OFFSET))(this);
+	}
+
+	::System::String* B506BB0ED7765BEE()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EECAFE359D779E00_B506BB0ED7765BEE_OFFSET))(this);
+	}
+
+	::System::Void FCC7443573DD0222()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EECAFE359D779E00_FCC7443573DD0222_OFFSET))(this);
+	}
+
+	::System::Void B89D2341B8AD3925(::E865F6F8B8B44C1E E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::E865F6F8B8B44C1E))((::PBYTE)hIl2Cpp + EECAFE359D779E00_B89D2341B8AD3925_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::E865F6F8B8B44C1E E8FD4225B6A62CC7()
+	{
+		return ((::E865F6F8B8B44C1E(*)(::PVOID))((::PBYTE)hIl2Cpp + EECAFE359D779E00_E8FD4225B6A62CC7_OFFSET))(this);
+	}
+
+	::System::Void B54FC0AE37431C42(::UnityEngine::Playables::PlayableDirector* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*))((::PBYTE)hIl2Cpp + EECAFE359D779E00_B54FC0AE37431C42_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::UnityEngine::Playables::PlayableDirector* A431D3FC6542321B()
+	{
+		return ((::UnityEngine::Playables::PlayableDirector*(*)(::PVOID))((::PBYTE)hIl2Cpp + EECAFE359D779E00_A431D3FC6542321B_OFFSET))(this);
+	}
+
+	::UnityEngine::GameObject* FA967726EC0E2D1D()
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + EECAFE359D779E00_FA967726EC0E2D1D_OFFSET))(this);
+	}
+};

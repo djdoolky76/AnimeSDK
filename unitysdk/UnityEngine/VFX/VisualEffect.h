@@ -1,0 +1,45 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/F7F6CC14FED63C28/EFA669B36524B4DC.h"
+#include "unitysdk/UnityEngine/Behaviour.h"
+
+namespace F7F6CC14FED63C28 { class BB12657BB66C92A0; }
+namespace System { template <typename T> class Action_1; }
+namespace UnityEngine::VFX { class VisualEffectAsset; }
+
+#define UNITYENGINE_VFX_VISUALEFFECT_A8ACEAA917688208_OFFSET UNITYSDK_OFFSET(0x43E5340)
+#define UNITYENGINE_VFX_VISUALEFFECT_B3A0E8612EC0BFDA_OFFSET UNITYSDK_OFFSET(0x43E54F0)
+#define UNITYENGINE_VFX_VISUALEFFECT_B409B3676234DF98_OFFSET UNITYSDK_OFFSET(0x43E5550)
+#define UNITYENGINE_VFX_VISUALEFFECT_F73627BFCB49617B_OFFSET UNITYSDK_OFFSET(0x43E51E0)
+
+namespace UnityEngine::VFX
+{
+	inline static constexpr unsigned int VisualEffect_TypeDefinitionIndex = 21406;
+
+	class VisualEffect : public ::UnityEngine::Behaviour
+	{
+	public:
+		::F7F6CC14FED63C28::BB12657BB66C92A0* E80EF2F56705F13F; // 0x18
+		::System::Action_1<::F7F6CC14FED63C28::EFA669B36524B4DC>* outputEventReceived; // 0x20
+
+		static ::F7F6CC14FED63C28::BB12657BB66C92A0* A8ACEAA917688208(::UnityEngine::VFX::VisualEffect* AFE8F10692F5139F)
+		{
+			return ((::F7F6CC14FED63C28::BB12657BB66C92A0*(*)(::UnityEngine::VFX::VisualEffect*))((::PBYTE)hIl2Cpp + UNITYENGINE_VFX_VISUALEFFECT_A8ACEAA917688208_OFFSET))(AFE8F10692F5139F);
+		}
+
+		::UnityEngine::VFX::VisualEffectAsset* B409B3676234DF98()
+		{
+			return ((::UnityEngine::VFX::VisualEffectAsset*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_VFX_VISUALEFFECT_B409B3676234DF98_OFFSET))(this);
+		}
+
+		::F7F6CC14FED63C28::BB12657BB66C92A0* F73627BFCB49617B()
+		{
+			return ((::F7F6CC14FED63C28::BB12657BB66C92A0*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_VFX_VISUALEFFECT_F73627BFCB49617B_OFFSET))(this);
+		}
+
+		static ::System::Void B3A0E8612EC0BFDA(::UnityEngine::VFX::VisualEffect* AFE8F10692F5139F, ::System::Int32 B7F9A3BB842A1ECF)
+		{
+			return ((::System::Void(*)(::UnityEngine::VFX::VisualEffect*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_VFX_VISUALEFFECT_B3A0E8612EC0BFDA_OFFSET))(AFE8F10692F5139F, B7F9A3BB842A1ECF);
+		}
+	};
+}

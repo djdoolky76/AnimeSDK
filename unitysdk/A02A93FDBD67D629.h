@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/E68AA4EB51923C98/B18E174BBCE2DD62.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/BB7311E0B052ED82.h"
+#include "unitysdk/BD3E6890C9C82A9E.h"
+
+class E74390D1056553AD;
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define A02A93FDBD67D629_AAA67EE098557B85_OFFSET UNITYSDK_OFFSET(0x22D5F90)
+#define A02A93FDBD67D629_FBBF870EA90E1D92_OFFSET UNITYSDK_OFFSET(0x22D5590)
+#define A02A93FDBD67D629__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int A02A93FDBD67D629_TypeDefinitionIndex = 7270;
+
+class A02A93FDBD67D629 : public ::System::Object
+{
+public:
+	::System::UInt32 ABF6F642748045AC; // 0x10
+	::System::UInt32 B842A3CCAAB8A5E3; // 0x14
+	::System::UInt32 A61CC49DFC19E417; // 0x18
+	::System::Boolean A96408AA059DDB4C; // 0x1C
+	::System::Byte _padding0[0x3];
+	::System::UInt32 A8179CDBC3285CB0; // 0x20
+	::E68AA4EB51923C98::B18E174BBCE2DD62 A063A11B0F0664A8; // 0x24
+	::System::String* E5D3FB221F3C9479; // 0x28
+	::System::UInt32 FC0D6C69182F19B2; // 0x30
+	::System::UInt32 EA08E086101568EA; // 0x34
+	::System::UInt32 F405742DF3EAC345; // 0x38
+	::System::Byte _padding1[0x4];
+	::System::Collections::Generic::List_1<::E74390D1056553AD*>* BEBE430A9258B36B; // 0x40
+	::System::UInt32 ABCD44EF626B3E5A; // 0x48
+	::System::UInt32 AC12922B081B5508; // 0x4C
+
+	static ::System::Void FBBF870EA90E1D92(::BD3E6890C9C82A9E& F99B0FE319DB74D1, ::A02A93FDBD67D629*& E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::BD3E6890C9C82A9E&, ::A02A93FDBD67D629*&))((::PBYTE)hIl2Cpp + A02A93FDBD67D629_FBBF870EA90E1D92_OFFSET))(F99B0FE319DB74D1, E937D4885DAA1AE8);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A02A93FDBD67D629__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void AAA67EE098557B85(::BB7311E0B052ED82& F99B0FE319DB74D1, ::A02A93FDBD67D629* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::BB7311E0B052ED82&, ::A02A93FDBD67D629*))((::PBYTE)hIl2Cpp + A02A93FDBD67D629_AAA67EE098557B85_OFFSET))(F99B0FE319DB74D1, E937D4885DAA1AE8);
+	}
+};

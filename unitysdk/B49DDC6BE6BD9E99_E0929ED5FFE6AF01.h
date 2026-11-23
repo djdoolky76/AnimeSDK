@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AA41ADE6412D29C5.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/F2AB8C534EC20D2B.h"
+
+namespace UnityEngine { class GameObject; }
+
+#define B49DDC6BE6BD9E99_E0929ED5FFE6AF01_AC5C9E62FFDE6CC6_OFFSET UNITYSDK_OFFSET(0x23D5A70)
+#define B49DDC6BE6BD9E99_E0929ED5FFE6AF01_BD9CD726F874B523_OFFSET UNITYSDK_OFFSET(0x23D5870)
+#define B49DDC6BE6BD9E99_E0929ED5FFE6AF01__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int B49DDC6BE6BD9E99_E0929ED5FFE6AF01_TypeDefinitionIndex = 3758;
+
+class B49DDC6BE6BD9E99_E0929ED5FFE6AF01 : public ::System::Object
+{
+public:
+	::UnityEngine::Vector3 B09423C7B6B09466; // 0x10
+	::System::Boolean A187B0A4ACA502FF; // 0x1C
+	::System::Byte _padding0[0x3];
+	::AA41ADE6412D29C5<::UnityEngine::GameObject*, ::System::Int32, ::System::UInt64> FEE3B22B9B8E0262; // 0x20
+
+	static ::B49DDC6BE6BD9E99_E0929ED5FFE6AF01* BD9CD726F874B523(::UnityEngine::Vector3 B09423C7B6B09466, ::System::Boolean A187B0A4ACA502FF, ::AA41ADE6412D29C5<::UnityEngine::GameObject*, ::System::Int32, ::System::UInt64> FEE3B22B9B8E0262)
+	{
+		return ((::B49DDC6BE6BD9E99_E0929ED5FFE6AF01*(*)(::UnityEngine::Vector3, ::System::Boolean, ::AA41ADE6412D29C5<::UnityEngine::GameObject*, ::System::Int32, ::System::UInt64>))((::PBYTE)hIl2Cpp + B49DDC6BE6BD9E99_E0929ED5FFE6AF01_BD9CD726F874B523_OFFSET))(B09423C7B6B09466, A187B0A4ACA502FF, FEE3B22B9B8E0262);
+	}
+
+	::System::Void AC5C9E62FFDE6CC6(::F2AB8C534EC20D2B BE68C18FBFC68992)
+	{
+		return ((::System::Void(*)(::PVOID, ::F2AB8C534EC20D2B))((::PBYTE)hIl2Cpp + B49DDC6BE6BD9E99_E0929ED5FFE6AF01_AC5C9E62FFDE6CC6_OFFSET))(this, BE68C18FBFC68992);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B49DDC6BE6BD9E99_E0929ED5FFE6AF01__CTOR_OFFSET))(this);
+	}
+};

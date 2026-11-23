@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+#define BE8BAD0BA8FFAAC6_B0B7AFF553DBE3B7_ECBA3479EAD9D18E_OFFSET UNITYSDK_OFFSET(0x1BA6440)
+#define BE8BAD0BA8FFAAC6_B0B7AFF553DBE3B7_FEFD5298862EC8D2_OFFSET UNITYSDK_OFFSET(0x1BA6330)
+
+inline static constexpr unsigned int BE8BAD0BA8FFAAC6_B0B7AFF553DBE3B7_TypeDefinitionIndex = 2274;
+
+struct alignas(4) BE8BAD0BA8FFAAC6_B0B7AFF553DBE3B7
+{
+	::UnityEngine::Vector3 A1231FA464957DCF; // 0x10
+	::UnityEngine::Vector3 B2699DD33AD0B8DC; // 0x1C
+	::UnityEngine::Vector3 EBF1F6DD8DD3826F; // 0x28
+	::UnityEngine::Vector3 F8DD32334A7FD8F7; // 0x34
+
+	::UnityEngine::Vector3 FEFD5298862EC8D2(::System::Int32 B48C66E5FB2449C6)
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + BE8BAD0BA8FFAAC6_B0B7AFF553DBE3B7_FEFD5298862EC8D2_OFFSET))(this, B48C66E5FB2449C6);
+	}
+
+	::System::Void ECBA3479EAD9D18E(::System::Int32 B48C66E5FB2449C6, ::UnityEngine::Vector3 E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + BE8BAD0BA8FFAAC6_B0B7AFF553DBE3B7_ECBA3479EAD9D18E_OFFSET))(this, B48C66E5FB2449C6, E937D4885DAA1AE8);
+	}
+};

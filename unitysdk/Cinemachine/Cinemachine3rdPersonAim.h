@@ -1,0 +1,92 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Cinemachine/CinemachineExtension.h"
+#include "unitysdk/E7ED61E0B00DDE0C/FDBF4FD73B809E89_ED81FC0B9291B906.h"
+#include "unitysdk/UnityEngine/B8AC70DD96553B07.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/BCE1737A98084F1E.h"
+
+class AFA07AD8C31ACCA1;
+namespace Cinemachine { class CinemachineBrain; }
+namespace Cinemachine { class CinemachineVirtualCameraBase; }
+namespace System { class String; }
+namespace UnityEngine { class RectTransform; }
+namespace UnityEngine { class Transform; }
+
+#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_A7800871CC7D4669_OFFSET UNITYSDK_OFFSET(0x165A450)
+#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_A868E3210DC930B6_OFFSET UNITYSDK_OFFSET(0x2A609C0)
+#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_AD5BE3833CEBC624_OFFSET UNITYSDK_OFFSET(0x2A60BA0)
+#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_B8034D3338163EFA_OFFSET UNITYSDK_OFFSET(0x2A60CF0)
+#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_BC5FC01AE53FF41F_OFFSET UNITYSDK_OFFSET(0x2A60F50)
+#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_EB4D86752CFC2557_OFFSET UNITYSDK_OFFSET(0x2A605B0)
+#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_F08136BF4F0E6445_OFFSET UNITYSDK_OFFSET(0x2A60290)
+#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_F18AA88A92EE83D6_OFFSET UNITYSDK_OFFSET(0x165A3C0)
+#define CINEMACHINE_CINEMACHINE3RDPERSONAIM_FE0C4BACA9717677_OFFSET UNITYSDK_OFFSET(0x2A60CD0)
+#define CINEMACHINE_CINEMACHINE3RDPERSONAIM__CTOR_OFFSET UNITYSDK_OFFSET(0x2A60FC0)
+
+namespace Cinemachine
+{
+	inline static constexpr unsigned int Cinemachine3rdPersonAim_TypeDefinitionIndex = 18419;
+
+	class Cinemachine3rdPersonAim : public ::Cinemachine::CinemachineExtension
+	{
+	public:
+		::UnityEngine::B8AC70DD96553B07 AimCollisionFilter; // 0x30
+		::System::Byte _padding0[0x4];
+		::System::String* IgnoreTag; // 0x38
+		::System::Single AimDistance; // 0x40
+		::System::Byte _padding1[0x4];
+		::UnityEngine::RectTransform* AimTargetReticle; // 0x48
+		::UnityEngine::Vector3 E17CB322B1C4F6E0; // 0x50
+
+		::System::Void B8034D3338163EFA(::Cinemachine::CinemachineVirtualCameraBase* E4C30FC54E27903D, ::E7ED61E0B00DDE0C::FDBF4FD73B809E89_ED81FC0B9291B906 B67042457177A43B, ::BCE1737A98084F1E& E5EB06E4FD2C32F7, ::System::Single EB5670302F34D4B7)
+		{
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineVirtualCameraBase*, ::E7ED61E0B00DDE0C::FDBF4FD73B809E89_ED81FC0B9291B906, ::BCE1737A98084F1E&, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINE3RDPERSONAIM_B8034D3338163EFA_OFFSET))(this, E4C30FC54E27903D, B67042457177A43B, E5EB06E4FD2C32F7, EB5670302F34D4B7);
+		}
+
+		::System::Void A7800871CC7D4669(::UnityEngine::Vector3 E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINE3RDPERSONAIM_A7800871CC7D4669_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINE3RDPERSONAIM__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean AD5BE3833CEBC624(::AFA07AD8C31ACCA1* B4333AFDED03AD06, ::UnityEngine::Vector3 FF2EA59FD4C4EE89, ::System::Single EB5670302F34D4B7)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::AFA07AD8C31ACCA1*, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINE3RDPERSONAIM_AD5BE3833CEBC624_OFFSET))(this, B4333AFDED03AD06, FF2EA59FD4C4EE89, EB5670302F34D4B7);
+		}
+
+		::UnityEngine::Vector3 EB4D86752CFC2557(::UnityEngine::Vector3 B88DB6EF82A8FB3D, ::UnityEngine::Transform* BEA1114DE733737C)
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINE3RDPERSONAIM_EB4D86752CFC2557_OFFSET))(this, B88DB6EF82A8FB3D, BEA1114DE733737C);
+		}
+
+		::UnityEngine::Vector3 F08136BF4F0E6445(::UnityEngine::Vector3 FA51195465704ABF, ::UnityEngine::Transform* BEA1114DE733737C)
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINE3RDPERSONAIM_F08136BF4F0E6445_OFFSET))(this, FA51195465704ABF, BEA1114DE733737C);
+		}
+
+		::System::Void FE0C4BACA9717677()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINE3RDPERSONAIM_FE0C4BACA9717677_OFFSET))(this);
+		}
+
+		::System::Void BC5FC01AE53FF41F()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINE3RDPERSONAIM_BC5FC01AE53FF41F_OFFSET))(this);
+		}
+
+		::UnityEngine::Vector3 F18AA88A92EE83D6()
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINE3RDPERSONAIM_F18AA88A92EE83D6_OFFSET))(this);
+		}
+
+		::System::Void A868E3210DC930B6(::Cinemachine::CinemachineBrain* B991C972BD954EC6)
+		{
+			return ((::System::Void(*)(::PVOID, ::Cinemachine::CinemachineBrain*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINE3RDPERSONAIM_A868E3210DC930B6_OFFSET))(this, B991C972BD954EC6);
+		}
+	};
+}

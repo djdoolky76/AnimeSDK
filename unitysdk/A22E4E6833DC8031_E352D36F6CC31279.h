@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/B8C48C8BF406E9BC/EF22C423CB30F1A1.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+namespace System { class Object; }
+
+#define A22E4E6833DC8031_E352D36F6CC31279_B7256C3B170D34E3_OFFSET UNITYSDK_OFFSET(0x27D7330)
+#define A22E4E6833DC8031_E352D36F6CC31279_BAF1A5AD9A18D2CF_OFFSET UNITYSDK_OFFSET(0x27D6DA0)
+#define A22E4E6833DC8031_E352D36F6CC31279_FE70A2A2B4CCB71E_OFFSET UNITYSDK_OFFSET(0x27D73B0)
+
+inline static constexpr unsigned int A22E4E6833DC8031_E352D36F6CC31279_TypeDefinitionIndex = 16707;
+
+struct alignas(8) A22E4E6833DC8031_E352D36F6CC31279
+{
+	::B8C48C8BF406E9BC::EF22C423CB30F1A1<::System::Object*> A35DDCC41CCBB1F8; // 0x10
+	::System::Byte _padding0[0x8];
+	::System::Int32 BC1A05A5A8711E7C; // 0x20
+	::System::Byte _padding1[0x4];
+	::B8C48C8BF406E9BC::EF22C423CB30F1A1<::System::Object*> F8AF06ABD5280B5B; // 0x28
+	::System::Byte _padding2[0x8];
+	::System::Int32 A5E4FE39C7A51FFA; // 0x38
+
+	::System::Void BAF1A5AD9A18D2CF(::System::Int32 B48C66E5FB2449C6)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + A22E4E6833DC8031_E352D36F6CC31279_BAF1A5AD9A18D2CF_OFFSET))(this, B48C66E5FB2449C6);
+	}
+
+	static ::System::Boolean FE70A2A2B4CCB71E(::UnityEngine::Vector3 B78356FBC32D74BD, ::UnityEngine::Vector3 B966D6EDF409A537, ::System::Single F97BC47323215DF1, ::System::Single& EDE5B10F254FE558)
+	{
+		return ((::System::Boolean(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single&))((::PBYTE)hIl2Cpp + A22E4E6833DC8031_E352D36F6CC31279_FE70A2A2B4CCB71E_OFFSET))(B78356FBC32D74BD, B966D6EDF409A537, F97BC47323215DF1, EDE5B10F254FE558);
+	}
+
+	static ::System::Boolean B7256C3B170D34E3(::UnityEngine::Vector3 BC3C1AE9373D53C2, ::System::Single EA6B8657B1CD96BA, ::UnityEngine::Vector3 B1BA899FC17388F7, ::System::Single& FA804D0B901FF125, ::System::Single& E2C43562CDBB7D68)
+	{
+		return ((::System::Boolean(*)(::UnityEngine::Vector3, ::System::Single, ::UnityEngine::Vector3, ::System::Single&, ::System::Single&))((::PBYTE)hIl2Cpp + A22E4E6833DC8031_E352D36F6CC31279_B7256C3B170D34E3_OFFSET))(BC3C1AE9373D53C2, EA6B8657B1CD96BA, B1BA899FC17388F7, FA804D0B901FF125, E2C43562CDBB7D68);
+	}
+};

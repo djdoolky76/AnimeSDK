@@ -1,0 +1,72 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Security/Cryptography/SHA1.h"
+
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_SHA1MANAGED_HASHCORE_OFFSET UNITYSDK_OFFSET(0x3C50C40)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_SHA1MANAGED_HASHFINAL_OFFSET UNITYSDK_OFFSET(0x3C50C50)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_SHA1MANAGED_INITIALIZESTATE_OFFSET UNITYSDK_OFFSET(0x3B71F00)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_SHA1MANAGED_INITIALIZE_OFFSET UNITYSDK_OFFSET(0x3C50C60)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_SHA1MANAGED_SHAEXPAND_OFFSET UNITYSDK_OFFSET(0x3C50CC0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_SHA1MANAGED_SHATRANSFORM_OFFSET UNITYSDK_OFFSET(0x3C50D00)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_SHA1MANAGED__CTOR_OFFSET UNITYSDK_OFFSET(0x3C51690)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_SHA1MANAGED__ENDHASH_OFFSET UNITYSDK_OFFSET(0x3C51270)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_SHA1MANAGED__HASHDATA_OFFSET UNITYSDK_OFFSET(0x3C514C0)
+
+namespace System::Security::Cryptography
+{
+	inline static constexpr unsigned int SHA1Managed_TypeDefinitionIndex = 11619;
+
+	class SHA1Managed : public ::System::Security::Cryptography::SHA1
+	{
+	public:
+		::Il2CppArray<::System::Byte>* _buffer; // 0x28
+		::System::Int64 _count; // 0x30
+		::Il2CppArray<::System::UInt32>* _stateSHA1; // 0x38
+		::Il2CppArray<::System::UInt32>* _expandedBuffer; // 0x40
+
+		::Il2CppArray<::System::Byte>* _EndHash()
+		{
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_SHA1MANAGED__ENDHASH_OFFSET))(this);
+		}
+
+		::System::Void _HashData(::Il2CppArray<::System::Byte>* E09B58FC3C179269, ::System::Int32 A985F8C5DF08C68A, ::System::Int32 B1F2419A701C8F03)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_SHA1MANAGED__HASHDATA_OFFSET))(this, E09B58FC3C179269, A985F8C5DF08C68A, B1F2419A701C8F03);
+		}
+
+		static ::System::Void SHATransform(::PVOID A428075EE0BD82CB, ::PVOID E5EB06E4FD2C32F7, ::PVOID A6B5840567522F01)
+		{
+			return ((::System::Void(*)(::PVOID, ::PVOID, ::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_SHA1MANAGED_SHATRANSFORM_OFFSET))(A428075EE0BD82CB, E5EB06E4FD2C32F7, A6B5840567522F01);
+		}
+
+		::System::Void Initialize()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_SHA1MANAGED_INITIALIZE_OFFSET))(this);
+		}
+
+		::Il2CppArray<::System::Byte>* HashFinal()
+		{
+			return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_SHA1MANAGED_HASHFINAL_OFFSET))(this);
+		}
+
+		static ::System::Void SHAExpand(::PVOID BB8C609F76620E45)
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_SHA1MANAGED_SHAEXPAND_OFFSET))(BB8C609F76620E45);
+		}
+
+		::System::Void HashCore(::Il2CppArray<::System::Byte>* EFD90D39604601F6, ::System::Int32 A985F8C5DF08C68A, ::System::Int32 B1F2419A701C8F03)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_SHA1MANAGED_HASHCORE_OFFSET))(this, EFD90D39604601F6, A985F8C5DF08C68A, B1F2419A701C8F03);
+		}
+
+		::System::Void InitializeState()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_SHA1MANAGED_INITIALIZESTATE_OFFSET))(this);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_SHA1MANAGED__CTOR_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,118 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class F00D975466190277;
+class FF1237522147A967;
+namespace MiHoYo::SDK { class AccountModel; }
+namespace MiHoYo::SDK { class NetworkResponseModel; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+namespace UnityEngine { class B07D27203C69A8A5; }
+
+#define B035D110D138F867_A1E97155B145443C_OFFSET UNITYSDK_OFFSET(0x1EB8060)
+#define B035D110D138F867_A49E0FA3B917F657_OFFSET UNITYSDK_OFFSET(0x39419C0)
+#define B035D110D138F867_AE6E044AF23B4476_OFFSET UNITYSDK_OFFSET(0x3943250)
+#define B035D110D138F867_BA374C3A99ACA9C4_OFFSET UNITYSDK_OFFSET(0x3941C90)
+#define B035D110D138F867_BDD0E2663D452DF5_OFFSET UNITYSDK_OFFSET(0x3943530)
+#define B035D110D138F867_BE9849DDF2E9A236_OFFSET UNITYSDK_OFFSET(0x3941E30)
+#define B035D110D138F867_E8F7AF332BA1B4AA_OFFSET UNITYSDK_OFFSET(0x3942940)
+#define B035D110D138F867_F11919729F0EEEDD_OFFSET UNITYSDK_OFFSET(0x39433F0)
+#define B035D110D138F867_F60EB77552696275_OFFSET UNITYSDK_OFFSET(0x3943660)
+#define B035D110D138F867_F69517CBBFE4C0BA_OFFSET UNITYSDK_OFFSET(0x3943CB0)
+#define B035D110D138F867_FD63768D046E277C_OFFSET UNITYSDK_OFFSET(0x3941CA0)
+#define B035D110D138F867_FDDD1105E41B1FFA_OFFSET UNITYSDK_OFFSET(0x3941A90)
+#define B035D110D138F867_FFFC1DCC4FF996D7_OFFSET UNITYSDK_OFFSET(0x3942D60)
+#define B035D110D138F867__CCTOR_OFFSET UNITYSDK_OFFSET(0x3943D20)
+#define B035D110D138F867__CTOR_OFFSET UNITYSDK_OFFSET(0x3943D90)
+
+inline static constexpr unsigned int B035D110D138F867_TypeDefinitionIndex = 12433;
+
+class B035D110D138F867 : public ::System::Object
+{
+public:
+	static ::B035D110D138F867** StaticGet_EE999965A1D2099B()
+	{
+		return (::B035D110D138F867**)Il2CppClass::FromTypeDefinitionIndex(B035D110D138F867_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	::System::Single E526B2508A52D60D; // 0x10
+	::System::Byte _padding0[0x4];
+	::UnityEngine::B07D27203C69A8A5* BB583F4241DAB57C; // 0x18
+	::System::Int64 E5A967B754BFC2E0; // 0x20
+	::System::Action_1<::System::String*>* B459ED2679771615; // 0x28
+
+	::System::Void FFFC1DCC4FF996D7(::System::Int32 FEC8DC0392823C8D, ::System::String* B6018BB9F7294B44, ::MiHoYo::SDK::AccountModel* EAA51ADC2D9D9517)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::MiHoYo::SDK::AccountModel*))((::PBYTE)hIl2Cpp + B035D110D138F867_FFFC1DCC4FF996D7_OFFSET))(this, FEC8DC0392823C8D, B6018BB9F7294B44, EAA51ADC2D9D9517);
+	}
+
+	::System::Void FD63768D046E277C(::System::Int32 FEC8DC0392823C8D, ::System::String* B6018BB9F7294B44, ::FF1237522147A967* A6CAE7339066B0FB)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::FF1237522147A967*))((::PBYTE)hIl2Cpp + B035D110D138F867_FD63768D046E277C_OFFSET))(this, FEC8DC0392823C8D, B6018BB9F7294B44, A6CAE7339066B0FB);
+	}
+
+	::System::Void F69517CBBFE4C0BA(::System::Action_1<::System::String*>* E04D2BE64FCE9814)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + B035D110D138F867_F69517CBBFE4C0BA_OFFSET))(this, E04D2BE64FCE9814);
+	}
+
+	::System::Void FDDD1105E41B1FFA(::System::Action_1<::System::String*>* E04D2BE64FCE9814)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + B035D110D138F867_FDDD1105E41B1FFA_OFFSET))(this, E04D2BE64FCE9814);
+	}
+
+	::System::Void BE9849DDF2E9A236(::MiHoYo::SDK::NetworkResponseModel* A6CAE7339066B0FB)
+	{
+		return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + B035D110D138F867_BE9849DDF2E9A236_OFFSET))(this, A6CAE7339066B0FB);
+	}
+
+	::System::Void BDD0E2663D452DF5()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B035D110D138F867_BDD0E2663D452DF5_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B035D110D138F867__CTOR_OFFSET))(this);
+	}
+
+	::System::Void A1E97155B145443C()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B035D110D138F867_A1E97155B145443C_OFFSET))(this);
+	}
+
+	::System::Void A49E0FA3B917F657(::System::Action_1<::System::String*>* E04D2BE64FCE9814)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + B035D110D138F867_A49E0FA3B917F657_OFFSET))(this, E04D2BE64FCE9814);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + B035D110D138F867__CCTOR_OFFSET))();
+	}
+
+	::System::Void BA374C3A99ACA9C4(::System::Action_1<::System::String*>* E04D2BE64FCE9814)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + B035D110D138F867_BA374C3A99ACA9C4_OFFSET))(this, E04D2BE64FCE9814);
+	}
+
+	::System::Void AE6E044AF23B4476()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B035D110D138F867_AE6E044AF23B4476_OFFSET))(this);
+	}
+
+	::System::Void F11919729F0EEEDD()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B035D110D138F867_F11919729F0EEEDD_OFFSET))(this);
+	}
+
+	::System::String* F60EB77552696275(::F00D975466190277* E0C0689B1CEBE48C, ::System::String* E7075E532EB4510A)
+	{
+		return ((::System::String*(*)(::PVOID, ::F00D975466190277*, ::System::String*))((::PBYTE)hIl2Cpp + B035D110D138F867_F60EB77552696275_OFFSET))(this, E0C0689B1CEBE48C, E7075E532EB4510A);
+	}
+
+	::System::Void E8F7AF332BA1B4AA(::MiHoYo::SDK::NetworkResponseModel* A6CAE7339066B0FB)
+	{
+		return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + B035D110D138F867_E8F7AF332BA1B4AA_OFFSET))(this, A6CAE7339066B0FB);
+	}
+};

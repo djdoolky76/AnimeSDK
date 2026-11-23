@@ -1,0 +1,96 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class A6A725E977A9CA95;
+class E1153259FC38F47B;
+namespace HoudiniEngineUnity { class HEU_PDGAssetLink; }
+namespace HoudiniEngineUnity { class HEU_TOPNetworkData; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace System::Text { class StringBuilder; }
+
+#define B393860B070D1CD7_B2D3E93BFE902340_OFFSET UNITYSDK_OFFSET(0x3842440)
+#define B393860B070D1CD7_B873CB1F290EE5EE_OFFSET UNITYSDK_OFFSET(0x1EB8060)
+#define B393860B070D1CD7_B966CAF99BA0903B_OFFSET UNITYSDK_OFFSET(0x1EB8060)
+#define B393860B070D1CD7_BFBA0F2389E638DB_OFFSET UNITYSDK_OFFSET(0x1EB8060)
+#define B393860B070D1CD7_E09F657066E510A5_OFFSET UNITYSDK_OFFSET(0x16A4160)
+#define B393860B070D1CD7_EBA7C36FAF4F3BBE_OFFSET UNITYSDK_OFFSET(0x3842770)
+#define B393860B070D1CD7_EC05E3CCF988D75A_OFFSET UNITYSDK_OFFSET(0x3842990)
+#define B393860B070D1CD7_EE5D4EE3857D1B5C_OFFSET UNITYSDK_OFFSET(0x16A4160)
+#define B393860B070D1CD7_F3B915A12B8BE2F1_OFFSET UNITYSDK_OFFSET(0x1EB8060)
+#define B393860B070D1CD7_F83383C33B3CC019_OFFSET UNITYSDK_OFFSET(0x16A4160)
+#define B393860B070D1CD7__CTOR_OFFSET UNITYSDK_OFFSET(0x3842A00)
+
+inline static constexpr unsigned int B393860B070D1CD7_TypeDefinitionIndex = 17960;
+
+class B393860B070D1CD7 : public ::System::Object
+{
+public:
+	static ::B393860B070D1CD7** StaticGet_AA77B65F9DCF0119()
+	{
+		return (::B393860B070D1CD7**)Il2CppClass::FromTypeDefinitionIndex(B393860B070D1CD7_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_PDGAssetLink*>* EE42306AD497A509; // 0x10
+	::System::Int32 F26433515503D2A1; // 0x18
+	::System::Boolean E07D38C90347C53B; // 0x1C
+	::System::Byte _padding0[0x3];
+	::System::Text::StringBuilder* BBC0FB73EC89A11E; // 0x20
+	::Il2CppArray<::System::String*>* A5266B1F886AFBD4; // 0x28
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B393860B070D1CD7__CTOR_OFFSET))(this);
+	}
+
+	static ::Il2CppArray<::System::Int32>* B2D3E93BFE902340(::E1153259FC38F47B* AF4435B7B5FB505E, ::System::Int32 AD414505C9EB509F)
+	{
+		return ((::Il2CppArray<::System::Int32>*(*)(::E1153259FC38F47B*, ::System::Int32))((::PBYTE)hIl2Cpp + B393860B070D1CD7_B2D3E93BFE902340_OFFSET))(AF4435B7B5FB505E, AD414505C9EB509F);
+	}
+
+	::System::Boolean EE5D4EE3857D1B5C(::System::Int32 FD18B74E2ED41EEC)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + B393860B070D1CD7_EE5D4EE3857D1B5C_OFFSET))(this, FD18B74E2ED41EEC);
+	}
+
+	::System::Boolean F83383C33B3CC019(::System::Int32 FD18B74E2ED41EEC)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + B393860B070D1CD7_F83383C33B3CC019_OFFSET))(this, FD18B74E2ED41EEC);
+	}
+
+	::System::Void B966CAF99BA0903B(::HoudiniEngineUnity::HEU_PDGAssetLink* B286159CFDC40A9F)
+	{
+		return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_PDGAssetLink*))((::PBYTE)hIl2Cpp + B393860B070D1CD7_B966CAF99BA0903B_OFFSET))(this, B286159CFDC40A9F);
+	}
+
+	static ::B393860B070D1CD7* EBA7C36FAF4F3BBE()
+	{
+		return ((::B393860B070D1CD7*(*)())((::PBYTE)hIl2Cpp + B393860B070D1CD7_EBA7C36FAF4F3BBE_OFFSET))();
+	}
+
+	::System::Void BFBA0F2389E638DB(::HoudiniEngineUnity::HEU_TOPNetworkData* AFEDD2A5572BDF05, ::System::Action_1<::A6A725E977A9CA95*>* E75FEAAEFB806290)
+	{
+		return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_TOPNetworkData*, ::System::Action_1<::A6A725E977A9CA95*>*))((::PBYTE)hIl2Cpp + B393860B070D1CD7_BFBA0F2389E638DB_OFFSET))(this, AFEDD2A5572BDF05, E75FEAAEFB806290);
+	}
+
+	::System::Boolean E09F657066E510A5(::System::Int32 FD18B74E2ED41EEC)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + B393860B070D1CD7_E09F657066E510A5_OFFSET))(this, FD18B74E2ED41EEC);
+	}
+
+	static ::System::Boolean EC05E3CCF988D75A(::E1153259FC38F47B* AF4435B7B5FB505E, ::System::Int32 AD414505C9EB509F)
+	{
+		return ((::System::Boolean(*)(::E1153259FC38F47B*, ::System::Int32))((::PBYTE)hIl2Cpp + B393860B070D1CD7_EC05E3CCF988D75A_OFFSET))(AF4435B7B5FB505E, AD414505C9EB509F);
+	}
+
+	::System::Void B873CB1F290EE5EE(::HoudiniEngineUnity::HEU_TOPNetworkData* AFEDD2A5572BDF05)
+	{
+		return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_TOPNetworkData*))((::PBYTE)hIl2Cpp + B393860B070D1CD7_B873CB1F290EE5EE_OFFSET))(this, AFEDD2A5572BDF05);
+	}
+
+	::System::Void F3B915A12B8BE2F1(::HoudiniEngineUnity::HEU_TOPNetworkData* AFEDD2A5572BDF05)
+	{
+		return ((::System::Void(*)(::PVOID, ::HoudiniEngineUnity::HEU_TOPNetworkData*))((::PBYTE)hIl2Cpp + B393860B070D1CD7_F3B915A12B8BE2F1_OFFSET))(this, AFEDD2A5572BDF05);
+	}
+};

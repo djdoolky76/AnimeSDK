@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BDB092D145997647_8317B122EBDB9FC0_E0940A648480FC44.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+
+#define BDB092D145997647_8317B122EBDB9FC0_A84718FE6445BA80_OFFSET UNITYSDK_OFFSET(0x1F3C050)
+
+inline static constexpr unsigned int BDB092D145997647_8317B122EBDB9FC0_TypeDefinitionIndex = 19459;
+
+class BDB092D145997647_8317B122EBDB9FC0 : public ::System::Object
+{
+public:
+	static ::BDB092D145997647_8317B122EBDB9FC0_E0940A648480FC44* StaticGet_B0B896EF70907FD2()
+	{
+		return (::BDB092D145997647_8317B122EBDB9FC0_E0940A648480FC44*)Il2CppClass::FromTypeDefinitionIndex(BDB092D145997647_8317B122EBDB9FC0_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+
+	static ::System::UInt32 A84718FE6445BA80(::System::String* B9AEC57275825552)
+	{
+		return ((::System::UInt32(*)(::System::String*))((::PBYTE)hIl2Cpp + BDB092D145997647_8317B122EBDB9FC0_A84718FE6445BA80_OFFSET))(B9AEC57275825552);
+	}
+};

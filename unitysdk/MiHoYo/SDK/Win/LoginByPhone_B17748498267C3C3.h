@@ -1,0 +1,62 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace MiHoYo::SDK::Win { class LoginByPhone; }
+namespace System { class String; }
+
+#define MIHOYO_SDK_WIN_LOGINBYPHONE_B17748498267C3C3_BB5F6FA7EB4E8D6F_OFFSET UNITYSDK_OFFSET(0x17F35A0)
+#define MIHOYO_SDK_WIN_LOGINBYPHONE_B17748498267C3C3_E34B6CA02139E820_OFFSET UNITYSDK_OFFSET(0x17F35A0)
+#define MIHOYO_SDK_WIN_LOGINBYPHONE_B17748498267C3C3_E6CAD58306FCDCB5_OFFSET UNITYSDK_OFFSET(0x3A5AAC0)
+#define MIHOYO_SDK_WIN_LOGINBYPHONE_B17748498267C3C3_F21DBBC44C999728_OFFSET UNITYSDK_OFFSET(0x1EB8060)
+#define MIHOYO_SDK_WIN_LOGINBYPHONE_B17748498267C3C3_F38E5001C7AA1BB5_OFFSET UNITYSDK_OFFSET(0x3A5ACB0)
+#define MIHOYO_SDK_WIN_LOGINBYPHONE_B17748498267C3C3__CTOR_OFFSET UNITYSDK_OFFSET(0x1F26BB0)
+
+namespace MiHoYo::SDK::Win
+{
+	inline static constexpr unsigned int LoginByPhone_B17748498267C3C3_TypeDefinitionIndex = 13024;
+
+	class LoginByPhone_B17748498267C3C3 : public ::System::Object
+	{
+	public:
+		::System::Int32 FEB3551B7D8B59C1; // 0x10
+		::System::Byte _padding0[0x4];
+		::System::Object* FFDE99DB2A55498E; // 0x18
+		::System::Single FF0A37159A523E06; // 0x20
+		::System::Byte _padding1[0x4];
+		::MiHoYo::SDK::Win::LoginByPhone* A544919C800E2923; // 0x28
+		::System::Single ED0C0A59AA097396; // 0x30
+		::System::Byte _padding2[0x4];
+		::System::String* E61459E929DD2B62; // 0x38
+
+		::System::Void _ctor(::System::Int32 FEB3551B7D8B59C1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYPHONE_B17748498267C3C3__CTOR_OFFSET))(this, FEB3551B7D8B59C1);
+		}
+
+		::System::Void F21DBBC44C999728()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYPHONE_B17748498267C3C3_F21DBBC44C999728_OFFSET))(this);
+		}
+
+		::System::Boolean E6CAD58306FCDCB5()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYPHONE_B17748498267C3C3_E6CAD58306FCDCB5_OFFSET))(this);
+		}
+
+		::System::Object* BB5F6FA7EB4E8D6F()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYPHONE_B17748498267C3C3_BB5F6FA7EB4E8D6F_OFFSET))(this);
+		}
+
+		::System::Void F38E5001C7AA1BB5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYPHONE_B17748498267C3C3_F38E5001C7AA1BB5_OFFSET))(this);
+		}
+
+		::System::Object* E34B6CA02139E820()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYPHONE_B17748498267C3C3_E34B6CA02139E820_OFFSET))(this);
+		}
+	};
+}

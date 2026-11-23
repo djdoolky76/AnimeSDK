@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class B26BBB13DD0EDF55;
+class F7499DF1533C7100;
+namespace System { class Type; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Reflection { class FieldInfo; }
+
+#define BAB572C1B20C3A22_A9C539EF175B0F71_OFFSET UNITYSDK_OFFSET(0x38B6650)
+#define BAB572C1B20C3A22_B274B4D21D15926E_OFFSET UNITYSDK_OFFSET(0x38B59D0)
+#define BAB572C1B20C3A22_B54FA7F1978076EF_OFFSET UNITYSDK_OFFSET(0x38B6100)
+#define BAB572C1B20C3A22_BC75D3C9CFDD85AC_OFFSET UNITYSDK_OFFSET(0x38B48D0)
+#define BAB572C1B20C3A22_E308746E0E613AD3_OFFSET UNITYSDK_OFFSET(0x38B4C30)
+#define BAB572C1B20C3A22_F16E2F8A906967FF_OFFSET UNITYSDK_OFFSET(0x38B68E0)
+
+inline static constexpr unsigned int BAB572C1B20C3A22_TypeDefinitionIndex = 20266;
+
+class BAB572C1B20C3A22 : public ::System::Object
+{
+public:
+	static ::System::Object* A9C539EF175B0F71(::System::Boolean A65BF41F0054E358, ::System::Object* A525E46A9CD93677, ::System::Int32 A7443E7D25D3D43B, ::Il2CppArray<::System::Int32>* ED4DCF9C6D9F6A2D, ::Il2CppArray<::System::Reflection::FieldInfo*>* B20F0A7BC9F4D24E, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::B26BBB13DD0EDF55*>* F08F5FE125C58D13)
+	{
+		return ((::System::Object*(*)(::System::Boolean, ::System::Object*, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Reflection::FieldInfo*>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::B26BBB13DD0EDF55*>*))((::PBYTE)hIl2Cpp + BAB572C1B20C3A22_A9C539EF175B0F71_OFFSET))(A65BF41F0054E358, A525E46A9CD93677, A7443E7D25D3D43B, ED4DCF9C6D9F6A2D, B20F0A7BC9F4D24E, F08F5FE125C58D13);
+	}
+
+	static ::System::Void F16E2F8A906967FF(::System::Boolean A65BF41F0054E358, ::System::Object* A525E46A9CD93677, ::System::Object* E6A305882BEE348D, ::System::Int32 A7443E7D25D3D43B, ::Il2CppArray<::System::Int32>* ED4DCF9C6D9F6A2D, ::Il2CppArray<::System::Reflection::FieldInfo*>* B20F0A7BC9F4D24E, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::B26BBB13DD0EDF55*>* F08F5FE125C58D13)
+	{
+		return ((::System::Void(*)(::System::Boolean, ::System::Object*, ::System::Object*, ::System::Int32, ::Il2CppArray<::System::Int32>*, ::Il2CppArray<::System::Reflection::FieldInfo*>*, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::B26BBB13DD0EDF55*>*))((::PBYTE)hIl2Cpp + BAB572C1B20C3A22_F16E2F8A906967FF_OFFSET))(A65BF41F0054E358, A525E46A9CD93677, E6A305882BEE348D, A7443E7D25D3D43B, ED4DCF9C6D9F6A2D, B20F0A7BC9F4D24E, F08F5FE125C58D13);
+	}
+
+	static ::System::Object* E308746E0E613AD3(::PVOID B556D66FD3FA9F28, ::PVOID FB4FCC6024FBAAD1, ::Il2CppArray<::System::Object*>* AECCA603ABBE82D6, ::System::Type* A288CB28FC2A6DA3, ::F7499DF1533C7100* F3E7993BB0986694, ::System::Boolean F09CFFE1FF12CCD6)
+	{
+		return ((::System::Object*(*)(::PVOID, ::PVOID, ::Il2CppArray<::System::Object*>*, ::System::Type*, ::F7499DF1533C7100*, ::System::Boolean))((::PBYTE)hIl2Cpp + BAB572C1B20C3A22_E308746E0E613AD3_OFFSET))(B556D66FD3FA9F28, FB4FCC6024FBAAD1, AECCA603ABBE82D6, A288CB28FC2A6DA3, F3E7993BB0986694, F09CFFE1FF12CCD6);
+	}
+
+	static ::System::Void BC75D3C9CFDD85AC(::PVOID B556D66FD3FA9F28, ::PVOID FB4FCC6024FBAAD1, ::Il2CppArray<::System::Object*>* AECCA603ABBE82D6, ::System::Object* A86A90C31A146E9C, ::System::Type* A288CB28FC2A6DA3)
+	{
+		return ((::System::Void(*)(::PVOID, ::PVOID, ::Il2CppArray<::System::Object*>*, ::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + BAB572C1B20C3A22_BC75D3C9CFDD85AC_OFFSET))(B556D66FD3FA9F28, FB4FCC6024FBAAD1, AECCA603ABBE82D6, A86A90C31A146E9C, A288CB28FC2A6DA3);
+	}
+
+	static ::System::Void B274B4D21D15926E(::PVOID FB4FCC6024FBAAD1, ::System::Object* A86A90C31A146E9C, ::System::Type* A288CB28FC2A6DA3)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::Type*))((::PBYTE)hIl2Cpp + BAB572C1B20C3A22_B274B4D21D15926E_OFFSET))(FB4FCC6024FBAAD1, A86A90C31A146E9C, A288CB28FC2A6DA3);
+	}
+
+	static ::System::Void B54FA7F1978076EF(::PVOID B556D66FD3FA9F28, ::PVOID FB4FCC6024FBAAD1, ::Il2CppArray<::System::Object*>* AECCA603ABBE82D6, ::System::Object* A86A90C31A146E9C, ::F7499DF1533C7100* F3E7993BB0986694, ::System::Type* A288CB28FC2A6DA3)
+	{
+		return ((::System::Void(*)(::PVOID, ::PVOID, ::Il2CppArray<::System::Object*>*, ::System::Object*, ::F7499DF1533C7100*, ::System::Type*))((::PBYTE)hIl2Cpp + BAB572C1B20C3A22_B54FA7F1978076EF_OFFSET))(B556D66FD3FA9F28, FB4FCC6024FBAAD1, AECCA603ABBE82D6, A86A90C31A146E9C, F3E7993BB0986694, A288CB28FC2A6DA3);
+	}
+};

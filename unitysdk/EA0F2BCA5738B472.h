@@ -1,0 +1,74 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class FBB89EE7A9C83F06;
+namespace UnityEngine::InputSystem { class InputAction; }
+
+#define EA0F2BCA5738B472_E0E0B8A2E876E9B1_OFFSET UNITYSDK_OFFSET(0x23255E0)
+#define EA0F2BCA5738B472_E8BCB1403658D1CA_OFFSET UNITYSDK_OFFSET(0x4031F50)
+#define EA0F2BCA5738B472_F0D2AFBD3CAE7F65_OFFSET UNITYSDK_OFFSET(0x4031F30)
+#define EA0F2BCA5738B472_F0F2C9E1FB9C7498_OFFSET UNITYSDK_OFFSET(0x4032070)
+#define EA0F2BCA5738B472_F1D70AAA358ECACB_OFFSET UNITYSDK_OFFSET(0x23458F0)
+#define EA0F2BCA5738B472_FD792C24FE49920B_OFFSET UNITYSDK_OFFSET(0x4032140)
+#define EA0F2BCA5738B472_FDDCAE80A060E651_OFFSET UNITYSDK_OFFSET(0x23458E0)
+#define EA0F2BCA5738B472_FF8286EA72B69246_OFFSET UNITYSDK_OFFSET(0x23255D0)
+#define EA0F2BCA5738B472__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int EA0F2BCA5738B472_TypeDefinitionIndex = 20372;
+
+class EA0F2BCA5738B472 : public ::System::Object
+{
+public:
+	::UnityEngine::InputSystem::InputAction* FA2C331E1CD18380; // 0x10
+	::Il2CppArray<::System::Boolean>* F0794EEA94C58545; // 0x18
+	::System::Single EC2A82A1AAB109BF; // 0x20
+	::System::Boolean FB94A77B4568E84F; // 0x24
+	::System::Byte _padding0[0x3];
+	::System::Single F1655061BC6556FA; // 0x28
+
+	::System::Void F1D70AAA358ECACB(::System::Boolean E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + EA0F2BCA5738B472_F1D70AAA358ECACB_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::System::Void FD792C24FE49920B(::FBB89EE7A9C83F06* E7F13465F7E064E1)
+	{
+		return ((::System::Void(*)(::PVOID, ::FBB89EE7A9C83F06*))((::PBYTE)hIl2Cpp + EA0F2BCA5738B472_FD792C24FE49920B_OFFSET))(this, E7F13465F7E064E1);
+	}
+
+	::System::Void E0E0B8A2E876E9B1(::System::Single E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + EA0F2BCA5738B472_E0E0B8A2E876E9B1_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::System::Void F0F2C9E1FB9C7498(::System::Int32 EA2E543763F8300D, ::System::Single E5EB06E4FD2C32F7)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Single))((::PBYTE)hIl2Cpp + EA0F2BCA5738B472_F0F2C9E1FB9C7498_OFFSET))(this, EA2E543763F8300D, E5EB06E4FD2C32F7);
+	}
+
+	::System::Single FF8286EA72B69246()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + EA0F2BCA5738B472_FF8286EA72B69246_OFFSET))(this);
+	}
+
+	::System::Void E8BCB1403658D1CA(::UnityEngine::InputSystem::InputAction* BC288918C940C7A6, ::System::Single E5EB06E4FD2C32F7)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::InputSystem::InputAction*, ::System::Single))((::PBYTE)hIl2Cpp + EA0F2BCA5738B472_E8BCB1403658D1CA_OFFSET))(this, BC288918C940C7A6, E5EB06E4FD2C32F7);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EA0F2BCA5738B472__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean FDDCAE80A060E651()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + EA0F2BCA5738B472_FDDCAE80A060E651_OFFSET))(this);
+	}
+
+	::System::Void F0D2AFBD3CAE7F65()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EA0F2BCA5738B472_F0D2AFBD3CAE7F65_OFFSET))(this);
+	}
+};

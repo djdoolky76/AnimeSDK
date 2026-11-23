@@ -1,0 +1,79 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AFB530854B88B5A8.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+
+namespace UnityEngine::InputSystem::Controls { class AxisControl; }
+
+#define UNITYENGINE_INPUTSYSTEM_CONTROLS_VECTOR2CONTROL_CALCULATEOPTIMIZEDCONTROLDATATYPE_OFFSET UNITYSDK_OFFSET(0x3F6E860)
+#define UNITYENGINE_INPUTSYSTEM_CONTROLS_VECTOR2CONTROL_EVALUATEMAGNITUDE_OFFSET UNITYSDK_OFFSET(0x3F6E9D0)
+#define UNITYENGINE_INPUTSYSTEM_CONTROLS_VECTOR2CONTROL_FINISHSETUP_OFFSET UNITYSDK_OFFSET(0x3F6EAA0)
+#define UNITYENGINE_INPUTSYSTEM_CONTROLS_VECTOR2CONTROL_GET_X_OFFSET UNITYSDK_OFFSET(0x1921830)
+#define UNITYENGINE_INPUTSYSTEM_CONTROLS_VECTOR2CONTROL_GET_Y_OFFSET UNITYSDK_OFFSET(0x1D19FA0)
+#define UNITYENGINE_INPUTSYSTEM_CONTROLS_VECTOR2CONTROL_READUNPROCESSEDVALUEFROMSTATE_OFFSET UNITYSDK_OFFSET(0x3F6EB60)
+#define UNITYENGINE_INPUTSYSTEM_CONTROLS_VECTOR2CONTROL_SET_X_OFFSET UNITYSDK_OFFSET(0x1D1A0F0)
+#define UNITYENGINE_INPUTSYSTEM_CONTROLS_VECTOR2CONTROL_SET_Y_OFFSET UNITYSDK_OFFSET(0x1D1A150)
+#define UNITYENGINE_INPUTSYSTEM_CONTROLS_VECTOR2CONTROL_WRITEVALUEINTOSTATE_OFFSET UNITYSDK_OFFSET(0x3F6EC40)
+#define UNITYENGINE_INPUTSYSTEM_CONTROLS_VECTOR2CONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x3F6ED20)
+
+namespace UnityEngine::InputSystem::Controls
+{
+	inline static constexpr unsigned int Vector2Control_TypeDefinitionIndex = 14256;
+
+	class Vector2Control
+	{
+	public:
+		::UnityEngine::InputSystem::Controls::AxisControl* _x_k__BackingField; // 0x110
+		::UnityEngine::InputSystem::Controls::AxisControl* _y_k__BackingField; // 0x118
+
+		::UnityEngine::InputSystem::Controls::AxisControl* get_x()
+		{
+			return ((::UnityEngine::InputSystem::Controls::AxisControl*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_CONTROLS_VECTOR2CONTROL_GET_X_OFFSET))(this);
+		}
+
+		::System::Void set_x(::UnityEngine::InputSystem::Controls::AxisControl* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::InputSystem::Controls::AxisControl*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_CONTROLS_VECTOR2CONTROL_SET_X_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::AFB530854B88B5A8 CalculateOptimizedControlDataType()
+		{
+			return ((::AFB530854B88B5A8(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_CONTROLS_VECTOR2CONTROL_CALCULATEOPTIMIZEDCONTROLDATATYPE_OFFSET))(this);
+		}
+
+		::UnityEngine::InputSystem::Controls::AxisControl* get_y()
+		{
+			return ((::UnityEngine::InputSystem::Controls::AxisControl*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_CONTROLS_VECTOR2CONTROL_GET_Y_OFFSET))(this);
+		}
+
+		::UnityEngine::Vector2 ReadUnprocessedValueFromState(::PVOID A536377AC8D49ABB)
+		{
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_CONTROLS_VECTOR2CONTROL_READUNPROCESSEDVALUEFROMSTATE_OFFSET))(this, A536377AC8D49ABB);
+		}
+
+		::System::Void FinishSetup()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_CONTROLS_VECTOR2CONTROL_FINISHSETUP_OFFSET))(this);
+		}
+
+		::System::Single EvaluateMagnitude(::PVOID A536377AC8D49ABB)
+		{
+			return ((::System::Single(*)(::PVOID, ::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_CONTROLS_VECTOR2CONTROL_EVALUATEMAGNITUDE_OFFSET))(this, A536377AC8D49ABB);
+		}
+
+		::System::Void set_y(::UnityEngine::InputSystem::Controls::AxisControl* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::InputSystem::Controls::AxisControl*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_CONTROLS_VECTOR2CONTROL_SET_Y_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_CONTROLS_VECTOR2CONTROL__CTOR_OFFSET))(this);
+		}
+
+		::System::Void WriteValueIntoState(::UnityEngine::Vector2 E937D4885DAA1AE8, ::PVOID A536377AC8D49ABB)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2, ::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_CONTROLS_VECTOR2CONTROL_WRITEVALUEINTOSTATE_OFFSET))(this, E937D4885DAA1AE8, A536377AC8D49ABB);
+		}
+	};
+}

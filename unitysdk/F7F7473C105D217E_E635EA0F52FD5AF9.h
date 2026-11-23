@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/E0B58AD87D1F143C/B1DD0BCA8EE78EAB.h"
+#include "unitysdk/E68AA4EB51923C98/ECDF2EB77A8994E7.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace System { class Object; }
+
+#define F7F7473C105D217E_E635EA0F52FD5AF9__CTOR_OFFSET UNITYSDK_OFFSET(0x228AA40)
+
+inline static constexpr unsigned int F7F7473C105D217E_E635EA0F52FD5AF9_TypeDefinitionIndex = 6967;
+
+struct alignas(8) F7F7473C105D217E_E635EA0F52FD5AF9
+{
+	::E0B58AD87D1F143C::B1DD0BCA8EE78EAB A4E4B32B6ABFFD15; // 0x10
+	::System::Nullable_1<::E68AA4EB51923C98::ECDF2EB77A8994E7> F0A4C8DEE1DB68FD; // 0x14
+	::System::Nullable_1<::System::Object*> E6DAFD906A26A50D; // 0x1C
+
+	::System::Void _ctor(::E0B58AD87D1F143C::B1DD0BCA8EE78EAB E5332A504CFE9BE4, ::System::Nullable_1<::E68AA4EB51923C98::ECDF2EB77A8994E7> A461F3FA9BB97AA4, ::System::Nullable_1<::System::Object*> F57967B08F38CCAD)
+	{
+		return ((::System::Void(*)(::PVOID, ::E0B58AD87D1F143C::B1DD0BCA8EE78EAB, ::System::Nullable_1<::E68AA4EB51923C98::ECDF2EB77A8994E7>, ::System::Nullable_1<::System::Object*>))((::PBYTE)hIl2Cpp + F7F7473C105D217E_E635EA0F52FD5AF9__CTOR_OFFSET))(this, E5332A504CFE9BE4, A461F3FA9BB97AA4, F57967B08F38CCAD);
+	}
+};

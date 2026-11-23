@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { template <typename T1, typename T2> class Func_2; }
+
+#define EEB10D2BB53798FE_AE3F23B6335B151B_AFA859CFE99DA25B_E56492BC5F862858_OFFSET UNITYSDK_OFFSET(0x3EFF000)
+#define EEB10D2BB53798FE_AE3F23B6335B151B_AFA859CFE99DA25B__CCTOR_OFFSET UNITYSDK_OFFSET(0x3EFF110)
+#define EEB10D2BB53798FE_AE3F23B6335B151B_AFA859CFE99DA25B__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int EEB10D2BB53798FE_AE3F23B6335B151B_AFA859CFE99DA25B_TypeDefinitionIndex = 15203;
+
+class EEB10D2BB53798FE_AE3F23B6335B151B_AFA859CFE99DA25B : public ::System::Object
+{
+public:
+	static ::EEB10D2BB53798FE_AE3F23B6335B151B_AFA859CFE99DA25B** StaticGet_FB0A7EB463FA294A()
+	{
+		return (::EEB10D2BB53798FE_AE3F23B6335B151B_AFA859CFE99DA25B**)Il2CppClass::FromTypeDefinitionIndex(EEB10D2BB53798FE_AE3F23B6335B151B_AFA859CFE99DA25B_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::System::Func_2<::System::Object*, ::System::Boolean>** StaticGet_A613FDD7B2A58228()
+	{
+		return (::System::Func_2<::System::Object*, ::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(EEB10D2BB53798FE_AE3F23B6335B151B_AFA859CFE99DA25B_TypeDefinitionIndex)->GetStaticField(0x8);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + EEB10D2BB53798FE_AE3F23B6335B151B_AFA859CFE99DA25B__CCTOR_OFFSET))();
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EEB10D2BB53798FE_AE3F23B6335B151B_AFA859CFE99DA25B__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean E56492BC5F862858(::System::Object* B9AEC57275825552)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + EEB10D2BB53798FE_AE3F23B6335B151B_AFA859CFE99DA25B_E56492BC5F862858_OFFSET))(this, B9AEC57275825552);
+	}
+};

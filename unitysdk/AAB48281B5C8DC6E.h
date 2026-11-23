@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/BB7311E0B052ED82.h"
+#include "unitysdk/BD3E6890C9C82A9E.h"
+
+class F3A019B3697FD5CF;
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define AAB48281B5C8DC6E_AAA67EE098557B85_OFFSET UNITYSDK_OFFSET(0x23D91E0)
+#define AAB48281B5C8DC6E_FBBF870EA90E1D92_OFFSET UNITYSDK_OFFSET(0x23D9070)
+#define AAB48281B5C8DC6E__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int AAB48281B5C8DC6E_TypeDefinitionIndex = 3785;
+
+class AAB48281B5C8DC6E : public ::System::Object
+{
+public:
+	::System::Collections::Generic::List_1<::F3A019B3697FD5CF*>* E7415A1B534C50CD; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AAB48281B5C8DC6E__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void AAA67EE098557B85(::BB7311E0B052ED82& F99B0FE319DB74D1, ::AAB48281B5C8DC6E* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::BB7311E0B052ED82&, ::AAB48281B5C8DC6E*))((::PBYTE)hIl2Cpp + AAB48281B5C8DC6E_AAA67EE098557B85_OFFSET))(F99B0FE319DB74D1, E937D4885DAA1AE8);
+	}
+
+	static ::System::Void FBBF870EA90E1D92(::BD3E6890C9C82A9E& F99B0FE319DB74D1, ::AAB48281B5C8DC6E*& E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::BD3E6890C9C82A9E&, ::AAB48281B5C8DC6E*&))((::PBYTE)hIl2Cpp + AAB48281B5C8DC6E_FBBF870EA90E1D92_OFFSET))(F99B0FE319DB74D1, E937D4885DAA1AE8);
+	}
+};

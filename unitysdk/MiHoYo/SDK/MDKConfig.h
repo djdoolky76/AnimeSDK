@@ -1,0 +1,57 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BED79290917896D4/B1AE86BFBF14E2C5.h"
+#include "unitysdk/BED79290917896D4/FEB35AA1D18FD946.h"
+#include "unitysdk/System/Object.h"
+
+class FF1237522147A967;
+namespace MiHoYo::SDK { class ThirdLoginConfigs; }
+namespace System { class String; }
+
+#define MIHOYO_SDK_MDKCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x3998830)
+
+namespace MiHoYo::SDK
+{
+	inline static constexpr unsigned int MDKConfig_TypeDefinitionIndex = 12521;
+
+	class MDKConfig : public ::System::Object
+	{
+	public:
+		::System::Int32 id; // 0x10
+		::System::Byte _padding0[0x4];
+		::System::String* game_key; // 0x18
+		::System::String* app_key; // 0x20
+		::System::String* app_id; // 0x28
+		::BED79290917896D4::FEB35AA1D18FD946 channel_id; // 0x30
+		::System::Byte _padding1[0x4];
+		::System::String* client; // 0x38
+		::System::Boolean guest; // 0x40
+		::System::Byte _padding2[0x7];
+		::System::String* ignoreVersions; // 0x48
+		::System::String* ignore_versions; // 0x50
+		::BED79290917896D4::B1AE86BFBF14E2C5 scene; // 0x58
+		::System::Byte _padding3[0x4];
+		::System::String* combo_app_id; // 0x60
+		::System::String* combo_app_key; // 0x68
+		::System::Boolean disable_regist; // 0x70
+		::System::Boolean ap; // 0x71
+		::System::Boolean gl; // 0x72
+		::System::Boolean fb; // 0x73
+		::System::Boolean tw; // 0x74
+		::System::Boolean tp; // 0x75
+		::System::Byte _padding4[0x2];
+		::System::String* name; // 0x78
+		::System::Boolean disable_mmt; // 0x80
+		::System::Boolean enable_ps_bind_account; // 0x81
+		::System::Boolean enable_cx_bind_account; // 0x82
+		::System::Boolean hoyoplay_auth_login; // 0x83
+		::System::Byte _padding5[0x4];
+		::MiHoYo::SDK::ThirdLoginConfigs* thirdparty_login_configs; // 0x88
+		::System::Boolean enable_age_gate; // 0x90
+
+		::System::Void _ctor(::FF1237522147A967* F1DA3CEDFEA65142)
+		{
+			return ((::System::Void(*)(::PVOID, ::FF1237522147A967*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MDKCONFIG__CTOR_OFFSET))(this, F1DA3CEDFEA65142);
+		}
+	};
+}

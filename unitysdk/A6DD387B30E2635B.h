@@ -1,0 +1,29 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/ACF10FE87B4C5617.h"
+#include "unitysdk/F70547FE5596CB1B.h"
+
+#define A6DD387B30E2635B_B7A3A842195AA4A7_OFFSET UNITYSDK_OFFSET(0x27C18B0)
+
+inline static constexpr unsigned int A6DD387B30E2635B_TypeDefinitionIndex = 16643;
+
+struct alignas(4) A6DD387B30E2635B
+{
+	::System::UInt32 BDA90D73ED028055; // 0x10
+	::System::UInt32 FAEC3371FA164998; // 0x14
+	::System::UInt32 E0A8FA055110663A; // 0x18
+	::System::UInt32 EE24B35BE1B3C9AE; // 0x1C
+	::System::UInt32 BC0BD5E12FB9D618; // 0x20
+	::System::UInt32 F83BDB4A87FA6538; // 0x24
+	::System::UInt32 F017FD0FC363A334; // 0x28
+	::System::UInt32 AA2BF427F7CF6C09; // 0x2C
+	::UnityEngine::ACF10FE87B4C5617 F78889968C83C32A; // 0x30
+
+	/*
+	static ::A6DD387B30E2635B B7A3A842195AA4A7(::F70547FE5596CB1B F220A2D27F7C6B6C)
+	{
+		return ((::A6DD387B30E2635B(*)(::F70547FE5596CB1B))((::PBYTE)hIl2Cpp + A6DD387B30E2635B_B7A3A842195AA4A7_OFFSET))(F220A2D27F7C6B6C);
+	}
+	*/
+};

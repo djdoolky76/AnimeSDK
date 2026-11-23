@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BB53FDCEC0659F4F.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+class AB642D1382756991;
+namespace A970A434E9CC38AD { class E081240858EC757E; }
+namespace System { class String; }
+
+#define F7DFAE7625778866_A7B45E9C54783119_OFFSET UNITYSDK_OFFSET(0x16AA740)
+#define F7DFAE7625778866_FE2AF5C35A75BD19_OFFSET UNITYSDK_OFFSET(0x16AA900)
+#define F7DFAE7625778866__CTOR_OFFSET UNITYSDK_OFFSET(0x16AAAC0)
+
+inline static constexpr unsigned int F7DFAE7625778866_TypeDefinitionIndex = 448;
+
+class F7DFAE7625778866 : public ::BB53FDCEC0659F4F
+{
+public:
+	::System::Single B81506C6C1514A15; // 0x40
+	::System::Byte _padding0[0x4];
+	::AB642D1382756991* FD0BEBFC1EF2ED8F; // 0x48
+
+	::System::Void _ctor(::System::String* F80DA8BF03C0121C, ::A970A434E9CC38AD::E081240858EC757E* E0C29B9F427F1B80, ::System::Boolean F0CD169D9878E631, ::UnityEngine::Vector3 FEDB5C39C6F6E206, ::UnityEngine::Vector3 F14113994B14CF4A, ::UnityEngine::Quaternion B6C87458BFDDD37F, ::AB642D1382756991* FA9919B82AAD1FB1, ::System::UInt64 AA7EEDB079224583)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::A970A434E9CC38AD::E081240858EC757E*, ::System::Boolean, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::AB642D1382756991*, ::System::UInt64))((::PBYTE)hIl2Cpp + F7DFAE7625778866__CTOR_OFFSET))(this, F80DA8BF03C0121C, E0C29B9F427F1B80, F0CD169D9878E631, FEDB5C39C6F6E206, F14113994B14CF4A, B6C87458BFDDD37F, FA9919B82AAD1FB1, AA7EEDB079224583);
+	}
+
+	::System::Void A7B45E9C54783119(::System::Boolean AD09E42C80D4B5FC, ::System::String* A7714DE08D5D7E93)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::String*))((::PBYTE)hIl2Cpp + F7DFAE7625778866_A7B45E9C54783119_OFFSET))(this, AD09E42C80D4B5FC, A7714DE08D5D7E93);
+	}
+
+	::System::Void FE2AF5C35A75BD19()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F7DFAE7625778866_FE2AF5C35A75BD19_OFFSET))(this);
+	}
+};

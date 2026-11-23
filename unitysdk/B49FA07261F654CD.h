@@ -1,0 +1,53 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/BD3E6890C9C82A9E.h"
+
+namespace ABC::Entity { class CommonData; }
+
+#define B49FA07261F654CD_A9B7AC262EDF338D_OFFSET UNITYSDK_OFFSET(0x2327240)
+#define B49FA07261F654CD_B606ACA4FBE1B280_OFFSET UNITYSDK_OFFSET(0x17F35D0)
+#define B49FA07261F654CD_BA0AFB830600D2A9_OFFSET UNITYSDK_OFFSET(0x17F35A0)
+#define B49FA07261F654CD_BD1B0F9E1A828901_OFFSET UNITYSDK_OFFSET(0x2327230)
+#define B49FA07261F654CD_FBBF870EA90E1D92_OFFSET UNITYSDK_OFFSET(0x23B7650)
+#define B49FA07261F654CD__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int B49FA07261F654CD_TypeDefinitionIndex = 3682;
+
+class B49FA07261F654CD : public ::System::Object
+{
+public:
+	::System::Single FFC67C9CF280CCBB; // 0x10
+	::System::Byte _padding0[0x4];
+	::ABC::Entity::CommonData* F7B218B1D52B68EE; // 0x18
+
+	static ::System::Void FBBF870EA90E1D92(::BD3E6890C9C82A9E& F99B0FE319DB74D1, ::B49FA07261F654CD*& E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::BD3E6890C9C82A9E&, ::B49FA07261F654CD*&))((::PBYTE)hIl2Cpp + B49FA07261F654CD_FBBF870EA90E1D92_OFFSET))(F99B0FE319DB74D1, E937D4885DAA1AE8);
+	}
+
+	::System::Single BD1B0F9E1A828901()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + B49FA07261F654CD_BD1B0F9E1A828901_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B49FA07261F654CD__CTOR_OFFSET))(this);
+	}
+
+	::System::Void A9B7AC262EDF338D(::System::Single E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + B49FA07261F654CD_A9B7AC262EDF338D_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::System::Void B606ACA4FBE1B280(::ABC::Entity::CommonData* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::ABC::Entity::CommonData*))((::PBYTE)hIl2Cpp + B49FA07261F654CD_B606ACA4FBE1B280_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::ABC::Entity::CommonData* BA0AFB830600D2A9()
+	{
+		return ((::ABC::Entity::CommonData*(*)(::PVOID))((::PBYTE)hIl2Cpp + B49FA07261F654CD_BA0AFB830600D2A9_OFFSET))(this);
+	}
+};

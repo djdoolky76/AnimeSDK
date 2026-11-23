@@ -1,0 +1,64 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace UnityEngine { class GameObject; }
+
+#define BBC04EFBE194CA5A_B0F61658EBF3654E_OFFSET UNITYSDK_OFFSET(0x17F35D0)
+#define BBC04EFBE194CA5A_BA911D6AD4B3C977_OFFSET UNITYSDK_OFFSET(0x28B2700)
+#define BBC04EFBE194CA5A_BD4C387B7B05A041_OFFSET UNITYSDK_OFFSET(0x16A7C80)
+#define BBC04EFBE194CA5A_BD55C6542A0F790A_OFFSET UNITYSDK_OFFSET(0x28B27E0)
+#define BBC04EFBE194CA5A_EBCA82B1E6182F2E_OFFSET UNITYSDK_OFFSET(0x16A7BC0)
+#define BBC04EFBE194CA5A_F1401458D97FC7B7_OFFSET UNITYSDK_OFFSET(0x17F35A0)
+#define BBC04EFBE194CA5A_FD792C24FE49920B_OFFSET UNITYSDK_OFFSET(0x28B2770)
+#define BBC04EFBE194CA5A__CTOR_OFFSET UNITYSDK_OFFSET(0x19259E0)
+
+inline static constexpr unsigned int BBC04EFBE194CA5A_TypeDefinitionIndex = 16260;
+
+class BBC04EFBE194CA5A : public ::System::Object
+{
+public:
+	::System::Int32 BB8D0C61058B7B71; // 0x10
+	::System::Byte _padding0[0x4];
+	::UnityEngine::GameObject* F5ACF90E307E82F3; // 0x18
+
+	::System::Boolean BD55C6542A0F790A()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + BBC04EFBE194CA5A_BD55C6542A0F790A_OFFSET))(this);
+	}
+
+	::System::Int32 EBCA82B1E6182F2E()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + BBC04EFBE194CA5A_EBCA82B1E6182F2E_OFFSET))(this);
+	}
+
+	::System::Void B0F61658EBF3654E(::UnityEngine::GameObject* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + BBC04EFBE194CA5A_B0F61658EBF3654E_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::System::Void _ctor(::UnityEngine::GameObject* BC63F4052E4478D7)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + BBC04EFBE194CA5A__CTOR_OFFSET))(this, BC63F4052E4478D7);
+	}
+
+	::UnityEngine::GameObject* F1401458D97FC7B7()
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + BBC04EFBE194CA5A_F1401458D97FC7B7_OFFSET))(this);
+	}
+
+	::System::Void FD792C24FE49920B()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BBC04EFBE194CA5A_FD792C24FE49920B_OFFSET))(this);
+	}
+
+	::System::Void BA911D6AD4B3C977(::System::Boolean FFA00246E8ABA57B)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + BBC04EFBE194CA5A_BA911D6AD4B3C977_OFFSET))(this, FFA00246E8ABA57B);
+	}
+
+	::System::Void BD4C387B7B05A041(::System::Int32 E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + BBC04EFBE194CA5A_BD4C387B7B05A041_OFFSET))(this, E937D4885DAA1AE8);
+	}
+};

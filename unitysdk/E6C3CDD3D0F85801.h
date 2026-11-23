@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/B50178BF73B1DF6F/E568CEFD529E5190.h"
+#include "unitysdk/System/Object.h"
+
+class A8F67ABF629AAECB;
+namespace System { class String; }
+namespace System::Collections { class E6C6EEEB155967C0; }
+
+#define E6C3CDD3D0F85801__CTOR_OFFSET UNITYSDK_OFFSET(0x3E38BB0)
+
+inline static constexpr unsigned int E6C3CDD3D0F85801_TypeDefinitionIndex = 15290;
+
+class E6C3CDD3D0F85801 : public ::System::Object
+{
+public:
+	::A8F67ABF629AAECB* E43F771E6B5DE5BA; // 0x10
+	::System::Collections::E6C6EEEB155967C0* AA5B2E260AA88D24; // 0x18
+	::Il2CppArray<::System::Int32>* A809E188C8469561; // 0x20
+	::System::Int32 FF2F4E4C7B35E871; // 0x28
+	::System::Byte _padding0[0x4];
+	::System::Collections::E6C6EEEB155967C0* B289182BB9C47C7E; // 0x30
+	::Il2CppArray<::System::String*>* B12088616FBD6519; // 0x38
+	::B50178BF73B1DF6F::E568CEFD529E5190 EBC3A7D0D11E198E; // 0x40
+
+	::System::Void _ctor(::A8F67ABF629AAECB* A525E46A9CD93677, ::System::Collections::E6C6EEEB155967C0* BD8B09E824741283, ::Il2CppArray<::System::Int32>* B299EB07C694A150, ::System::Int32 E5F070CC6CEBD0FC, ::System::Collections::E6C6EEEB155967C0* E825276B95F8E637, ::Il2CppArray<::System::String*>* B4C5E5AAF678BCEA, ::B50178BF73B1DF6F::E568CEFD529E5190 FADED64AD3E99C03)
+	{
+		return ((::System::Void(*)(::PVOID, ::A8F67ABF629AAECB*, ::System::Collections::E6C6EEEB155967C0*, ::Il2CppArray<::System::Int32>*, ::System::Int32, ::System::Collections::E6C6EEEB155967C0*, ::Il2CppArray<::System::String*>*, ::B50178BF73B1DF6F::E568CEFD529E5190))((::PBYTE)hIl2Cpp + E6C3CDD3D0F85801__CTOR_OFFSET))(this, A525E46A9CD93677, BD8B09E824741283, B299EB07C694A150, E5F070CC6CEBD0FC, E825276B95F8E637, B4C5E5AAF678BCEA, FADED64AD3E99C03);
+	}
+};

@@ -1,0 +1,56 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AB07E24B584983C1.h"
+#include "unitysdk/E12F55A5FCCCF1EC.h"
+#include "unitysdk/E68AA4EB51923C98/A663E03344D85C3A.h"
+
+class A777E234FB18EE64;
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define E5C9ACC6845FCE04_A3C2F655C6B4F5E2_OFFSET UNITYSDK_OFFSET(0x1C2FF20)
+#define E5C9ACC6845FCE04_AFD5178090BD77F2_OFFSET UNITYSDK_OFFSET(0x1C2FB20)
+#define E5C9ACC6845FCE04_BEE64E388CAC2344_OFFSET UNITYSDK_OFFSET(0x1C301F0)
+#define E5C9ACC6845FCE04_F3AC94EE7C982E9B_OFFSET UNITYSDK_OFFSET(0x1C30180)
+#define E5C9ACC6845FCE04_F818208EA3946161_OFFSET UNITYSDK_OFFSET(0x1C30260)
+#define E5C9ACC6845FCE04__CTOR_OFFSET UNITYSDK_OFFSET(0x1C30660)
+
+inline static constexpr unsigned int E5C9ACC6845FCE04_TypeDefinitionIndex = 9299;
+
+class E5C9ACC6845FCE04 : public ::AB07E24B584983C1
+{
+public:
+	::A777E234FB18EE64* B2B8785E5DE8D0B8; // 0x50
+	::System::Collections::Generic::Dictionary_2<::E68AA4EB51923C98::A663E03344D85C3A, ::E12F55A5FCCCF1EC>* B7AD2E71DA24D65E; // 0x58
+	::System::Collections::Generic::Dictionary_2<::E68AA4EB51923C98::A663E03344D85C3A, ::System::UInt32>* EE625CCDF0D2371D; // 0x60
+	::System::Collections::Generic::Dictionary_2<::E68AA4EB51923C98::A663E03344D85C3A, ::E12F55A5FCCCF1EC>* A5DAD27D8F1A641A; // 0x68
+
+	::System::Void AFD5178090BD77F2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E5C9ACC6845FCE04_AFD5178090BD77F2_OFFSET))(this);
+	}
+
+	::System::Void F818208EA3946161()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E5C9ACC6845FCE04_F818208EA3946161_OFFSET))(this);
+	}
+
+	::System::Void F3AC94EE7C982E9B()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E5C9ACC6845FCE04_F3AC94EE7C982E9B_OFFSET))(this);
+	}
+
+	::System::Void BEE64E388CAC2344()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E5C9ACC6845FCE04_BEE64E388CAC2344_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E5C9ACC6845FCE04__CTOR_OFFSET))(this);
+	}
+
+	::System::Void A3C2F655C6B4F5E2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E5C9ACC6845FCE04_A3C2F655C6B4F5E2_OFFSET))(this);
+	}
+};

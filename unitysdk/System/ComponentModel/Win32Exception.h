@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Runtime/InteropServices/ExternalException.h"
+#include "unitysdk/B6564CAC678AC465.h"
+
+class E519989062D53DE5;
+namespace System { class String; }
+
+#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_GETERRORMESSAGE_OFFSET UNITYSDK_OFFSET(0x3E017B0)
+#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x3E02280)
+#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3E02450)
+#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x3E023C0)
+#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x3E02480)
+#define SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x3E02350)
+
+namespace System::ComponentModel
+{
+	inline static constexpr unsigned int Win32Exception_TypeDefinitionIndex = 14633;
+
+	class Win32Exception : public ::System::Runtime::InteropServices::ExternalException
+	{
+	public:
+		::System::Int32 nativeErrorCode; // 0x90
+
+		static ::System::String* GetErrorMessage(::System::Int32 E22BCD4736CD9DF9)
+		{
+			return ((::System::String*(*)(::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_GETERRORMESSAGE_OFFSET))(E22BCD4736CD9DF9);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _ctor_1(::System::Int32 E22BCD4736CD9DF9, ::System::String* B083BE7841B347C4)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CTOR_1_OFFSET))(this, E22BCD4736CD9DF9, B083BE7841B347C4);
+		}
+
+		::System::Void _ctor_2(::E519989062D53DE5* B29880F033C1F232, ::B6564CAC678AC465 E6CE7391633EEC68)
+		{
+			return ((::System::Void(*)(::PVOID, ::E519989062D53DE5*, ::B6564CAC678AC465))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CTOR_2_OFFSET))(this, B29880F033C1F232, E6CE7391633EEC68);
+		}
+
+		::System::Void _ctor_3(::System::Int32 E22BCD4736CD9DF9)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_WIN32EXCEPTION__CTOR_3_OFFSET))(this, E22BCD4736CD9DF9);
+		}
+
+		::System::Void GetObjectData(::E519989062D53DE5* B29880F033C1F232, ::B6564CAC678AC465 E6CE7391633EEC68)
+		{
+			return ((::System::Void(*)(::PVOID, ::E519989062D53DE5*, ::B6564CAC678AC465))((::PBYTE)hIl2Cpp + SYSTEM_COMPONENTMODEL_WIN32EXCEPTION_GETOBJECTDATA_OFFSET))(this, B29880F033C1F232, E6CE7391633EEC68);
+		}
+	};
+}

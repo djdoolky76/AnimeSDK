@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace F7F6CC14FED63C28 { class BB12657BB66C92A0; }
+
+#define F7F6CC14FED63C28_EFA669B36524B4DC__CTOR_OFFSET UNITYSDK_OFFSET(0x1F77300)
+
+namespace F7F6CC14FED63C28
+{
+	inline static constexpr unsigned int EFA669B36524B4DC_TypeDefinitionIndex = 21400;
+
+	struct alignas(8) EFA669B36524B4DC
+	{
+		::System::Int32 A088F54066917BE4; // 0x10
+		::System::Byte _padding0[0x4];
+		::F7F6CC14FED63C28::BB12657BB66C92A0* A84091C0499D86A4; // 0x18
+
+		::System::Void _ctor(::System::Int32 ECB64CBEF25C0AC1, ::F7F6CC14FED63C28::BB12657BB66C92A0* E56E4BE87B377150)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::F7F6CC14FED63C28::BB12657BB66C92A0*))((::PBYTE)hIl2Cpp + F7F6CC14FED63C28_EFA669B36524B4DC__CTOR_OFFSET))(this, ECB64CBEF25C0AC1, E56E4BE87B377150);
+		}
+	};
+}

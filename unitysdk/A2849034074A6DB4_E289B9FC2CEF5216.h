@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class A2849034074A6DB4_EE55708A79965C7E;
+namespace MiHoYo::SDK { class AccountModel; }
+
+#define A2849034074A6DB4_E289B9FC2CEF5216_F341EE6299FADF35_OFFSET UNITYSDK_OFFSET(0x3AC9440)
+#define A2849034074A6DB4_E289B9FC2CEF5216__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int A2849034074A6DB4_E289B9FC2CEF5216_TypeDefinitionIndex = 12122;
+
+class A2849034074A6DB4_E289B9FC2CEF5216 : public ::System::Object
+{
+public:
+	::MiHoYo::SDK::AccountModel* A17FFBF40C5F899B; // 0x10
+	::A2849034074A6DB4_EE55708A79965C7E* A8791C2B0F6F977B; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A2849034074A6DB4_E289B9FC2CEF5216__CTOR_OFFSET))(this);
+	}
+
+	::System::Void F341EE6299FADF35()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A2849034074A6DB4_E289B9FC2CEF5216_F341EE6299FADF35_OFFSET))(this);
+	}
+};

@@ -1,0 +1,112 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/A7C4D8DC50C86DC6/A1D568E21302E811.h"
+#include "unitysdk/A7C4D8DC50C86DC6/B215E9152E562A3D.h"
+#include "unitysdk/A7C4D8DC50C86DC6/B2FD3DBF22ACD29E.h"
+#include "unitysdk/A7C4D8DC50C86DC6/B67461F754FB4E29.h"
+#include "unitysdk/A7C4D8DC50C86DC6/BD906D3FF91DD05D.h"
+#include "unitysdk/A7C4D8DC50C86DC6/BDBB036F49853F44.h"
+#include "unitysdk/A7C4D8DC50C86DC6/E4AF99438EF4717F.h"
+#include "unitysdk/A7C4D8DC50C86DC6/E4DEF455B71D5728.h"
+#include "unitysdk/A7C4D8DC50C86DC6/F3231CF23FADA661.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/A32676FCB736C8E8.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+namespace A7C4D8DC50C86DC6 { class A03329868F553B13; }
+namespace UnityEngine { class Material; }
+namespace UnityEngine::TextCore::Text { class FontAsset; }
+namespace UnityEngine::TextCore::Text { class SpriteAsset; }
+namespace UnityEngine::TextCore::Text { class TextColorGradient; }
+
+namespace A7C4D8DC50C86DC6
+{
+	inline static constexpr unsigned int F85C6B36529427E2_TypeDefinitionIndex = 18716;
+
+	struct alignas(8) F85C6B36529427E2
+	{
+		::System::Int32 B2AC3D49EF25A7D8; // 0x10
+		::System::Int32 E3E719567413E7A5; // 0x14
+		::System::Int32 E9F22BAEFF482DE9; // 0x18
+		::System::Int32 F93847D5A1C5CE77; // 0x1C
+		::System::Int32 A3F5676875EEE798; // 0x20
+		::System::Int32 A9BA60899A842EA3; // 0x24
+		::System::Int32 ACE336C06D140F57; // 0x28
+		::System::Int32 E2F0C39D624DEAD5; // 0x2C
+		::System::Int32 A2702F6E74809B93; // 0x30
+		::System::Int32 B5DCFDBF02FA34CD; // 0x34
+		::System::Int32 FBFFB6FDF3F5EEB4; // 0x38
+		::System::Single E1355653E258D9ED; // 0x3C
+		::System::Single E7C1BC20C13A2765; // 0x40
+		::System::Single A468360829A31217; // 0x44
+		::System::Single E01135F988E5E612; // 0x48
+		::System::Single AE50BEBA48814391; // 0x4C
+		::System::Single A4796325F7C0A057; // 0x50
+		::System::Single BBE97295A1DBA22D; // 0x54
+		::System::Single B20F979590CDF3B6; // 0x58
+		::System::Single E021418CF4F8E35D; // 0x5C
+		::System::Single EEE4853629A8E822; // 0x60
+		::System::Single A9D47E5DA87A700B; // 0x64
+		::System::Int32 E11BE2954A96FC45; // 0x68
+		::A7C4D8DC50C86DC6::B67461F754FB4E29 F4BC3724053D0CEF; // 0x6C
+		::System::Single F9A76A4F8EFD079E; // 0x70
+		::System::Single FF994F6CE00D5C68; // 0x74
+		::System::Int32 A6A219450DDF9917; // 0x78
+		::System::Single F5688667A5CE9EC5; // 0x7C
+		::System::Single A77893674F6E8E6F; // 0x80
+		::System::Single E06670AEE66BED65; // 0x84
+		::A7C4D8DC50C86DC6::A03329868F553B13* FF9B5D3D405716D7; // 0x88
+		::A7C4D8DC50C86DC6::BDBB036F49853F44 BE63DB3EB46ECB13; // 0x90
+		::UnityEngine::A32676FCB736C8E8 BFA9D48A001F7DE0; // 0xF0
+		::UnityEngine::A32676FCB736C8E8 FFC9869BF9B8E82A; // 0xF4
+		::UnityEngine::A32676FCB736C8E8 FB975EEA51FEE5A2; // 0xF8
+		::UnityEngine::A32676FCB736C8E8 AE363C7B2266ACA9; // 0xFC
+		::A7C4D8DC50C86DC6::BD906D3FF91DD05D F93B3AD2B33AEB57; // 0x100
+		::A7C4D8DC50C86DC6::F3231CF23FADA661 FD7B707BAA892B5A; // 0x114
+		::System::Byte _padding0[0x2];
+		::A7C4D8DC50C86DC6::A1D568E21302E811<::System::Int32> A6650F9646C721E7; // 0x120
+		::System::Byte _padding1[0x18];
+		::A7C4D8DC50C86DC6::A1D568E21302E811<::UnityEngine::A32676FCB736C8E8> A941683A30499A04; // 0x140
+		::System::Byte _padding2[0x18];
+		::A7C4D8DC50C86DC6::A1D568E21302E811<::UnityEngine::A32676FCB736C8E8> F80388A81BC90341; // 0x160
+		::System::Byte _padding3[0x18];
+		::A7C4D8DC50C86DC6::A1D568E21302E811<::UnityEngine::A32676FCB736C8E8> FD17E63288C4C877; // 0x180
+		::System::Byte _padding4[0x18];
+		::A7C4D8DC50C86DC6::A1D568E21302E811<::UnityEngine::A32676FCB736C8E8> E3AABAB46654C2B2; // 0x1A0
+		::System::Byte _padding5[0x18];
+		::A7C4D8DC50C86DC6::A1D568E21302E811<::A7C4D8DC50C86DC6::BD906D3FF91DD05D> AF40AD45F1468BBD; // 0x1C0
+		::System::Byte _padding6[0x28];
+		::A7C4D8DC50C86DC6::A1D568E21302E811<::UnityEngine::TextCore::Text::TextColorGradient*> FE68AFBFE15DD3F2; // 0x1F0
+		::System::Byte _padding7[0x20];
+		::A7C4D8DC50C86DC6::A1D568E21302E811<::System::Single> B006985A29465BA4; // 0x218
+		::System::Byte _padding8[0x18];
+		::A7C4D8DC50C86DC6::A1D568E21302E811<::System::Single> E533D9910D81802C; // 0x238
+		::System::Byte _padding9[0x18];
+		::A7C4D8DC50C86DC6::A1D568E21302E811<::A7C4D8DC50C86DC6::B215E9152E562A3D> E48A20C9DFCECC2F; // 0x258
+		::System::Byte _padding10[0x18];
+		::A7C4D8DC50C86DC6::A1D568E21302E811<::System::Int32> E5B8DD3B2F14E614; // 0x278
+		::System::Byte _padding11[0x18];
+		::A7C4D8DC50C86DC6::A1D568E21302E811<::System::Single> EF426969DA7B5411; // 0x298
+		::System::Byte _padding12[0x18];
+		::A7C4D8DC50C86DC6::A1D568E21302E811<::System::Int32> E9C5B04F822AA747; // 0x2B8
+		::System::Byte _padding13[0x18];
+		::A7C4D8DC50C86DC6::A1D568E21302E811<::A7C4D8DC50C86DC6::E4AF99438EF4717F> B9CEA40BCD585D69; // 0x2D8
+		::System::Byte _padding14[0x50];
+		::A7C4D8DC50C86DC6::A1D568E21302E811<::A7C4D8DC50C86DC6::B2FD3DBF22ACD29E> EBEF9466FF8F58DA; // 0x330
+		::System::Byte _padding15[0x18];
+		::System::Int32 A5BA549ECCA60211; // 0x350
+		::System::Int32 A9859B61E93A8624; // 0x354
+		::UnityEngine::TextCore::Text::FontAsset* EBC40BE1925E8874; // 0x358
+		::UnityEngine::TextCore::Text::SpriteAsset* B5A6D90129B15602; // 0x360
+		::UnityEngine::Material* EAC273FF375FAC0F; // 0x368
+		::System::Int32 FCD1CD0397208A53; // 0x370
+		::A7C4D8DC50C86DC6::E4DEF455B71D5728 EE7AB1D0CBCD213C; // 0x374
+		::System::Boolean F522DD6700C0CCDC; // 0x384
+		::System::Boolean B6884AB9D9621579; // 0x385
+		::System::Boolean F33F8EEDA13A2A84; // 0x386
+		::System::Byte _padding16[0x1];
+		::UnityEngine::Vector3 FFF436D705E14A58; // 0x388
+		::UnityEngine::Quaternion BE8458E595973FB1; // 0x394
+	};
+}

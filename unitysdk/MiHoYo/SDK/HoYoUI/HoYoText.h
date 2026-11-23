@@ -1,0 +1,62 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BED79290917896D4/EFBAEFAA4821468B.h"
+#include "unitysdk/UnityEngine/UI/ColorBlock.h"
+#include "unitysdk/UnityEngine/UI/Text.h"
+
+namespace MiHoYo::SDK::HoYoUI { class HoYoUIMeta; }
+
+#define MIHOYO_SDK_HOYOUI_HOYOTEXT_B1E0783BEE4CDBF1_OFFSET UNITYSDK_OFFSET(0x29D5AF0)
+#define MIHOYO_SDK_HOYOUI_HOYOTEXT_E4A6A5E531702C2D_OFFSET UNITYSDK_OFFSET(0x29D5C70)
+#define MIHOYO_SDK_HOYOUI_HOYOTEXT_F0CBAF44B8C0C712_OFFSET UNITYSDK_OFFSET(0x29D55A0)
+#define MIHOYO_SDK_HOYOUI_HOYOTEXT_F4E857D9D39516CD_OFFSET UNITYSDK_OFFSET(0x1EC4220)
+#define MIHOYO_SDK_HOYOUI_HOYOTEXT_F92516921308E3A7_OFFSET UNITYSDK_OFFSET(0x29D5E20)
+#define MIHOYO_SDK_HOYOUI_HOYOTEXT_FDBCDBBFE02CD51A_OFFSET UNITYSDK_OFFSET(0x29D5C30)
+#define MIHOYO_SDK_HOYOUI_HOYOTEXT__CTOR_OFFSET UNITYSDK_OFFSET(0x29D5D60)
+
+namespace MiHoYo::SDK::HoYoUI
+{
+	inline static constexpr unsigned int HoYoText_TypeDefinitionIndex = 15735;
+
+	class HoYoText : public ::UnityEngine::UI::Text
+	{
+	public:
+		::MiHoYo::SDK::HoYoUI::HoYoUIMeta* m_UIMeta; // 0x128
+		::UnityEngine::UI::ColorBlock m_Colors; // 0x130
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOUI_HOYOTEXT__CTOR_OFFSET))(this);
+		}
+
+		::UnityEngine::UI::ColorBlock F92516921308E3A7()
+		{
+			return ((::UnityEngine::UI::ColorBlock(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOUI_HOYOTEXT_F92516921308E3A7_OFFSET))(this);
+		}
+
+		::System::Void E4A6A5E531702C2D(::BED79290917896D4::EFBAEFAA4821468B E5EB06E4FD2C32F7)
+		{
+			return ((::System::Void(*)(::PVOID, ::BED79290917896D4::EFBAEFAA4821468B))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOUI_HOYOTEXT_E4A6A5E531702C2D_OFFSET))(this, E5EB06E4FD2C32F7);
+		}
+
+		::System::Void FDBCDBBFE02CD51A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOUI_HOYOTEXT_FDBCDBBFE02CD51A_OFFSET))(this);
+		}
+
+		::System::Void B1E0783BEE4CDBF1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOUI_HOYOTEXT_B1E0783BEE4CDBF1_OFFSET))(this);
+		}
+
+		::System::Void F0CBAF44B8C0C712()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOUI_HOYOTEXT_F0CBAF44B8C0C712_OFFSET))(this);
+		}
+
+		::MiHoYo::SDK::HoYoUI::HoYoUIMeta* F4E857D9D39516CD()
+		{
+			return ((::MiHoYo::SDK::HoYoUI::HoYoUIMeta*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_HOYOUI_HOYOTEXT_F4E857D9D39516CD_OFFSET))(this);
+		}
+	};
+}

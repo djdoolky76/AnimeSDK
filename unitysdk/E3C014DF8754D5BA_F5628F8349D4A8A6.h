@@ -1,0 +1,41 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/B07850EA97DBB75A.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/A3B17C172EC49C40.h"
+
+namespace System { template <typename T> class ADDF5F55A85EB950; }
+
+#define E3C014DF8754D5BA_F5628F8349D4A8A6_F7CDA80FB783FEFD_OFFSET UNITYSDK_OFFSET(0x27FBD30)
+#define E3C014DF8754D5BA_F5628F8349D4A8A6__CCTOR_OFFSET UNITYSDK_OFFSET(0x27FC080)
+#define E3C014DF8754D5BA_F5628F8349D4A8A6__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int E3C014DF8754D5BA_F5628F8349D4A8A6_TypeDefinitionIndex = 16802;
+
+class E3C014DF8754D5BA_F5628F8349D4A8A6 : public ::System::Object
+{
+public:
+	static ::E3C014DF8754D5BA_F5628F8349D4A8A6** StaticGet_AA32F971AB02398B()
+	{
+		return (::E3C014DF8754D5BA_F5628F8349D4A8A6**)Il2CppClass::FromTypeDefinitionIndex(E3C014DF8754D5BA_F5628F8349D4A8A6_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::System::ADDF5F55A85EB950<::B07850EA97DBB75A<::System::Int32, ::UnityEngine::A3B17C172EC49C40>>** StaticGet_E354E9AE74DDD48C()
+	{
+		return (::System::ADDF5F55A85EB950<::B07850EA97DBB75A<::System::Int32, ::UnityEngine::A3B17C172EC49C40>>**)Il2CppClass::FromTypeDefinitionIndex(E3C014DF8754D5BA_F5628F8349D4A8A6_TypeDefinitionIndex)->GetStaticField(0x8);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + E3C014DF8754D5BA_F5628F8349D4A8A6__CCTOR_OFFSET))();
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E3C014DF8754D5BA_F5628F8349D4A8A6__CTOR_OFFSET))(this);
+	}
+
+	::System::Int32 F7CDA80FB783FEFD(::B07850EA97DBB75A<::System::Int32, ::UnityEngine::A3B17C172EC49C40> A64886CA86DF769A, ::B07850EA97DBB75A<::System::Int32, ::UnityEngine::A3B17C172EC49C40> EDC812878A8F27BB)
+	{
+		return ((::System::Int32(*)(::PVOID, ::B07850EA97DBB75A<::System::Int32, ::UnityEngine::A3B17C172EC49C40>, ::B07850EA97DBB75A<::System::Int32, ::UnityEngine::A3B17C172EC49C40>))((::PBYTE)hIl2Cpp + E3C014DF8754D5BA_F5628F8349D4A8A6_F7CDA80FB783FEFD_OFFSET))(this, A64886CA86DF769A, EDC812878A8F27BB);
+	}
+};

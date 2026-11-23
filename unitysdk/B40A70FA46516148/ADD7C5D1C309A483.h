@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/B40A70FA46516148/ED57AD23D389104B.h"
+#include "unitysdk/System/MulticastDelegate.h"
+
+class BA6A30046E72CB9F;
+class F4D7C3D27298C259;
+namespace System { class Object; }
+namespace System { class String; }
+
+#define B40A70FA46516148_ADD7C5D1C309A483_INVOKE_OFFSET UNITYSDK_OFFSET(0x1FE7C20)
+#define B40A70FA46516148_ADD7C5D1C309A483__CTOR_OFFSET UNITYSDK_OFFSET(0x3B1C1E0)
+
+namespace B40A70FA46516148
+{
+	inline static constexpr unsigned int ADD7C5D1C309A483_TypeDefinitionIndex = 19280;
+
+	class ADD7C5D1C309A483 : public ::System::MulticastDelegate
+	{
+	public:
+		::System::Void _ctor(::System::Object* A351543A0362EB15, ::System::IntPtr EA8FABEC6D125B33)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + B40A70FA46516148_ADD7C5D1C309A483__CTOR_OFFSET))(this, A351543A0362EB15, EA8FABEC6D125B33);
+		}
+
+		::System::Boolean Invoke(::System::String* B18146D362A5F617, ::BA6A30046E72CB9F* B622B633606B109B, ::F4D7C3D27298C259* BC8532EBF40AA4A9, ::B40A70FA46516148::ED57AD23D389104B B2B7C6BD98B2E26D)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::String*, ::BA6A30046E72CB9F*, ::F4D7C3D27298C259*, ::B40A70FA46516148::ED57AD23D389104B))((::PBYTE)hIl2Cpp + B40A70FA46516148_ADD7C5D1C309A483_INVOKE_OFFSET))(this, B18146D362A5F617, B622B633606B109B, BC8532EBF40AA4A9, B2B7C6BD98B2E26D);
+		}
+	};
+}

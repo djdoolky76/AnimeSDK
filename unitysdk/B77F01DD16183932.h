@@ -1,0 +1,69 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class B1DF25493F639BCE;
+class FC075AD9328451D0;
+template <typename T> class BD8D9FD779BE9E75;
+
+#define B77F01DD16183932_E8D3C5F49844D0CC_1_OFFSET UNITYSDK_OFFSET(0x2369940)
+#define B77F01DD16183932_E8D3C5F49844D0CC_OFFSET UNITYSDK_OFFSET(0x2369A20)
+#define B77F01DD16183932_F696EE5343695F2F_OFFSET UNITYSDK_OFFSET(0x236AC90)
+#define B77F01DD16183932_FD7E3CCD07C018F1_OFFSET UNITYSDK_OFFSET(0x236A9F0)
+#define B77F01DD16183932_FD9A6B1F0CFC2097_1_OFFSET UNITYSDK_OFFSET(0x236A920)
+#define B77F01DD16183932_FD9A6B1F0CFC2097_OFFSET UNITYSDK_OFFSET(0x236A1E0)
+#define B77F01DD16183932__CCTOR_OFFSET UNITYSDK_OFFSET(0x236AB10)
+
+inline static constexpr unsigned int B77F01DD16183932_TypeDefinitionIndex = 3322;
+
+class B77F01DD16183932 : public ::System::Object
+{
+public:
+	static ::BD8D9FD779BE9E75<::Il2CppArray<::System::Byte>*>** StaticGet_F52C831DFAFE6421()
+	{
+		return (::BD8D9FD779BE9E75<::Il2CppArray<::System::Byte>*>**)Il2CppClass::FromTypeDefinitionIndex(B77F01DD16183932_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::BD8D9FD779BE9E75<::Il2CppArray<::System::Byte>*>** StaticGet_EC33B796FEAE190A()
+	{
+		return (::BD8D9FD779BE9E75<::Il2CppArray<::System::Byte>*>**)Il2CppClass::FromTypeDefinitionIndex(B77F01DD16183932_TypeDefinitionIndex)->GetStaticField(0x8);
+	}
+	static ::Il2CppArray<::System::Byte>** StaticGet_AB3DB499BC0DCD69()
+	{
+		return (::Il2CppArray<::System::Byte>**)Il2CppClass::FromTypeDefinitionIndex(B77F01DD16183932_TypeDefinitionIndex)->GetStaticField(0x10);
+	}
+
+	static ::Il2CppArray<::System::Byte>* FD9A6B1F0CFC2097(::Il2CppArray<::System::Byte>* E8EC58F95CB6DEDE, ::System::Int32 BFB917226BB21BA6, ::Il2CppArray<::System::Byte>* A5C299C395D3E1B2, ::Il2CppArray<::System::Byte>* B434C6CCFC084F2B)
+	{
+		return ((::Il2CppArray<::System::Byte>*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + B77F01DD16183932_FD9A6B1F0CFC2097_OFFSET))(E8EC58F95CB6DEDE, BFB917226BB21BA6, A5C299C395D3E1B2, B434C6CCFC084F2B);
+	}
+
+	static ::System::Void FD7E3CCD07C018F1(::System::UInt64 E937D4885DAA1AE8, ::Il2CppArray<::System::Byte>* E9B5C87DD49C590F, ::System::Int32 B11388950C465AE2)
+	{
+		return ((::System::Void(*)(::System::UInt64, ::Il2CppArray<::System::Byte>*, ::System::Int32))((::PBYTE)hIl2Cpp + B77F01DD16183932_FD7E3CCD07C018F1_OFFSET))(E937D4885DAA1AE8, E9B5C87DD49C590F, B11388950C465AE2);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + B77F01DD16183932__CCTOR_OFFSET))();
+	}
+
+	static ::System::Void E8D3C5F49844D0CC(::B1DF25493F639BCE* BB4961BB636D3806, ::FC075AD9328451D0* E7B271ED926D7C39, ::System::Int32 BFB917226BB21BA6, ::Il2CppArray<::System::Byte>* A5C299C395D3E1B2, ::Il2CppArray<::System::Byte>* B434C6CCFC084F2B)
+	{
+		return ((::System::Void(*)(::B1DF25493F639BCE*, ::FC075AD9328451D0*, ::System::Int32, ::Il2CppArray<::System::Byte>*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + B77F01DD16183932_E8D3C5F49844D0CC_OFFSET))(BB4961BB636D3806, E7B271ED926D7C39, BFB917226BB21BA6, A5C299C395D3E1B2, B434C6CCFC084F2B);
+	}
+
+	static ::Il2CppArray<::System::Byte>* FD9A6B1F0CFC2097_1(::Il2CppArray<::System::Byte>* E8EC58F95CB6DEDE, ::System::Int32 BFB917226BB21BA6, ::System::UInt64 E5E9C4CB2115BA85)
+	{
+		return ((::Il2CppArray<::System::Byte>*(*)(::Il2CppArray<::System::Byte>*, ::System::Int32, ::System::UInt64))((::PBYTE)hIl2Cpp + B77F01DD16183932_FD9A6B1F0CFC2097_1_OFFSET))(E8EC58F95CB6DEDE, BFB917226BB21BA6, E5E9C4CB2115BA85);
+	}
+
+	static ::System::Void E8D3C5F49844D0CC_1(::B1DF25493F639BCE* BB4961BB636D3806, ::FC075AD9328451D0* E7B271ED926D7C39, ::System::Int32 BFB917226BB21BA6, ::System::UInt64 E5E9C4CB2115BA85)
+	{
+		return ((::System::Void(*)(::B1DF25493F639BCE*, ::FC075AD9328451D0*, ::System::Int32, ::System::UInt64))((::PBYTE)hIl2Cpp + B77F01DD16183932_E8D3C5F49844D0CC_1_OFFSET))(BB4961BB636D3806, E7B271ED926D7C39, BFB917226BB21BA6, E5E9C4CB2115BA85);
+	}
+
+	static ::Il2CppArray<::System::Byte>* F696EE5343695F2F()
+	{
+		return ((::Il2CppArray<::System::Byte>*(*)())((::PBYTE)hIl2Cpp + B77F01DD16183932_F696EE5343695F2F_OFFSET))();
+	}
+};

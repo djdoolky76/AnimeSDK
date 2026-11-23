@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/MonoLookDevCameraRel_EF8F775C3FDA2430.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+#define E2BDF36D7DEDCC9B_A5E64B592798ADFA_OFFSET UNITYSDK_OFFSET(0x184D760)
+#define E2BDF36D7DEDCC9B_AC1605F494A859F7_OFFSET UNITYSDK_OFFSET(0x184CAB0)
+#define E2BDF36D7DEDCC9B_E028F85BB3263394_OFFSET UNITYSDK_OFFSET(0x184CE90)
+#define E2BDF36D7DEDCC9B_E82B24E24E4FE8FC_OFFSET UNITYSDK_OFFSET(0x184DDE0)
+#define E2BDF36D7DEDCC9B_EC9652BE710DAAAD_OFFSET UNITYSDK_OFFSET(0x184E7E0)
+#define E2BDF36D7DEDCC9B_F94B42E1D37166E9_OFFSET UNITYSDK_OFFSET(0x184ED00)
+
+inline static constexpr unsigned int E2BDF36D7DEDCC9B_TypeDefinitionIndex = 1233;
+
+class E2BDF36D7DEDCC9B : public ::System::Object
+{
+public:
+	static ::UnityEngine::Vector2 EC9652BE710DAAAD(::UnityEngine::Vector3 FF9A37DE513AC35B, ::UnityEngine::Vector3 ADA98589B2733BF9, ::UnityEngine::Quaternion A9EEF37AD4C9502E, ::System::Single AC7A523AB0F13A57, ::System::Single A89B21AFE8074A79)
+	{
+		return ((::UnityEngine::Vector2(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + E2BDF36D7DEDCC9B_EC9652BE710DAAAD_OFFSET))(FF9A37DE513AC35B, ADA98589B2733BF9, A9EEF37AD4C9502E, AC7A523AB0F13A57, A89B21AFE8074A79);
+	}
+
+	static ::MonoLookDevCameraRel_EF8F775C3FDA2430 E028F85BB3263394(::UnityEngine::Vector3 F9D600ADD8D5E75F, ::UnityEngine::Vector3 F100280E4EEF5609, ::System::Single ED892B0F16FA7A70, ::System::Single F758B1B022134CC7, ::System::Single AC7A523AB0F13A57, ::System::Single A89B21AFE8074A79, ::System::Single B54A8DD178D85B20)
+	{
+		return ((::MonoLookDevCameraRel_EF8F775C3FDA2430(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + E2BDF36D7DEDCC9B_E028F85BB3263394_OFFSET))(F9D600ADD8D5E75F, F100280E4EEF5609, ED892B0F16FA7A70, F758B1B022134CC7, AC7A523AB0F13A57, A89B21AFE8074A79, B54A8DD178D85B20);
+	}
+
+	static ::MonoLookDevCameraRel_EF8F775C3FDA2430 E82B24E24E4FE8FC(::UnityEngine::Vector3 F9D600ADD8D5E75F, ::UnityEngine::Vector3 F100280E4EEF5609, ::System::Single ED892B0F16FA7A70, ::System::Single F758B1B022134CC7, ::System::Single AC7A523AB0F13A57, ::System::Single A04982D9FC5AD547, ::UnityEngine::Vector3 B792AC7C64E3B246)
+	{
+		return ((::MonoLookDevCameraRel_EF8F775C3FDA2430(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + E2BDF36D7DEDCC9B_E82B24E24E4FE8FC_OFFSET))(F9D600ADD8D5E75F, F100280E4EEF5609, ED892B0F16FA7A70, F758B1B022134CC7, AC7A523AB0F13A57, A04982D9FC5AD547, B792AC7C64E3B246);
+	}
+
+	static ::System::Single F94B42E1D37166E9(::System::Single BF7879603298E9D1, ::System::Single A89B21AFE8074A79)
+	{
+		return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + E2BDF36D7DEDCC9B_F94B42E1D37166E9_OFFSET))(BF7879603298E9D1, A89B21AFE8074A79);
+	}
+
+	static ::MonoLookDevCameraRel_EF8F775C3FDA2430 A5E64B592798ADFA(::UnityEngine::Vector3 F9D600ADD8D5E75F, ::UnityEngine::Vector3 F100280E4EEF5609, ::System::Single ED892B0F16FA7A70, ::System::Single F758B1B022134CC7, ::System::Single AC7A523AB0F13A57, ::System::Single A89B21AFE8074A79, ::System::Single F676643209E74ADC)
+	{
+		return ((::MonoLookDevCameraRel_EF8F775C3FDA2430(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + E2BDF36D7DEDCC9B_A5E64B592798ADFA_OFFSET))(F9D600ADD8D5E75F, F100280E4EEF5609, ED892B0F16FA7A70, F758B1B022134CC7, AC7A523AB0F13A57, A89B21AFE8074A79, F676643209E74ADC);
+	}
+
+	static ::MonoLookDevCameraRel_EF8F775C3FDA2430 AC1605F494A859F7(::UnityEngine::Vector3 F9D600ADD8D5E75F, ::UnityEngine::Vector3 F100280E4EEF5609, ::UnityEngine::Vector2 ED892B0F16FA7A70, ::UnityEngine::Vector2 F758B1B022134CC7, ::System::Single AC7A523AB0F13A57, ::System::Single A89B21AFE8074A79, ::UnityEngine::Vector3 E5314DB464D254E3, ::System::Single A40114B745CD3E4C, ::System::Single B54A8DD178D85B20)
+	{
+		return ((::MonoLookDevCameraRel_EF8F775C3FDA2430(*)(::UnityEngine::Vector3, ::UnityEngine::Vector3, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Single, ::System::Single, ::UnityEngine::Vector3, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + E2BDF36D7DEDCC9B_AC1605F494A859F7_OFFSET))(F9D600ADD8D5E75F, F100280E4EEF5609, ED892B0F16FA7A70, F758B1B022134CC7, AC7A523AB0F13A57, A89B21AFE8074A79, E5314DB464D254E3, A40114B745CD3E4C, B54A8DD178D85B20);
+	}
+};

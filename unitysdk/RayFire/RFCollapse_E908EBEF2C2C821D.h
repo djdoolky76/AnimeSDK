@@ -1,0 +1,62 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace RayFire { class RFCollapse; }
+namespace RayFire { class RayfireConnectivity; }
+namespace UnityEngine { class AA50C9FA59D35210; }
+
+#define RAYFIRE_RFCOLLAPSE_E908EBEF2C2C821D_BB5F6FA7EB4E8D6F_OFFSET UNITYSDK_OFFSET(0x17F35A0)
+#define RAYFIRE_RFCOLLAPSE_E908EBEF2C2C821D_E34B6CA02139E820_OFFSET UNITYSDK_OFFSET(0x17F35A0)
+#define RAYFIRE_RFCOLLAPSE_E908EBEF2C2C821D_E6CAD58306FCDCB5_OFFSET UNITYSDK_OFFSET(0x295E850)
+#define RAYFIRE_RFCOLLAPSE_E908EBEF2C2C821D_F21DBBC44C999728_OFFSET UNITYSDK_OFFSET(0x1EB8060)
+#define RAYFIRE_RFCOLLAPSE_E908EBEF2C2C821D_F38E5001C7AA1BB5_OFFSET UNITYSDK_OFFSET(0x295EB70)
+#define RAYFIRE_RFCOLLAPSE_E908EBEF2C2C821D__CTOR_OFFSET UNITYSDK_OFFSET(0x1F26BB0)
+
+namespace RayFire
+{
+	inline static constexpr unsigned int RFCollapse_E908EBEF2C2C821D_TypeDefinitionIndex = 15451;
+
+	class RFCollapse_E908EBEF2C2C821D : public ::System::Object
+	{
+	public:
+		::System::Int32 FEB3551B7D8B59C1; // 0x10
+		::System::Byte _padding0[0x4];
+		::System::Object* FFDE99DB2A55498E; // 0x18
+		::RayFire::RFCollapse* A544919C800E2923; // 0x20
+		::RayFire::RayfireConnectivity* F2C7FF5A19F78852; // 0x28
+		::UnityEngine::AA50C9FA59D35210* BC860FD49B08F6C3; // 0x30
+		::System::Single BB1967844A025337; // 0x38
+		::System::Int32 BAA9A9225170B3CF; // 0x3C
+
+		::System::Void _ctor(::System::Int32 FEB3551B7D8B59C1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RAYFIRE_RFCOLLAPSE_E908EBEF2C2C821D__CTOR_OFFSET))(this, FEB3551B7D8B59C1);
+		}
+
+		::System::Void F21DBBC44C999728()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RAYFIRE_RFCOLLAPSE_E908EBEF2C2C821D_F21DBBC44C999728_OFFSET))(this);
+		}
+
+		::System::Boolean E6CAD58306FCDCB5()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RAYFIRE_RFCOLLAPSE_E908EBEF2C2C821D_E6CAD58306FCDCB5_OFFSET))(this);
+		}
+
+		::System::Object* BB5F6FA7EB4E8D6F()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RAYFIRE_RFCOLLAPSE_E908EBEF2C2C821D_BB5F6FA7EB4E8D6F_OFFSET))(this);
+		}
+
+		::System::Void F38E5001C7AA1BB5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RAYFIRE_RFCOLLAPSE_E908EBEF2C2C821D_F38E5001C7AA1BB5_OFFSET))(this);
+		}
+
+		::System::Object* E34B6CA02139E820()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RAYFIRE_RFCOLLAPSE_E908EBEF2C2C821D_E34B6CA02139E820_OFFSET))(this);
+		}
+	};
+}

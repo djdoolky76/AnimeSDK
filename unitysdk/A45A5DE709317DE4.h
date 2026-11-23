@@ -1,0 +1,216 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/DateTime.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/B6564CAC678AC465.h"
+
+class E519989062D53DE5;
+class E83F62C6B87F80CD_A2BFAC694D9634AE;
+class EA7C4DC66B71CFF9;
+namespace System { class String; }
+namespace System::Security::Cryptography { class AsymmetricAlgorithm; }
+namespace System::Security::Cryptography { class DSA; }
+namespace System::Security::Cryptography { class RSA; }
+
+#define A45A5DE709317DE4_A17CF5B552E6D24E_OFFSET UNITYSDK_OFFSET(0x18C00E0)
+#define A45A5DE709317DE4_A23E9320538995C5_OFFSET UNITYSDK_OFFSET(0x3B42ED0)
+#define A45A5DE709317DE4_AE3703ECBF79D433_OFFSET UNITYSDK_OFFSET(0x3B429E0)
+#define A45A5DE709317DE4_AF557C6FF73DC119_OFFSET UNITYSDK_OFFSET(0x1E86100)
+#define A45A5DE709317DE4_B0B7BABB96BB8E30_OFFSET UNITYSDK_OFFSET(0x3B41520)
+#define A45A5DE709317DE4_B14388759473EE8A_OFFSET UNITYSDK_OFFSET(0x3B43630)
+#define A45A5DE709317DE4_B7F0A2F029765CB2_OFFSET UNITYSDK_OFFSET(0x3B42640)
+#define A45A5DE709317DE4_B906EC714771727A_OFFSET UNITYSDK_OFFSET(0x3B430F0)
+#define A45A5DE709317DE4_BDF737FB88DCB077_OFFSET UNITYSDK_OFFSET(0x3B43200)
+#define A45A5DE709317DE4_BEEA65918E1B9F29_OFFSET UNITYSDK_OFFSET(0x3B422C0)
+#define A45A5DE709317DE4_BF172AAB0B9F6DA9_OFFSET UNITYSDK_OFFSET(0x3B42C30)
+#define A45A5DE709317DE4_E13562B7C417B0CA_OFFSET UNITYSDK_OFFSET(0x165A410)
+#define A45A5DE709317DE4_E79CE9E8C8BF0982_OFFSET UNITYSDK_OFFSET(0x3B42DD0)
+#define A45A5DE709317DE4_EA3BB951425D5D13_OFFSET UNITYSDK_OFFSET(0x3B43170)
+#define A45A5DE709317DE4_EA54975434AE6B51_OFFSET UNITYSDK_OFFSET(0x3B42E50)
+#define A45A5DE709317DE4_EB8619200374858C_OFFSET UNITYSDK_OFFSET(0x3B41400)
+#define A45A5DE709317DE4_ED63F47A9B2C2AFC_OFFSET UNITYSDK_OFFSET(0x3B42D40)
+#define A45A5DE709317DE4_EE7638F1B5744C12_OFFSET UNITYSDK_OFFSET(0x3B43680)
+#define A45A5DE709317DE4_F2CDE1FA2D944107_OFFSET UNITYSDK_OFFSET(0x3B412F0)
+#define A45A5DE709317DE4_F891F7FEEE69BD70_OFFSET UNITYSDK_OFFSET(0x3B41350)
+#define A45A5DE709317DE4_F8FDC04AE1B568E0_1_OFFSET UNITYSDK_OFFSET(0x3B420B0)
+#define A45A5DE709317DE4_F8FDC04AE1B568E0_2_OFFSET UNITYSDK_OFFSET(0x3B41ED0)
+#define A45A5DE709317DE4_F8FDC04AE1B568E0_OFFSET UNITYSDK_OFFSET(0x3B421E0)
+#define A45A5DE709317DE4_FA200DACB5417AC2_OFFSET UNITYSDK_OFFSET(0x18CFCA0)
+#define A45A5DE709317DE4_FD08DD395B7ACF28_OFFSET UNITYSDK_OFFSET(0x16BD320)
+#define A45A5DE709317DE4_FEDD87A20F1DB49C_OFFSET UNITYSDK_OFFSET(0x169C070)
+#define A45A5DE709317DE4__CCTOR_OFFSET UNITYSDK_OFFSET(0x3B42390)
+#define A45A5DE709317DE4__CTOR_OFFSET UNITYSDK_OFFSET(0x3B423F0)
+
+inline static constexpr unsigned int A45A5DE709317DE4_TypeDefinitionIndex = 19325;
+
+class A45A5DE709317DE4 : public ::System::Object
+{
+public:
+	static ::System::String** StaticGet_A918D3E9C9AAEE67()
+	{
+		return (::System::String**)Il2CppClass::FromTypeDefinitionIndex(A45A5DE709317DE4_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	::E83F62C6B87F80CD_A2BFAC694D9634AE* AA87CDE7A847F06C; // 0x10
+	::Il2CppArray<::System::Byte>* AC49EA365E968A2C; // 0x18
+	::System::DateTime B5A9877D2628E8E3; // 0x20
+	::System::DateTime A8D64C09971BE860; // 0x28
+	::E83F62C6B87F80CD_A2BFAC694D9634AE* FBC5404D5C3FCFD3; // 0x30
+	::System::String* ECC7E09205E2FD45; // 0x38
+	::System::String* EF84BCF74586E163; // 0x40
+	::Il2CppArray<::System::Byte>* BA211398AD8B8ED3; // 0x48
+	::E83F62C6B87F80CD_A2BFAC694D9634AE* A20E04B0891A7949; // 0x50
+	::System::String* AB41888C3FD69627; // 0x58
+	::Il2CppArray<::System::Byte>* B0A05BD760AD2BF1; // 0x60
+	::Il2CppArray<::System::Byte>* ADA902CFC22F5C58; // 0x68
+	::System::String* B88BCAC338CD5FFF; // 0x70
+	::Il2CppArray<::System::Byte>* BFFEE016535FCE09; // 0x78
+	::Il2CppArray<::System::Byte>* A0098EB7099D6C10; // 0x80
+	::System::Security::Cryptography::RSA* EC969B101FDBD254; // 0x88
+	::System::Security::Cryptography::DSA* A60588088316B7D7; // 0x90
+	::System::Int32 EBDD08B044E6BE63; // 0x98
+	::System::Byte _padding0[0x4];
+	::Il2CppArray<::System::Byte>* ACCF55B2394CB7F2; // 0xA0
+	::Il2CppArray<::System::Byte>* EA82291B0AD54554; // 0xA8
+	::Il2CppArray<::System::Byte>* B2623F36EE3F2481; // 0xB0
+	::EA7C4DC66B71CFF9* FED13341E46244FB; // 0xB8
+
+	::System::String* E13562B7C417B0CA()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_E13562B7C417B0CA_OFFSET))(this);
+	}
+
+	static ::Il2CppArray<::System::Byte>* EB8619200374858C(::System::String* A288CB28FC2A6DA3, ::Il2CppArray<::System::Byte>* F220A2D27F7C6B6C)
+	{
+		return ((::Il2CppArray<::System::Byte>*(*)(::System::String*, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_EB8619200374858C_OFFSET))(A288CB28FC2A6DA3, F220A2D27F7C6B6C);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + A45A5DE709317DE4__CCTOR_OFFSET))();
+	}
+
+	::System::Security::Cryptography::DSA* B7F0A2F029765CB2()
+	{
+		return ((::System::Security::Cryptography::DSA*(*)(::PVOID))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_B7F0A2F029765CB2_OFFSET))(this);
+	}
+
+	::System::DateTime FD08DD395B7ACF28()
+	{
+		return ((::System::DateTime(*)(::PVOID))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_FD08DD395B7ACF28_OFFSET))(this);
+	}
+
+	::System::Boolean F8FDC04AE1B568E0(::System::Security::Cryptography::DSA* F5B6A6069EF2F419)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Security::Cryptography::DSA*))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_F8FDC04AE1B568E0_OFFSET))(this, F5B6A6069EF2F419);
+	}
+
+	::Il2CppArray<::System::Byte>* AE3703ECBF79D433()
+	{
+		return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_AE3703ECBF79D433_OFFSET))(this);
+	}
+
+	::System::String* FA200DACB5417AC2()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_FA200DACB5417AC2_OFFSET))(this);
+	}
+
+	::Il2CppArray<::System::Byte>* E79CE9E8C8BF0982()
+	{
+		return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_E79CE9E8C8BF0982_OFFSET))(this);
+	}
+
+	::Il2CppArray<::System::Byte>* F891F7FEEE69BD70(::Il2CppArray<::System::Byte>* F017CAF169EDD463)
+	{
+		return ((::Il2CppArray<::System::Byte>*(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_F891F7FEEE69BD70_OFFSET))(this, F017CAF169EDD463);
+	}
+
+	::Il2CppArray<::System::Byte>* B906EC714771727A()
+	{
+		return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_B906EC714771727A_OFFSET))(this);
+	}
+
+	::System::Boolean BEEA65918E1B9F29(::System::DateTime EDB69261C170B47F)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_BEEA65918E1B9F29_OFFSET))(this, EDB69261C170B47F);
+	}
+
+	::EA7C4DC66B71CFF9* A17CF5B552E6D24E()
+	{
+		return ((::EA7C4DC66B71CFF9*(*)(::PVOID))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_A17CF5B552E6D24E_OFFSET))(this);
+	}
+
+	::System::Boolean BF172AAB0B9F6DA9()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_BF172AAB0B9F6DA9_OFFSET))(this);
+	}
+
+	::System::Void B0B7BABB96BB8E30(::Il2CppArray<::System::Byte>* F220A2D27F7C6B6C)
+	{
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_B0B7BABB96BB8E30_OFFSET))(this, F220A2D27F7C6B6C);
+	}
+
+	::System::Boolean F8FDC04AE1B568E0_1(::System::Security::Cryptography::RSA* FC17E705F01EA4DC)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Security::Cryptography::RSA*))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_F8FDC04AE1B568E0_1_OFFSET))(this, FC17E705F01EA4DC);
+	}
+
+	::System::Void _ctor(::Il2CppArray<::System::Byte>* F220A2D27F7C6B6C)
+	{
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + A45A5DE709317DE4__CTOR_OFFSET))(this, F220A2D27F7C6B6C);
+	}
+
+	::Il2CppArray<::System::Byte>* BDF737FB88DCB077()
+	{
+		return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_BDF737FB88DCB077_OFFSET))(this);
+	}
+
+	::System::Void B14388759473EE8A(::System::Security::Cryptography::DSA* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::DSA*))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_B14388759473EE8A_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::Il2CppArray<::System::Byte>* EA54975434AE6B51()
+	{
+		return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_EA54975434AE6B51_OFFSET))(this);
+	}
+
+	::System::DateTime FEDD87A20F1DB49C()
+	{
+		return ((::System::DateTime(*)(::PVOID))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_FEDD87A20F1DB49C_OFFSET))(this);
+	}
+
+	::System::Boolean ED63F47A9B2C2AFC()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_ED63F47A9B2C2AFC_OFFSET))(this);
+	}
+
+	::System::Void F2CDE1FA2D944107(::E519989062D53DE5* B29880F033C1F232, ::B6564CAC678AC465 E6CE7391633EEC68)
+	{
+		return ((::System::Void(*)(::PVOID, ::E519989062D53DE5*, ::B6564CAC678AC465))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_F2CDE1FA2D944107_OFFSET))(this, B29880F033C1F232, E6CE7391633EEC68);
+	}
+
+	::System::Void EE7638F1B5744C12(::System::Security::Cryptography::RSA* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Security::Cryptography::RSA*))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_EE7638F1B5744C12_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::System::Int32 AF557C6FF73DC119()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_AF557C6FF73DC119_OFFSET))(this);
+	}
+
+	::System::Security::Cryptography::RSA* A23E9320538995C5()
+	{
+		return ((::System::Security::Cryptography::RSA*(*)(::PVOID))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_A23E9320538995C5_OFFSET))(this);
+	}
+
+	::Il2CppArray<::System::Byte>* EA3BB951425D5D13()
+	{
+		return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_EA3BB951425D5D13_OFFSET))(this);
+	}
+
+	::System::Boolean F8FDC04AE1B568E0_2(::System::Security::Cryptography::AsymmetricAlgorithm* FEC68050E227BB2C)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Security::Cryptography::AsymmetricAlgorithm*))((::PBYTE)hIl2Cpp + A45A5DE709317DE4_F8FDC04AE1B568E0_2_OFFSET))(this, FEC68050E227BB2C);
+	}
+};

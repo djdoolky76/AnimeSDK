@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+class A901C317B4107BE8_BCA672023895A5E6;
+class E945252ECE50FE4E;
+namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+template <typename T1, typename T2> class A6D12413358F253D;
+template <typename T> class FCECB52A00C1344E;
+
+#define A901C317B4107BE8_EA4550541B2558F3_E4255503CBA297C5_OFFSET UNITYSDK_OFFSET(0x1C6F740)
+#define A901C317B4107BE8_EA4550541B2558F3_F151250C58A9F9D4_OFFSET UNITYSDK_OFFSET(0x1C6F890)
+#define A901C317B4107BE8_EA4550541B2558F3_FFA2440AC05EAD94_OFFSET UNITYSDK_OFFSET(0x1C6F630)
+
+inline static constexpr unsigned int A901C317B4107BE8_EA4550541B2558F3_TypeDefinitionIndex = 9619;
+
+struct alignas(8) A901C317B4107BE8_EA4550541B2558F3
+{
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Object*>* FA320E650E56935D; // 0x10
+	::A6D12413358F253D<::System::Object*, ::System::Int32>* EF88547520D2E560; // 0x18
+	::FCECB52A00C1344E<::System::Int32>* AE733EE57C243E2E; // 0x20
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::System::Int32>* BDCEF8B2D773FA32; // 0x28
+	::System::Collections::Generic::List_1<::E945252ECE50FE4E*>* F10A37884A26AD27; // 0x30
+	::System::Collections::Generic::List_1<::System::Object*>* F87B7C17633503C1; // 0x38
+
+	::System::Void E4255503CBA297C5()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A901C317B4107BE8_EA4550541B2558F3_E4255503CBA297C5_OFFSET))(this);
+	}
+
+	::System::Void F151250C58A9F9D4()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A901C317B4107BE8_EA4550541B2558F3_F151250C58A9F9D4_OFFSET))(this);
+	}
+
+	::A901C317B4107BE8_BCA672023895A5E6* FFA2440AC05EAD94(::E945252ECE50FE4E* A17C2EA4E6D79CFE, ::System::Int32 B67EAB1882050D79, ::A901C317B4107BE8_BCA672023895A5E6* FDB3806EBFADC85F)
+	{
+		return ((::A901C317B4107BE8_BCA672023895A5E6*(*)(::PVOID, ::E945252ECE50FE4E*, ::System::Int32, ::A901C317B4107BE8_BCA672023895A5E6*))((::PBYTE)hIl2Cpp + A901C317B4107BE8_EA4550541B2558F3_FFA2440AC05EAD94_OFFSET))(this, A17C2EA4E6D79CFE, B67EAB1882050D79, FDB3806EBFADC85F);
+	}
+};

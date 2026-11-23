@@ -1,0 +1,57 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define CINEMACHINE_CINEMACHINECOLLIDER_A3283C3E6D614D14_E5A6A75B98B40442_OFFSET UNITYSDK_OFFSET(0x1EB8060)
+#define CINEMACHINE_CINEMACHINECOLLIDER_A3283C3E6D614D14_EDC804359A5D0600_OFFSET UNITYSDK_OFFSET(0x2A95480)
+#define CINEMACHINE_CINEMACHINECOLLIDER_A3283C3E6D614D14_F2B5A43E7DE03CE0_OFFSET UNITYSDK_OFFSET(0x2A954F0)
+#define CINEMACHINE_CINEMACHINECOLLIDER_A3283C3E6D614D14_FDE8EE541C6100B6_OFFSET UNITYSDK_OFFSET(0x2A953F0)
+#define CINEMACHINE_CINEMACHINECOLLIDER_A3283C3E6D614D14__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+namespace Cinemachine
+{
+	inline static constexpr unsigned int CinemachineCollider_A3283C3E6D614D14_TypeDefinitionIndex = 18475;
+
+	class CinemachineCollider_A3283C3E6D614D14 : public ::System::Object
+	{
+	public:
+		::UnityEngine::Vector3 A8BD3CD1FFF17B8E; // 0x10
+		::UnityEngine::Vector3 A11D3941E51A8C71; // 0x1C
+		::UnityEngine::Vector3 B6CA7C00040BDC59; // 0x28
+		::System::Single B298FAA44DA4394F; // 0x34
+		::System::Boolean E444182BB9D77C1E; // 0x38
+		::System::Byte _padding0[0x3];
+		::System::Single EB9803B143AAD008; // 0x3C
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* B9BD01C0C4DC74D9; // 0x40
+		::System::Single A03C9A0F1D061D1A; // 0x48
+		::System::Single E385D46CB327B5B3; // 0x4C
+
+		::System::Void E5A6A75B98B40442(::UnityEngine::Vector3 B5459FABA90E20BD)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_A3283C3E6D614D14_E5A6A75B98B40442_OFFSET))(this, B5459FABA90E20BD);
+		}
+
+		::System::Single FDE8EE541C6100B6(::System::Single BDDF0F6C01956F38, ::System::Single A00C87447E6C3FC1)
+		{
+			return ((::System::Single(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_A3283C3E6D614D14_FDE8EE541C6100B6_OFFSET))(this, BDDF0F6C01956F38, A00C87447E6C3FC1);
+		}
+
+		::System::Void F2B5A43E7DE03CE0(::System::Single BDDF0F6C01956F38)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_A3283C3E6D614D14_F2B5A43E7DE03CE0_OFFSET))(this, BDDF0F6C01956F38);
+		}
+
+		::System::Void EDC804359A5D0600(::System::Single A00C87447E6C3FC1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_A3283C3E6D614D14_EDC804359A5D0600_OFFSET))(this, A00C87447E6C3FC1);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINECOLLIDER_A3283C3E6D614D14__CTOR_OFFSET))(this);
+		}
+	};
+}

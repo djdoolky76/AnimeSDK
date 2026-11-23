@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BDC595893C6EE433/A7A9C7AE568BCE6C.h"
+#include "unitysdk/System/Object.h"
+
+namespace UnityEngine { class ComputeShader; }
+
+#define ABC_CUSTOMRENDERPIPELINE_MOTIONBLUR_A9300C3DA592CB1B_B6AA8A92C003FF9F_OFFSET UNITYSDK_OFFSET(0x27BE7F0)
+#define ABC_CUSTOMRENDERPIPELINE_MOTIONBLUR_A9300C3DA592CB1B_E2108D7CE84D4997_OFFSET UNITYSDK_OFFSET(0x27BE750)
+
+namespace ABC::CustomRenderPipeline
+{
+	inline static constexpr unsigned int MotionBlur_A9300C3DA592CB1B_TypeDefinitionIndex = 16663;
+
+	class MotionBlur_A9300C3DA592CB1B : public ::System::Object
+	{
+	public:
+		static ::BDC595893C6EE433::A7A9C7AE568BCE6C* StaticGet_AC286BFF0DB5E1A9()
+		{
+			return (::BDC595893C6EE433::A7A9C7AE568BCE6C*)Il2CppClass::FromTypeDefinitionIndex(MotionBlur_A9300C3DA592CB1B_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+
+		static ::System::Void E2108D7CE84D4997(::UnityEngine::ComputeShader* AD3E0DEBA7CD1D82)
+		{
+			return ((::System::Void(*)(::UnityEngine::ComputeShader*))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_MOTIONBLUR_A9300C3DA592CB1B_E2108D7CE84D4997_OFFSET))(AD3E0DEBA7CD1D82);
+		}
+
+		static ::BDC595893C6EE433::A7A9C7AE568BCE6C& B6AA8A92C003FF9F()
+		{
+			return ((::BDC595893C6EE433::A7A9C7AE568BCE6C&(*)())((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_MOTIONBLUR_A9300C3DA592CB1B_B6AA8A92C003FF9F_OFFSET))();
+		}
+	};
+}

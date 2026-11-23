@@ -1,0 +1,62 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/E379DE61A548837D.h"
+#include "unitysdk/E422587EEBF1562A.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+namespace System { class String; }
+
+#define E031E00B1D2887CF_A0A03B9021BF9BE3_OFFSET UNITYSDK_OFFSET(0x1681DF0)
+#define E031E00B1D2887CF_A62CA3BD61F86784_OFFSET UNITYSDK_OFFSET(0x165A480)
+#define E031E00B1D2887CF_ACC321AECF84A24F_OFFSET UNITYSDK_OFFSET(0x1681DB0)
+#define E031E00B1D2887CF_B075F28C7A1ABB04_OFFSET UNITYSDK_OFFSET(0x1681DC0)
+#define E031E00B1D2887CF_B7A07A2D2F3BBC8A_OFFSET UNITYSDK_OFFSET(0x1681DE0)
+#define E031E00B1D2887CF_BAA7DB851DA3FBB5_OFFSET UNITYSDK_OFFSET(0x165A410)
+#define E031E00B1D2887CF__CTOR_OFFSET UNITYSDK_OFFSET(0x1681DA0)
+
+inline static constexpr unsigned int E031E00B1D2887CF_TypeDefinitionIndex = 391;
+
+class E031E00B1D2887CF : public ::E379DE61A548837D
+{
+public:
+	::System::String* B8C8A59DBE4267F5; // 0x38
+	::UnityEngine::Vector3 AD743E3D6C38E519; // 0x40
+	::System::Boolean EBE64A31A0E69B46; // 0x4C
+	::System::Byte _padding0[0x3];
+	::E422587EEBF1562A F2EBF1D204382FB3; // 0x50
+
+	::System::Boolean ACC321AECF84A24F()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + E031E00B1D2887CF_ACC321AECF84A24F_OFFSET))(this);
+	}
+
+	::UnityEngine::Vector3 B075F28C7A1ABB04()
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + E031E00B1D2887CF_B075F28C7A1ABB04_OFFSET))(this);
+	}
+
+	::System::String* BAA7DB851DA3FBB5()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + E031E00B1D2887CF_BAA7DB851DA3FBB5_OFFSET))(this);
+	}
+
+	::System::Void A0A03B9021BF9BE3(::UnityEngine::Vector3 E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + E031E00B1D2887CF_A0A03B9021BF9BE3_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::System::Void A62CA3BD61F86784(::System::String* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + E031E00B1D2887CF_A62CA3BD61F86784_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::System::Void B7A07A2D2F3BBC8A(::System::Boolean E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + E031E00B1D2887CF_B7A07A2D2F3BBC8A_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E031E00B1D2887CF__CTOR_OFFSET))(this);
+	}
+};

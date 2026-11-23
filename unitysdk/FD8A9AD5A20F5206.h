@@ -1,0 +1,41 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/E12F55A5FCCCF1EC.h"
+#include "unitysdk/E68AA4EB51923C98/A663E03344D85C3A.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/BD3E6890C9C82A9E.h"
+
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define FD8A9AD5A20F5206_BD5817A8184DCA21_OFFSET UNITYSDK_OFFSET(0x17D5EA0)
+#define FD8A9AD5A20F5206_EBBD60A0EF544CFB_OFFSET UNITYSDK_OFFSET(0x17D6400)
+#define FD8A9AD5A20F5206_FBBF870EA90E1D92_OFFSET UNITYSDK_OFFSET(0x23C6FD0)
+#define FD8A9AD5A20F5206__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int FD8A9AD5A20F5206_TypeDefinitionIndex = 3821;
+
+class FD8A9AD5A20F5206 : public ::System::Object
+{
+public:
+	::System::Collections::Generic::Dictionary_2<::E68AA4EB51923C98::A663E03344D85C3A, ::E12F55A5FCCCF1EC>* EC825837473CC5E3; // 0x10
+
+	static ::System::Void FBBF870EA90E1D92(::BD3E6890C9C82A9E& F99B0FE319DB74D1, ::FD8A9AD5A20F5206*& E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::BD3E6890C9C82A9E&, ::FD8A9AD5A20F5206*&))((::PBYTE)hIl2Cpp + FD8A9AD5A20F5206_FBBF870EA90E1D92_OFFSET))(F99B0FE319DB74D1, E937D4885DAA1AE8);
+	}
+
+	::System::Void EBBD60A0EF544CFB(::System::Collections::Generic::Dictionary_2<::E68AA4EB51923C98::A663E03344D85C3A, ::E12F55A5FCCCF1EC>* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::E68AA4EB51923C98::A663E03344D85C3A, ::E12F55A5FCCCF1EC>*))((::PBYTE)hIl2Cpp + FD8A9AD5A20F5206_EBBD60A0EF544CFB_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::System::Collections::Generic::Dictionary_2<::E68AA4EB51923C98::A663E03344D85C3A, ::E12F55A5FCCCF1EC>* BD5817A8184DCA21()
+	{
+		return ((::System::Collections::Generic::Dictionary_2<::E68AA4EB51923C98::A663E03344D85C3A, ::E12F55A5FCCCF1EC>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FD8A9AD5A20F5206_BD5817A8184DCA21_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FD8A9AD5A20F5206__CTOR_OFFSET))(this);
+	}
+};

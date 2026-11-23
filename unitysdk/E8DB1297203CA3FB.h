@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/EEAC6217FF06E6B7.h"
+#include "unitysdk/System/Object.h"
+
+class A842050E314079D9;
+class AB642D1382756991;
+class BB785F41B9DC4704;
+class F384C36E21EAD724;
+class FBAB053B7AE41B40;
+namespace System::Collections::Generic { template <typename T> class List_1; }
+template <typename T> class AF543DEEBEB7B744;
+template <typename T> class FA9B773E8C9B97E9;
+
+#define E8DB1297203CA3FB_AAD63C5D06712326_OFFSET UNITYSDK_OFFSET(0x238BD20)
+#define E8DB1297203CA3FB_FCC7443573DD0222_OFFSET UNITYSDK_OFFSET(0x238BBF0)
+#define E8DB1297203CA3FB__CTOR_OFFSET UNITYSDK_OFFSET(0x238C120)
+
+inline static constexpr unsigned int E8DB1297203CA3FB_TypeDefinitionIndex = 3417;
+
+class E8DB1297203CA3FB : public ::System::Object
+{
+public:
+	::AB642D1382756991* FC0C40621422C1FB; // 0x10
+	::AF543DEEBEB7B744<::System::Collections::Generic::List_1<::F384C36E21EAD724*>*>* B067B9B307E70483; // 0x18
+	::AF543DEEBEB7B744<::System::Collections::Generic::List_1<::F384C36E21EAD724*>*>* E83A171E36F6752F; // 0x20
+	::System::Collections::Generic::List_1<::F384C36E21EAD724*>* E471FDE51BBC90AA; // 0x28
+	::System::Collections::Generic::List_1<::F384C36E21EAD724*>* FEA88951E3D55CB6; // 0x30
+	::System::Collections::Generic::List_1<::F384C36E21EAD724*>* E463439E24C8381C; // 0x38
+	::System::Collections::Generic::List_1<::EEAC6217FF06E6B7>* E30D2E6A88A08AC8; // 0x40
+	::System::Collections::Generic::List_1<::BB785F41B9DC4704*>* E5F7D04A12BAE765; // 0x48
+	::System::Boolean B72CC22A22218861; // 0x50
+
+	::System::Void _ctor(::FA9B773E8C9B97E9<::FBAB053B7AE41B40*>* FFCA5663A253AB8D, ::AB642D1382756991* B31D2A0991A78809, ::AF543DEEBEB7B744<::System::Collections::Generic::List_1<::F384C36E21EAD724*>*>* A5C197D1606C2743, ::AF543DEEBEB7B744<::System::Collections::Generic::List_1<::F384C36E21EAD724*>*>* F53864D842E94945, ::A842050E314079D9* AE2BDC9C3EE9F2F0, ::System::Boolean AFC5730D3E414DAB)
+	{
+		return ((::System::Void(*)(::PVOID, ::FA9B773E8C9B97E9<::FBAB053B7AE41B40*>*, ::AB642D1382756991*, ::AF543DEEBEB7B744<::System::Collections::Generic::List_1<::F384C36E21EAD724*>*>*, ::AF543DEEBEB7B744<::System::Collections::Generic::List_1<::F384C36E21EAD724*>*>*, ::A842050E314079D9*, ::System::Boolean))((::PBYTE)hIl2Cpp + E8DB1297203CA3FB__CTOR_OFFSET))(this, FFCA5663A253AB8D, B31D2A0991A78809, A5C197D1606C2743, F53864D842E94945, AE2BDC9C3EE9F2F0, AFC5730D3E414DAB);
+	}
+
+	::System::Void FCC7443573DD0222()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E8DB1297203CA3FB_FCC7443573DD0222_OFFSET))(this);
+	}
+
+	::System::Void AAD63C5D06712326(::System::Collections::Generic::List_1<::F384C36E21EAD724*>* ACCD8D60884AACDA)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::F384C36E21EAD724*>*))((::PBYTE)hIl2Cpp + E8DB1297203CA3FB_AAD63C5D06712326_OFFSET))(this, ACCD8D60884AACDA);
+	}
+};

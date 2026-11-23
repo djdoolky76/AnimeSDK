@@ -1,0 +1,62 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/EFC4AEA2121EC272.h"
+
+namespace ABC::UI { class MonoButton; }
+namespace ABC::UI { class MonoUIAutoView; }
+namespace System { template <typename T> class Action_1; }
+
+#define A36C2B5B6BC2A25F_A54D936318FAF9E3_OFFSET UNITYSDK_OFFSET(0x1BFC1B0)
+#define A36C2B5B6BC2A25F_B950FF9810FC6646_OFFSET UNITYSDK_OFFSET(0x1BFC0A0)
+#define A36C2B5B6BC2A25F_BD7671F22356B19C_OFFSET UNITYSDK_OFFSET(0x1BFC4C0)
+#define A36C2B5B6BC2A25F_E9C1ED0FAAB4237F_OFFSET UNITYSDK_OFFSET(0x1BFC5D0)
+#define A36C2B5B6BC2A25F_F6A675B119E39F53_OFFSET UNITYSDK_OFFSET(0x1BFC370)
+#define A36C2B5B6BC2A25F_FD51F7737A27E505_OFFSET UNITYSDK_OFFSET(0x1BFC3C0)
+#define A36C2B5B6BC2A25F__CTOR_OFFSET UNITYSDK_OFFSET(0x16665F0)
+
+inline static constexpr unsigned int A36C2B5B6BC2A25F_TypeDefinitionIndex = 333;
+
+class A36C2B5B6BC2A25F : public ::EFC4AEA2121EC272
+{
+public:
+	::System::Action_1<::System::UInt32>* A1E2543D49A301AB; // 0x80
+	::ABC::UI::MonoButton* F57B745A13AB5346; // 0x88
+	::ABC::UI::MonoUIAutoView* F052B14E4A43DB0F; // 0x90
+	::ABC::UI::MonoButton* F3693BB709653DA2; // 0x98
+	::ABC::UI::MonoUIAutoView* A28765FDE4CDF175; // 0xA0
+
+	::System::Void BD7671F22356B19C()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A36C2B5B6BC2A25F_BD7671F22356B19C_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A36C2B5B6BC2A25F__CTOR_OFFSET))(this);
+	}
+
+	::System::Void E9C1ED0FAAB4237F(::System::UInt32 F915A6559999D619)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + A36C2B5B6BC2A25F_E9C1ED0FAAB4237F_OFFSET))(this, F915A6559999D619);
+	}
+
+	::System::Void FD51F7737A27E505()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A36C2B5B6BC2A25F_FD51F7737A27E505_OFFSET))(this);
+	}
+
+	::System::Void A54D936318FAF9E3(::ABC::UI::MonoUIAutoView* AE442F7D881522D8)
+	{
+		return ((::System::Void(*)(::PVOID, ::ABC::UI::MonoUIAutoView*))((::PBYTE)hIl2Cpp + A36C2B5B6BC2A25F_A54D936318FAF9E3_OFFSET))(this, AE442F7D881522D8);
+	}
+
+	::System::Void B950FF9810FC6646()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A36C2B5B6BC2A25F_B950FF9810FC6646_OFFSET))(this);
+	}
+
+	::System::Void F6A675B119E39F53()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A36C2B5B6BC2A25F_F6A675B119E39F53_OFFSET))(this);
+	}
+};

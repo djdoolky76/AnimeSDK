@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BF5313F4F4DD978F.h"
+#include "unitysdk/E68AA4EB51923C98/E844562646FC82A1.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/BD3E6890C9C82A9E.h"
+
+namespace ABC::Entity { class CommonData; }
+namespace System { class String; }
+
+#define A69EBD535C5F9CA7_A4A1CC3BB05C6254_OFFSET UNITYSDK_OFFSET(0x26D33A0)
+#define A69EBD535C5F9CA7_FBBF870EA90E1D92_OFFSET UNITYSDK_OFFSET(0x26D3590)
+
+inline static constexpr unsigned int A69EBD535C5F9CA7_TypeDefinitionIndex = 2736;
+
+struct alignas(8) A69EBD535C5F9CA7
+{
+	::E68AA4EB51923C98::E844562646FC82A1 E50FF8C19A9030D0; // 0x10
+	::System::Single E075350DA8ACED54; // 0x14
+	::System::Int32 FA42701A09F95AFC; // 0x18
+	::System::Boolean A5311DA53273A1B9; // 0x1C
+	::System::Byte _padding0[0x3];
+	::System::String* A00ABF60210DC112; // 0x20
+	::BF5313F4F4DD978F AF01F0CFF363EC40; // 0x28
+	::System::UInt64 AF9706AE76621DCF; // 0x30
+
+	/*
+	static ::System::Void FBBF870EA90E1D92(::BD3E6890C9C82A9E& F99B0FE319DB74D1, ::A69EBD535C5F9CA7& E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::BD3E6890C9C82A9E&, ::A69EBD535C5F9CA7&))((::PBYTE)hIl2Cpp + A69EBD535C5F9CA7_FBBF870EA90E1D92_OFFSET))(F99B0FE319DB74D1, E937D4885DAA1AE8);
+	}
+	*/
+
+	::System::Void A4A1CC3BB05C6254(::ABC::Entity::CommonData*& E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::ABC::Entity::CommonData*&))((::PBYTE)hIl2Cpp + A69EBD535C5F9CA7_A4A1CC3BB05C6254_OFFSET))(this, E937D4885DAA1AE8);
+	}
+};

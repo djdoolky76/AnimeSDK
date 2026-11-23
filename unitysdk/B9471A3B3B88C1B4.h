@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/EFB18EF76726FCAE.h"
+
+namespace ABC::UI { class MonoButton; }
+namespace ABC::UI { class MonoUIAutoView; }
+
+#define B9471A3B3B88C1B4_A54D936318FAF9E3_OFFSET UNITYSDK_OFFSET(0x1ED8EA0)
+#define B9471A3B3B88C1B4_B950FF9810FC6646_OFFSET UNITYSDK_OFFSET(0x1ED8DD0)
+#define B9471A3B3B88C1B4_E0532D7ECF330771_OFFSET UNITYSDK_OFFSET(0x1ED9050)
+#define B9471A3B3B88C1B4_F52E921108621A5A_OFFSET UNITYSDK_OFFSET(0x1ED8FE0)
+#define B9471A3B3B88C1B4_F6A675B119E39F53_OFFSET UNITYSDK_OFFSET(0x1ED8F90)
+#define B9471A3B3B88C1B4__CTOR_OFFSET UNITYSDK_OFFSET(0x16572C0)
+
+inline static constexpr unsigned int B9471A3B3B88C1B4_TypeDefinitionIndex = 7370;
+
+class B9471A3B3B88C1B4 : public ::EFB18EF76726FCAE
+{
+public:
+	::ABC::UI::MonoButton* BD458D84DA68C911; // 0xA8
+
+	::System::Void E0532D7ECF330771()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B9471A3B3B88C1B4_E0532D7ECF330771_OFFSET))(this);
+	}
+
+	::System::Void F6A675B119E39F53()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B9471A3B3B88C1B4_F6A675B119E39F53_OFFSET))(this);
+	}
+
+	::System::Void F52E921108621A5A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B9471A3B3B88C1B4_F52E921108621A5A_OFFSET))(this);
+	}
+
+	::System::Void B950FF9810FC6646()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B9471A3B3B88C1B4_B950FF9810FC6646_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B9471A3B3B88C1B4__CTOR_OFFSET))(this);
+	}
+
+	::System::Void A54D936318FAF9E3(::ABC::UI::MonoUIAutoView* AE442F7D881522D8)
+	{
+		return ((::System::Void(*)(::PVOID, ::ABC::UI::MonoUIAutoView*))((::PBYTE)hIl2Cpp + B9471A3B3B88C1B4_A54D936318FAF9E3_OFFSET))(this, AE442F7D881522D8);
+	}
+};

@@ -1,0 +1,79 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/UI/GridLayoutGroup.h"
+
+namespace UnityEngine { class RectOffset; }
+
+#define ABC_UI_MONOGRIDLAYOUTGROUP_A393C155F5A72A7C_OFFSET UNITYSDK_OFFSET(0x218DA90)
+#define ABC_UI_MONOGRIDLAYOUTGROUP_A5D826B6F4AE5584_OFFSET UNITYSDK_OFFSET(0x218DB20)
+#define ABC_UI_MONOGRIDLAYOUTGROUP_A7C90BB8EDE40E88_OFFSET UNITYSDK_OFFSET(0x16B4F60)
+#define ABC_UI_MONOGRIDLAYOUTGROUP_ABE386358CF63C61_OFFSET UNITYSDK_OFFSET(0x218D420)
+#define ABC_UI_MONOGRIDLAYOUTGROUP_ACBFDA5F90E934F0_OFFSET UNITYSDK_OFFSET(0x218DAA0)
+#define ABC_UI_MONOGRIDLAYOUTGROUP_AE4E2E182B1E1C45_OFFSET UNITYSDK_OFFSET(0x218D480)
+#define ABC_UI_MONOGRIDLAYOUTGROUP_BF13C91AD80643D2_OFFSET UNITYSDK_OFFSET(0x218D3C0)
+#define ABC_UI_MONOGRIDLAYOUTGROUP_E44027D029171558_OFFSET UNITYSDK_OFFSET(0x218DBC0)
+#define ABC_UI_MONOGRIDLAYOUTGROUP_E45DA9898410C649_OFFSET UNITYSDK_OFFSET(0x18347C0)
+#define ABC_UI_MONOGRIDLAYOUTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x218DAB0)
+
+namespace ABC::UI
+{
+	inline static constexpr unsigned int MonoGridLayoutGroup_TypeDefinitionIndex = 8758;
+
+	class MonoGridLayoutGroup : public ::UnityEngine::UI::GridLayoutGroup
+	{
+	public:
+		::System::Boolean m_AdaptivePadding; // 0x80
+		::System::Byte _padding0[0x7];
+		::UnityEngine::RectOffset* m_AdaptiveMinPadding; // 0x88
+
+		::System::Void ACBFDA5F90E934F0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONOGRIDLAYOUTGROUP_ACBFDA5F90E934F0_OFFSET))(this);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONOGRIDLAYOUTGROUP__CTOR_OFFSET))(this);
+		}
+
+		::System::Void AE4E2E182B1E1C45()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONOGRIDLAYOUTGROUP_AE4E2E182B1E1C45_OFFSET))(this);
+		}
+
+		::System::Boolean A7C90BB8EDE40E88()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONOGRIDLAYOUTGROUP_A7C90BB8EDE40E88_OFFSET))(this);
+		}
+
+		::System::Void E44027D029171558(::System::Boolean E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ABC_UI_MONOGRIDLAYOUTGROUP_E44027D029171558_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void A5D826B6F4AE5584(::UnityEngine::RectOffset* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectOffset*))((::PBYTE)hIl2Cpp + ABC_UI_MONOGRIDLAYOUTGROUP_A5D826B6F4AE5584_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void ABE386358CF63C61()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONOGRIDLAYOUTGROUP_ABE386358CF63C61_OFFSET))(this);
+		}
+
+		::System::Void A393C155F5A72A7C()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONOGRIDLAYOUTGROUP_A393C155F5A72A7C_OFFSET))(this);
+		}
+
+		::UnityEngine::RectOffset* E45DA9898410C649()
+		{
+			return ((::UnityEngine::RectOffset*(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONOGRIDLAYOUTGROUP_E45DA9898410C649_OFFSET))(this);
+		}
+
+		::System::Void BF13C91AD80643D2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONOGRIDLAYOUTGROUP_BF13C91AD80643D2_OFFSET))(this);
+		}
+	};
+}

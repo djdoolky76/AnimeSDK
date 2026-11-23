@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+class A087362547CDC4E5;
+namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+
+#define A51FD0B221815D6B_B088B24FF6A659EE_1_OFFSET UNITYSDK_OFFSET(0x3FBE930)
+#define A51FD0B221815D6B_B2A050E01B52235B_OFFSET UNITYSDK_OFFSET(0x3FBE900)
+#define A51FD0B221815D6B_B4850E2D0E09B823_OFFSET UNITYSDK_OFFSET(0x3FBE860)
+#define A51FD0B221815D6B_EC15B0B1EA08A65F_OFFSET UNITYSDK_OFFSET(0x3FBE960)
+#define A51FD0B221815D6B_F099B0EC5F3E1A93_OFFSET UNITYSDK_OFFSET(0x3FBE800)
+#define A51FD0B221815D6B_F881999E9DA5F053_OFFSET UNITYSDK_OFFSET(0x3FBE830)
+
+inline static constexpr unsigned int A51FD0B221815D6B_TypeDefinitionIndex = 14360;
+
+struct alignas(8) A51FD0B221815D6B
+{
+	::A087362547CDC4E5* BB64989312CFC77E; // 0x10
+	::System::Int32 E936DEB04B60865F; // 0x18
+
+	::System::Double F881999E9DA5F053(::System::Int32 BE580FCCC392AA76)
+	{
+		return ((::System::Double(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + A51FD0B221815D6B_F881999E9DA5F053_OFFSET))(this, BE580FCCC392AA76);
+	}
+
+	::System::Single F099B0EC5F3E1A93(::System::Int32 BE580FCCC392AA76)
+	{
+		return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + A51FD0B221815D6B_F099B0EC5F3E1A93_OFFSET))(this, BE580FCCC392AA76);
+	}
+
+	::System::Object* B2A050E01B52235B(::System::Int32 BE580FCCC392AA76)
+	{
+		return ((::System::Object*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + A51FD0B221815D6B_B2A050E01B52235B_OFFSET))(this, BE580FCCC392AA76);
+	}
+
+	::System::Boolean B4850E2D0E09B823(::System::Int32 BE580FCCC392AA76)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + A51FD0B221815D6B_B4850E2D0E09B823_OFFSET))(this, BE580FCCC392AA76);
+	}
+
+	::System::Void B088B24FF6A659EE_1(::System::Int32 BE580FCCC392AA76, ::PVOID F6C2EBBDFCAEF915, ::System::Int32 A3DBF74DD9ECE6FE)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + A51FD0B221815D6B_B088B24FF6A659EE_1_OFFSET))(this, BE580FCCC392AA76, F6C2EBBDFCAEF915, A3DBF74DD9ECE6FE);
+	}
+
+	::System::Collections::Generic::IEnumerable_1<::System::Object*>* EC15B0B1EA08A65F()
+	{
+		return ((::System::Collections::Generic::IEnumerable_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + A51FD0B221815D6B_EC15B0B1EA08A65F_OFFSET))(this);
+	}
+};

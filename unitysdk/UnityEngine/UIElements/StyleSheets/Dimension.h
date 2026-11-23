@@ -1,0 +1,80 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/UIElements/StyleSheets/Dimension_F229FE340E95F19D.h"
+#include "unitysdk/A418C49FA6A8C1F7/E182D2380020FA9A.h"
+#include "unitysdk/A418C49FA6A8C1F7/E9F56BF99BD08F73.h"
+#include "unitysdk/A418C49FA6A8C1F7/FA6F0EC08C0A6C05.h"
+
+namespace System { class Object; }
+namespace System { class String; }
+
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_EQUALS_1_OFFSET UNITYSDK_OFFSET(0x42CC290)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_EQUALS_OFFSET UNITYSDK_OFFSET(0x42CC350)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_GETHASHCODE_OFFSET UNITYSDK_OFFSET(0x42CC380)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_OP_EQUALITY_OFFSET UNITYSDK_OFFSET(0x42CC660)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_TOANGLE_OFFSET UNITYSDK_OFFSET(0x42CC3C0)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_TOLENGTH_OFFSET UNITYSDK_OFFSET(0x42CC450)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_TOSTRING_OFFSET UNITYSDK_OFFSET(0x42CC480)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_TOTIME_OFFSET UNITYSDK_OFFSET(0x42CC620)
+#define UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION__CTOR_OFFSET UNITYSDK_OFFSET(0x42CC650)
+
+namespace UnityEngine::UIElements::StyleSheets
+{
+	inline static constexpr unsigned int Dimension_TypeDefinitionIndex = 14139;
+
+	struct alignas(4) Dimension
+	{
+		::UnityEngine::UIElements::StyleSheets::Dimension_F229FE340E95F19D unit; // 0x10
+		::System::Single value; // 0x14
+
+		::A418C49FA6A8C1F7::FA6F0EC08C0A6C05 ToLength()
+		{
+			return ((::A418C49FA6A8C1F7::FA6F0EC08C0A6C05(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_TOLENGTH_OFFSET))(this);
+		}
+
+		::A418C49FA6A8C1F7::E182D2380020FA9A ToTime()
+		{
+			return ((::A418C49FA6A8C1F7::E182D2380020FA9A(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_TOTIME_OFFSET))(this);
+		}
+
+		/*
+		static ::System::Boolean op_Equality(::UnityEngine::UIElements::StyleSheets::Dimension B689A73377154515, ::UnityEngine::UIElements::StyleSheets::Dimension F2B1B9B0CD5BC286)
+		{
+			return ((::System::Boolean(*)(::UnityEngine::UIElements::StyleSheets::Dimension, ::UnityEngine::UIElements::StyleSheets::Dimension))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_OP_EQUALITY_OFFSET))(B689A73377154515, F2B1B9B0CD5BC286);
+		}
+		*/
+
+		/*
+		::System::Boolean Equals(::UnityEngine::UIElements::StyleSheets::Dimension BEEE7A5A60941632)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::UIElements::StyleSheets::Dimension))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_EQUALS_OFFSET))(this, BEEE7A5A60941632);
+		}
+		*/
+
+		::A418C49FA6A8C1F7::E9F56BF99BD08F73 ToAngle()
+		{
+			return ((::A418C49FA6A8C1F7::E9F56BF99BD08F73(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_TOANGLE_OFFSET))(this);
+		}
+
+		::System::Void _ctor(::System::Single E937D4885DAA1AE8, ::UnityEngine::UIElements::StyleSheets::Dimension_F229FE340E95F19D EF0E5DF7FEDE389F)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::UIElements::StyleSheets::Dimension_F229FE340E95F19D))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION__CTOR_OFFSET))(this, E937D4885DAA1AE8, EF0E5DF7FEDE389F);
+		}
+
+		::System::Int32 GetHashCode()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_GETHASHCODE_OFFSET))(this);
+		}
+
+		::System::Boolean Equals_1(::System::Object* A86A90C31A146E9C)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_EQUALS_1_OFFSET))(this, A86A90C31A146E9C);
+		}
+
+		::System::String* ToString()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLESHEETS_DIMENSION_TOSTRING_OFFSET))(this);
+		}
+	};
+}

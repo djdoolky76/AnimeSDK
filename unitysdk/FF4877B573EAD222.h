@@ -1,0 +1,20 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class EF7EF7EC8CAB7B93;
+class F7CEC9A767F5D1ED;
+template <typename T> class FA9B773E8C9B97E9;
+
+#define FF4877B573EAD222_E3C5774BFC47551B_OFFSET UNITYSDK_OFFSET(0x1F44830)
+
+inline static constexpr unsigned int FF4877B573EAD222_TypeDefinitionIndex = 7715;
+
+class FF4877B573EAD222 : public ::System::Object
+{
+public:
+	static ::FA9B773E8C9B97E9<::EF7EF7EC8CAB7B93*>* E3C5774BFC47551B(::F7CEC9A767F5D1ED* ACDE58E97E37D13C)
+	{
+		return ((::FA9B773E8C9B97E9<::EF7EF7EC8CAB7B93*>*(*)(::F7CEC9A767F5D1ED*))((::PBYTE)hIl2Cpp + FF4877B573EAD222_E3C5774BFC47551B_OFFSET))(ACDE58E97E37D13C);
+	}
+};

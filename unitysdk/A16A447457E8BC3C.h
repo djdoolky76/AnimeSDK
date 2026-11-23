@@ -1,0 +1,46 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/E4C8EC6CF969070E.h"
+#include "unitysdk/BD3E6890C9C82A9E.h"
+
+class AFFD466A32DA0EE0;
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define A16A447457E8BC3C_A5A0352A1DF06476_OFFSET UNITYSDK_OFFSET(0x233C5B0)
+#define A16A447457E8BC3C_B9191F33F24D3EDB_OFFSET UNITYSDK_OFFSET(0x17F35A0)
+#define A16A447457E8BC3C_EA4F949B94290EED_OFFSET UNITYSDK_OFFSET(0x17F35D0)
+#define A16A447457E8BC3C_FBBF870EA90E1D92_OFFSET UNITYSDK_OFFSET(0x241D110)
+#define A16A447457E8BC3C__CTOR_OFFSET UNITYSDK_OFFSET(0x16514A0)
+
+inline static constexpr unsigned int A16A447457E8BC3C_TypeDefinitionIndex = 4126;
+
+class A16A447457E8BC3C : public ::E4C8EC6CF969070E
+{
+public:
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::AFFD466A32DA0EE0*>* B3AC44E80BFCD1D9; // 0x18
+
+	::System::Void EA4F949B94290EED(::System::Collections::Generic::Dictionary_2<::System::Int32, ::AFFD466A32DA0EE0*>* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::Int32, ::AFFD466A32DA0EE0*>*))((::PBYTE)hIl2Cpp + A16A447457E8BC3C_EA4F949B94290EED_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::System::Collections::Generic::Dictionary_2<::System::Int32, ::AFFD466A32DA0EE0*>* B9191F33F24D3EDB()
+	{
+		return ((::System::Collections::Generic::Dictionary_2<::System::Int32, ::AFFD466A32DA0EE0*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + A16A447457E8BC3C_B9191F33F24D3EDB_OFFSET))(this);
+	}
+
+	static ::System::Int32 A5A0352A1DF06476(::AFFD466A32DA0EE0* E937D4885DAA1AE8)
+	{
+		return ((::System::Int32(*)(::AFFD466A32DA0EE0*))((::PBYTE)hIl2Cpp + A16A447457E8BC3C_A5A0352A1DF06476_OFFSET))(E937D4885DAA1AE8);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A16A447457E8BC3C__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void FBBF870EA90E1D92(::BD3E6890C9C82A9E& F99B0FE319DB74D1, ::A16A447457E8BC3C*& E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::BD3E6890C9C82A9E&, ::A16A447457E8BC3C*&))((::PBYTE)hIl2Cpp + A16A447457E8BC3C_FBBF870EA90E1D92_OFFSET))(F99B0FE319DB74D1, E937D4885DAA1AE8);
+	}
+};

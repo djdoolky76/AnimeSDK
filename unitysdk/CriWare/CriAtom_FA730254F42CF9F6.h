@@ -1,0 +1,73 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class B588F8DDEB6347E8;
+class EC86200CA891A8F7;
+namespace CriWare { class CriAtom; }
+namespace CriWare { class CriAtomCueSheet; }
+namespace System { class String; }
+
+#define CRIWARE_CRIATOM_FA730254F42CF9F6_B38A69585751197A_OFFSET UNITYSDK_OFFSET(0x2AB40D0)
+#define CRIWARE_CRIATOM_FA730254F42CF9F6_BB5F6FA7EB4E8D6F_OFFSET UNITYSDK_OFFSET(0x17F35A0)
+#define CRIWARE_CRIATOM_FA730254F42CF9F6_E34B6CA02139E820_OFFSET UNITYSDK_OFFSET(0x17F35A0)
+#define CRIWARE_CRIATOM_FA730254F42CF9F6_E6CAD58306FCDCB5_OFFSET UNITYSDK_OFFSET(0x2AB3C80)
+#define CRIWARE_CRIATOM_FA730254F42CF9F6_F21DBBC44C999728_OFFSET UNITYSDK_OFFSET(0x2AB4040)
+#define CRIWARE_CRIATOM_FA730254F42CF9F6_F38E5001C7AA1BB5_OFFSET UNITYSDK_OFFSET(0x2AB4000)
+#define CRIWARE_CRIATOM_FA730254F42CF9F6__CTOR_OFFSET UNITYSDK_OFFSET(0x1F26BB0)
+
+namespace CriWare
+{
+	inline static constexpr unsigned int CriAtom_FA730254F42CF9F6_TypeDefinitionIndex = 19092;
+
+	class CriAtom_FA730254F42CF9F6 : public ::System::Object
+	{
+	public:
+		::System::Int32 FEB3551B7D8B59C1; // 0x10
+		::System::Byte _padding0[0x4];
+		::System::Object* FFDE99DB2A55498E; // 0x18
+		::CriWare::CriAtomCueSheet* B416A0BB17719E72; // 0x20
+		::System::String* A2DA6354B6DC90F1; // 0x28
+		::EC86200CA891A8F7* FA6ADC3BBC9636E7; // 0x30
+		::CriWare::CriAtom* A544919C800E2923; // 0x38
+		::Il2CppArray<::System::Byte>* FFB6303310E03206; // 0x40
+		::System::Boolean ED5260AD0FB25A01; // 0x48
+		::System::Byte _padding1[0x7];
+		::B588F8DDEB6347E8* E419A02FF07549D9; // 0x50
+
+		::System::Void _ctor(::System::Int32 FEB3551B7D8B59C1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOM_FA730254F42CF9F6__CTOR_OFFSET))(this, FEB3551B7D8B59C1);
+		}
+
+		::System::Void F21DBBC44C999728()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOM_FA730254F42CF9F6_F21DBBC44C999728_OFFSET))(this);
+		}
+
+		::System::Boolean E6CAD58306FCDCB5()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOM_FA730254F42CF9F6_E6CAD58306FCDCB5_OFFSET))(this);
+		}
+
+		::System::Void B38A69585751197A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOM_FA730254F42CF9F6_B38A69585751197A_OFFSET))(this);
+		}
+
+		::System::Object* BB5F6FA7EB4E8D6F()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOM_FA730254F42CF9F6_BB5F6FA7EB4E8D6F_OFFSET))(this);
+		}
+
+		::System::Void F38E5001C7AA1BB5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOM_FA730254F42CF9F6_F38E5001C7AA1BB5_OFFSET))(this);
+		}
+
+		::System::Object* E34B6CA02139E820()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOM_FA730254F42CF9F6_E34B6CA02139E820_OFFSET))(this);
+		}
+	};
+}

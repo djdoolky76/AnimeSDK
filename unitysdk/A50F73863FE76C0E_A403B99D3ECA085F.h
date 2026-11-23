@@ -1,0 +1,21 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int A50F73863FE76C0E_A403B99D3ECA085F_TypeDefinitionIndex = 11783;
+
+enum class A50F73863FE76C0E_A403B99D3ECA085F : ::System::Int32
+{
+	NetworkError = -1,
+	OK = 0,
+	Fail = 1,
+	InvalidArgument = 2,
+	NotInitialize = 3,
+	InitedAlready = 4,
+	InsufficientBuffer = 5,
+	ThirdpartyAuthTimeout = 6,
+	ThirdpartyAuthFailed = 7,
+	NoAccountForAutoLogin = 8,
+	InvalidToken = 9,
+	NeedLoginAfterReactivate = 10,
+	AgeGateAccountBanned = 11,
+};

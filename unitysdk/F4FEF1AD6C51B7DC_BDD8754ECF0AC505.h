@@ -1,0 +1,29 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/ABC/Core/ChessSeed.h"
+
+class F4FEF1AD6C51B7DC;
+namespace System { class String; }
+
+#define F4FEF1AD6C51B7DC_BDD8754ECF0AC505_FC97348732C06FB4_OFFSET UNITYSDK_OFFSET(0x1E38110)
+#define F4FEF1AD6C51B7DC_BDD8754ECF0AC505__CTOR_OFFSET UNITYSDK_OFFSET(0x1E381E0)
+
+inline static constexpr unsigned int F4FEF1AD6C51B7DC_BDD8754ECF0AC505_TypeDefinitionIndex = 9465;
+
+struct alignas(8) F4FEF1AD6C51B7DC_BDD8754ECF0AC505
+{
+	::System::String* BFD4114475BA55E7; // 0x10
+	::F4FEF1AD6C51B7DC* B3F219A022CDFF3C; // 0x18
+	::System::UInt32 E34F9A34ECE7C571; // 0x20
+
+	::System::Void _ctor(::System::String* B6EBA91AC98AC1B0, ::F4FEF1AD6C51B7DC* B2A1A3072A6359F8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::F4FEF1AD6C51B7DC*))((::PBYTE)hIl2Cpp + F4FEF1AD6C51B7DC_BDD8754ECF0AC505__CTOR_OFFSET))(this, B6EBA91AC98AC1B0, B2A1A3072A6359F8);
+	}
+
+	::ABC::Core::ChessSeed FC97348732C06FB4()
+	{
+		return ((::ABC::Core::ChessSeed(*)(::PVOID))((::PBYTE)hIl2Cpp + F4FEF1AD6C51B7DC_BDD8754ECF0AC505_FC97348732C06FB4_OFFSET))(this);
+	}
+};

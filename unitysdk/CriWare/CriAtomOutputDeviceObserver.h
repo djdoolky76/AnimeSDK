@@ -1,0 +1,97 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/CriWare/CriAtomOutputDeviceObserver_F2C7FE65B8B40838.h"
+#include "unitysdk/CriWare/CriMonoBehaviour.h"
+
+namespace CriWare { class CriAtomOutputDeviceObserver_FB7E65D7E4C1B393; }
+
+#define CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_A474947BE6FD9ED3_OFFSET UNITYSDK_OFFSET(0x2A9FE20)
+#define CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_AB36E0EE549986E5_OFFSET UNITYSDK_OFFSET(0x2A9FA90)
+#define CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_AEDE4C92D4A3636C_OFFSET UNITYSDK_OFFSET(0x2A9FB40)
+#define CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_B0D228D213063117_OFFSET UNITYSDK_OFFSET(0x2A9FC80)
+#define CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_B5B4F68A9D0C6F29_OFFSET UNITYSDK_OFFSET(0x1EB8060)
+#define CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_E089524D9C28577F_OFFSET UNITYSDK_OFFSET(0x2A9FDB0)
+#define CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_E192657B25556063_OFFSET UNITYSDK_OFFSET(0x2A9F950)
+#define CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_F0903D1B0E239B87_OFFSET UNITYSDK_OFFSET(0x2A9FD40)
+#define CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_FA0D62EAD9CB994B_OFFSET UNITYSDK_OFFSET(0x2A9FE20)
+#define CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_FDBCDBBFE02CD51A_OFFSET UNITYSDK_OFFSET(0x2A9F7C0)
+#define CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER__CTOR_OFFSET UNITYSDK_OFFSET(0x2A9FB30)
+
+namespace CriWare
+{
+	inline static constexpr unsigned int CriAtomOutputDeviceObserver_TypeDefinitionIndex = 19172;
+
+	class CriAtomOutputDeviceObserver : public ::CriWare::CriMonoBehaviour
+	{
+	public:
+		static ::CriWare::CriAtomOutputDeviceObserver** StaticGet_A0458A53BF9780BE()
+		{
+			return (::CriWare::CriAtomOutputDeviceObserver**)Il2CppClass::FromTypeDefinitionIndex(CriAtomOutputDeviceObserver_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		static ::CriWare::CriAtomOutputDeviceObserver_FB7E65D7E4C1B393** StaticGet_A13D57EA071F7B6B()
+		{
+			return (::CriWare::CriAtomOutputDeviceObserver_FB7E65D7E4C1B393**)Il2CppClass::FromTypeDefinitionIndex(CriAtomOutputDeviceObserver_TypeDefinitionIndex)->GetStaticField(0x8);
+		}
+		::System::Boolean dontDestroyOnLoad; // 0x30
+		::System::Boolean BFBD1938316C09F1; // 0x31
+		::System::Boolean E4C884152C129CE9; // 0x32
+		::System::Byte _padding0[0x1];
+		::CriWare::CriAtomOutputDeviceObserver_F2C7FE65B8B40838 FCD4D9A14AF8F91F; // 0x34
+		::CriWare::CriAtomOutputDeviceObserver_F2C7FE65B8B40838 FB4D7334F0460DFA; // 0x38
+
+		::System::Void FDBCDBBFE02CD51A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_FDBCDBBFE02CD51A_OFFSET))(this);
+		}
+
+		static ::System::Void AEDE4C92D4A3636C(::CriWare::CriAtomOutputDeviceObserver_FB7E65D7E4C1B393* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::CriWare::CriAtomOutputDeviceObserver_FB7E65D7E4C1B393*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_AEDE4C92D4A3636C_OFFSET))(E937D4885DAA1AE8);
+		}
+
+		::System::Void AB36E0EE549986E5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_AB36E0EE549986E5_OFFSET))(this);
+		}
+
+		static ::CriWare::CriAtomOutputDeviceObserver_F2C7FE65B8B40838 F0903D1B0E239B87()
+		{
+			return ((::CriWare::CriAtomOutputDeviceObserver_F2C7FE65B8B40838(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_F0903D1B0E239B87_OFFSET))();
+		}
+
+		static ::System::Boolean E089524D9C28577F()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_E089524D9C28577F_OFFSET))();
+		}
+
+		::System::Void E192657B25556063()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_E192657B25556063_OFFSET))(this);
+		}
+
+		static ::System::Void B0D228D213063117(::CriWare::CriAtomOutputDeviceObserver_FB7E65D7E4C1B393* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::CriWare::CriAtomOutputDeviceObserver_FB7E65D7E4C1B393*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_B0D228D213063117_OFFSET))(E937D4885DAA1AE8);
+		}
+
+		::System::Void B5B4F68A9D0C6F29()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_B5B4F68A9D0C6F29_OFFSET))(this);
+		}
+
+		static ::System::Void A474947BE6FD9ED3(::CriWare::CriAtomOutputDeviceObserver_FB7E65D7E4C1B393* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::CriWare::CriAtomOutputDeviceObserver_FB7E65D7E4C1B393*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_A474947BE6FD9ED3_OFFSET))(E937D4885DAA1AE8);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Void FA0D62EAD9CB994B(::CriWare::CriAtomOutputDeviceObserver_FB7E65D7E4C1B393* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::CriWare::CriAtomOutputDeviceObserver_FB7E65D7E4C1B393*))((::PBYTE)hIl2Cpp + CRIWARE_CRIATOMOUTPUTDEVICEOBSERVER_FA0D62EAD9CB994B_OFFSET))(E937D4885DAA1AE8);
+		}
+	};
+}

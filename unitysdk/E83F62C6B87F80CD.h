@@ -1,0 +1,84 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+namespace System::Collections { class F2375D706F5829C9; }
+
+#define E83F62C6B87F80CD_ABCCDEE2C452619A_OFFSET UNITYSDK_OFFSET(0x3CE4810)
+#define E83F62C6B87F80CD_AE2F3B63A30B79B0_OFFSET UNITYSDK_OFFSET(0x3CE44B0)
+#define E83F62C6B87F80CD_B59079FDA370300B_OFFSET UNITYSDK_OFFSET(0x3CE4600)
+#define E83F62C6B87F80CD_BA0AFB830600D2A9_OFFSET UNITYSDK_OFFSET(0x3CE5590)
+#define E83F62C6B87F80CD_EA28CF291EBB2931_OFFSET UNITYSDK_OFFSET(0x3CE4F20)
+#define E83F62C6B87F80CD_F77A2EEABE94D751_OFFSET UNITYSDK_OFFSET(0x3CE4410)
+#define E83F62C6B87F80CD_F8C7B8F8FBCEF9A5_OFFSET UNITYSDK_OFFSET(0x3B2FC10)
+#define E83F62C6B87F80CD__CTOR_1_OFFSET UNITYSDK_OFFSET(0x315FB50)
+#define E83F62C6B87F80CD__CTOR_2_OFFSET UNITYSDK_OFFSET(0x3B2FBD0)
+#define E83F62C6B87F80CD__CTOR_3_OFFSET UNITYSDK_OFFSET(0x3CE53D0)
+#define E83F62C6B87F80CD__CTOR_OFFSET UNITYSDK_OFFSET(0x3B2F9E0)
+
+inline static constexpr unsigned int E83F62C6B87F80CD_TypeDefinitionIndex = 10752;
+
+class E83F62C6B87F80CD : public ::System::Object
+{
+public:
+	::System::Byte BA74F2C1958CACDD; // 0x10
+	::System::Byte _padding0[0x7];
+	::Il2CppArray<::System::Byte>* EEB3E38621367AEB; // 0x18
+	::System::Collections::F2375D706F5829C9* AFEF061D948929E5; // 0x20
+
+	::System::Int32 F8C7B8F8FBCEF9A5()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + E83F62C6B87F80CD_F8C7B8F8FBCEF9A5_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E83F62C6B87F80CD__CTOR_OFFSET))(this);
+	}
+
+	::System::Void AE2F3B63A30B79B0(::Il2CppArray<::System::Byte>* AA40865F52FEB9AF, ::System::Int32& A0C1F1E95D5F6CA9, ::System::Byte& AE57FF5179B75168, ::System::Int32& A96B867D8BBB8B00, ::Il2CppArray<::System::Byte>*& E0C0689B1CEBE48C)
+	{
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32&, ::System::Byte&, ::System::Int32&, ::Il2CppArray<::System::Byte>*&))((::PBYTE)hIl2Cpp + E83F62C6B87F80CD_AE2F3B63A30B79B0_OFFSET))(this, AA40865F52FEB9AF, A0C1F1E95D5F6CA9, AE57FF5179B75168, A96B867D8BBB8B00, E0C0689B1CEBE48C);
+	}
+
+	::System::Void _ctor_1(::System::Byte AE57FF5179B75168, ::Il2CppArray<::System::Byte>* F220A2D27F7C6B6C)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Byte, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + E83F62C6B87F80CD__CTOR_1_OFFSET))(this, AE57FF5179B75168, F220A2D27F7C6B6C);
+	}
+
+	::Il2CppArray<::System::Byte>* BA0AFB830600D2A9()
+	{
+		return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + E83F62C6B87F80CD_BA0AFB830600D2A9_OFFSET))(this);
+	}
+
+	::System::String* EA28CF291EBB2931()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + E83F62C6B87F80CD_EA28CF291EBB2931_OFFSET))(this);
+	}
+
+	::Il2CppArray<::System::Byte>* ABCCDEE2C452619A()
+	{
+		return ((::Il2CppArray<::System::Byte>*(*)(::PVOID))((::PBYTE)hIl2Cpp + E83F62C6B87F80CD_ABCCDEE2C452619A_OFFSET))(this);
+	}
+
+	::E83F62C6B87F80CD* F77A2EEABE94D751(::E83F62C6B87F80CD* AA40865F52FEB9AF)
+	{
+		return ((::E83F62C6B87F80CD*(*)(::PVOID, ::E83F62C6B87F80CD*))((::PBYTE)hIl2Cpp + E83F62C6B87F80CD_F77A2EEABE94D751_OFFSET))(this, AA40865F52FEB9AF);
+	}
+
+	::System::Void _ctor_2(::System::Byte AE57FF5179B75168)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Byte))((::PBYTE)hIl2Cpp + E83F62C6B87F80CD__CTOR_2_OFFSET))(this, AE57FF5179B75168);
+	}
+
+	::System::Void B59079FDA370300B(::Il2CppArray<::System::Byte>* AA40865F52FEB9AF, ::System::Int32& B0C61850E437799F, ::System::Int32 B306CCE5F7BCAE5A)
+	{
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::System::Int32&, ::System::Int32))((::PBYTE)hIl2Cpp + E83F62C6B87F80CD_B59079FDA370300B_OFFSET))(this, AA40865F52FEB9AF, B0C61850E437799F, B306CCE5F7BCAE5A);
+	}
+
+	::System::Void _ctor_3(::Il2CppArray<::System::Byte>* F220A2D27F7C6B6C)
+	{
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + E83F62C6B87F80CD__CTOR_3_OFFSET))(this, F220A2D27F7C6B6C);
+	}
+};

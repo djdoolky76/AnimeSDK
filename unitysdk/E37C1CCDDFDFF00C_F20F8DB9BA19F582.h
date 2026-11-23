@@ -1,0 +1,16 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/FB15B066A5E7656D.h"
+
+#define E37C1CCDDFDFF00C_F20F8DB9BA19F582_A566A5C717404CFC_OFFSET UNITYSDK_OFFSET(0x24D5300)
+
+inline static constexpr unsigned int E37C1CCDDFDFF00C_F20F8DB9BA19F582_TypeDefinitionIndex = 4937;
+
+struct alignas(4) E37C1CCDDFDFF00C_F20F8DB9BA19F582
+{
+	::FB15B066A5E7656D A566A5C717404CFC()
+	{
+		return ((::FB15B066A5E7656D(*)(::PVOID))((::PBYTE)hIl2Cpp + E37C1CCDDFDFF00C_F20F8DB9BA19F582_A566A5C717404CFC_OFFSET))(this);
+	}
+};

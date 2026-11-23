@@ -1,0 +1,47 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/ABC/Config/WwiseEvent.h"
+#include "unitysdk/E61FC29E9A9190D6.h"
+
+class A8D5EB8C08737756;
+class BAF7DB129B3DCBF3;
+namespace ABC::Collections::Pooled { template <typename T> class PooledList_1; }
+
+#define F97B0A2A632937A0_B60D835F417D8606_OFFSET UNITYSDK_OFFSET(0x1F96CA0)
+#define F97B0A2A632937A0_E0084D5F21691362_OFFSET UNITYSDK_OFFSET(0x1F96BB0)
+#define F97B0A2A632937A0_E386CFBE605491CE_OFFSET UNITYSDK_OFFSET(0x1F96C40)
+#define F97B0A2A632937A0_E97D2566B8552EF0_OFFSET UNITYSDK_OFFSET(0x1F96E40)
+#define F97B0A2A632937A0__CTOR_OFFSET UNITYSDK_OFFSET(0x16DE060)
+
+inline static constexpr unsigned int F97B0A2A632937A0_TypeDefinitionIndex = 7969;
+
+class F97B0A2A632937A0 : public ::E61FC29E9A9190D6
+{
+public:
+	::ABC::Collections::Pooled::PooledList_1<::ABC::Config::WwiseEvent>* F5B0110DABA3774C; // 0x68
+
+	::System::Void E0084D5F21691362(::BAF7DB129B3DCBF3* ACDE58E97E37D13C, ::A8D5EB8C08737756* A9F0E1077186BAC8)
+	{
+		return ((::System::Void(*)(::PVOID, ::BAF7DB129B3DCBF3*, ::A8D5EB8C08737756*))((::PBYTE)hIl2Cpp + F97B0A2A632937A0_E0084D5F21691362_OFFSET))(this, ACDE58E97E37D13C, A9F0E1077186BAC8);
+	}
+
+	::System::Void B60D835F417D8606(::ABC::Config::WwiseEvent A3BDDE9D1F2C8C6A)
+	{
+		return ((::System::Void(*)(::PVOID, ::ABC::Config::WwiseEvent))((::PBYTE)hIl2Cpp + F97B0A2A632937A0_B60D835F417D8606_OFFSET))(this, A3BDDE9D1F2C8C6A);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F97B0A2A632937A0__CTOR_OFFSET))(this);
+	}
+
+	::System::Void E97D2566B8552EF0()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F97B0A2A632937A0_E97D2566B8552EF0_OFFSET))(this);
+	}
+
+	::System::Void E386CFBE605491CE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F97B0A2A632937A0_E386CFBE605491CE_OFFSET))(this);
+	}
+};

@@ -1,0 +1,22 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/A418C49FA6A8C1F7/E3BD58A2FE0FB67F.h"
+#include "unitysdk/System/ValueType.h"
+
+#define UNITYENGINE_UIELEMENTS_STYLECOMPLEXSELECTOR_E1130CC2A91C489C__CTOR_OFFSET UNITYSDK_OFFSET(0x2796190)
+
+namespace UnityEngine::UIElements
+{
+	inline static constexpr unsigned int StyleComplexSelector_E1130CC2A91C489C_TypeDefinitionIndex = 13509;
+
+	struct alignas(4) StyleComplexSelector_E1130CC2A91C489C
+	{
+		::A418C49FA6A8C1F7::E3BD58A2FE0FB67F AD036903E9A68969; // 0x10
+		::System::Boolean B3BEC54A15955C4C; // 0x14
+
+		::System::Void _ctor(::A418C49FA6A8C1F7::E3BD58A2FE0FB67F E5EB06E4FD2C32F7, ::System::Boolean B1642BC0464A47B3)
+		{
+			return ((::System::Void(*)(::PVOID, ::A418C49FA6A8C1F7::E3BD58A2FE0FB67F, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLECOMPLEXSELECTOR_E1130CC2A91C489C__CTOR_OFFSET))(this, E5EB06E4FD2C32F7, B1642BC0464A47B3);
+		}
+	};
+}

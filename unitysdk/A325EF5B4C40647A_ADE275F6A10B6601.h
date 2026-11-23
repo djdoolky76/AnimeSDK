@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/A620FEE9C3DCD7F9/F6EC87C4EFF5C668.h"
+#include "unitysdk/E7F9C9491EE9F059/A1DD51B242BE0B4E.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { template <typename T1, typename T2> class Func_2; }
+
+#define A325EF5B4C40647A_ADE275F6A10B6601_F5BC7EE5D47A8BD6_OFFSET UNITYSDK_OFFSET(0x2A25370)
+#define A325EF5B4C40647A_ADE275F6A10B6601__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int A325EF5B4C40647A_ADE275F6A10B6601_TypeDefinitionIndex = 14371;
+
+class A325EF5B4C40647A_ADE275F6A10B6601 : public ::System::Object
+{
+public:
+	::System::Func_2<::E7F9C9491EE9F059::A1DD51B242BE0B4E, ::System::Boolean>* E937D4885DAA1AE8; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A325EF5B4C40647A_ADE275F6A10B6601__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean F5BC7EE5D47A8BD6(::A620FEE9C3DCD7F9::F6EC87C4EFF5C668 EB22C3793E99D207)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::A620FEE9C3DCD7F9::F6EC87C4EFF5C668))((::PBYTE)hIl2Cpp + A325EF5B4C40647A_ADE275F6A10B6601_F5BC7EE5D47A8BD6_OFFSET))(this, EB22C3793E99D207);
+	}
+};

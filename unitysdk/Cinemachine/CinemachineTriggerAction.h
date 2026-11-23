@@ -1,0 +1,106 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/Cinemachine/CinemachineTriggerAction_ActionSettings.h"
+#include "unitysdk/UnityEngine/B8AC70DD96553B07.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+namespace System { class String; }
+namespace UnityEngine { class A0522E4C9CA72129; }
+namespace UnityEngine { class A40E9D8A6791DA32; }
+namespace UnityEngine { class Collider2D; }
+namespace UnityEngine { class Collider; }
+namespace UnityEngine { class GameObject; }
+template <typename T> class FCECB52A00C1344E;
+
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_A03828DB35DBB646_OFFSET UNITYSDK_OFFSET(0x2A90C00)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_A9C2BD80DD949A0D_OFFSET UNITYSDK_OFFSET(0x2A90B40)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_AB1441CA4D0BDD1D_OFFSET UNITYSDK_OFFSET(0x2A90B00)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_AEE2201EF3870E65_OFFSET UNITYSDK_OFFSET(0x2A90BC0)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_E6CF18BD2FE4E5D8_OFFSET UNITYSDK_OFFSET(0x2A90910)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_E8EC4AE7A531CA40_OFFSET UNITYSDK_OFFSET(0x2A90850)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_EA56B585EC35626E_OFFSET UNITYSDK_OFFSET(0x2A90C00)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_F0A6C20CF5AE0C9A_OFFSET UNITYSDK_OFFSET(0x2A90AC0)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_F405E63BF8DFA260_OFFSET UNITYSDK_OFFSET(0x2A90B80)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_F84FC9DC016D5AD7_OFFSET UNITYSDK_OFFSET(0x2A90BC0)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION_FD2B7DF38D849A1B_OFFSET UNITYSDK_OFFSET(0x2A90A20)
+#define CINEMACHINE_CINEMACHINETRIGGERACTION__CTOR_OFFSET UNITYSDK_OFFSET(0x2A90C40)
+
+namespace Cinemachine
+{
+	inline static constexpr unsigned int CinemachineTriggerAction_TypeDefinitionIndex = 18473;
+
+	class CinemachineTriggerAction : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::UnityEngine::B8AC70DD96553B07 m_LayerMask; // 0x20
+		::System::Byte _padding0[0x4];
+		::System::String* m_WithTag; // 0x28
+		::System::String* m_WithoutTag; // 0x30
+		::System::Int32 m_SkipFirst; // 0x38
+		::System::Boolean m_Repeating; // 0x3C
+		::System::Byte _padding1[0x3];
+		::Cinemachine::CinemachineTriggerAction_ActionSettings m_OnObjectEnter; // 0x40
+		::Cinemachine::CinemachineTriggerAction_ActionSettings m_OnObjectExit; // 0x68
+		::FCECB52A00C1344E<::UnityEngine::GameObject*>* BD8BA611B1AE0739; // 0x90
+
+		::System::Void A03828DB35DBB646(::UnityEngine::Collider2D* BEEE7A5A60941632)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider2D*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_A03828DB35DBB646_OFFSET))(this, BEEE7A5A60941632);
+		}
+
+		::System::Void F405E63BF8DFA260(::UnityEngine::A0522E4C9CA72129* BEEE7A5A60941632)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::A0522E4C9CA72129*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_F405E63BF8DFA260_OFFSET))(this, BEEE7A5A60941632);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION__CTOR_OFFSET))(this);
+		}
+
+		::System::Void AB1441CA4D0BDD1D(::UnityEngine::A0522E4C9CA72129* BEEE7A5A60941632)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::A0522E4C9CA72129*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_AB1441CA4D0BDD1D_OFFSET))(this, BEEE7A5A60941632);
+		}
+
+		::System::Void AEE2201EF3870E65(::UnityEngine::Collider* BEEE7A5A60941632)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_AEE2201EF3870E65_OFFSET))(this, BEEE7A5A60941632);
+		}
+
+		::System::Void EA56B585EC35626E(::UnityEngine::Collider* BEEE7A5A60941632)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_EA56B585EC35626E_OFFSET))(this, BEEE7A5A60941632);
+		}
+
+		::System::Void F84FC9DC016D5AD7(::UnityEngine::Collider2D* BEEE7A5A60941632)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Collider2D*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_F84FC9DC016D5AD7_OFFSET))(this, BEEE7A5A60941632);
+		}
+
+		::System::Boolean E8EC4AE7A531CA40(::UnityEngine::GameObject* BEEE7A5A60941632)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_E8EC4AE7A531CA40_OFFSET))(this, BEEE7A5A60941632);
+		}
+
+		::System::Void FD2B7DF38D849A1B(::UnityEngine::GameObject* BEEE7A5A60941632)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_FD2B7DF38D849A1B_OFFSET))(this, BEEE7A5A60941632);
+		}
+
+		::System::Void E6CF18BD2FE4E5D8(::UnityEngine::GameObject* BEEE7A5A60941632)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_E6CF18BD2FE4E5D8_OFFSET))(this, BEEE7A5A60941632);
+		}
+
+		::System::Void A9C2BD80DD949A0D(::UnityEngine::A40E9D8A6791DA32* BEEE7A5A60941632)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::A40E9D8A6791DA32*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_A9C2BD80DD949A0D_OFFSET))(this, BEEE7A5A60941632);
+		}
+
+		::System::Void F0A6C20CF5AE0C9A(::UnityEngine::A40E9D8A6791DA32* BEEE7A5A60941632)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::A40E9D8A6791DA32*))((::PBYTE)hIl2Cpp + CINEMACHINE_CINEMACHINETRIGGERACTION_F0A6C20CF5AE0C9A_OFFSET))(this, BEEE7A5A60941632);
+		}
+	};
+}

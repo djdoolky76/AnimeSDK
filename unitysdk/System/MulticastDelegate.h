@@ -1,0 +1,68 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Delegate.h"
+#include "unitysdk/B6564CAC678AC465.h"
+
+class E519989062D53DE5;
+namespace System { class Object; }
+namespace System::Reflection { class MethodInfo; }
+
+#define SYSTEM_MULTICASTDELEGATE_A1DE08ED3D319BF1_OFFSET UNITYSDK_OFFSET(0x3D07330)
+#define SYSTEM_MULTICASTDELEGATE_AD7E7F64D6056169_OFFSET UNITYSDK_OFFSET(0x3D07310)
+#define SYSTEM_MULTICASTDELEGATE_AE1A0863005E0599_OFFSET UNITYSDK_OFFSET(0x3D071B0)
+#define SYSTEM_MULTICASTDELEGATE_AFBF77BEEB4BCD70_OFFSET UNITYSDK_OFFSET(0x3D072B0)
+#define SYSTEM_MULTICASTDELEGATE_AFF9AA690F47D15F_OFFSET UNITYSDK_OFFSET(0x3D06C40)
+#define SYSTEM_MULTICASTDELEGATE_B30E46283EDD86BA_OFFSET UNITYSDK_OFFSET(0x3D074A0)
+#define SYSTEM_MULTICASTDELEGATE_B84AF20F4B051EAE_OFFSET UNITYSDK_OFFSET(0x3D071C0)
+#define SYSTEM_MULTICASTDELEGATE_E7483E7CBF06BCFD_OFFSET UNITYSDK_OFFSET(0x3D07020)
+
+namespace System
+{
+	inline static constexpr unsigned int MulticastDelegate_TypeDefinitionIndex = 10861;
+
+	class MulticastDelegate : public ::System::Delegate
+	{
+	public:
+		::Il2CppArray<::System::Delegate*>* EB622D893761D57D; // 0x78
+
+		::System::Int32 AE1A0863005E0599()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_MULTICASTDELEGATE_AE1A0863005E0599_OFFSET))(this);
+		}
+
+		::System::Delegate* B30E46283EDD86BA(::System::Delegate* E937D4885DAA1AE8)
+		{
+			return ((::System::Delegate*(*)(::PVOID, ::System::Delegate*))((::PBYTE)hIl2Cpp + SYSTEM_MULTICASTDELEGATE_B30E46283EDD86BA_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void AD7E7F64D6056169(::E519989062D53DE5* B29880F033C1F232, ::B6564CAC678AC465 E6CE7391633EEC68)
+		{
+			return ((::System::Void(*)(::PVOID, ::E519989062D53DE5*, ::B6564CAC678AC465))((::PBYTE)hIl2Cpp + SYSTEM_MULTICASTDELEGATE_AD7E7F64D6056169_OFFSET))(this, B29880F033C1F232, E6CE7391633EEC68);
+		}
+
+		::System::Delegate* AFF9AA690F47D15F(::System::Delegate* AB10FE7899F9D289)
+		{
+			return ((::System::Delegate*(*)(::PVOID, ::System::Delegate*))((::PBYTE)hIl2Cpp + SYSTEM_MULTICASTDELEGATE_AFF9AA690F47D15F_OFFSET))(this, AB10FE7899F9D289);
+		}
+
+		::Il2CppArray<::System::Delegate*>* B84AF20F4B051EAE()
+		{
+			return ((::Il2CppArray<::System::Delegate*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_MULTICASTDELEGATE_B84AF20F4B051EAE_OFFSET))(this);
+		}
+
+		::System::Int32 A1DE08ED3D319BF1(::Il2CppArray<::System::Delegate*>* E9ABF27DB50040BB, ::Il2CppArray<::System::Delegate*>* BC96069F74E3DBF7)
+		{
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Delegate*>*, ::Il2CppArray<::System::Delegate*>*))((::PBYTE)hIl2Cpp + SYSTEM_MULTICASTDELEGATE_A1DE08ED3D319BF1_OFFSET))(this, E9ABF27DB50040BB, BC96069F74E3DBF7);
+		}
+
+		::System::Boolean E7483E7CBF06BCFD(::System::Object* A86A90C31A146E9C)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_MULTICASTDELEGATE_E7483E7CBF06BCFD_OFFSET))(this, A86A90C31A146E9C);
+		}
+
+		::System::Reflection::MethodInfo* AFBF77BEEB4BCD70()
+		{
+			return ((::System::Reflection::MethodInfo*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_MULTICASTDELEGATE_AFBF77BEEB4BCD70_OFFSET))(this);
+		}
+	};
+}

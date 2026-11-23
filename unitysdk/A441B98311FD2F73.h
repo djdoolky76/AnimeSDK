@@ -1,0 +1,59 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class A6EF590088EA17E7;
+class AB642D1382756991;
+class E5C9FFE6D426541B;
+namespace System { class String; }
+namespace TA::CameraPostEffectSystem { class DOFVolumeData; }
+namespace TA::CameraPostEffectSystem { class VolumeDataBase; }
+
+#define A441B98311FD2F73_A5FE3A1673820A9D_OFFSET UNITYSDK_OFFSET(0x18FF400)
+#define A441B98311FD2F73_ACC807F45647840E_OFFSET UNITYSDK_OFFSET(0x18FF7C0)
+#define A441B98311FD2F73_AFB1CD036559C858_OFFSET UNITYSDK_OFFSET(0x18FF600)
+#define A441B98311FD2F73_B2FE32C33FE86E1F_OFFSET UNITYSDK_OFFSET(0x18FF070)
+#define A441B98311FD2F73__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int A441B98311FD2F73_TypeDefinitionIndex = 1464;
+
+class A441B98311FD2F73 : public ::System::Object
+{
+public:
+	::E5C9FFE6D426541B* EB170BE8AC6F6D74; // 0x10
+	::AB642D1382756991* B87BB7B152C5967F; // 0x18
+	::A6EF590088EA17E7* FCB54FC5FFFD7FC2; // 0x20
+	::TA::CameraPostEffectSystem::DOFVolumeData* E85AC72943453F64; // 0x28
+	::System::Single AC131A2A82BC31AE; // 0x30
+	::System::Boolean F04891B7F490E579; // 0x34
+	::System::Byte _padding0[0x3];
+	::System::Int32 BB319FBFA8385792; // 0x38
+	::System::Byte _padding1[0x4];
+	::Il2CppArray<::TA::CameraPostEffectSystem::VolumeDataBase*>* EDF6FEE9A8F6D279; // 0x40
+	::TA::CameraPostEffectSystem::DOFVolumeData* E1A1A9DA6524CBA3; // 0x48
+
+	::System::Void ACC807F45647840E(::System::Single EB5670302F34D4B7)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + A441B98311FD2F73_ACC807F45647840E_OFFSET))(this, EB5670302F34D4B7);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A441B98311FD2F73__CTOR_OFFSET))(this);
+	}
+
+	::System::Void B2FE32C33FE86E1F(::E5C9FFE6D426541B* BA7EFA184D1C3A40, ::AB642D1382756991* FA6D0098BC9B7545, ::A6EF590088EA17E7* B575ECF7BAF3A644, ::TA::CameraPostEffectSystem::DOFVolumeData* B73442AE9BAFD1E4)
+	{
+		return ((::System::Void(*)(::PVOID, ::E5C9FFE6D426541B*, ::AB642D1382756991*, ::A6EF590088EA17E7*, ::TA::CameraPostEffectSystem::DOFVolumeData*))((::PBYTE)hIl2Cpp + A441B98311FD2F73_B2FE32C33FE86E1F_OFFSET))(this, BA7EFA184D1C3A40, FA6D0098BC9B7545, B575ECF7BAF3A644, B73442AE9BAFD1E4);
+	}
+
+	::System::Void AFB1CD036559C858()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A441B98311FD2F73_AFB1CD036559C858_OFFSET))(this);
+	}
+
+	::System::Single A5FE3A1673820A9D(::AB642D1382756991* EEF688477002B28B, ::System::String* A4467952594629E4)
+	{
+		return ((::System::Single(*)(::PVOID, ::AB642D1382756991*, ::System::String*))((::PBYTE)hIl2Cpp + A441B98311FD2F73_A5FE3A1673820A9D_OFFSET))(this, EEF688477002B28B, A4467952594629E4);
+	}
+};

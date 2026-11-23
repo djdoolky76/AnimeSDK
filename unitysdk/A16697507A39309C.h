@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define A16697507A39309C_E0DD507820396171_OFFSET UNITYSDK_OFFSET(0x3C82F80)
+#define A16697507A39309C_FC9B700952C06089_1_OFFSET UNITYSDK_OFFSET(0x3C82F20)
+#define A16697507A39309C_FC9B700952C06089_OFFSET UNITYSDK_OFFSET(0x3C82E80)
+
+inline static constexpr unsigned int A16697507A39309C_TypeDefinitionIndex = 10385;
+
+class A16697507A39309C : public ::System::Object
+{
+public:
+	static ::System::Int32 E0DD507820396171(::System::UInt64 E937D4885DAA1AE8)
+	{
+		return ((::System::Int32(*)(::System::UInt64))((::PBYTE)hIl2Cpp + A16697507A39309C_E0DD507820396171_OFFSET))(E937D4885DAA1AE8);
+	}
+
+	static ::System::Int32 FC9B700952C06089(::System::UInt64 E937D4885DAA1AE8)
+	{
+		return ((::System::Int32(*)(::System::UInt64))((::PBYTE)hIl2Cpp + A16697507A39309C_FC9B700952C06089_OFFSET))(E937D4885DAA1AE8);
+	}
+
+	static ::System::Int32 FC9B700952C06089_1(::System::UInt32 E937D4885DAA1AE8)
+	{
+		return ((::System::Int32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + A16697507A39309C_FC9B700952C06089_1_OFFSET))(E937D4885DAA1AE8);
+	}
+};

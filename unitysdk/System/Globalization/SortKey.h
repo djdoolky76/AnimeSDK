@@ -1,0 +1,69 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Globalization/F6CB9D5C185D99B6.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+
+#define SYSTEM_GLOBALIZATION_SORTKEY_AE1A0863005E0599_OFFSET UNITYSDK_OFFSET(0x3C05DD0)
+#define SYSTEM_GLOBALIZATION_SORTKEY_E03C667100B161C9_OFFSET UNITYSDK_OFFSET(0x3C05B70)
+#define SYSTEM_GLOBALIZATION_SORTKEY_E7483E7CBF06BCFD_OFFSET UNITYSDK_OFFSET(0x3C05D20)
+#define SYSTEM_GLOBALIZATION_SORTKEY_E80B9F472EEFDF74_OFFSET UNITYSDK_OFFSET(0x3C05E70)
+#define SYSTEM_GLOBALIZATION_SORTKEY__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3C060F0)
+#define SYSTEM_GLOBALIZATION_SORTKEY__CTOR_2_OFFSET UNITYSDK_OFFSET(0x3C060A0)
+#define SYSTEM_GLOBALIZATION_SORTKEY__CTOR_3_OFFSET UNITYSDK_OFFSET(0x3C06030)
+#define SYSTEM_GLOBALIZATION_SORTKEY__CTOR_OFFSET UNITYSDK_OFFSET(0x3C061E0)
+
+namespace System::Globalization
+{
+	inline static constexpr unsigned int SortKey_TypeDefinitionIndex = 11390;
+
+	class SortKey : public ::System::Object
+	{
+	public:
+		::System::String* BA08F81CACE4028E; // 0x10
+		::Il2CppArray<::System::Byte>* E5974C952896E64A; // 0x18
+		::System::Globalization::F6CB9D5C185D99B6 F09CBFB5DAF5D258; // 0x20
+		::System::Int32 EDBFD587F31F8A70; // 0x24
+
+		static ::System::Int32 E03C667100B161C9(::System::Globalization::SortKey* E23761894FD10545, ::System::Globalization::SortKey* ECBDB45B6B55524F)
+		{
+			return ((::System::Int32(*)(::System::Globalization::SortKey*, ::System::Globalization::SortKey*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_SORTKEY_E03C667100B161C9_OFFSET))(E23761894FD10545, ECBDB45B6B55524F);
+		}
+
+		::System::String* E80B9F472EEFDF74()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_SORTKEY_E80B9F472EEFDF74_OFFSET))(this);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_SORTKEY__CTOR_OFFSET))(this);
+		}
+
+		::System::Int32 AE1A0863005E0599()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_SORTKEY_AE1A0863005E0599_OFFSET))(this);
+		}
+
+		::System::Boolean E7483E7CBF06BCFD(::System::Object* E937D4885DAA1AE8)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_SORTKEY_E7483E7CBF06BCFD_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void _ctor_1(::System::Int32 B2B7D94764D652E6, ::System::String* AFE8F10692F5139F, ::System::Globalization::F6CB9D5C185D99B6 E3B7B9AB2C2A7D2E)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::System::Globalization::F6CB9D5C185D99B6))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_SORTKEY__CTOR_1_OFFSET))(this, B2B7D94764D652E6, AFE8F10692F5139F, E3B7B9AB2C2A7D2E);
+		}
+
+		::System::Void _ctor_2(::System::String* FFEE85EA8C366E33, ::System::String* BB83557721B5F386, ::System::Globalization::F6CB9D5C185D99B6 FADED64AD3E99C03, ::Il2CppArray<::System::Byte>* A4397C8B968FE405)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Globalization::F6CB9D5C185D99B6, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_SORTKEY__CTOR_2_OFFSET))(this, FFEE85EA8C366E33, BB83557721B5F386, FADED64AD3E99C03, A4397C8B968FE405);
+		}
+
+		::System::Void _ctor_3(::System::Int32 B2B7D94764D652E6, ::System::String* AFE8F10692F5139F, ::Il2CppArray<::System::Byte>* F6C2EBBDFCAEF915, ::System::Globalization::F6CB9D5C185D99B6 E3B7B9AB2C2A7D2E, ::System::Int32 FEA27BF50EDB3898, ::System::Int32 FEF0887E8D86233E, ::System::Int32 E4AA38EC7957E29A, ::System::Int32 B79FC6AD9644C62C, ::System::Int32 B3B056A713A06E09, ::System::Int32 F0873C1BEACE4377, ::System::Int32 F2FFED03A1E4BA97, ::System::Int32 EDAD1397BBF3146E)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::String*, ::Il2CppArray<::System::Byte>*, ::System::Globalization::F6CB9D5C185D99B6, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_SORTKEY__CTOR_3_OFFSET))(this, B2B7D94764D652E6, AFE8F10692F5139F, F6C2EBBDFCAEF915, E3B7B9AB2C2A7D2E, FEA27BF50EDB3898, FEF0887E8D86233E, E4AA38EC7957E29A, B79FC6AD9644C62C, B3B056A713A06E09, F0873C1BEACE4377, F2FFED03A1E4BA97, EDAD1397BBF3146E);
+		}
+	};
+}

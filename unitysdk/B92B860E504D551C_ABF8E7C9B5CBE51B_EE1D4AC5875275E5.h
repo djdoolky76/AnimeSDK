@@ -1,0 +1,14 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int B92B860E504D551C_ABF8E7C9B5CBE51B_EE1D4AC5875275E5_TypeDefinitionIndex = 10607;
+
+enum class B92B860E504D551C_ABF8E7C9B5CBE51B_EE1D4AC5875275E5 : ::System::UInt32
+{
+	OBJ_INHERIT = 2,
+	OBJ_PERMANENT = 16,
+	OBJ_EXCLUSIVE = 32,
+	OBJ_CASE_INSENSITIVE = 64,
+	OBJ_OPENIF = 128,
+	OBJ_OPENLINK = 256,
+};

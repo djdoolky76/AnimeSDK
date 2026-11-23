@@ -1,0 +1,26 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+#define FF1001379F73B8E1_E2F763B25722D685__CTOR_1_OFFSET UNITYSDK_OFFSET(0x2A78200)
+#define FF1001379F73B8E1_E2F763B25722D685__CTOR_OFFSET UNITYSDK_OFFSET(0x2A78210)
+
+inline static constexpr unsigned int FF1001379F73B8E1_E2F763B25722D685_TypeDefinitionIndex = 18441;
+
+struct alignas(4) FF1001379F73B8E1_E2F763B25722D685
+{
+	::System::Double E2A819DEAB12D5C5; // 0x10
+	::System::Double A321CBC86C4EC712; // 0x18
+
+	::System::Void _ctor(::System::Double BB8C609F76620E45, ::System::Double A0A0D02932F12CFD)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Double, ::System::Double))((::PBYTE)hIl2Cpp + FF1001379F73B8E1_E2F763B25722D685__CTOR_OFFSET))(this, BB8C609F76620E45, A0A0D02932F12CFD);
+	}
+
+	/*
+	::System::Void _ctor_1(::FF1001379F73B8E1_E2F763B25722D685 A4D2FA9EA8CD217F)
+	{
+		return ((::System::Void(*)(::PVOID, ::FF1001379F73B8E1_E2F763B25722D685))((::PBYTE)hIl2Cpp + FF1001379F73B8E1_E2F763B25722D685__CTOR_1_OFFSET))(this, A4D2FA9EA8CD217F);
+	}
+	*/
+};

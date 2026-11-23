@@ -1,0 +1,53 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/E82CD952D4BAE323.h"
+#include "unitysdk/AD61077CFCBEFAEA.h"
+#include "unitysdk/E865F6F8B8B44C1E.h"
+
+namespace System { class Action; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine::UI { class Image; }
+
+#define E45FFBD920419A81_A3BF1CF89DB8B94B_OFFSET UNITYSDK_OFFSET(0x20EB1E0)
+#define E45FFBD920419A81_BCFDE6A8B7CF0B9B_OFFSET UNITYSDK_OFFSET(0x219AD00)
+#define E45FFBD920419A81_E23EC81C04D8667E_OFFSET UNITYSDK_OFFSET(0x1DD1FE0)
+#define E45FFBD920419A81_FFE59D93BEA6E2CA_OFFSET UNITYSDK_OFFSET(0x219AB50)
+#define E45FFBD920419A81__CTOR_OFFSET UNITYSDK_OFFSET(0x1F27200)
+
+inline static constexpr unsigned int E45FFBD920419A81_TypeDefinitionIndex = 8803;
+
+class E45FFBD920419A81 : public ::E82CD952D4BAE323
+{
+public:
+	::System::Int32 A56E448ED763AC05; // 0xE8
+	::System::Byte _padding0[0x4];
+	::UnityEngine::GameObject* A2635DCE4DE09D79; // 0xF0
+	::UnityEngine::UI::Image* B37D95A35810CEE4; // 0xF8
+	::UnityEngine::GameObject* F38A782D1C39889E; // 0x100
+	::UnityEngine::UI::Image* F52F0DB9C0BA9191; // 0x108
+
+	::System::Void A3BF1CF89DB8B94B(::System::Int32 E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + E45FFBD920419A81_A3BF1CF89DB8B94B_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::System::Void BCFDE6A8B7CF0B9B(::System::Int32 ACF8D31636F210E7, ::System::Boolean B60690012EF86B10, ::E865F6F8B8B44C1E E7102EB4CD1D28DD, ::AD61077CFCBEFAEA A34DC0029F468B9B, ::System::Action* B21187335EE57900)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean, ::E865F6F8B8B44C1E, ::AD61077CFCBEFAEA, ::System::Action*))((::PBYTE)hIl2Cpp + E45FFBD920419A81_BCFDE6A8B7CF0B9B_OFFSET))(this, ACF8D31636F210E7, B60690012EF86B10, E7102EB4CD1D28DD, A34DC0029F468B9B, B21187335EE57900);
+	}
+
+	::System::Int32 E23EC81C04D8667E()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + E45FFBD920419A81_E23EC81C04D8667E_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E45FFBD920419A81__CTOR_OFFSET))(this);
+	}
+
+	::System::Void FFE59D93BEA6E2CA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E45FFBD920419A81_FFE59D93BEA6E2CA_OFFSET))(this);
+	}
+};

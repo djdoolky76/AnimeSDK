@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/E12F55A5FCCCF1EC.h"
+#include "unitysdk/EEAC6217FF06E6B7.h"
+#include "unitysdk/System/Object.h"
+
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define F442E26F9DF95B3B_FF6F203E3FF0E935_BCB0A4DD6EA3B4C9_OFFSET UNITYSDK_OFFSET(0x27325C0)
+#define F442E26F9DF95B3B_FF6F203E3FF0E935__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D3F0)
+
+inline static constexpr unsigned int F442E26F9DF95B3B_FF6F203E3FF0E935_TypeDefinitionIndex = 3027;
+
+class F442E26F9DF95B3B_FF6F203E3FF0E935 : public ::System::Object
+{
+public:
+	::System::Collections::Generic::Dictionary_2<::EEAC6217FF06E6B7, ::E12F55A5FCCCF1EC>* BEF43B157A0FB0CC; // 0x10
+	::E12F55A5FCCCF1EC B6393D105F147AEE; // 0x18
+	::System::Boolean EBDB6D7C318D1333; // 0x20
+
+	::System::Int32 BCB0A4DD6EA3B4C9(::EEAC6217FF06E6B7 B35BBBE7E39341A2, ::EEAC6217FF06E6B7 AE40CAA6BBFEAD2C)
+	{
+		return ((::System::Int32(*)(::PVOID, ::EEAC6217FF06E6B7, ::EEAC6217FF06E6B7))((::PBYTE)hIl2Cpp + F442E26F9DF95B3B_FF6F203E3FF0E935_BCB0A4DD6EA3B4C9_OFFSET))(this, B35BBBE7E39341A2, AE40CAA6BBFEAD2C);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F442E26F9DF95B3B_FF6F203E3FF0E935__CTOR_OFFSET))(this);
+	}
+};

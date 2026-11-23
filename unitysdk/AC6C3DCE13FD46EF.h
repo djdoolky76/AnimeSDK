@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AD61077CFCBEFAEA.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/BD3E6890C9C82A9E.h"
+
+class A17FBCB2168BAF13;
+namespace System { class String; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define AC6C3DCE13FD46EF_A1CFC72300663B45_OFFSET UNITYSDK_OFFSET(0x17F35A0)
+#define AC6C3DCE13FD46EF_A29515C6DE1220BD_OFFSET UNITYSDK_OFFSET(0x17F35D0)
+#define AC6C3DCE13FD46EF_B20D5272A7A4E479_OFFSET UNITYSDK_OFFSET(0x24F2E90)
+#define AC6C3DCE13FD46EF_F5587B3BAE80157C_OFFSET UNITYSDK_OFFSET(0x1F86890)
+#define AC6C3DCE13FD46EF_F6C0C5777D682F86_OFFSET UNITYSDK_OFFSET(0x17D5EA0)
+#define AC6C3DCE13FD46EF_FBBF870EA90E1D92_OFFSET UNITYSDK_OFFSET(0x24F2CA0)
+#define AC6C3DCE13FD46EF__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int AC6C3DCE13FD46EF_TypeDefinitionIndex = 5127;
+
+class AC6C3DCE13FD46EF : public ::System::Object
+{
+public:
+	::AD61077CFCBEFAEA BBB0528BE78F1B3F; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::A17FBCB2168BAF13*>* FB5A88ECBFE1B568; // 0x18
+
+	::System::Void B20D5272A7A4E479(::System::Int32 E2F22B5BB4D1C832)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + AC6C3DCE13FD46EF_B20D5272A7A4E479_OFFSET))(this, E2F22B5BB4D1C832);
+	}
+
+	::System::Void A29515C6DE1220BD(::System::Collections::Generic::Dictionary_2<::System::String*, ::A17FBCB2168BAF13*>* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::A17FBCB2168BAF13*>*))((::PBYTE)hIl2Cpp + AC6C3DCE13FD46EF_A29515C6DE1220BD_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::AD61077CFCBEFAEA F6C0C5777D682F86()
+	{
+		return ((::AD61077CFCBEFAEA(*)(::PVOID))((::PBYTE)hIl2Cpp + AC6C3DCE13FD46EF_F6C0C5777D682F86_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::Dictionary_2<::System::String*, ::A17FBCB2168BAF13*>* A1CFC72300663B45()
+	{
+		return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::A17FBCB2168BAF13*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + AC6C3DCE13FD46EF_A1CFC72300663B45_OFFSET))(this);
+	}
+
+	static ::System::Void FBBF870EA90E1D92(::BD3E6890C9C82A9E& F99B0FE319DB74D1, ::AC6C3DCE13FD46EF*& E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::BD3E6890C9C82A9E&, ::AC6C3DCE13FD46EF*&))((::PBYTE)hIl2Cpp + AC6C3DCE13FD46EF_FBBF870EA90E1D92_OFFSET))(F99B0FE319DB74D1, E937D4885DAA1AE8);
+	}
+
+	::System::Void F5587B3BAE80157C(::AD61077CFCBEFAEA E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::AD61077CFCBEFAEA))((::PBYTE)hIl2Cpp + AC6C3DCE13FD46EF_F5587B3BAE80157C_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AC6C3DCE13FD46EF__CTOR_OFFSET))(this);
+	}
+};

@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class A22342C00B5DB77A_A7631BE03ACD1034;
+class A22342C00B5DB77A_ACE827EC646DBCFD;
+class A22342C00B5DB77A_B11E867A6E10ACEC;
+class A22342C00B5DB77A_F04B6ABCB9D11C61;
+class A22342C00B5DB77A_F16707075375E607;
+class A22342C00B5DB77A_F93F5257C9BE085B;
+
+#define A22342C00B5DB77A__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int A22342C00B5DB77A_TypeDefinitionIndex = 12852;
+
+class A22342C00B5DB77A : public ::System::Object
+{
+public:
+	static ::A22342C00B5DB77A_ACE827EC646DBCFD** StaticGet_FE01200C2D705AEC()
+	{
+		return (::A22342C00B5DB77A_ACE827EC646DBCFD**)Il2CppClass::FromTypeDefinitionIndex(A22342C00B5DB77A_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::A22342C00B5DB77A_F93F5257C9BE085B** StaticGet_E633A4609991DAA2()
+	{
+		return (::A22342C00B5DB77A_F93F5257C9BE085B**)Il2CppClass::FromTypeDefinitionIndex(A22342C00B5DB77A_TypeDefinitionIndex)->GetStaticField(0x8);
+	}
+	static ::A22342C00B5DB77A_F16707075375E607** StaticGet_EA2FC2474373A468()
+	{
+		return (::A22342C00B5DB77A_F16707075375E607**)Il2CppClass::FromTypeDefinitionIndex(A22342C00B5DB77A_TypeDefinitionIndex)->GetStaticField(0x10);
+	}
+	static ::A22342C00B5DB77A_F04B6ABCB9D11C61** StaticGet_B3D32C5FAADE7298()
+	{
+		return (::A22342C00B5DB77A_F04B6ABCB9D11C61**)Il2CppClass::FromTypeDefinitionIndex(A22342C00B5DB77A_TypeDefinitionIndex)->GetStaticField(0x18);
+	}
+	static ::A22342C00B5DB77A_B11E867A6E10ACEC** StaticGet_AA59682AB00D9B7D()
+	{
+		return (::A22342C00B5DB77A_B11E867A6E10ACEC**)Il2CppClass::FromTypeDefinitionIndex(A22342C00B5DB77A_TypeDefinitionIndex)->GetStaticField(0x20);
+	}
+	static ::A22342C00B5DB77A_A7631BE03ACD1034** StaticGet_FDF1F327EEA5A6A3()
+	{
+		return (::A22342C00B5DB77A_A7631BE03ACD1034**)Il2CppClass::FromTypeDefinitionIndex(A22342C00B5DB77A_TypeDefinitionIndex)->GetStaticField(0x28);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A22342C00B5DB77A__CTOR_OFFSET))(this);
+	}
+};

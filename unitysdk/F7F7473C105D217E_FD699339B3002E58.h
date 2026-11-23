@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class E073267BBE5F2811;
+class F7F7473C105D217E;
+namespace System { template <typename T> class ADDF5F55A85EB950; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define F7F7473C105D217E_FD699339B3002E58_A829097DFD327763_OFFSET UNITYSDK_OFFSET(0x2290190)
+#define F7F7473C105D217E_FD699339B3002E58_F67BDFB4A4C6E9F9_OFFSET UNITYSDK_OFFSET(0x2290230)
+#define F7F7473C105D217E_FD699339B3002E58__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int F7F7473C105D217E_FD699339B3002E58_TypeDefinitionIndex = 6972;
+
+class F7F7473C105D217E_FD699339B3002E58 : public ::System::Object
+{
+public:
+	::F7F7473C105D217E* A544919C800E2923; // 0x10
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::E073267BBE5F2811*>* B54A9D568B1729E1; // 0x18
+	::System::ADDF5F55A85EB950<::System::UInt32>* F422651CC4956382; // 0x20
+	::System::ADDF5F55A85EB950<::System::UInt32>* BDCB87964C751DB1; // 0x28
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F7F7473C105D217E_FD699339B3002E58__CTOR_OFFSET))(this);
+	}
+
+	::System::Int32 A829097DFD327763(::System::UInt32 BB8C609F76620E45, ::System::UInt32 A0A0D02932F12CFD)
+	{
+		return ((::System::Int32(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + F7F7473C105D217E_FD699339B3002E58_A829097DFD327763_OFFSET))(this, BB8C609F76620E45, A0A0D02932F12CFD);
+	}
+
+	::System::Int32 F67BDFB4A4C6E9F9(::System::UInt32 BB8C609F76620E45, ::System::UInt32 A0A0D02932F12CFD)
+	{
+		return ((::System::Int32(*)(::PVOID, ::System::UInt32, ::System::UInt32))((::PBYTE)hIl2Cpp + F7F7473C105D217E_FD699339B3002E58_F67BDFB4A4C6E9F9_OFFSET))(this, BB8C609F76620E45, A0A0D02932F12CFD);
+	}
+};

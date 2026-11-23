@@ -1,0 +1,64 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Behaviour.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+
+namespace UnityEngine { class Camera; }
+
+#define UNITYENGINE_CANVASGROUP_AABD1327F7E84836_OFFSET UNITYSDK_OFFSET(0x4391360)
+#define UNITYENGINE_CANVASGROUP_ADB4DA1D528FD1A5_OFFSET UNITYSDK_OFFSET(0x4391250)
+#define UNITYENGINE_CANVASGROUP_B517BDBC694D7B4D_OFFSET UNITYSDK_OFFSET(0x4391210)
+#define UNITYENGINE_CANVASGROUP_B7E5C40DD527E475_OFFSET UNITYSDK_OFFSET(0x4391210)
+#define UNITYENGINE_CANVASGROUP_EA640202E6A2BD40_OFFSET UNITYSDK_OFFSET(0x4391290)
+#define UNITYENGINE_CANVASGROUP_F0BBBA100338CF44_OFFSET UNITYSDK_OFFSET(0x4391310)
+#define UNITYENGINE_CANVASGROUP_FE3434CF5FCC7EEB_OFFSET UNITYSDK_OFFSET(0x43912D0)
+#define UNITYENGINE_CANVASGROUP_FF1DB92E5F01F4E5_OFFSET UNITYSDK_OFFSET(0x43913B0)
+
+namespace UnityEngine
+{
+	inline static constexpr unsigned int CanvasGroup_TypeDefinitionIndex = 21317;
+
+	class CanvasGroup : public ::UnityEngine::Behaviour
+	{
+	public:
+		::System::Boolean B7E5C40DD527E475(::UnityEngine::Vector2 AFE1FB83320C2071, ::UnityEngine::Camera* E20C7C245327F84D)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + UNITYENGINE_CANVASGROUP_B7E5C40DD527E475_OFFSET))(this, AFE1FB83320C2071, E20C7C245327F84D);
+		}
+
+		::System::Void AABD1327F7E84836(::System::Boolean E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_CANVASGROUP_AABD1327F7E84836_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Boolean EA640202E6A2BD40()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CANVASGROUP_EA640202E6A2BD40_OFFSET))(this);
+		}
+
+		::System::Boolean FE3434CF5FCC7EEB()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CANVASGROUP_FE3434CF5FCC7EEB_OFFSET))(this);
+		}
+
+		::System::Void FF1DB92E5F01F4E5(::System::Boolean E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_CANVASGROUP_FF1DB92E5F01F4E5_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Single ADB4DA1D528FD1A5()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CANVASGROUP_ADB4DA1D528FD1A5_OFFSET))(this);
+		}
+
+		::System::Void F0BBBA100338CF44(::System::Single E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_CANVASGROUP_F0BBBA100338CF44_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Boolean B517BDBC694D7B4D()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CANVASGROUP_B517BDBC694D7B4D_OFFSET))(this);
+		}
+	};
+}

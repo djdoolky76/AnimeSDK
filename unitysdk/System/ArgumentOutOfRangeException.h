@@ -1,0 +1,62 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ArgumentException.h"
+#include "unitysdk/B6564CAC678AC465.h"
+
+class E519989062D53DE5;
+namespace System { class Object; }
+namespace System { class String; }
+
+#define SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION_GETOBJECTDATA_OFFSET UNITYSDK_OFFSET(0x3CCB100)
+#define SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION_GET_MESSAGE_OFFSET UNITYSDK_OFFSET(0x3CCB3E0)
+#define SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3CCB1D0)
+#define SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x3CCB3B0)
+#define SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x3CCB220)
+#define SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION__CTOR_4_OFFSET UNITYSDK_OFFSET(0x3CCB350)
+#define SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x3CCB300)
+
+namespace System
+{
+	inline static constexpr unsigned int ArgumentOutOfRangeException_TypeDefinitionIndex = 10620;
+
+	class ArgumentOutOfRangeException : public ::System::ArgumentException
+	{
+	public:
+		::System::Object* _actualValue; // 0x98
+
+		::System::String* get_Message()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION_GET_MESSAGE_OFFSET))(this);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION__CTOR_OFFSET))(this);
+		}
+
+		::System::Void _ctor_1(::System::String* F1A536645E6067F3, ::System::Object* F0BDCD0F1E1962F0, ::System::String* B083BE7841B347C4)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Object*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION__CTOR_1_OFFSET))(this, F1A536645E6067F3, F0BDCD0F1E1962F0, B083BE7841B347C4);
+		}
+
+		::System::Void _ctor_2(::System::String* F1A536645E6067F3, ::System::String* B083BE7841B347C4)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION__CTOR_2_OFFSET))(this, F1A536645E6067F3, B083BE7841B347C4);
+		}
+
+		::System::Void GetObjectData(::E519989062D53DE5* B29880F033C1F232, ::B6564CAC678AC465 E6CE7391633EEC68)
+		{
+			return ((::System::Void(*)(::PVOID, ::E519989062D53DE5*, ::B6564CAC678AC465))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION_GETOBJECTDATA_OFFSET))(this, B29880F033C1F232, E6CE7391633EEC68);
+		}
+
+		::System::Void _ctor_3(::E519989062D53DE5* B29880F033C1F232, ::B6564CAC678AC465 E6CE7391633EEC68)
+		{
+			return ((::System::Void(*)(::PVOID, ::E519989062D53DE5*, ::B6564CAC678AC465))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION__CTOR_3_OFFSET))(this, B29880F033C1F232, E6CE7391633EEC68);
+		}
+
+		::System::Void _ctor_4(::System::String* F1A536645E6067F3)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_ARGUMENTOUTOFRANGEEXCEPTION__CTOR_4_OFFSET))(this, F1A536645E6067F3);
+		}
+	};
+}

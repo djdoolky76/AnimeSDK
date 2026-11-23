@@ -1,0 +1,53 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/BD3E6890C9C82A9E.h"
+
+namespace System { class String; }
+
+#define A30CD7E0E7936FF7_A022D2777E10BBE3_OFFSET UNITYSDK_OFFSET(0x2327240)
+#define A30CD7E0E7936FF7_AA7875600D60A027_OFFSET UNITYSDK_OFFSET(0x17F35D0)
+#define A30CD7E0E7936FF7_E49CE42F4EB6BA3C_OFFSET UNITYSDK_OFFSET(0x17F35A0)
+#define A30CD7E0E7936FF7_EC8EAE8E3C37EE74_OFFSET UNITYSDK_OFFSET(0x2327230)
+#define A30CD7E0E7936FF7_FBBF870EA90E1D92_OFFSET UNITYSDK_OFFSET(0x25DA0E0)
+#define A30CD7E0E7936FF7__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int A30CD7E0E7936FF7_TypeDefinitionIndex = 5758;
+
+class A30CD7E0E7936FF7 : public ::System::Object
+{
+public:
+	::System::Single FE7262C3C0C2D845; // 0x10
+	::System::Byte _padding0[0x4];
+	::System::String* B70900C97165A017; // 0x18
+
+	::System::Void AA7875600D60A027(::System::String* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + A30CD7E0E7936FF7_AA7875600D60A027_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::System::String* E49CE42F4EB6BA3C()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + A30CD7E0E7936FF7_E49CE42F4EB6BA3C_OFFSET))(this);
+	}
+
+	static ::System::Void FBBF870EA90E1D92(::BD3E6890C9C82A9E& F99B0FE319DB74D1, ::A30CD7E0E7936FF7*& E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::BD3E6890C9C82A9E&, ::A30CD7E0E7936FF7*&))((::PBYTE)hIl2Cpp + A30CD7E0E7936FF7_FBBF870EA90E1D92_OFFSET))(F99B0FE319DB74D1, E937D4885DAA1AE8);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A30CD7E0E7936FF7__CTOR_OFFSET))(this);
+	}
+
+	::System::Void A022D2777E10BBE3(::System::Single E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + A30CD7E0E7936FF7_A022D2777E10BBE3_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::System::Single EC8EAE8E3C37EE74()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + A30CD7E0E7936FF7_EC8EAE8E3C37EE74_OFFSET))(this);
+	}
+};

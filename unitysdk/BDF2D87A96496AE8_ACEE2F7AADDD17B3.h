@@ -1,0 +1,26 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/MulticastDelegate.h"
+
+class BDF2D87A96496AE8_B5D7B8276F767DE8;
+class F4C42CA78127E415_HttpResponse;
+namespace System { class Object; }
+
+#define BDF2D87A96496AE8_ACEE2F7AADDD17B3_INVOKE_OFFSET UNITYSDK_OFFSET(0x1CF4AC0)
+#define BDF2D87A96496AE8_ACEE2F7AADDD17B3__CTOR_OFFSET UNITYSDK_OFFSET(0x1E1BB30)
+
+inline static constexpr unsigned int BDF2D87A96496AE8_ACEE2F7AADDD17B3_TypeDefinitionIndex = 15888;
+
+class BDF2D87A96496AE8_ACEE2F7AADDD17B3 : public ::System::MulticastDelegate
+{
+public:
+	::System::Void _ctor(::System::Object* A351543A0362EB15, ::System::IntPtr EA8FABEC6D125B33)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + BDF2D87A96496AE8_ACEE2F7AADDD17B3__CTOR_OFFSET))(this, A351543A0362EB15, EA8FABEC6D125B33);
+	}
+
+	::F4C42CA78127E415_HttpResponse* Invoke(::BDF2D87A96496AE8_B5D7B8276F767DE8* E17BFD52EA92DEB6)
+	{
+		return ((::F4C42CA78127E415_HttpResponse*(*)(::PVOID, ::BDF2D87A96496AE8_B5D7B8276F767DE8*))((::PBYTE)hIl2Cpp + BDF2D87A96496AE8_ACEE2F7AADDD17B3_INVOKE_OFFSET))(this, E17BFD52EA92DEB6);
+	}
+};

@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class ED4768D175EFE6C9;
+class FC4E17182668B77E;
+namespace ABC::Collections::Pooled { template <typename T1, typename T2> class PooledDictionary_2; }
+
+#define AFB82B0F00B1A0D7_AF35C4D298371D18_BCB0A4DD6EA3B4C9_OFFSET UNITYSDK_OFFSET(0x20364E0)
+#define AFB82B0F00B1A0D7_AF35C4D298371D18__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int AFB82B0F00B1A0D7_AF35C4D298371D18_TypeDefinitionIndex = 8241;
+
+class AFB82B0F00B1A0D7_AF35C4D298371D18 : public ::System::Object
+{
+public:
+	::ABC::Collections::Pooled::PooledDictionary_2<::System::UInt32, ::FC4E17182668B77E*>* E46BD807D5BCA3FA; // 0x10
+
+	::System::Int32 BCB0A4DD6EA3B4C9(::ED4768D175EFE6C9* BB8C609F76620E45, ::ED4768D175EFE6C9* A0A0D02932F12CFD)
+	{
+		return ((::System::Int32(*)(::PVOID, ::ED4768D175EFE6C9*, ::ED4768D175EFE6C9*))((::PBYTE)hIl2Cpp + AFB82B0F00B1A0D7_AF35C4D298371D18_BCB0A4DD6EA3B4C9_OFFSET))(this, BB8C609F76620E45, A0A0D02932F12CFD);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AFB82B0F00B1A0D7_AF35C4D298371D18__CTOR_OFFSET))(this);
+	}
+};

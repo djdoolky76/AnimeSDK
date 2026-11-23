@@ -1,0 +1,254 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/BB89B59A2CC48295.h"
+
+namespace TMPro { class TMP_FontAsset; }
+namespace TMPro { class TMP_SpriteAsset; }
+namespace TMPro { class TMP_Text; }
+namespace TMPro { class TextMeshPro; }
+namespace UnityEngine { class Material; }
+namespace UnityEngine { class Mesh; }
+namespace UnityEngine { class MeshFilter; }
+namespace UnityEngine { class Renderer; }
+
+#define TMPRO_TMP_SUBMESH_A28D6A0C3E793E7D_OFFSET UNITYSDK_OFFSET(0x40A30D0)
+#define TMPRO_TMP_SUBMESH_A34647F6F0C05A61_OFFSET UNITYSDK_OFFSET(0x40A2720)
+#define TMPRO_TMP_SUBMESH_A40D3DA6F60A88BB_OFFSET UNITYSDK_OFFSET(0x2326C40)
+#define TMPRO_TMP_SUBMESH_A6C47E10ADB4A9A8_OFFSET UNITYSDK_OFFSET(0x40A3640)
+#define TMPRO_TMP_SUBMESH_A71AB2D0F2A2706B_OFFSET UNITYSDK_OFFSET(0x40A38B0)
+#define TMPRO_TMP_SUBMESH_A9D2ED72B6FFF90C_OFFSET UNITYSDK_OFFSET(0x40A3760)
+#define TMPRO_TMP_SUBMESH_AAA00373207C0BF6_OFFSET UNITYSDK_OFFSET(0x40A32B0)
+#define TMPRO_TMP_SUBMESH_AB36E0EE549986E5_OFFSET UNITYSDK_OFFSET(0x40A2F80)
+#define TMPRO_TMP_SUBMESH_AE4EFA9D6B268C82_OFFSET UNITYSDK_OFFSET(0x16E19B0)
+#define TMPRO_TMP_SUBMESH_AF4AA5E3D9717E4A_OFFSET UNITYSDK_OFFSET(0x40A3630)
+#define TMPRO_TMP_SUBMESH_AFF3E10F196B52EF_OFFSET UNITYSDK_OFFSET(0x16E1590)
+#define TMPRO_TMP_SUBMESH_B0DFA5624A8A309E_OFFSET UNITYSDK_OFFSET(0x40A2EE0)
+#define TMPRO_TMP_SUBMESH_B15BD44AAACBE9C1_OFFSET UNITYSDK_OFFSET(0x2326C20)
+#define TMPRO_TMP_SUBMESH_B17C68E3F58DEE97_OFFSET UNITYSDK_OFFSET(0x40A3820)
+#define TMPRO_TMP_SUBMESH_B1818476F715B886_OFFSET UNITYSDK_OFFSET(0x16BD3B0)
+#define TMPRO_TMP_SUBMESH_B197284F2F51DE61_OFFSET UNITYSDK_OFFSET(0x40A35B0)
+#define TMPRO_TMP_SUBMESH_B214461C359B6B07_OFFSET UNITYSDK_OFFSET(0x40A3940)
+#define TMPRO_TMP_SUBMESH_B3105FA7B193D0AE_OFFSET UNITYSDK_OFFSET(0x40A2C70)
+#define TMPRO_TMP_SUBMESH_B565C8C93E5CFFD6_OFFSET UNITYSDK_OFFSET(0x40A32C0)
+#define TMPRO_TMP_SUBMESH_B597ACBDA08A9E54_OFFSET UNITYSDK_OFFSET(0x16BD320)
+#define TMPRO_TMP_SUBMESH_B8E1B46C1B1B6D68_OFFSET UNITYSDK_OFFSET(0x40A2E50)
+#define TMPRO_TMP_SUBMESH_B936FCA2A1786B32_OFFSET UNITYSDK_OFFSET(0x17F4BD0)
+#define TMPRO_TMP_SUBMESH_BBEF5BA9C379E191_OFFSET UNITYSDK_OFFSET(0x40A33B0)
+#define TMPRO_TMP_SUBMESH_BC94E197D383D17D_OFFSET UNITYSDK_OFFSET(0x2347C30)
+#define TMPRO_TMP_SUBMESH_BF13C91AD80643D2_OFFSET UNITYSDK_OFFSET(0x40A3190)
+#define TMPRO_TMP_SUBMESH_BFCA2C1AE4619A02_OFFSET UNITYSDK_OFFSET(0x1962CA0)
+#define TMPRO_TMP_SUBMESH_E02DB1EF3D5D040D_OFFSET UNITYSDK_OFFSET(0x17A62C0)
+#define TMPRO_TMP_SUBMESH_E6CBA6F0A99D1571_OFFSET UNITYSDK_OFFSET(0x18249B0)
+#define TMPRO_TMP_SUBMESH_E71EDE7DB3E30688_OFFSET UNITYSDK_OFFSET(0x169C070)
+#define TMPRO_TMP_SUBMESH_EC198B6613396FD4_OFFSET UNITYSDK_OFFSET(0x40A3BB0)
+#define TMPRO_TMP_SUBMESH_ECD9D5FF18606BA5_OFFSET UNITYSDK_OFFSET(0x165A410)
+#define TMPRO_TMP_SUBMESH_F03C179EAEF6DAD6_OFFSET UNITYSDK_OFFSET(0x40A32C0)
+#define TMPRO_TMP_SUBMESH_F6DE9C0E18F03437_OFFSET UNITYSDK_OFFSET(0x40A2B50)
+#define TMPRO_TMP_SUBMESH_FC09948235A61144_OFFSET UNITYSDK_OFFSET(0x40A3300)
+#define TMPRO_TMP_SUBMESH_FD78E6C304C78F73_OFFSET UNITYSDK_OFFSET(0x40A2C10)
+#define TMPRO_TMP_SUBMESH__CTOR_OFFSET UNITYSDK_OFFSET(0x176D770)
+
+namespace TMPro
+{
+	inline static constexpr unsigned int TMP_SubMesh_TypeDefinitionIndex = 18219;
+
+	class TMP_SubMesh : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::TMPro::TMP_FontAsset* m_fontAsset; // 0x20
+		::TMPro::TMP_SpriteAsset* m_spriteAsset; // 0x28
+		::UnityEngine::Material* m_material; // 0x30
+		::UnityEngine::Material* m_sharedMaterial; // 0x38
+		::UnityEngine::Material* BAB6772F409E9D24; // 0x40
+		::UnityEngine::Material* B48F584EB8ACE529; // 0x48
+		::System::Boolean m_isDefaultMaterial; // 0x50
+		::System::Byte _padding0[0x3];
+		::System::Single m_padding; // 0x54
+		::UnityEngine::Renderer* m_renderer; // 0x58
+		::UnityEngine::MeshFilter* A3E978862EFC07CE; // 0x60
+		::UnityEngine::Mesh* E11175BD6AAEA656; // 0x68
+		::TMPro::TextMeshPro* m_TextComponent; // 0x70
+		::System::Boolean A2267AA2EF509F46; // 0x78
+
+		::System::Single B15BD44AAACBE9C1()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_B15BD44AAACBE9C1_OFFSET))(this);
+		}
+
+		static ::TMPro::TMP_SubMesh* A34647F6F0C05A61(::TMPro::TextMeshPro* B211666AC084BB8B, ::BB89B59A2CC48295 E3586EF4B11F8C11)
+		{
+			return ((::TMPro::TMP_SubMesh*(*)(::TMPro::TextMeshPro*, ::BB89B59A2CC48295))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_A34647F6F0C05A61_OFFSET))(B211666AC084BB8B, E3586EF4B11F8C11);
+		}
+
+		::UnityEngine::Material* ECD9D5FF18606BA5()
+		{
+			return ((::UnityEngine::Material*(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_ECD9D5FF18606BA5_OFFSET))(this);
+		}
+
+		::System::Void AFF3E10F196B52EF(::UnityEngine::Material* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_AFF3E10F196B52EF_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::UnityEngine::Material* E6CBA6F0A99D1571()
+		{
+			return ((::UnityEngine::Material*(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_E6CBA6F0A99D1571_OFFSET))(this);
+		}
+
+		::UnityEngine::Material* E02DB1EF3D5D040D()
+		{
+			return ((::UnityEngine::Material*(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_E02DB1EF3D5D040D_OFFSET))(this);
+		}
+
+		::System::Void BFCA2C1AE4619A02(::TMPro::TMP_SpriteAsset* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::TMPro::TMP_SpriteAsset*))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_BFCA2C1AE4619A02_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void BC94E197D383D17D(::System::Boolean E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_BC94E197D383D17D_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void B214461C359B6B07(::UnityEngine::Material* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_B214461C359B6B07_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void AB36E0EE549986E5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_AB36E0EE549986E5_OFFSET))(this);
+		}
+
+		::System::Void A40D3DA6F60A88BB(::System::Single E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_A40D3DA6F60A88BB_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void B197284F2F51DE61(::System::Boolean F4A5E75C7FA71E87, ::System::Boolean ADCC7C91593B3DCC)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_B197284F2F51DE61_OFFSET))(this, F4A5E75C7FA71E87, ADCC7C91593B3DCC);
+		}
+
+		::UnityEngine::Renderer* B17C68E3F58DEE97()
+		{
+			return ((::UnityEngine::Renderer*(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_B17C68E3F58DEE97_OFFSET))(this);
+		}
+
+		::System::Void FD78E6C304C78F73()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_FD78E6C304C78F73_OFFSET))(this);
+		}
+
+		::System::Void BBEF5BA9C379E191()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_BBEF5BA9C379E191_OFFSET))(this);
+		}
+
+		::UnityEngine::Material* F6DE9C0E18F03437(::UnityEngine::Material* AFE8F10692F5139F)
+		{
+			return ((::UnityEngine::Material*(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_F6DE9C0E18F03437_OFFSET))(this, AFE8F10692F5139F);
+		}
+
+		::System::Void EC198B6613396FD4(::UnityEngine::Material* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_EC198B6613396FD4_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void A28D6A0C3E793E7D()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_A28D6A0C3E793E7D_OFFSET))(this);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH__CTOR_OFFSET))(this);
+		}
+
+		::UnityEngine::Material* B3105FA7B193D0AE(::UnityEngine::Material* A54EF53C742D300D)
+		{
+			return ((::UnityEngine::Material*(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_B3105FA7B193D0AE_OFFSET))(this, A54EF53C742D300D);
+		}
+
+		::UnityEngine::Material* B0DFA5624A8A309E()
+		{
+			return ((::UnityEngine::Material*(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_B0DFA5624A8A309E_OFFSET))(this);
+		}
+
+		::TMPro::TMP_Text* A71AB2D0F2A2706B()
+		{
+			return ((::TMPro::TMP_Text*(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_A71AB2D0F2A2706B_OFFSET))(this);
+		}
+
+		::TMPro::TMP_SpriteAsset* E71EDE7DB3E30688()
+		{
+			return ((::TMPro::TMP_SpriteAsset*(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_E71EDE7DB3E30688_OFFSET))(this);
+		}
+
+		::System::Single B8E1B46C1B1B6D68()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_B8E1B46C1B1B6D68_OFFSET))(this);
+		}
+
+		::System::Boolean AE4EFA9D6B268C82()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_AE4EFA9D6B268C82_OFFSET))(this);
+		}
+
+		::UnityEngine::Material* AF4AA5E3D9717E4A()
+		{
+			return ((::UnityEngine::Material*(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_AF4AA5E3D9717E4A_OFFSET))(this);
+		}
+
+		::System::Void AAA00373207C0BF6()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_AAA00373207C0BF6_OFFSET))(this);
+		}
+
+		::TMPro::TMP_FontAsset* B597ACBDA08A9E54()
+		{
+			return ((::TMPro::TMP_FontAsset*(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_B597ACBDA08A9E54_OFFSET))(this);
+		}
+
+		::System::Void FC09948235A61144()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_FC09948235A61144_OFFSET))(this);
+		}
+
+		::UnityEngine::Mesh* A9D2ED72B6FFF90C()
+		{
+			return ((::UnityEngine::Mesh*(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_A9D2ED72B6FFF90C_OFFSET))(this);
+		}
+
+		::System::Void F03C179EAEF6DAD6(::UnityEngine::Material* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_F03C179EAEF6DAD6_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void B1818476F715B886(::TMPro::TMP_FontAsset* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::TMPro::TMP_FontAsset*))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_B1818476F715B886_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void BF13C91AD80643D2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_BF13C91AD80643D2_OFFSET))(this);
+		}
+
+		::System::Void B565C8C93E5CFFD6(::UnityEngine::Material* A54EF53C742D300D)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_B565C8C93E5CFFD6_OFFSET))(this, A54EF53C742D300D);
+		}
+
+		::System::Void B936FCA2A1786B32(::UnityEngine::Mesh* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Mesh*))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_B936FCA2A1786B32_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::UnityEngine::MeshFilter* A6C47E10ADB4A9A8()
+		{
+			return ((::UnityEngine::MeshFilter*(*)(::PVOID))((::PBYTE)hIl2Cpp + TMPRO_TMP_SUBMESH_A6C47E10ADB4A9A8_OFFSET))(this);
+		}
+	};
+}

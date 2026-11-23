@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace A418C49FA6A8C1F7 { class EAB29E78CB60DCA3; }
+namespace System { class Delegate; }
+
+#define A418C49FA6A8C1F7_ADB7129254207684_AA86E7156486B09A_OFFSET UNITYSDK_OFFSET(0x1EB8060)
+#define A418C49FA6A8C1F7_ADB7129254207684__CTOR_OFFSET UNITYSDK_OFFSET(0x1EB8060)
+
+namespace A418C49FA6A8C1F7
+{
+	inline static constexpr unsigned int ADB7129254207684_TypeDefinitionIndex = 13422;
+
+	struct alignas(4) ADB7129254207684
+	{
+		::System::Void AA86E7156486B09A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A418C49FA6A8C1F7_ADB7129254207684_AA86E7156486B09A_OFFSET))(this);
+		}
+
+		::System::Void _ctor(::System::Delegate* E04D2BE64FCE9814, ::A418C49FA6A8C1F7::EAB29E78CB60DCA3* A3BDDE9D1F2C8C6A)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Delegate*, ::A418C49FA6A8C1F7::EAB29E78CB60DCA3*))((::PBYTE)hIl2Cpp + A418C49FA6A8C1F7_ADB7129254207684__CTOR_OFFSET))(this, E04D2BE64FCE9814, A3BDDE9D1F2C8C6A);
+		}
+	};
+}

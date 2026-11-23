@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+#define ABC_UI_MONODRAGBLEICON_A008F97EC2374256_OFFSET UNITYSDK_OFFSET(0x1831260)
+#define ABC_UI_MONODRAGBLEICON_AF8276435E50B9E2_OFFSET UNITYSDK_OFFSET(0x17D6430)
+#define ABC_UI_MONODRAGBLEICON_E3DAE68B4EAA7C5F_OFFSET UNITYSDK_OFFSET(0x1F5E890)
+#define ABC_UI_MONODRAGBLEICON_F23F1C3BD5990F86_OFFSET UNITYSDK_OFFSET(0x1BCACB0)
+#define ABC_UI_MONODRAGBLEICON_F8BD286A3D8A0E03_OFFSET UNITYSDK_OFFSET(0x16B0640)
+#define ABC_UI_MONODRAGBLEICON__CTOR_OFFSET UNITYSDK_OFFSET(0x176D770)
+
+namespace ABC::UI
+{
+	inline static constexpr unsigned int MonoDragbleIcon_TypeDefinitionIndex = 7751;
+
+	class MonoDragbleIcon : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::System::Int32 F22A18EBA2553821; // 0x20
+		::System::Int32 E7DBAD55BDBFEFBE; // 0x24
+
+		::System::Int32 A008F97EC2374256()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODRAGBLEICON_A008F97EC2374256_OFFSET))(this);
+		}
+
+		::System::Void F23F1C3BD5990F86(::System::Int32 E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ABC_UI_MONODRAGBLEICON_F23F1C3BD5990F86_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Int32 F8BD286A3D8A0E03()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODRAGBLEICON_F8BD286A3D8A0E03_OFFSET))(this);
+		}
+
+		::System::Void AF8276435E50B9E2(::System::Int32 E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ABC_UI_MONODRAGBLEICON_AF8276435E50B9E2_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODRAGBLEICON__CTOR_OFFSET))(this);
+		}
+
+		::System::Void E3DAE68B4EAA7C5F(::System::Int32 EFF81D808138F43F, ::System::Int32 F6D8B1B4A892734E)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + ABC_UI_MONODRAGBLEICON_E3DAE68B4EAA7C5F_OFFSET))(this, EFF81D808138F43F, F6D8B1B4A892734E);
+		}
+	};
+}

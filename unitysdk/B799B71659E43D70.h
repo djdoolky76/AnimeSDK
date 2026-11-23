@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/F5E59D28029D39FB/B8B7A36C6D8EA5B4.h"
+#include "unitysdk/System/Object.h"
+
+class B57C019CAC100DAC;
+namespace System { class Exception; }
+namespace System { template <typename T> class Action_1; }
+template <typename T> class B4C4813B1138728B;
+
+#define B799B71659E43D70_B7467D1160860E69_OFFSET UNITYSDK_OFFSET(0x3F2A730)
+#define B799B71659E43D70_E74B32E921CBE69A_OFFSET UNITYSDK_OFFSET(0x3F2AA80)
+#define B799B71659E43D70_F2C4E97AE7BC061C_OFFSET UNITYSDK_OFFSET(0x3F2B150)
+#define B799B71659E43D70__CTOR_OFFSET UNITYSDK_OFFSET(0x3F2B160)
+
+inline static constexpr unsigned int B799B71659E43D70_TypeDefinitionIndex = 19959;
+
+class B799B71659E43D70 : public ::System::Object
+{
+public:
+	::F5E59D28029D39FB::B8B7A36C6D8EA5B4 B6E149D7830C5090; // 0x10
+	::System::Byte _padding0[0x4];
+	::System::Object* AA0A6DC3CB1724AD; // 0x18
+	::System::Object* FB293B407D0A63A5; // 0x20
+	::System::Action_1<::System::Exception*>* A189101600053C33; // 0x28
+	::System::Int32 B318014B8CC83193; // 0x30
+	::System::Boolean E8A8D9BBE2191744; // 0x34
+	::System::Byte _padding1[0x3];
+	::Il2CppArray<::B57C019CAC100DAC*>* AC7D8ADC8A2F3DAE; // 0x38
+	::B4C4813B1138728B<::B57C019CAC100DAC*>* B1AE0BE76868F75F; // 0x40
+
+	::System::Void E74B32E921CBE69A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B799B71659E43D70_E74B32E921CBE69A_OFFSET))(this);
+	}
+
+	::System::Void _ctor(::F5E59D28029D39FB::B8B7A36C6D8EA5B4 B6E149D7830C5090)
+	{
+		return ((::System::Void(*)(::PVOID, ::F5E59D28029D39FB::B8B7A36C6D8EA5B4))((::PBYTE)hIl2Cpp + B799B71659E43D70__CTOR_OFFSET))(this, B6E149D7830C5090);
+	}
+
+	::System::Void B7467D1160860E69(::B57C019CAC100DAC* EC35F88C87A83BEB)
+	{
+		return ((::System::Void(*)(::PVOID, ::B57C019CAC100DAC*))((::PBYTE)hIl2Cpp + B799B71659E43D70_B7467D1160860E69_OFFSET))(this, EC35F88C87A83BEB);
+	}
+
+	::System::Void F2C4E97AE7BC061C()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B799B71659E43D70_F2C4E97AE7BC061C_OFFSET))(this);
+	}
+};

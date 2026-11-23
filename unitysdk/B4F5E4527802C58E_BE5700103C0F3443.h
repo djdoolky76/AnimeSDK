@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/A70D898CE3E14190.h"
+#include "unitysdk/AD41610DAE684581.h"
+#include "unitysdk/B4F5E4527802C58E_F52938EFAECC6FCA.h"
+#include "unitysdk/UnityEngine/BE5668376C82998A.h"
+
+namespace System { template <typename T> class Action_1; }
+namespace UnityEngine { class GameObject; }
+
+#define B4F5E4527802C58E_BE5700103C0F3443_A765A1D14770A303_OFFSET UNITYSDK_OFFSET(0x2289040)
+#define B4F5E4527802C58E_BE5700103C0F3443__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int B4F5E4527802C58E_BE5700103C0F3443_TypeDefinitionIndex = 7004;
+
+class B4F5E4527802C58E_BE5700103C0F3443 : public ::B4F5E4527802C58E_F52938EFAECC6FCA
+{
+public:
+	::UnityEngine::GameObject* ABA89EAEE78F2DC9; // 0x10
+	::AD41610DAE684581 F0A3EB8DE9EF6DAA; // 0x18
+	::AD41610DAE684581 ACA79BACFDAFB641; // 0x30
+	::System::Int32 ACBE1EE72C8EA662; // 0x48
+	::System::Int32 F6191DE23A834290; // 0x4C
+	::UnityEngine::BE5668376C82998A ECCB08C11DC7B290; // 0x50
+	::UnityEngine::BE5668376C82998A EA9F67A636C8F73A; // 0x60
+	::System::Action_1<::A70D898CE3E14190>* F1C5198FBC44AFCA; // 0x70
+	::System::Action_1<::System::Int32>* EF83AF6569A651BD; // 0x78
+	::System::Boolean BA3A25CCC638E373; // 0x80
+
+	::System::Void A765A1D14770A303()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B4F5E4527802C58E_BE5700103C0F3443_A765A1D14770A303_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B4F5E4527802C58E_BE5700103C0F3443__CTOR_OFFSET))(this);
+	}
+};

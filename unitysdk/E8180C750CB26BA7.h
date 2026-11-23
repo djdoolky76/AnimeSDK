@@ -1,0 +1,80 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class B28CB20161D1F2AD;
+namespace System { template <typename T1, typename T2> class Func_2; }
+namespace UnityEngine { class RectTransform; }
+
+#define E8180C750CB26BA7_A413729BA33E5DBB_OFFSET UNITYSDK_OFFSET(0x439FC30)
+#define E8180C750CB26BA7_AE67260AA46940FF_OFFSET UNITYSDK_OFFSET(0x439F640)
+#define E8180C750CB26BA7_AF6F1A248E210F9C_OFFSET UNITYSDK_OFFSET(0x43A02E0)
+#define E8180C750CB26BA7_BA1604FEFDA735AD_OFFSET UNITYSDK_OFFSET(0x43A0300)
+#define E8180C750CB26BA7_E637A5F598801308_OFFSET UNITYSDK_OFFSET(0x43A0020)
+#define E8180C750CB26BA7_EB97326E01AF529C_OFFSET UNITYSDK_OFFSET(0x439FD40)
+#define E8180C750CB26BA7_ECB298EE07B8BBA9_OFFSET UNITYSDK_OFFSET(0x439F810)
+#define E8180C750CB26BA7_F720DE16B7A93836_1_OFFSET UNITYSDK_OFFSET(0x439F920)
+#define E8180C750CB26BA7_F720DE16B7A93836_OFFSET UNITYSDK_OFFSET(0x439F940)
+#define E8180C750CB26BA7_FA41B767859C2286_OFFSET UNITYSDK_OFFSET(0x439FF10)
+#define E8180C750CB26BA7_FC1140F7632FCF87_OFFSET UNITYSDK_OFFSET(0x439F530)
+
+inline static constexpr unsigned int E8180C750CB26BA7_TypeDefinitionIndex = 18558;
+
+class E8180C750CB26BA7 : public ::System::Object
+{
+public:
+	static ::System::Single A413729BA33E5DBB(::UnityEngine::RectTransform* B856F1DD25F702CF)
+	{
+		return ((::System::Single(*)(::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + E8180C750CB26BA7_A413729BA33E5DBB_OFFSET))(B856F1DD25F702CF);
+	}
+
+	static ::System::Single F720DE16B7A93836(::UnityEngine::RectTransform* B856F1DD25F702CF, ::System::Func_2<::B28CB20161D1F2AD*, ::System::Single>* E3C04B7921CB0667, ::System::Single E068F60C6205B02D, ::B28CB20161D1F2AD*& AFE8F10692F5139F)
+	{
+		return ((::System::Single(*)(::UnityEngine::RectTransform*, ::System::Func_2<::B28CB20161D1F2AD*, ::System::Single>*, ::System::Single, ::B28CB20161D1F2AD*&))((::PBYTE)hIl2Cpp + E8180C750CB26BA7_F720DE16B7A93836_OFFSET))(B856F1DD25F702CF, E3C04B7921CB0667, E068F60C6205B02D, AFE8F10692F5139F);
+	}
+
+	static ::System::Single AE67260AA46940FF(::UnityEngine::RectTransform* B856F1DD25F702CF, ::System::Int32 F24A60394CB7A82C)
+	{
+		return ((::System::Single(*)(::UnityEngine::RectTransform*, ::System::Int32))((::PBYTE)hIl2Cpp + E8180C750CB26BA7_AE67260AA46940FF_OFFSET))(B856F1DD25F702CF, F24A60394CB7A82C);
+	}
+
+	static ::System::Single EB97326E01AF529C(::UnityEngine::RectTransform* B856F1DD25F702CF, ::System::Int32 F24A60394CB7A82C)
+	{
+		return ((::System::Single(*)(::UnityEngine::RectTransform*, ::System::Int32))((::PBYTE)hIl2Cpp + E8180C750CB26BA7_EB97326E01AF529C_OFFSET))(B856F1DD25F702CF, F24A60394CB7A82C);
+	}
+
+	static ::System::Single FA41B767859C2286(::UnityEngine::RectTransform* B856F1DD25F702CF)
+	{
+		return ((::System::Single(*)(::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + E8180C750CB26BA7_FA41B767859C2286_OFFSET))(B856F1DD25F702CF);
+	}
+
+	static ::System::Single ECB298EE07B8BBA9(::UnityEngine::RectTransform* B856F1DD25F702CF)
+	{
+		return ((::System::Single(*)(::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + E8180C750CB26BA7_ECB298EE07B8BBA9_OFFSET))(B856F1DD25F702CF);
+	}
+
+	static ::System::Single FC1140F7632FCF87(::UnityEngine::RectTransform* B856F1DD25F702CF)
+	{
+		return ((::System::Single(*)(::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + E8180C750CB26BA7_FC1140F7632FCF87_OFFSET))(B856F1DD25F702CF);
+	}
+
+	static ::System::Single AF6F1A248E210F9C(::UnityEngine::RectTransform* B856F1DD25F702CF, ::System::Int32 F24A60394CB7A82C)
+	{
+		return ((::System::Single(*)(::UnityEngine::RectTransform*, ::System::Int32))((::PBYTE)hIl2Cpp + E8180C750CB26BA7_AF6F1A248E210F9C_OFFSET))(B856F1DD25F702CF, F24A60394CB7A82C);
+	}
+
+	static ::System::Single E637A5F598801308(::UnityEngine::RectTransform* B856F1DD25F702CF)
+	{
+		return ((::System::Single(*)(::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + E8180C750CB26BA7_E637A5F598801308_OFFSET))(B856F1DD25F702CF);
+	}
+
+	static ::System::Single BA1604FEFDA735AD(::UnityEngine::RectTransform* B856F1DD25F702CF)
+	{
+		return ((::System::Single(*)(::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + E8180C750CB26BA7_BA1604FEFDA735AD_OFFSET))(B856F1DD25F702CF);
+	}
+
+	static ::System::Single F720DE16B7A93836_1(::UnityEngine::RectTransform* B856F1DD25F702CF, ::System::Func_2<::B28CB20161D1F2AD*, ::System::Single>* E3C04B7921CB0667, ::System::Single E068F60C6205B02D)
+	{
+		return ((::System::Single(*)(::UnityEngine::RectTransform*, ::System::Func_2<::B28CB20161D1F2AD*, ::System::Single>*, ::System::Single))((::PBYTE)hIl2Cpp + E8180C750CB26BA7_F720DE16B7A93836_1_OFFSET))(B856F1DD25F702CF, E3C04B7921CB0667, E068F60C6205B02D);
+	}
+};

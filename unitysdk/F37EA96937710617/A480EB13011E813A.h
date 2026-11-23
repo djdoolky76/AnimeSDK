@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace F37EA96937710617
+{
+	inline static constexpr unsigned int A480EB13011E813A_TypeDefinitionIndex = 10676;
+
+	enum class A480EB13011E813A : ::System::Int32
+	{
+		SerializedStreamHeader = 0,
+		Object = 1,
+		ObjectWithMap = 2,
+		ObjectWithMapAssemId = 3,
+		ObjectWithMapTyped = 4,
+		ObjectWithMapTypedAssemId = 5,
+		ObjectString = 6,
+		Array = 7,
+		MemberPrimitiveTyped = 8,
+		MemberReference = 9,
+		ObjectNull = 10,
+		MessageEnd = 11,
+		Assembly = 12,
+		ObjectNullMultiple256 = 13,
+		ObjectNullMultiple = 14,
+		ArraySinglePrimitive = 15,
+		ArraySingleObject = 16,
+		ArraySingleString = 17,
+		CrossAppDomainMap = 18,
+		CrossAppDomainString = 19,
+		CrossAppDomainAssembly = 20,
+		MethodCall = 21,
+		MethodReturn = 22,
+	};
+}

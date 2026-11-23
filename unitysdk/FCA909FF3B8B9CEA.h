@@ -1,0 +1,67 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+class B7CF970173C8CDE4;
+namespace ABC::UI { class MonoButton; }
+namespace ABC::UI { class MonoLocalizedTmp; }
+namespace ABC::UI { class MonoPrefabLoader; }
+namespace ABC::UI { class MonoUIAutoView; }
+namespace UnityEngine { class Canvas; }
+namespace UnityEngine { class RectTransform; }
+
+#define FCA909FF3B8B9CEA_A2DD6D74CF9E01AE_OFFSET UNITYSDK_OFFSET(0x1665350)
+#define FCA909FF3B8B9CEA_A54D936318FAF9E3_OFFSET UNITYSDK_OFFSET(0x1665000)
+#define FCA909FF3B8B9CEA_AEF1ED58A44FD065_OFFSET UNITYSDK_OFFSET(0x16652B0)
+#define FCA909FF3B8B9CEA_B950FF9810FC6646_OFFSET UNITYSDK_OFFSET(0x1664F30)
+#define FCA909FF3B8B9CEA_BFCEE111278C4278_OFFSET UNITYSDK_OFFSET(0x1665410)
+#define FCA909FF3B8B9CEA_F6A675B119E39F53_OFFSET UNITYSDK_OFFSET(0x1665260)
+#define FCA909FF3B8B9CEA__CTOR_OFFSET UNITYSDK_OFFSET(0x16655B0)
+
+inline static constexpr unsigned int FCA909FF3B8B9CEA_TypeDefinitionIndex = 38;
+
+class FCA909FF3B8B9CEA
+{
+public:
+	::B7CF970173C8CDE4* EE4838215037A945; // 0x90
+	::ABC::UI::MonoButton* FE0F06DA3FD7E189; // 0x98
+	::UnityEngine::Canvas* A5C3F2CB449C245F; // 0xA0
+	::UnityEngine::RectTransform* A83D37ED810667F6; // 0xA8
+	::ABC::UI::MonoPrefabLoader* AAB1165E9ED89222; // 0xB0
+	::ABC::UI::MonoPrefabLoader* E917C818ABC29236; // 0xB8
+	::ABC::UI::MonoLocalizedTmp* E2DD755B74A05F57; // 0xC0
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FCA909FF3B8B9CEA__CTOR_OFFSET))(this);
+	}
+
+	::System::Void A2DD6D74CF9E01AE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FCA909FF3B8B9CEA_A2DD6D74CF9E01AE_OFFSET))(this);
+	}
+
+	::System::Void F6A675B119E39F53()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FCA909FF3B8B9CEA_F6A675B119E39F53_OFFSET))(this);
+	}
+
+	::System::Void BFCEE111278C4278(::B7CF970173C8CDE4* F220A2D27F7C6B6C)
+	{
+		return ((::System::Void(*)(::PVOID, ::B7CF970173C8CDE4*))((::PBYTE)hIl2Cpp + FCA909FF3B8B9CEA_BFCEE111278C4278_OFFSET))(this, F220A2D27F7C6B6C);
+	}
+
+	::System::Void A54D936318FAF9E3(::ABC::UI::MonoUIAutoView* AE442F7D881522D8)
+	{
+		return ((::System::Void(*)(::PVOID, ::ABC::UI::MonoUIAutoView*))((::PBYTE)hIl2Cpp + FCA909FF3B8B9CEA_A54D936318FAF9E3_OFFSET))(this, AE442F7D881522D8);
+	}
+
+	::System::Void AEF1ED58A44FD065()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FCA909FF3B8B9CEA_AEF1ED58A44FD065_OFFSET))(this);
+	}
+
+	::System::Void B950FF9810FC6646()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FCA909FF3B8B9CEA_B950FF9810FC6646_OFFSET))(this);
+	}
+};

@@ -1,0 +1,23 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/EADE0CABA1B6337C.h"
+
+#define A94EBB5CB360A831_EB7576B70DFDEA65_OFFSET UNITYSDK_OFFSET(0x4410060)
+#define A94EBB5CB360A831_FBFF0B49A8EFD42F_OFFSET UNITYSDK_OFFSET(0x440F620)
+
+inline static constexpr unsigned int A94EBB5CB360A831_TypeDefinitionIndex = 21133;
+
+class A94EBB5CB360A831 : public ::System::Object
+{
+public:
+	static ::System::Boolean EB7576B70DFDEA65(::EADE0CABA1B6337C<::System::Char> F6C2EBBDFCAEF915, ::System::Int32& BF87BDD6B4450E66, ::System::UInt64 E937D4885DAA1AE8)
+	{
+		return ((::System::Boolean(*)(::EADE0CABA1B6337C<::System::Char>, ::System::Int32&, ::System::UInt64))((::PBYTE)hIl2Cpp + A94EBB5CB360A831_EB7576B70DFDEA65_OFFSET))(F6C2EBBDFCAEF915, BF87BDD6B4450E66, E937D4885DAA1AE8);
+	}
+
+	static ::System::Boolean FBFF0B49A8EFD42F(::EADE0CABA1B6337C<::System::Char> F6C2EBBDFCAEF915, ::System::Int32& BF87BDD6B4450E66, ::System::Int64 E937D4885DAA1AE8)
+	{
+		return ((::System::Boolean(*)(::EADE0CABA1B6337C<::System::Char>, ::System::Int32&, ::System::Int64))((::PBYTE)hIl2Cpp + A94EBB5CB360A831_FBFF0B49A8EFD42F_OFFSET))(F6C2EBBDFCAEF915, BF87BDD6B4450E66, E937D4885DAA1AE8);
+	}
+};

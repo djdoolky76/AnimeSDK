@@ -1,0 +1,46 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BA90DFC92B3EFC5F.h"
+#include "unitysdk/FBD2892000366FFC.h"
+#include "unitysdk/System/ValueType.h"
+
+class E927BB0BDDC1A761;
+class EC4DE502D90A864B;
+class FB9A3EAD24EFC6D6;
+namespace System { class Exception; }
+namespace System { class Object; }
+
+#define E927BB0BDDC1A761_E8D9486B632CACC3_A24002EAA8F1539A_OFFSET UNITYSDK_OFFSET(0x3E23E40)
+#define E927BB0BDDC1A761_E8D9486B632CACC3_E6CAD58306FCDCB5_OFFSET UNITYSDK_OFFSET(0x3E23540)
+
+inline static constexpr unsigned int E927BB0BDDC1A761_E8D9486B632CACC3_TypeDefinitionIndex = 14804;
+
+struct alignas(8) E927BB0BDDC1A761_E8D9486B632CACC3
+{
+	::System::Int32 FEB3551B7D8B59C1; // 0x10
+	::System::Byte _padding0[0x4];
+	::FBD2892000366FFC<::System::Int32> A1CA1C79468DC000; // 0x18
+	::System::Byte _padding1[0x10];
+	::BA90DFC92B3EFC5F B22B108A2E686F3C; // 0x30
+	::Il2CppArray<::System::Byte>* F6C2EBBDFCAEF915; // 0x38
+	::System::Int32 BE9B161B3F3C2937; // 0x40
+	::System::Int32 A70E5C58B2C7A692; // 0x44
+	::E927BB0BDDC1A761* A544919C800E2923; // 0x48
+	::FB9A3EAD24EFC6D6* E09A1F796B22C8C7; // 0x50
+	::System::Int32 E1A5BE614AB6555E; // 0x58
+	::System::Byte _padding2[0x4];
+	::System::Exception* F87002934A0FA69F; // 0x60
+	::System::Object* A109FC4638F13DC1; // 0x68
+	::System::Byte _padding3[0x8];
+	::System::Object* BB34E68636945662; // 0x78
+
+	::System::Void E6CAD58306FCDCB5()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E927BB0BDDC1A761_E8D9486B632CACC3_E6CAD58306FCDCB5_OFFSET))(this);
+	}
+
+	::System::Void A24002EAA8F1539A(::EC4DE502D90A864B* FF331EB1F030063C)
+	{
+		return ((::System::Void(*)(::PVOID, ::EC4DE502D90A864B*))((::PBYTE)hIl2Cpp + E927BB0BDDC1A761_E8D9486B632CACC3_A24002EAA8F1539A_OFFSET))(this, FF331EB1F030063C);
+	}
+};

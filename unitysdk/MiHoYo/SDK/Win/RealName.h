@@ -1,0 +1,126 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BED79290917896D4/E71903803EDE1191.h"
+#include "unitysdk/MiHoYo/SDK/Confirm_E18B39FBD22EF1C5.h"
+#include "unitysdk/MiHoYo/SDK/UIElement.h"
+
+namespace System { class Action; }
+namespace System { class String; }
+namespace UnityEngine::UI { class Button; }
+namespace UnityEngine::UI { class InputField; }
+namespace UnityEngine::UI { class Text; }
+
+#define MIHOYO_SDK_WIN_REALNAME_AA17B41DE5832924_OFFSET UNITYSDK_OFFSET(0x39E0E00)
+#define MIHOYO_SDK_WIN_REALNAME_AB36E0EE549986E5_OFFSET UNITYSDK_OFFSET(0x39E1040)
+#define MIHOYO_SDK_WIN_REALNAME_B0D966C939EB007C_OFFSET UNITYSDK_OFFSET(0x39E0FA0)
+#define MIHOYO_SDK_WIN_REALNAME_B16D5355CAC8F162_OFFSET UNITYSDK_OFFSET(0x39E14F0)
+#define MIHOYO_SDK_WIN_REALNAME_BDE9208E7A2FFFCA_OFFSET UNITYSDK_OFFSET(0x39E1520)
+#define MIHOYO_SDK_WIN_REALNAME_BFA7961FF2AC380B_OFFSET UNITYSDK_OFFSET(0x39E1090)
+#define MIHOYO_SDK_WIN_REALNAME_BFFF33EA83C86EC7_OFFSET UNITYSDK_OFFSET(0x39E0C30)
+#define MIHOYO_SDK_WIN_REALNAME_E3D9249DD0E4032E_OFFSET UNITYSDK_OFFSET(0x39E1220)
+#define MIHOYO_SDK_WIN_REALNAME_E85D1C741D5386D7_OFFSET UNITYSDK_OFFSET(0x39E0F50)
+#define MIHOYO_SDK_WIN_REALNAME_F9058E4FB2520DA0_OFFSET UNITYSDK_OFFSET(0x39E0F30)
+#define MIHOYO_SDK_WIN_REALNAME_F926EC64FD430BA3_OFFSET UNITYSDK_OFFSET(0x39E0F10)
+#define MIHOYO_SDK_WIN_REALNAME_FB08F0065135719A_OFFSET UNITYSDK_OFFSET(0x39E0C10)
+#define MIHOYO_SDK_WIN_REALNAME_FC07AA0A59C38D9B_OFFSET UNITYSDK_OFFSET(0x39E14F0)
+#define MIHOYO_SDK_WIN_REALNAME_FDBCDBBFE02CD51A_OFFSET UNITYSDK_OFFSET(0x39E07B0)
+#define MIHOYO_SDK_WIN_REALNAME__CTOR_OFFSET UNITYSDK_OFFSET(0x39230A0)
+
+namespace MiHoYo::SDK::Win
+{
+	inline static constexpr unsigned int RealName_TypeDefinitionIndex = 12728;
+
+	class RealName : public ::MiHoYo::SDK::UIElement
+	{
+	public:
+		static ::MiHoYo::SDK::Win::RealName** StaticGet_F459A1CAE950E680()
+		{
+			return (::MiHoYo::SDK::Win::RealName**)Il2CppClass::FromTypeDefinitionIndex(RealName_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		::UnityEngine::UI::Button* F9B6CD06A11EA70F; // 0x60
+		::UnityEngine::UI::Button* A0C96F47DCDE8F74; // 0x68
+		::UnityEngine::UI::InputField* A5A70F5F8B481935; // 0x70
+		::UnityEngine::UI::InputField* BBB9930CB8E38D8D; // 0x78
+		::UnityEngine::UI::Button* F1C7ECBBBFF6AA0A; // 0x80
+		::UnityEngine::UI::Text* FBDF1B40720E3BF3; // 0x88
+		::System::Action* OnBack; // 0x90
+		::System::Action* OnSubmit; // 0x98
+		::System::Action* OnBackWithoutConfirm; // 0xA0
+		::BED79290917896D4::E71903803EDE1191 dialogType; // 0xA8
+
+		::System::Void E3D9249DD0E4032E()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAME_E3D9249DD0E4032E_OFFSET))(this);
+		}
+
+		::System::Void FB08F0065135719A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAME_FB08F0065135719A_OFFSET))(this);
+		}
+
+		::System::Void B0D966C939EB007C()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAME_B0D966C939EB007C_OFFSET))(this);
+		}
+
+		::System::Void FDBCDBBFE02CD51A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAME_FDBCDBBFE02CD51A_OFFSET))(this);
+		}
+
+		::System::Void B16D5355CAC8F162(::MiHoYo::SDK::Confirm_E18B39FBD22EF1C5 E82293C0814051A5)
+		{
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Confirm_E18B39FBD22EF1C5))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAME_B16D5355CAC8F162_OFFSET))(this, E82293C0814051A5);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAME__CTOR_OFFSET))(this);
+		}
+
+		::System::String* F926EC64FD430BA3()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAME_F926EC64FD430BA3_OFFSET))(this);
+		}
+
+		::System::Void BDE9208E7A2FFFCA()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAME_BDE9208E7A2FFFCA_OFFSET))(this);
+		}
+
+		::System::String* F9058E4FB2520DA0()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAME_F9058E4FB2520DA0_OFFSET))(this);
+		}
+
+		static ::System::Void E85D1C741D5386D7()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAME_E85D1C741D5386D7_OFFSET))();
+		}
+
+		::System::String* AA17B41DE5832924()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAME_AA17B41DE5832924_OFFSET))(this);
+		}
+
+		::System::Void AB36E0EE549986E5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAME_AB36E0EE549986E5_OFFSET))(this);
+		}
+
+		::System::Void BFFF33EA83C86EC7()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAME_BFFF33EA83C86EC7_OFFSET))(this);
+		}
+
+		::System::Void FC07AA0A59C38D9B(::MiHoYo::SDK::Confirm_E18B39FBD22EF1C5 E82293C0814051A5)
+		{
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Confirm_E18B39FBD22EF1C5))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAME_FC07AA0A59C38D9B_OFFSET))(this, E82293C0814051A5);
+		}
+
+		static ::System::Void BFA7961FF2AC380B(::BED79290917896D4::E71903803EDE1191 A288CB28FC2A6DA3)
+		{
+			return ((::System::Void(*)(::BED79290917896D4::E71903803EDE1191))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_REALNAME_BFA7961FF2AC380B_OFFSET))(A288CB28FC2A6DA3);
+		}
+	};
+}

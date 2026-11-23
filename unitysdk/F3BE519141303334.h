@@ -1,0 +1,47 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class AB642D1382756991;
+namespace UnityEngine::AI { class NavMeshObstacle; }
+
+#define F3BE519141303334_BF53AA4973B4D61A_OFFSET UNITYSDK_OFFSET(0x1966770)
+#define F3BE519141303334_F5D757D79C373AB6_OFFSET UNITYSDK_OFFSET(0x1966840)
+#define F3BE519141303334_F99D7095FA82F093_OFFSET UNITYSDK_OFFSET(0x1966910)
+#define F3BE519141303334_FCC7443573DD0222_OFFSET UNITYSDK_OFFSET(0x1966700)
+#define F3BE519141303334__CTOR_OFFSET UNITYSDK_OFFSET(0x1966A20)
+
+inline static constexpr unsigned int F3BE519141303334_TypeDefinitionIndex = 1606;
+
+class F3BE519141303334 : public ::System::Object
+{
+public:
+	::UnityEngine::AI::NavMeshObstacle* F0475A5925C44DF1; // 0x10
+	::AB642D1382756991* AE5A52FF1AC7B3BE; // 0x18
+	::System::Boolean AF3575C80E2C2475; // 0x20
+
+	::System::Void BF53AA4973B4D61A(::System::Boolean A3E26351629B9EF8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + F3BE519141303334_BF53AA4973B4D61A_OFFSET))(this, A3E26351629B9EF8);
+	}
+
+	::System::Void F99D7095FA82F093(::System::Boolean A3E26351629B9EF8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + F3BE519141303334_F99D7095FA82F093_OFFSET))(this, A3E26351629B9EF8);
+	}
+
+	::System::Void FCC7443573DD0222()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F3BE519141303334_FCC7443573DD0222_OFFSET))(this);
+	}
+
+	::System::Void _ctor(::UnityEngine::AI::NavMeshObstacle* EBD4CF56FF3FF3AE, ::AB642D1382756991* EEF688477002B28B)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::AI::NavMeshObstacle*, ::AB642D1382756991*))((::PBYTE)hIl2Cpp + F3BE519141303334__CTOR_OFFSET))(this, EBD4CF56FF3FF3AE, EEF688477002B28B);
+	}
+
+	::System::Void F5D757D79C373AB6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F3BE519141303334_F5D757D79C373AB6_OFFSET))(this);
+	}
+};

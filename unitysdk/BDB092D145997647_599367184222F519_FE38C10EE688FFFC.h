@@ -1,0 +1,9 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+inline static constexpr unsigned int BDB092D145997647_599367184222F519_FE38C10EE688FFFC_TypeDefinitionIndex = 10496;
+
+struct alignas(4) BDB092D145997647_599367184222F519_FE38C10EE688FFFC
+{
+};

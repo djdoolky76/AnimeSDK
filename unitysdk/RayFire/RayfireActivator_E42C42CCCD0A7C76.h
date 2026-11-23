@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace RayFire { class RayfireActivator; }
+namespace RayFire { class RayfireRigid; }
+namespace UnityEngine { class Collider; }
+
+#define RAYFIRE_RAYFIREACTIVATOR_E42C42CCCD0A7C76_BB5F6FA7EB4E8D6F_OFFSET UNITYSDK_OFFSET(0x17F35A0)
+#define RAYFIRE_RAYFIREACTIVATOR_E42C42CCCD0A7C76_E34B6CA02139E820_OFFSET UNITYSDK_OFFSET(0x17F35A0)
+#define RAYFIRE_RAYFIREACTIVATOR_E42C42CCCD0A7C76_E6CAD58306FCDCB5_OFFSET UNITYSDK_OFFSET(0x2998530)
+#define RAYFIRE_RAYFIREACTIVATOR_E42C42CCCD0A7C76_F21DBBC44C999728_OFFSET UNITYSDK_OFFSET(0x1EB8060)
+#define RAYFIRE_RAYFIREACTIVATOR_E42C42CCCD0A7C76_F38E5001C7AA1BB5_OFFSET UNITYSDK_OFFSET(0x2998710)
+#define RAYFIRE_RAYFIREACTIVATOR_E42C42CCCD0A7C76__CTOR_OFFSET UNITYSDK_OFFSET(0x1F26BB0)
+
+namespace RayFire
+{
+	inline static constexpr unsigned int RayfireActivator_E42C42CCCD0A7C76_TypeDefinitionIndex = 15526;
+
+	class RayfireActivator_E42C42CCCD0A7C76 : public ::System::Object
+	{
+	public:
+		::System::Int32 FEB3551B7D8B59C1; // 0x10
+		::System::Byte _padding0[0x4];
+		::System::Object* FFDE99DB2A55498E; // 0x18
+		::RayFire::RayfireActivator* A544919C800E2923; // 0x20
+		::RayFire::RayfireRigid* E9D1ABA13C0D414F; // 0x28
+		::UnityEngine::Collider* F86513DEE5D16613; // 0x30
+
+		::System::Void _ctor(::System::Int32 FEB3551B7D8B59C1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + RAYFIRE_RAYFIREACTIVATOR_E42C42CCCD0A7C76__CTOR_OFFSET))(this, FEB3551B7D8B59C1);
+		}
+
+		::System::Void F21DBBC44C999728()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RAYFIRE_RAYFIREACTIVATOR_E42C42CCCD0A7C76_F21DBBC44C999728_OFFSET))(this);
+		}
+
+		::System::Boolean E6CAD58306FCDCB5()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + RAYFIRE_RAYFIREACTIVATOR_E42C42CCCD0A7C76_E6CAD58306FCDCB5_OFFSET))(this);
+		}
+
+		::System::Object* BB5F6FA7EB4E8D6F()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RAYFIRE_RAYFIREACTIVATOR_E42C42CCCD0A7C76_BB5F6FA7EB4E8D6F_OFFSET))(this);
+		}
+
+		::System::Void F38E5001C7AA1BB5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + RAYFIRE_RAYFIREACTIVATOR_E42C42CCCD0A7C76_F38E5001C7AA1BB5_OFFSET))(this);
+		}
+
+		::System::Object* E34B6CA02139E820()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + RAYFIRE_RAYFIREACTIVATOR_E42C42CCCD0A7C76_E34B6CA02139E820_OFFSET))(this);
+		}
+	};
+}

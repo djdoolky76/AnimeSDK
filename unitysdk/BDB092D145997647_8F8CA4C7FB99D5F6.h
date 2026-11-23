@@ -1,0 +1,19 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BDB092D145997647_8F8CA4C7FB99D5F6_BED951D26815DC25.h"
+#include "unitysdk/System/Object.h"
+
+inline static constexpr unsigned int BDB092D145997647_8F8CA4C7FB99D5F6_TypeDefinitionIndex = 21149;
+
+class BDB092D145997647_8F8CA4C7FB99D5F6 : public ::System::Object
+{
+public:
+	static ::BDB092D145997647_8F8CA4C7FB99D5F6_BED951D26815DC25* StaticGet_EEF419115628B2CB()
+	{
+		return (::BDB092D145997647_8F8CA4C7FB99D5F6_BED951D26815DC25*)Il2CppClass::FromTypeDefinitionIndex(BDB092D145997647_8F8CA4C7FB99D5F6_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::BDB092D145997647_8F8CA4C7FB99D5F6_BED951D26815DC25* StaticGet_A54C2A2AD95CB211()
+	{
+		return (::BDB092D145997647_8F8CA4C7FB99D5F6_BED951D26815DC25*)Il2CppClass::FromTypeDefinitionIndex(BDB092D145997647_8F8CA4C7FB99D5F6_TypeDefinitionIndex)->GetStaticField(0x18);
+	}
+};

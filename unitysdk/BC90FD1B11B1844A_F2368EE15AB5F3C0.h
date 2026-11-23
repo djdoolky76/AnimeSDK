@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class BC90FD1B11B1844A;
+namespace System { class String; }
+
+#define BC90FD1B11B1844A_F2368EE15AB5F3C0_B4C9F99230151C82_OFFSET UNITYSDK_OFFSET(0x1FC5C60)
+#define BC90FD1B11B1844A_F2368EE15AB5F3C0_FBF44789EC5C360F_OFFSET UNITYSDK_OFFSET(0x1FC5D80)
+#define BC90FD1B11B1844A_F2368EE15AB5F3C0__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int BC90FD1B11B1844A_F2368EE15AB5F3C0_TypeDefinitionIndex = 6823;
+
+class BC90FD1B11B1844A_F2368EE15AB5F3C0 : public ::System::Object
+{
+public:
+	::System::String* EFF983A80A48BB2A; // 0x10
+	::BC90FD1B11B1844A* A544919C800E2923; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BC90FD1B11B1844A_F2368EE15AB5F3C0__CTOR_OFFSET))(this);
+	}
+
+	::System::Void B4C9F99230151C82(::Il2CppArray<::System::Byte>* E83E519C5C42896F)
+	{
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + BC90FD1B11B1844A_F2368EE15AB5F3C0_B4C9F99230151C82_OFFSET))(this, E83E519C5C42896F);
+	}
+
+	::System::Void FBF44789EC5C360F(::System::String* BE16F0D38CD1638E, ::System::Int64 E84073D3D0C5F54B)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Int64))((::PBYTE)hIl2Cpp + BC90FD1B11B1844A_F2368EE15AB5F3C0_FBF44789EC5C360F_OFFSET))(this, BE16F0D38CD1638E, E84073D3D0C5F54B);
+	}
+};

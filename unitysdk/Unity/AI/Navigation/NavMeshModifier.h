@@ -1,0 +1,137 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define UNITY_AI_NAVIGATION_NAVMESHMODIFIER_A28D6A0C3E793E7D_OFFSET UNITYSDK_OFFSET(0x3F33780)
+#define UNITY_AI_NAVIGATION_NAVMESHMODIFIER_AD60FB9081EFF5E6_OFFSET UNITYSDK_OFFSET(0x3F33A70)
+#define UNITY_AI_NAVIGATION_NAVMESHMODIFIER_B1C968D267AFE6F1_OFFSET UNITYSDK_OFFSET(0x16B0640)
+#define UNITY_AI_NAVIGATION_NAVMESHMODIFIER_B43D67CC32451AB5_OFFSET UNITYSDK_OFFSET(0x17D6430)
+#define UNITY_AI_NAVIGATION_NAVMESHMODIFIER_B4B55F50AB43E953_OFFSET UNITYSDK_OFFSET(0x17D6420)
+#define UNITY_AI_NAVIGATION_NAVMESHMODIFIER_BAF8198D7445ABA0_OFFSET UNITYSDK_OFFSET(0x1925A50)
+#define UNITY_AI_NAVIGATION_NAVMESHMODIFIER_BBA511AFDA228DFF_OFFSET UNITYSDK_OFFSET(0x1D6F0E0)
+#define UNITY_AI_NAVIGATION_NAVMESHMODIFIER_BF13C91AD80643D2_OFFSET UNITYSDK_OFFSET(0x3F33800)
+#define UNITY_AI_NAVIGATION_NAVMESHMODIFIER_E0AB660FDBBB1CD6_OFFSET UNITYSDK_OFFSET(0x1D6F0B0)
+#define UNITY_AI_NAVIGATION_NAVMESHMODIFIER_E0DB9048C4694F11_OFFSET UNITYSDK_OFFSET(0x3F33A20)
+#define UNITY_AI_NAVIGATION_NAVMESHMODIFIER_ED93756CA813AA89_OFFSET UNITYSDK_OFFSET(0x1D6F0D0)
+#define UNITY_AI_NAVIGATION_NAVMESHMODIFIER_F2774E30C40EFC9B_OFFSET UNITYSDK_OFFSET(0x3F336D0)
+#define UNITY_AI_NAVIGATION_NAVMESHMODIFIER_F98F6F0538ADE255_OFFSET UNITYSDK_OFFSET(0x1D6F0C0)
+#define UNITY_AI_NAVIGATION_NAVMESHMODIFIER_F9B3F2BEEC996BA9_OFFSET UNITYSDK_OFFSET(0x27DE520)
+#define UNITY_AI_NAVIGATION_NAVMESHMODIFIER_FCDE89D334FDF2E8_OFFSET UNITYSDK_OFFSET(0x17D6270)
+#define UNITY_AI_NAVIGATION_NAVMESHMODIFIER_FE34905E404DEABA_OFFSET UNITYSDK_OFFSET(0x1925A40)
+#define UNITY_AI_NAVIGATION_NAVMESHMODIFIER__CCTOR_OFFSET UNITYSDK_OFFSET(0x3F338D0)
+#define UNITY_AI_NAVIGATION_NAVMESHMODIFIER__CTOR_OFFSET UNITYSDK_OFFSET(0x3F33950)
+
+namespace Unity::AI::Navigation
+{
+	inline static constexpr unsigned int NavMeshModifier_TypeDefinitionIndex = 21414;
+
+	class NavMeshModifier : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		static ::System::Collections::Generic::List_1<::Unity::AI::Navigation::NavMeshModifier*>** StaticGet_B6174BD553789037()
+		{
+			return (::System::Collections::Generic::List_1<::Unity::AI::Navigation::NavMeshModifier*>**)Il2CppClass::FromTypeDefinitionIndex(NavMeshModifier_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		::System::Boolean m_OverrideArea; // 0x20
+		::System::Byte _padding0[0x3];
+		::System::Int32 m_Area; // 0x24
+		::System::Boolean m_OverrideGenerateLinks; // 0x28
+		::System::Boolean m_GenerateLinks; // 0x29
+		::System::Boolean m_IgnoreFromBuild; // 0x2A
+		::System::Boolean m_ApplyToChildren; // 0x2B
+		::System::Byte _padding1[0x4];
+		::System::Collections::Generic::List_1<::System::Int32>* m_AffectedAgents; // 0x30
+
+		::System::Void B43D67CC32451AB5(::System::Int32 E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITY_AI_NAVIGATION_NAVMESHMODIFIER_B43D67CC32451AB5_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void BAF8198D7445ABA0(::System::Boolean E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITY_AI_NAVIGATION_NAVMESHMODIFIER_BAF8198D7445ABA0_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Int32 B1C968D267AFE6F1()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITY_AI_NAVIGATION_NAVMESHMODIFIER_B1C968D267AFE6F1_OFFSET))(this);
+		}
+
+		::System::Boolean FE34905E404DEABA()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITY_AI_NAVIGATION_NAVMESHMODIFIER_FE34905E404DEABA_OFFSET))(this);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITY_AI_NAVIGATION_NAVMESHMODIFIER__CCTOR_OFFSET))();
+		}
+
+		::System::Void AD60FB9081EFF5E6(::System::Boolean E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITY_AI_NAVIGATION_NAVMESHMODIFIER_AD60FB9081EFF5E6_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Boolean E0AB660FDBBB1CD6()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITY_AI_NAVIGATION_NAVMESHMODIFIER_E0AB660FDBBB1CD6_OFFSET))(this);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITY_AI_NAVIGATION_NAVMESHMODIFIER__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean F9B3F2BEEC996BA9()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITY_AI_NAVIGATION_NAVMESHMODIFIER_F9B3F2BEEC996BA9_OFFSET))(this);
+		}
+
+		::System::Boolean F2774E30C40EFC9B(::System::Int32 F05D4F1524F03CD5)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITY_AI_NAVIGATION_NAVMESHMODIFIER_F2774E30C40EFC9B_OFFSET))(this, F05D4F1524F03CD5);
+		}
+
+		::System::Void BBA511AFDA228DFF(::System::Boolean E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITY_AI_NAVIGATION_NAVMESHMODIFIER_BBA511AFDA228DFF_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void ED93756CA813AA89(::System::Boolean E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITY_AI_NAVIGATION_NAVMESHMODIFIER_ED93756CA813AA89_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		static ::System::Collections::Generic::List_1<::Unity::AI::Navigation::NavMeshModifier*>* E0DB9048C4694F11()
+		{
+			return ((::System::Collections::Generic::List_1<::Unity::AI::Navigation::NavMeshModifier*>*(*)())((::PBYTE)hIl2Cpp + UNITY_AI_NAVIGATION_NAVMESHMODIFIER_E0DB9048C4694F11_OFFSET))();
+		}
+
+		::System::Void BF13C91AD80643D2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITY_AI_NAVIGATION_NAVMESHMODIFIER_BF13C91AD80643D2_OFFSET))(this);
+		}
+
+		::System::Boolean F98F6F0538ADE255()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITY_AI_NAVIGATION_NAVMESHMODIFIER_F98F6F0538ADE255_OFFSET))(this);
+		}
+
+		::System::Void A28D6A0C3E793E7D()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITY_AI_NAVIGATION_NAVMESHMODIFIER_A28D6A0C3E793E7D_OFFSET))(this);
+		}
+
+		::System::Boolean FCDE89D334FDF2E8()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITY_AI_NAVIGATION_NAVMESHMODIFIER_FCDE89D334FDF2E8_OFFSET))(this);
+		}
+
+		::System::Void B4B55F50AB43E953(::System::Boolean E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITY_AI_NAVIGATION_NAVMESHMODIFIER_B4B55F50AB43E953_OFFSET))(this, E937D4885DAA1AE8);
+		}
+	};
+}

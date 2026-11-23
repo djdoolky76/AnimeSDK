@@ -1,0 +1,85 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define AC5AEF3ED2E246E6_A92552DB0C517CFB_OFFSET UNITYSDK_OFFSET(0x3C844A0)
+#define AC5AEF3ED2E246E6_B89B635FAC293946_OFFSET UNITYSDK_OFFSET(0x3C84370)
+#define AC5AEF3ED2E246E6_BD1EA225F8391F62_1_OFFSET UNITYSDK_OFFSET(0x3C84490)
+#define AC5AEF3ED2E246E6_BD1EA225F8391F62_OFFSET UNITYSDK_OFFSET(0x3C843A0)
+#define AC5AEF3ED2E246E6_E09A5D7F9ED8D571_OFFSET UNITYSDK_OFFSET(0x3C84380)
+#define AC5AEF3ED2E246E6_E8132A9EC3DFF82D_OFFSET UNITYSDK_OFFSET(0x3C84580)
+#define AC5AEF3ED2E246E6_EC21E22B87D7ACB8_OFFSET UNITYSDK_OFFSET(0x3C84510)
+#define AC5AEF3ED2E246E6_F3A8B11DA5614FE6_OFFSET UNITYSDK_OFFSET(0x3C84350)
+#define AC5AEF3ED2E246E6_F7987F8988F2F5F1_OFFSET UNITYSDK_OFFSET(0x3C84390)
+#define AC5AEF3ED2E246E6_FCD852BF21DF999F_OFFSET UNITYSDK_OFFSET(0x3C842F0)
+#define AC5AEF3ED2E246E6__CCTOR_OFFSET UNITYSDK_OFFSET(0x3C846A0)
+
+inline static constexpr unsigned int AC5AEF3ED2E246E6_TypeDefinitionIndex = 10401;
+
+class AC5AEF3ED2E246E6 : public ::System::Object
+{
+public:
+	static ::Il2CppArray<::System::Single>** StaticGet_E9580F6E3E605348()
+	{
+		return (::Il2CppArray<::System::Single>**)Il2CppClass::FromTypeDefinitionIndex(AC5AEF3ED2E246E6_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::System::Single* StaticGet_E2563082BAE88DAB()
+	{
+		return (::System::Single*)Il2CppClass::FromTypeDefinitionIndex(AC5AEF3ED2E246E6_TypeDefinitionIndex)->GetStaticField(0x8);
+	}
+
+	static ::System::Single BD1EA225F8391F62(::System::Single BB8C609F76620E45, ::System::Single A0A0D02932F12CFD)
+	{
+		return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + AC5AEF3ED2E246E6_BD1EA225F8391F62_OFFSET))(BB8C609F76620E45, A0A0D02932F12CFD);
+	}
+
+	static ::System::Single BD1EA225F8391F62_1(::System::Single BB8C609F76620E45)
+	{
+		return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + AC5AEF3ED2E246E6_BD1EA225F8391F62_1_OFFSET))(BB8C609F76620E45);
+	}
+
+	static ::System::Single EC21E22B87D7ACB8(::System::Single BB8C609F76620E45, ::System::Single A0A0D02932F12CFD)
+	{
+		return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + AC5AEF3ED2E246E6_EC21E22B87D7ACB8_OFFSET))(BB8C609F76620E45, A0A0D02932F12CFD);
+	}
+
+	static ::System::Single E09A5D7F9ED8D571(::System::Single BB8C609F76620E45, ::System::Single A0A0D02932F12CFD)
+	{
+		return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + AC5AEF3ED2E246E6_E09A5D7F9ED8D571_OFFSET))(BB8C609F76620E45, A0A0D02932F12CFD);
+	}
+
+	static ::System::Single F7987F8988F2F5F1(::System::Single BB8C609F76620E45)
+	{
+		return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + AC5AEF3ED2E246E6_F7987F8988F2F5F1_OFFSET))(BB8C609F76620E45);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + AC5AEF3ED2E246E6__CCTOR_OFFSET))();
+	}
+
+	static ::System::Single A92552DB0C517CFB(::System::Single BB8C609F76620E45, ::System::Single A0A0D02932F12CFD)
+	{
+		return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + AC5AEF3ED2E246E6_A92552DB0C517CFB_OFFSET))(BB8C609F76620E45, A0A0D02932F12CFD);
+	}
+
+	static ::System::Single E8132A9EC3DFF82D(::System::Single BB8C609F76620E45)
+	{
+		return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + AC5AEF3ED2E246E6_E8132A9EC3DFF82D_OFFSET))(BB8C609F76620E45);
+	}
+
+	static ::System::Single FCD852BF21DF999F(::System::Single BB8C609F76620E45)
+	{
+		return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + AC5AEF3ED2E246E6_FCD852BF21DF999F_OFFSET))(BB8C609F76620E45);
+	}
+
+	static ::System::Single F3A8B11DA5614FE6(::System::Single BB8C609F76620E45, ::System::Single A0A0D02932F12CFD)
+	{
+		return ((::System::Single(*)(::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + AC5AEF3ED2E246E6_F3A8B11DA5614FE6_OFFSET))(BB8C609F76620E45, A0A0D02932F12CFD);
+	}
+
+	static ::System::Single B89B635FAC293946(::System::Single BB8C609F76620E45)
+	{
+		return ((::System::Single(*)(::System::Single))((::PBYTE)hIl2Cpp + AC5AEF3ED2E246E6_B89B635FAC293946_OFFSET))(BB8C609F76620E45);
+	}
+};

@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace TapTap::Sdk { class UIAnimator_Action; }
+
+#define TAPTAP_SDK_UIANIMATOR_B4715B779984FC39_BB5F6FA7EB4E8D6F_OFFSET UNITYSDK_OFFSET(0x17F35A0)
+#define TAPTAP_SDK_UIANIMATOR_B4715B779984FC39_E34B6CA02139E820_OFFSET UNITYSDK_OFFSET(0x17F35A0)
+#define TAPTAP_SDK_UIANIMATOR_B4715B779984FC39_E6CAD58306FCDCB5_OFFSET UNITYSDK_OFFSET(0x3F0B780)
+#define TAPTAP_SDK_UIANIMATOR_B4715B779984FC39_F21DBBC44C999728_OFFSET UNITYSDK_OFFSET(0x1EB8060)
+#define TAPTAP_SDK_UIANIMATOR_B4715B779984FC39_F38E5001C7AA1BB5_OFFSET UNITYSDK_OFFSET(0x3F0B840)
+#define TAPTAP_SDK_UIANIMATOR_B4715B779984FC39__CTOR_OFFSET UNITYSDK_OFFSET(0x1F26BB0)
+
+namespace TapTap::Sdk
+{
+	inline static constexpr unsigned int UIAnimator_B4715B779984FC39_TypeDefinitionIndex = 20896;
+
+	class UIAnimator_B4715B779984FC39 : public ::System::Object
+	{
+	public:
+		::System::Int32 FEB3551B7D8B59C1; // 0x10
+		::System::Byte _padding0[0x4];
+		::System::Object* FFDE99DB2A55498E; // 0x18
+		::System::Single A350217CBB9AD8A6; // 0x20
+		::System::Byte _padding1[0x4];
+		::TapTap::Sdk::UIAnimator_Action* B59F8BF601F198E2; // 0x28
+
+		::System::Void _ctor(::System::Int32 FEB3551B7D8B59C1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIANIMATOR_B4715B779984FC39__CTOR_OFFSET))(this, FEB3551B7D8B59C1);
+		}
+
+		::System::Void F21DBBC44C999728()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIANIMATOR_B4715B779984FC39_F21DBBC44C999728_OFFSET))(this);
+		}
+
+		::System::Boolean E6CAD58306FCDCB5()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIANIMATOR_B4715B779984FC39_E6CAD58306FCDCB5_OFFSET))(this);
+		}
+
+		::System::Object* BB5F6FA7EB4E8D6F()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIANIMATOR_B4715B779984FC39_BB5F6FA7EB4E8D6F_OFFSET))(this);
+		}
+
+		::System::Void F38E5001C7AA1BB5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIANIMATOR_B4715B779984FC39_F38E5001C7AA1BB5_OFFSET))(this);
+		}
+
+		::System::Object* E34B6CA02139E820()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + TAPTAP_SDK_UIANIMATOR_B4715B779984FC39_E34B6CA02139E820_OFFSET))(this);
+		}
+	};
+}

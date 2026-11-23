@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/UI/HorizontalOrVerticalLayoutGroup.h"
+
+#define UNITYENGINE_UI_HORIZONTALLAYOUTGROUP_A6AF544826B118D9_OFFSET UNITYSDK_OFFSET(0x43D0290)
+#define UNITYENGINE_UI_HORIZONTALLAYOUTGROUP_A81433F35AA7F837_OFFSET UNITYSDK_OFFSET(0x43D02B0)
+#define UNITYENGINE_UI_HORIZONTALLAYOUTGROUP_A9B7EE8A7B00AADE_OFFSET UNITYSDK_OFFSET(0x43D0250)
+#define UNITYENGINE_UI_HORIZONTALLAYOUTGROUP_FF541D3787FB5193_OFFSET UNITYSDK_OFFSET(0x43D0280)
+#define UNITYENGINE_UI_HORIZONTALLAYOUTGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x43D02D0)
+
+namespace UnityEngine::UI
+{
+	inline static constexpr unsigned int HorizontalLayoutGroup_TypeDefinitionIndex = 18689;
+
+	class HorizontalLayoutGroup : public ::UnityEngine::UI::HorizontalOrVerticalLayoutGroup
+	{
+	public:
+		::System::Void A9B7EE8A7B00AADE()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_HORIZONTALLAYOUTGROUP_A9B7EE8A7B00AADE_OFFSET))(this);
+		}
+
+		::System::Void FF541D3787FB5193()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_HORIZONTALLAYOUTGROUP_FF541D3787FB5193_OFFSET))(this);
+		}
+
+		::System::Void A6AF544826B118D9()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_HORIZONTALLAYOUTGROUP_A6AF544826B118D9_OFFSET))(this);
+		}
+
+		::System::Void A81433F35AA7F837()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_HORIZONTALLAYOUTGROUP_A81433F35AA7F837_OFFSET))(this);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_HORIZONTALLAYOUTGROUP__CTOR_OFFSET))(this);
+		}
+	};
+}

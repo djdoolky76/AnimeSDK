@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/MulticastDelegate.h"
+#include "unitysdk/B8C48C8BF406E9BC/EF22C423CB30F1A1.h"
+#include "unitysdk/BB1DB023BA1A87E2/B21BB97B4229F658.h"
+
+namespace System { class Object; }
+namespace UnityEngine { class Light; }
+
+#define BB1DB023BA1A87E2_E1F0622B696AF715_FF1E4FE32C6673CB_INVOKE_OFFSET UNITYSDK_OFFSET(0x32B63F0)
+#define BB1DB023BA1A87E2_E1F0622B696AF715_FF1E4FE32C6673CB__CTOR_OFFSET UNITYSDK_OFFSET(0x4188340)
+
+namespace BB1DB023BA1A87E2
+{
+	inline static constexpr unsigned int E1F0622B696AF715_FF1E4FE32C6673CB_TypeDefinitionIndex = 17792;
+
+	class E1F0622B696AF715_FF1E4FE32C6673CB : public ::System::MulticastDelegate
+	{
+	public:
+		::System::Void _ctor(::System::Object* A351543A0362EB15, ::System::IntPtr EA8FABEC6D125B33)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + BB1DB023BA1A87E2_E1F0622B696AF715_FF1E4FE32C6673CB__CTOR_OFFSET))(this, A351543A0362EB15, EA8FABEC6D125B33);
+		}
+
+		::System::Void Invoke(::Il2CppArray<::UnityEngine::Light*>* BB5F5D2F5605C8C8, ::B8C48C8BF406E9BC::EF22C423CB30F1A1<::BB1DB023BA1A87E2::B21BB97B4229F658> BEFC13D95011EAA4)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::UnityEngine::Light*>*, ::B8C48C8BF406E9BC::EF22C423CB30F1A1<::BB1DB023BA1A87E2::B21BB97B4229F658>))((::PBYTE)hIl2Cpp + BB1DB023BA1A87E2_E1F0622B696AF715_FF1E4FE32C6673CB_INVOKE_OFFSET))(this, BB5F5D2F5605C8C8, BEFC13D95011EAA4);
+		}
+	};
+}

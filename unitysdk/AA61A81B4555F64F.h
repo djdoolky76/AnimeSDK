@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class BC6321EAEAFE1CE1;
+namespace System { class String; }
+namespace System::Text { class StringBuilder; }
+
+#define AA61A81B4555F64F_E4ECC50B2E252F43_OFFSET UNITYSDK_OFFSET(0x4453750)
+#define AA61A81B4555F64F_F0E1147DBBB5A8CE_OFFSET UNITYSDK_OFFSET(0x4453510)
+#define AA61A81B4555F64F_F24E2B46A67B38AF_OFFSET UNITYSDK_OFFSET(0x20304A0)
+#define AA61A81B4555F64F_F2E27A07EC3C8993_OFFSET UNITYSDK_OFFSET(0x44538C0)
+#define AA61A81B4555F64F_FA03D664D3EBB1A1_OFFSET UNITYSDK_OFFSET(0x4453570)
+#define AA61A81B4555F64F__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int AA61A81B4555F64F_TypeDefinitionIndex = 19049;
+
+class AA61A81B4555F64F : public ::System::Object
+{
+public:
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AA61A81B4555F64F__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void F0E1147DBBB5A8CE(::System::Char A97F5B807CC19082, ::System::Text::StringBuilder* A94D8812A3A79CC8)
+	{
+		return ((::System::Void(*)(::System::Char, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + AA61A81B4555F64F_F0E1147DBBB5A8CE_OFFSET))(A97F5B807CC19082, A94D8812A3A79CC8);
+	}
+
+	static ::System::Void F2E27A07EC3C8993(::BC6321EAEAFE1CE1* E6CE7391633EEC68, ::System::Text::StringBuilder* F6C2EBBDFCAEF915)
+	{
+		return ((::System::Void(*)(::BC6321EAEAFE1CE1*, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + AA61A81B4555F64F_F2E27A07EC3C8993_OFFSET))(E6CE7391633EEC68, F6C2EBBDFCAEF915);
+	}
+
+	::System::Int32 F24E2B46A67B38AF()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AA61A81B4555F64F_F24E2B46A67B38AF_OFFSET))(this);
+	}
+
+	::System::Void E4ECC50B2E252F43(::BC6321EAEAFE1CE1* E6CE7391633EEC68)
+	{
+		return ((::System::Void(*)(::PVOID, ::BC6321EAEAFE1CE1*))((::PBYTE)hIl2Cpp + AA61A81B4555F64F_E4ECC50B2E252F43_OFFSET))(this, E6CE7391633EEC68);
+	}
+
+	static ::System::String* FA03D664D3EBB1A1(::System::Text::StringBuilder* A94D8812A3A79CC8, ::System::Int32 B92E62066174B79E)
+	{
+		return ((::System::String*(*)(::System::Text::StringBuilder*, ::System::Int32))((::PBYTE)hIl2Cpp + AA61A81B4555F64F_FA03D664D3EBB1A1_OFFSET))(A94D8812A3A79CC8, B92E62066174B79E);
+	}
+};

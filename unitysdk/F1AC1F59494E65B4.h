@@ -1,0 +1,73 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System::Threading { class B17578343D8B7961; }
+namespace System::Threading { class Thread; }
+
+#define F1AC1F59494E65B4_B3F1E31DE5DE2640_OFFSET UNITYSDK_OFFSET(0x3D44AC0)
+#define F1AC1F59494E65B4_BD9CD726F874B523_OFFSET UNITYSDK_OFFSET(0x3D44980)
+#define F1AC1F59494E65B4_BDBB869B111597E5_OFFSET UNITYSDK_OFFSET(0x3D44A70)
+#define F1AC1F59494E65B4_BF6DA6A3E37F73CE_OFFSET UNITYSDK_OFFSET(0x3D44A20)
+#define F1AC1F59494E65B4_EA9EBDC70382DC86_OFFSET UNITYSDK_OFFSET(0x3D44A30)
+#define F1AC1F59494E65B4_ED8DA4208ADD4719_OFFSET UNITYSDK_OFFSET(0x165D460)
+#define F1AC1F59494E65B4_FE2AF5C35A75BD19_OFFSET UNITYSDK_OFFSET(0x3D44A50)
+#define F1AC1F59494E65B4__CCTOR_OFFSET UNITYSDK_OFFSET(0x3D44A80)
+#define F1AC1F59494E65B4__CTOR_OFFSET UNITYSDK_OFFSET(0x1778980)
+
+inline static constexpr unsigned int F1AC1F59494E65B4_TypeDefinitionIndex = 10950;
+
+class F1AC1F59494E65B4 : public ::System::Object
+{
+public:
+	static ::System::Int32* StaticGet_A06EC07B60B1E55C()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(F1AC1F59494E65B4_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	::System::Threading::Thread* B111620228C61457; // 0x10
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + F1AC1F59494E65B4__CCTOR_OFFSET))();
+	}
+
+	static ::System::Void BF6DA6A3E37F73CE(::System::Int32 FB08ABDEA99E700A)
+	{
+		return ((::System::Void(*)(::System::Int32))((::PBYTE)hIl2Cpp + F1AC1F59494E65B4_BF6DA6A3E37F73CE_OFFSET))(FB08ABDEA99E700A);
+	}
+
+	static ::F1AC1F59494E65B4* BD9CD726F874B523(::System::Threading::B17578343D8B7961* BC37316376A565D9, ::System::Int32 ACFAF9D4F4B4236A)
+	{
+		return ((::F1AC1F59494E65B4*(*)(::System::Threading::B17578343D8B7961*, ::System::Int32))((::PBYTE)hIl2Cpp + F1AC1F59494E65B4_BD9CD726F874B523_OFFSET))(BC37316376A565D9, ACFAF9D4F4B4236A);
+	}
+
+	::System::Void FE2AF5C35A75BD19(::System::Object* E5EB06E4FD2C32F7)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + F1AC1F59494E65B4_FE2AF5C35A75BD19_OFFSET))(this, E5EB06E4FD2C32F7);
+	}
+
+	::System::Void B3F1E31DE5DE2640(::System::Boolean E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + F1AC1F59494E65B4_B3F1E31DE5DE2640_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	static ::System::Boolean EA9EBDC70382DC86(::System::Int32 BD808C2214E508C9)
+	{
+		return ((::System::Boolean(*)(::System::Int32))((::PBYTE)hIl2Cpp + F1AC1F59494E65B4_EA9EBDC70382DC86_OFFSET))(BD808C2214E508C9);
+	}
+
+	::System::Void _ctor(::System::Threading::Thread* BBCFEC7DB309E927)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Threading::Thread*))((::PBYTE)hIl2Cpp + F1AC1F59494E65B4__CTOR_OFFSET))(this, BBCFEC7DB309E927);
+	}
+
+	static ::System::Int32 ED8DA4208ADD4719()
+	{
+		return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + F1AC1F59494E65B4_ED8DA4208ADD4719_OFFSET))();
+	}
+
+	static ::System::Boolean BDBB869B111597E5()
+	{
+		return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + F1AC1F59494E65B4_BDBB869B111597E5_OFFSET))();
+	}
+};

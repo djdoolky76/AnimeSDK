@@ -1,0 +1,43 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Behaviour.h"
+
+#define UNITYENGINE_RENDERING_SORTINGGROUP_B3706E804FBBB0E5_OFFSET UNITYSDK_OFFSET(0x411DF30)
+#define UNITYENGINE_RENDERING_SORTINGGROUP_BD0F156E335FAE61_OFFSET UNITYSDK_OFFSET(0x411DEF0)
+#define UNITYENGINE_RENDERING_SORTINGGROUP_E957DCE260BF9C3D_OFFSET UNITYSDK_OFFSET(0x411DFA0)
+#define UNITYENGINE_RENDERING_SORTINGGROUP_F45555A97AC42026_OFFSET UNITYSDK_OFFSET(0x411DF60)
+#define UNITYENGINE_RENDERING_SORTINGGROUP__CTOR_OFFSET UNITYSDK_OFFSET(0x40E9D70)
+
+namespace UnityEngine::Rendering
+{
+	inline static constexpr unsigned int SortingGroup_TypeDefinitionIndex = 16949;
+
+	class SortingGroup : public ::UnityEngine::Behaviour
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGGROUP__CTOR_OFFSET))(this);
+		}
+
+		static ::System::Int32 B3706E804FBBB0E5()
+		{
+			return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGGROUP_B3706E804FBBB0E5_OFFSET))();
+		}
+
+		static ::UnityEngine::Rendering::SortingGroup* BD0F156E335FAE61(::System::Int32 B48C66E5FB2449C6)
+		{
+			return ((::UnityEngine::Rendering::SortingGroup*(*)(::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGGROUP_BD0F156E335FAE61_OFFSET))(B48C66E5FB2449C6);
+		}
+
+		::System::Int32 F45555A97AC42026()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGGROUP_F45555A97AC42026_OFFSET))(this);
+		}
+
+		::System::Int32 E957DCE260BF9C3D()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_RENDERING_SORTINGGROUP_E957DCE260BF9C3D_OFFSET))(this);
+		}
+	};
+}

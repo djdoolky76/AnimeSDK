@@ -1,0 +1,14 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/MulticastDelegate.h"
+
+namespace System
+{
+	inline static constexpr unsigned int Action_2_TypeDefinitionIndex = 11099;
+
+	template <typename T1, typename T2>
+	class Action_2 : public ::System::MulticastDelegate
+	{
+	public:
+	};
+}

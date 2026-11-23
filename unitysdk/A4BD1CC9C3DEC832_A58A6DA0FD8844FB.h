@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/MulticastDelegate.h"
+
+class A4BD1CC9C3DEC832_E3424C9641494EBB;
+namespace System { class Object; }
+
+#define A4BD1CC9C3DEC832_A58A6DA0FD8844FB_INVOKE_OFFSET UNITYSDK_OFFSET(0x1F7B8B0)
+#define A4BD1CC9C3DEC832_A58A6DA0FD8844FB__CTOR_OFFSET UNITYSDK_OFFSET(0x20A3330)
+
+inline static constexpr unsigned int A4BD1CC9C3DEC832_A58A6DA0FD8844FB_TypeDefinitionIndex = 15228;
+
+class A4BD1CC9C3DEC832_A58A6DA0FD8844FB : public ::System::MulticastDelegate
+{
+public:
+	::System::Void _ctor(::System::Object* A351543A0362EB15, ::System::IntPtr EA8FABEC6D125B33)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Object*, ::System::IntPtr))((::PBYTE)hIl2Cpp + A4BD1CC9C3DEC832_A58A6DA0FD8844FB__CTOR_OFFSET))(this, A351543A0362EB15, EA8FABEC6D125B33);
+	}
+
+	::System::Void Invoke(::A4BD1CC9C3DEC832_E3424C9641494EBB* EDB7AA746C37FF55, ::System::Int32 BCABB34DCA29BC72, ::System::Object* E6CE7391633EEC68)
+	{
+		return ((::System::Void(*)(::PVOID, ::A4BD1CC9C3DEC832_E3424C9641494EBB*, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + A4BD1CC9C3DEC832_A58A6DA0FD8844FB_INVOKE_OFFSET))(this, EDB7AA746C37FF55, BCABB34DCA29BC72, E6CE7391633EEC68);
+	}
+};

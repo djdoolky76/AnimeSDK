@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/EFC4AEA2121EC272.h"
+
+class ADF8713CB0CBAE91;
+class BA2DD633907BA92D;
+namespace ABC::UI { class MonoButton; }
+namespace ABC::UI { class MonoLocalizedTmp; }
+namespace ABC::UI { class MonoPrefabLoader; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define BAEEDB1462686EF8_A934B14CF5D0B6CE_OFFSET UNITYSDK_OFFSET(0x16FA1F0)
+#define BAEEDB1462686EF8_B3FAFD5F1982C1C7_OFFSET UNITYSDK_OFFSET(0x16FA5A0)
+#define BAEEDB1462686EF8_EC3033C0485522FB_OFFSET UNITYSDK_OFFSET(0x16FA9F0)
+#define BAEEDB1462686EF8_FCC7443573DD0222_OFFSET UNITYSDK_OFFSET(0x16FA1A0)
+#define BAEEDB1462686EF8_FFE59D93BEA6E2CA_OFFSET UNITYSDK_OFFSET(0x16FA2A0)
+#define BAEEDB1462686EF8__CTOR_OFFSET UNITYSDK_OFFSET(0x16665F0)
+
+inline static constexpr unsigned int BAEEDB1462686EF8_TypeDefinitionIndex = 633;
+
+class BAEEDB1462686EF8 : public ::EFC4AEA2121EC272
+{
+public:
+	::ABC::UI::MonoButton* F7F2709ADAAB9A0C; // 0x80
+	::ABC::UI::MonoPrefabLoader* E87ECED3E3EDC3C9; // 0x88
+	::ABC::UI::MonoLocalizedTmp* ED5CF5574A2EF3E0; // 0x90
+	::System::Collections::Generic::List_1<::BA2DD633907BA92D*>* FB4D625181398FC1; // 0x98
+
+	::System::Void B3FAFD5F1982C1C7(::ADF8713CB0CBAE91* B8C73438FDE5F3F0)
+	{
+		return ((::System::Void(*)(::PVOID, ::ADF8713CB0CBAE91*))((::PBYTE)hIl2Cpp + BAEEDB1462686EF8_B3FAFD5F1982C1C7_OFFSET))(this, B8C73438FDE5F3F0);
+	}
+
+	::System::Void A934B14CF5D0B6CE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BAEEDB1462686EF8_A934B14CF5D0B6CE_OFFSET))(this);
+	}
+
+	::System::Void FFE59D93BEA6E2CA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BAEEDB1462686EF8_FFE59D93BEA6E2CA_OFFSET))(this);
+	}
+
+	::System::Void EC3033C0485522FB(::ADF8713CB0CBAE91* B8C73438FDE5F3F0)
+	{
+		return ((::System::Void(*)(::PVOID, ::ADF8713CB0CBAE91*))((::PBYTE)hIl2Cpp + BAEEDB1462686EF8_EC3033C0485522FB_OFFSET))(this, B8C73438FDE5F3F0);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BAEEDB1462686EF8__CTOR_OFFSET))(this);
+	}
+
+	::System::Void FCC7443573DD0222()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BAEEDB1462686EF8_FCC7443573DD0222_OFFSET))(this);
+	}
+};

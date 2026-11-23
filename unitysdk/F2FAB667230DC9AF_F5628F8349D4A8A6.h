@@ -1,0 +1,41 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class B6FFBB6F7CB72094;
+class E379DE61A548837D;
+namespace System { template <typename T1, typename T2> class Action_2; }
+
+#define F2FAB667230DC9AF_F5628F8349D4A8A6_F5EF506552E7401E_OFFSET UNITYSDK_OFFSET(0x173B9B0)
+#define F2FAB667230DC9AF_F5628F8349D4A8A6__CCTOR_OFFSET UNITYSDK_OFFSET(0x173BD10)
+#define F2FAB667230DC9AF_F5628F8349D4A8A6__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int F2FAB667230DC9AF_F5628F8349D4A8A6_TypeDefinitionIndex = 733;
+
+class F2FAB667230DC9AF_F5628F8349D4A8A6 : public ::System::Object
+{
+public:
+	static ::F2FAB667230DC9AF_F5628F8349D4A8A6** StaticGet_AA32F971AB02398B()
+	{
+		return (::F2FAB667230DC9AF_F5628F8349D4A8A6**)Il2CppClass::FromTypeDefinitionIndex(F2FAB667230DC9AF_F5628F8349D4A8A6_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::System::Action_2<::B6FFBB6F7CB72094*, ::E379DE61A548837D*>** StaticGet_E4AE7C6234D30C14()
+	{
+		return (::System::Action_2<::B6FFBB6F7CB72094*, ::E379DE61A548837D*>**)Il2CppClass::FromTypeDefinitionIndex(F2FAB667230DC9AF_F5628F8349D4A8A6_TypeDefinitionIndex)->GetStaticField(0x8);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + F2FAB667230DC9AF_F5628F8349D4A8A6__CCTOR_OFFSET))();
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F2FAB667230DC9AF_F5628F8349D4A8A6__CTOR_OFFSET))(this);
+	}
+
+	::System::Void F5EF506552E7401E(::B6FFBB6F7CB72094* ABFACF4B79951FBB, ::E379DE61A548837D* A05B43D4AA20B471)
+	{
+		return ((::System::Void(*)(::PVOID, ::B6FFBB6F7CB72094*, ::E379DE61A548837D*))((::PBYTE)hIl2Cpp + F2FAB667230DC9AF_F5628F8349D4A8A6_F5EF506552E7401E_OFFSET))(this, ABFACF4B79951FBB, A05B43D4AA20B471);
+	}
+};

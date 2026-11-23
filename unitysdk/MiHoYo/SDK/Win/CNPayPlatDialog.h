@@ -1,0 +1,242 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BED79290917896D4/A54D1FCEA15B1960.h"
+#include "unitysdk/BED79290917896D4/E445BFBEB6148917.h"
+#include "unitysdk/MiHoYo/SDK/Confirm_E18B39FBD22EF1C5.h"
+#include "unitysdk/MiHoYo/SDK/UIElement.h"
+
+class FF1237522147A967;
+namespace MiHoYo::SDK::Win { class PayPlatInfoModel; }
+namespace MiHoYo::SDK::Win { class QRCode; }
+namespace System { class Action; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class Animator; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class Texture2D; }
+namespace UnityEngine::UI { class Button; }
+namespace UnityEngine::UI { class Image; }
+namespace UnityEngine::UI { class RawImage; }
+namespace UnityEngine::UI { class Text; }
+namespace UnityEngine::UI { class Toggle; }
+
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG_A0046D62E8C45A45_OFFSET UNITYSDK_OFFSET(0x3859F20)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG_A25505EC021FC807_OFFSET UNITYSDK_OFFSET(0x39A5340)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG_A39BC77D48262624_OFFSET UNITYSDK_OFFSET(0x39A50D0)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG_A4071E11078E4099_OFFSET UNITYSDK_OFFSET(0x39A4930)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG_A4A0BE106C7B70C7_OFFSET UNITYSDK_OFFSET(0x39A3C80)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG_A6CE96338DB2F575_OFFSET UNITYSDK_OFFSET(0x39A4650)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG_A9F3C16B0917AB91_OFFSET UNITYSDK_OFFSET(0x39A3910)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG_AB36E0EE549986E5_OFFSET UNITYSDK_OFFSET(0x39A4870)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG_AC90AF0BA81F4AEB_OFFSET UNITYSDK_OFFSET(0x39A4B60)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG_BFA7961FF2AC380B_OFFSET UNITYSDK_OFFSET(0x39A68B0)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG_E85D1C741D5386D7_OFFSET UNITYSDK_OFFSET(0x39A47D0)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG_EBBBC1833739D1A4_OFFSET UNITYSDK_OFFSET(0x1EC5E40)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG_F1A8EF5AC773C0D0_OFFSET UNITYSDK_OFFSET(0x39A6620)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG_F1F15038E8D26410_OFFSET UNITYSDK_OFFSET(0x39A6A50)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG_F328E4D8818B1E12_OFFSET UNITYSDK_OFFSET(0x39A69B0)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG_F34D5C9FD7BD7C5A_OFFSET UNITYSDK_OFFSET(0x39A5260)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG_F42A540ACA5FFFF1_OFFSET UNITYSDK_OFFSET(0x39A4CD0)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG_F49FAA59941B0939_OFFSET UNITYSDK_OFFSET(0x39A6770)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG_F75C11347CB144A9_OFFSET UNITYSDK_OFFSET(0x39A4450)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG_F83ADAFBCD31F3C0_OFFSET UNITYSDK_OFFSET(0x39A64D0)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG_FB08F0065135719A_OFFSET UNITYSDK_OFFSET(0x39A3580)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG_FD0E297F8B66DDEF_OFFSET UNITYSDK_OFFSET(0x39A40E0)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG_FD190281E72685F2_OFFSET UNITYSDK_OFFSET(0x39A62D0)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG_FDBCDBBFE02CD51A_OFFSET UNITYSDK_OFFSET(0x39A1F10)
+#define MIHOYO_SDK_WIN_CNPAYPLATDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x39A6C40)
+
+namespace MiHoYo::SDK::Win
+{
+	inline static constexpr unsigned int CNPayPlatDialog_TypeDefinitionIndex = 12581;
+
+	class CNPayPlatDialog : public ::MiHoYo::SDK::UIElement
+	{
+	public:
+		static ::MiHoYo::SDK::Win::CNPayPlatDialog** StaticGet_F459A1CAE950E680()
+		{
+			return (::MiHoYo::SDK::Win::CNPayPlatDialog**)Il2CppClass::FromTypeDefinitionIndex(CNPayPlatDialog_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		::System::Action* OnBack; // 0x60
+		::System::Action* OnPaySuccess; // 0x68
+		::System::Action* OnRefresh; // 0x70
+		::System::Action_1<::MiHoYo::SDK::Win::PayPlatInfoModel*>* OnSelectPayType; // 0x78
+		::UnityEngine::GameObject* A743417BBBE6EFF8; // 0x80
+		::UnityEngine::GameObject* F50A0F54DE8D6F17; // 0x88
+		::UnityEngine::UI::Button* B1D38914498DA7C9; // 0x90
+		::UnityEngine::GameObject* A17380D45CA83916; // 0x98
+		::UnityEngine::UI::Text* B937E1E09B5A131F; // 0xA0
+		::UnityEngine::UI::Text* E9901EC308C71F35; // 0xA8
+		::UnityEngine::UI::Text* F62095734CC029A2; // 0xB0
+		::UnityEngine::GameObject* FC55988F0DB37A68; // 0xB8
+		::MiHoYo::SDK::Win::QRCode* FFB71F80B9B2FF1D; // 0xC0
+		::UnityEngine::GameObject* B115B453C46170D4; // 0xC8
+		::UnityEngine::UI::Button* FD81FC847D72B122; // 0xD0
+		::UnityEngine::GameObject* A2ECC32B284464F4; // 0xD8
+		::UnityEngine::GameObject* E8FCC07116E0EFF3; // 0xE0
+		::UnityEngine::GameObject* A002D36A89344B1C; // 0xE8
+		::UnityEngine::GameObject* B87510098F8D5428; // 0xF0
+		::UnityEngine::UI::Button* BAB94071B07E8F31; // 0xF8
+		::UnityEngine::UI::Button* E1D40832A230B6AA; // 0x100
+		::UnityEngine::GameObject* AA11D9AF1EDFC58F; // 0x108
+		::UnityEngine::GameObject* F04CD366036B1D62; // 0x110
+		::UnityEngine::UI::Button* A418F42E6B245CED; // 0x118
+		::UnityEngine::GameObject* FF27BB9B8310779B; // 0x120
+		::UnityEngine::GameObject* BC533DEB1F3F2070; // 0x128
+		::UnityEngine::GameObject* B40EED3AEE0B90C6; // 0x130
+		::UnityEngine::GameObject* BA8529EFD54F8715; // 0x138
+		::UnityEngine::GameObject* A80B49E4CEC63131; // 0x140
+		::UnityEngine::GameObject* AC06DC14824929AA; // 0x148
+		::UnityEngine::GameObject* EA190521FB05A1AE; // 0x150
+		::UnityEngine::UI::Toggle* EAB2135072576D3F; // 0x158
+		::UnityEngine::UI::Image* F12E8420552F24C0; // 0x160
+		::UnityEngine::UI::Toggle* B36B143430145F6F; // 0x168
+		::UnityEngine::UI::Image* F405C6B9DDE5D3D2; // 0x170
+		::UnityEngine::GameObject* BB29F1C03ED41037; // 0x178
+		::UnityEngine::GameObject* AF40AE44E78DEE84; // 0x180
+		::UnityEngine::UI::Button* B5F3F8085DF27BE3; // 0x188
+		::UnityEngine::UI::Text* B3D37AEA3BB56BC1; // 0x190
+		::UnityEngine::UI::Text* E610CAFD81BCDEA0; // 0x198
+		::UnityEngine::GameObject* F6A699B02C86F5F4; // 0x1A0
+		::UnityEngine::GameObject* B67F6C5A12568413; // 0x1A8
+		::UnityEngine::Animator* B0246148B95F7705; // 0x1B0
+		::UnityEngine::GameObject* B8BDEFA9EFDC1FBF; // 0x1B8
+		::UnityEngine::UI::RawImage* A84542B50CB7A8CE; // 0x1C0
+		::UnityEngine::GameObject* FBD9A565D73DA455; // 0x1C8
+		::UnityEngine::Texture2D* EB7BDE499C549B67; // 0x1D0
+		::FF1237522147A967* FCF5472F33E60289; // 0x1D8
+		::BED79290917896D4::A54D1FCEA15B1960 A9BAEB958AE55960; // 0x1E0
+		::BED79290917896D4::E445BFBEB6148917 EB69E7DC79C6AFD9; // 0x1E4
+		::MiHoYo::SDK::Win::PayPlatInfoModel* A5F391769740F432; // 0x1E8
+		::MiHoYo::SDK::Win::PayPlatInfoModel* BCA22BA60F133295; // 0x1F0
+		::System::Boolean A9B90382F22DD467; // 0x1F8
+		::System::Byte _padding0[0x7];
+		::System::String* A6B5E790A437B497; // 0x200
+
+		static ::System::Void E85D1C741D5386D7()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG_E85D1C741D5386D7_OFFSET))();
+		}
+
+		::System::Void FDBCDBBFE02CD51A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG_FDBCDBBFE02CD51A_OFFSET))(this);
+		}
+
+		::System::Void A25505EC021FC807(::System::Collections::Generic::List_1<::MiHoYo::SDK::Win::PayPlatInfoModel*>* ACE31F900E618D6A, ::BED79290917896D4::A54D1FCEA15B1960 A288CB28FC2A6DA3, ::BED79290917896D4::E445BFBEB6148917 ED4063A1A68B59BC)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::MiHoYo::SDK::Win::PayPlatInfoModel*>*, ::BED79290917896D4::A54D1FCEA15B1960, ::BED79290917896D4::E445BFBEB6148917))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG_A25505EC021FC807_OFFSET))(this, ACE31F900E618D6A, A288CB28FC2A6DA3, ED4063A1A68B59BC);
+		}
+
+		::System::Void FD190281E72685F2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG_FD190281E72685F2_OFFSET))(this);
+		}
+
+		::System::Void A9F3C16B0917AB91(::System::Boolean E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG_A9F3C16B0917AB91_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void A6CE96338DB2F575()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG_A6CE96338DB2F575_OFFSET))(this);
+		}
+
+		::System::Void F34D5C9FD7BD7C5A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG_F34D5C9FD7BD7C5A_OFFSET))(this);
+		}
+
+		::System::Void AB36E0EE549986E5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG_AB36E0EE549986E5_OFFSET))(this);
+		}
+
+		::System::Void A4A0BE106C7B70C7()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG_A4A0BE106C7B70C7_OFFSET))(this);
+		}
+
+		static ::System::Void BFA7961FF2AC380B(::FF1237522147A967* E4BD819DDBEC18B1)
+		{
+			return ((::System::Void(*)(::FF1237522147A967*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG_BFA7961FF2AC380B_OFFSET))(E4BD819DDBEC18B1);
+		}
+
+		::System::Void A39BC77D48262624()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG_A39BC77D48262624_OFFSET))(this);
+		}
+
+		::System::Void F83ADAFBCD31F3C0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG_F83ADAFBCD31F3C0_OFFSET))(this);
+		}
+
+		::System::Void FD0E297F8B66DDEF(::System::Boolean E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG_FD0E297F8B66DDEF_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void F1A8EF5AC773C0D0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG_F1A8EF5AC773C0D0_OFFSET))(this);
+		}
+
+		::System::Void F328E4D8818B1E12()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG_F328E4D8818B1E12_OFFSET))(this);
+		}
+
+		::System::Void A4071E11078E4099()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG_A4071E11078E4099_OFFSET))(this);
+		}
+
+		::System::Void FB08F0065135719A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG_FB08F0065135719A_OFFSET))(this);
+		}
+
+		::System::Void F42A540ACA5FFFF1()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG_F42A540ACA5FFFF1_OFFSET))(this);
+		}
+
+		::System::Void F1F15038E8D26410(::MiHoYo::SDK::Confirm_E18B39FBD22EF1C5 E82293C0814051A5)
+		{
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Confirm_E18B39FBD22EF1C5))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG_F1F15038E8D26410_OFFSET))(this, E82293C0814051A5);
+		}
+
+		::System::Void F75C11347CB144A9()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG_F75C11347CB144A9_OFFSET))(this);
+		}
+
+		::System::Void AC90AF0BA81F4AEB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG_AC90AF0BA81F4AEB_OFFSET))(this);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG__CTOR_OFFSET))(this);
+		}
+
+		::System::Void F49FAA59941B0939(::System::String* B960AC235824C6C8, ::System::String* F41209E38E3BD229)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG_F49FAA59941B0939_OFFSET))(this, B960AC235824C6C8, F41209E38E3BD229);
+		}
+
+		::System::Void EBBBC1833739D1A4(::System::String* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG_EBBBC1833739D1A4_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::String* A0046D62E8C45A45()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_CNPAYPLATDIALOG_A0046D62E8C45A45_OFFSET))(this);
+		}
+	};
+}

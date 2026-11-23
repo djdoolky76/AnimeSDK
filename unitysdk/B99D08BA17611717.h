@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace A418C49FA6A8C1F7 { class FF0DDFC10DCFF50F; }
+namespace UnityEngine { class AB4BABFB400D6C39; }
+
+#define B99D08BA17611717_A352A9BD16970F19_OFFSET UNITYSDK_OFFSET(0x429A2D0)
+#define B99D08BA17611717_F4613BB5334BA6A6_OFFSET UNITYSDK_OFFSET(0x429A320)
+
+inline static constexpr unsigned int B99D08BA17611717_TypeDefinitionIndex = 13947;
+
+class B99D08BA17611717 : public ::System::Object
+{
+public:
+	static ::System::Boolean F4613BB5334BA6A6(::A418C49FA6A8C1F7::FF0DDFC10DCFF50F* A5FB7225DA5C5A9B)
+	{
+		return ((::System::Boolean(*)(::A418C49FA6A8C1F7::FF0DDFC10DCFF50F*))((::PBYTE)hIl2Cpp + B99D08BA17611717_F4613BB5334BA6A6_OFFSET))(A5FB7225DA5C5A9B);
+	}
+
+	static ::System::Boolean A352A9BD16970F19(::UnityEngine::AB4BABFB400D6C39* A5FB7225DA5C5A9B)
+	{
+		return ((::System::Boolean(*)(::UnityEngine::AB4BABFB400D6C39*))((::PBYTE)hIl2Cpp + B99D08BA17611717_A352A9BD16970F19_OFFSET))(A5FB7225DA5C5A9B);
+	}
+};

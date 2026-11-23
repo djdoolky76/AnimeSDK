@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AB07E24B584983C1.h"
+
+class E140D64FF7010D21;
+
+#define A47D946B8CF9C5B4_A3C2F655C6B4F5E2_OFFSET UNITYSDK_OFFSET(0x1C4AA20)
+#define A47D946B8CF9C5B4_AFD5178090BD77F2_OFFSET UNITYSDK_OFFSET(0x1C4A660)
+#define A47D946B8CF9C5B4__CTOR_OFFSET UNITYSDK_OFFSET(0x16514A0)
+
+inline static constexpr unsigned int A47D946B8CF9C5B4_TypeDefinitionIndex = 9295;
+
+class A47D946B8CF9C5B4 : public ::AB07E24B584983C1
+{
+public:
+	::E140D64FF7010D21* F3597127D1687748; // 0x50
+	::System::Int32 EDFFE8C1B95073B2; // 0x58
+
+	::System::Void AFD5178090BD77F2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A47D946B8CF9C5B4_AFD5178090BD77F2_OFFSET))(this);
+	}
+
+	::System::Void A3C2F655C6B4F5E2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A47D946B8CF9C5B4_A3C2F655C6B4F5E2_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A47D946B8CF9C5B4__CTOR_OFFSET))(this);
+	}
+};

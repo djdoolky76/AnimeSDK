@@ -1,0 +1,29 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/E4A2884CF32F2595_E9DC5581A2FB3ECA.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/EF563C3F19007E37_AFFD5DBF0754B45B.h"
+
+template <typename T> class FA9B773E8C9B97E9;
+
+#define EF563C3F19007E37_B32D2C532A76E878_OFFSET UNITYSDK_OFFSET(0x1923BB0)
+
+inline static constexpr unsigned int EF563C3F19007E37_TypeDefinitionIndex = 1506;
+
+struct alignas(8) EF563C3F19007E37
+{
+	::UnityEngine::Vector3 FF370D5436AFF6B9; // 0x10
+	::UnityEngine::Vector3 EC7C3BAD2FF64F75; // 0x1C
+	::System::Single EC4D496F12F8EE11; // 0x28
+	::System::Byte _padding0[0x4];
+	::FA9B773E8C9B97E9<::UnityEngine::Vector2>* F5AF910062A6E30F; // 0x30
+
+	/*
+	static ::EF563C3F19007E37_AFFD5DBF0754B45B B32D2C532A76E878(::EF563C3F19007E37 B9321BFB972550CD, ::E4A2884CF32F2595_E9DC5581A2FB3ECA A84D57260767D5BD)
+	{
+		return ((::EF563C3F19007E37_AFFD5DBF0754B45B(*)(::EF563C3F19007E37, ::E4A2884CF32F2595_E9DC5581A2FB3ECA))((::PBYTE)hIl2Cpp + EF563C3F19007E37_B32D2C532A76E878_OFFSET))(B9321BFB972550CD, A84D57260767D5BD);
+	}
+	*/
+};

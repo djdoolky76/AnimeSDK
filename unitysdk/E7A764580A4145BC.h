@@ -1,0 +1,88 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/B88870E9FB4B8C1A/F16DBADA15554606.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/E46B881AA2636190.h"
+
+namespace ABC::CustomRenderPipeline { class ColorGrading; }
+namespace ABC::CustomRenderPipeline { class TrackBallParameter; }
+
+#define E7A764580A4145BC_A015043CE69AC9D0_OFFSET UNITYSDK_OFFSET(0x2802800)
+#define E7A764580A4145BC_EC3416A2D99D4B76_OFFSET UNITYSDK_OFFSET(0x2802740)
+#define E7A764580A4145BC_FD792C24FE49920B_OFFSET UNITYSDK_OFFSET(0x2802840)
+#define E7A764580A4145BC__CTOR_OFFSET UNITYSDK_OFFSET(0x28039C0)
+
+inline static constexpr unsigned int E7A764580A4145BC_TypeDefinitionIndex = 16813;
+
+class E7A764580A4145BC : public ::System::Object
+{
+public:
+	::B88870E9FB4B8C1A::F16DBADA15554606 F476B975A55CF366; // 0x10
+	::UnityEngine::E46B881AA2636190 FBF187C53C16EF42; // 0x14
+	::UnityEngine::E46B881AA2636190 A95C8DA2C9180F1A; // 0x24
+	::UnityEngine::E46B881AA2636190 BE88B81CB8F3F49A; // 0x34
+	::UnityEngine::E46B881AA2636190 B189977D91C5726D; // 0x44
+	::UnityEngine::E46B881AA2636190 F5C6B5AC8E8B4D95; // 0x54
+	::System::Single EB01860768826C04; // 0x64
+	::System::Single E6EEF7F2ADCF5C3A; // 0x68
+	::System::Single F1CFF028AAC22B2B; // 0x6C
+	::System::Single A7A025BE4D35A77E; // 0x70
+	::System::Single AEADA252CECD1840; // 0x74
+	::UnityEngine::E46B881AA2636190 ADEADD246BEB2C3E; // 0x78
+	::UnityEngine::E46B881AA2636190 EB5CD53594E8E275; // 0x88
+	::UnityEngine::E46B881AA2636190 BD991E868931DC46; // 0x98
+	::UnityEngine::E46B881AA2636190 F2DAFA65C961BCC6; // 0xA8
+	::UnityEngine::E46B881AA2636190 E5441B035B775A19; // 0xB8
+	::System::Single FFE15D8DD21D9403; // 0xC8
+	::System::Single B9CF9BE6C3FA9377; // 0xCC
+	::System::Single A873990D1EAA7C42; // 0xD0
+	::System::Single A514D63F9D6CF7DE; // 0xD4
+	::System::Single E4EC430CB7783E47; // 0xD8
+	::UnityEngine::E46B881AA2636190 BA2CCAC18A4C318D; // 0xDC
+	::UnityEngine::E46B881AA2636190 B4B4E4677327D1CF; // 0xEC
+	::UnityEngine::E46B881AA2636190 B02D126E4E09C0BD; // 0xFC
+	::UnityEngine::E46B881AA2636190 A9FADF09E87F776B; // 0x10C
+	::UnityEngine::E46B881AA2636190 B30ECAE22D41C8C4; // 0x11C
+	::System::Single E4CD205E682AFD07; // 0x12C
+	::System::Single F62F07F8FCE107AA; // 0x130
+	::System::Single FAF1CDA52F4062A2; // 0x134
+	::System::Single BE343359CE3EBEED; // 0x138
+	::System::Single FFD161FE90E82A8D; // 0x13C
+	::UnityEngine::E46B881AA2636190 AC1D94BE71B5673E; // 0x140
+	::UnityEngine::E46B881AA2636190 FE1602EFD2581360; // 0x150
+	::UnityEngine::E46B881AA2636190 B3F90DD461AFF897; // 0x160
+	::UnityEngine::E46B881AA2636190 AFA9A431EE610716; // 0x170
+	::UnityEngine::E46B881AA2636190 AC9E90E3CB385EF0; // 0x180
+	::System::Single EA072D6B719C0591; // 0x190
+	::System::Single A62488C4A9EEB75F; // 0x194
+	::System::Single EA78D8918CB23311; // 0x198
+	::System::Single F4E8ACD8697DCD86; // 0x19C
+	::System::Single F2748BF51215761F; // 0x1A0
+	::System::Single AF17005AC02D2FD4; // 0x1A4
+	::System::Single E505F591AF060BC7; // 0x1A8
+	::System::Single E43410C533F5A898; // 0x1AC
+	::System::Single EFD0ECB80422AB81; // 0x1B0
+	::System::Single E76960380D573A17; // 0x1B4
+	::System::Single FBA184B317BD0477; // 0x1B8
+	::System::Single A25CF62B72F6111E; // 0x1BC
+
+	static ::UnityEngine::E46B881AA2636190 EC3416A2D99D4B76(::ABC::CustomRenderPipeline::TrackBallParameter* BE68C18FBFC68992)
+	{
+		return ((::UnityEngine::E46B881AA2636190(*)(::ABC::CustomRenderPipeline::TrackBallParameter*))((::PBYTE)hIl2Cpp + E7A764580A4145BC_EC3416A2D99D4B76_OFFSET))(BE68C18FBFC68992);
+	}
+
+	::System::Void _ctor(::ABC::CustomRenderPipeline::ColorGrading* A567F659199E4401)
+	{
+		return ((::System::Void(*)(::PVOID, ::ABC::CustomRenderPipeline::ColorGrading*))((::PBYTE)hIl2Cpp + E7A764580A4145BC__CTOR_OFFSET))(this, A567F659199E4401);
+	}
+
+	::System::Void FD792C24FE49920B(::ABC::CustomRenderPipeline::ColorGrading* A567F659199E4401)
+	{
+		return ((::System::Void(*)(::PVOID, ::ABC::CustomRenderPipeline::ColorGrading*))((::PBYTE)hIl2Cpp + E7A764580A4145BC_FD792C24FE49920B_OFFSET))(this, A567F659199E4401);
+	}
+
+	static ::System::Single A015043CE69AC9D0(::ABC::CustomRenderPipeline::TrackBallParameter* BE68C18FBFC68992)
+	{
+		return ((::System::Single(*)(::ABC::CustomRenderPipeline::TrackBallParameter*))((::PBYTE)hIl2Cpp + E7A764580A4145BC_A015043CE69AC9D0_OFFSET))(BE68C18FBFC68992);
+	}
+};

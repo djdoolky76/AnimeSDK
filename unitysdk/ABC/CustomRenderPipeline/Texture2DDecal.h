@@ -1,0 +1,87 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/B88870E9FB4B8C1A/EC355055CDC1A44B.h"
+#include "unitysdk/System/Object.h"
+
+namespace ABC::CustomRenderPipeline { class DecalVolume; }
+namespace UnityEngine { class Texture2D; }
+
+#define ABC_CUSTOMRENDERPIPELINE_TEXTURE2DDECAL_ERRORISEMPTY_OFFSET UNITYSDK_OFFSET(0x28258B0)
+#define ABC_CUSTOMRENDERPIPELINE_TEXTURE2DDECAL_ERRORISNOTNULL_OFFSET UNITYSDK_OFFSET(0x2825A00)
+#define ABC_CUSTOMRENDERPIPELINE_TEXTURE2DDECAL_ISINVALIDFORMAT_OFFSET UNITYSDK_OFFSET(0x2825B50)
+#define ABC_CUSTOMRENDERPIPELINE_TEXTURE2DDECAL_ISINVALIDWIDTH_OFFSET UNITYSDK_OFFSET(0x2825C70)
+#define ABC_CUSTOMRENDERPIPELINE_TEXTURE2DDECAL_ISMIPMAPLIMITS_OFFSET UNITYSDK_OFFSET(0x2825D60)
+#define ABC_CUSTOMRENDERPIPELINE_TEXTURE2DDECAL_ISNOTMIPMAP_OFFSET UNITYSDK_OFFSET(0x2825DF0)
+#define ABC_CUSTOMRENDERPIPELINE_TEXTURE2DDECAL_ISNOTSQUARE_OFFSET UNITYSDK_OFFSET(0x2825EA0)
+#define ABC_CUSTOMRENDERPIPELINE_TEXTURE2DDECAL_ISSTREAMING_OFFSET UNITYSDK_OFFSET(0x2825F50)
+#define ABC_CUSTOMRENDERPIPELINE_TEXTURE2DDECAL_ISVALID_OFFSET UNITYSDK_OFFSET(0x2825FD0)
+#define ABC_CUSTOMRENDERPIPELINE_TEXTURE2DDECAL_SETDECALVOL_OFFSET UNITYSDK_OFFSET(0x2826390)
+#define ABC_CUSTOMRENDERPIPELINE_TEXTURE2DDECAL__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+namespace ABC::CustomRenderPipeline
+{
+	inline static constexpr unsigned int Texture2DDecal_TypeDefinitionIndex = 16838;
+
+	class Texture2DDecal : public ::System::Object
+	{
+	public:
+		::UnityEngine::Texture2D* Tex; // 0x10
+		::ABC::CustomRenderPipeline::DecalVolume* parentVol; // 0x18
+		::B88870E9FB4B8C1A::EC355055CDC1A44B type; // 0x20
+
+		::System::Boolean IsNotSquare()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_TEXTURE2DDECAL_ISNOTSQUARE_OFFSET))(this);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_TEXTURE2DDECAL__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean IsInvalidWidth()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_TEXTURE2DDECAL_ISINVALIDWIDTH_OFFSET))(this);
+		}
+
+		::System::Boolean IsInvalidFormat()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_TEXTURE2DDECAL_ISINVALIDFORMAT_OFFSET))(this);
+		}
+
+		::System::Void SetDecalVol(::ABC::CustomRenderPipeline::DecalVolume* E4457EE9C30B28C5, ::B88870E9FB4B8C1A::EC355055CDC1A44B BBCFEC7DB309E927)
+		{
+			return ((::System::Void(*)(::PVOID, ::ABC::CustomRenderPipeline::DecalVolume*, ::B88870E9FB4B8C1A::EC355055CDC1A44B))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_TEXTURE2DDECAL_SETDECALVOL_OFFSET))(this, E4457EE9C30B28C5, BBCFEC7DB309E927);
+		}
+
+		::System::Boolean ErrorIsEmpty()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_TEXTURE2DDECAL_ERRORISEMPTY_OFFSET))(this);
+		}
+
+		::System::Boolean IsNotMipmap()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_TEXTURE2DDECAL_ISNOTMIPMAP_OFFSET))(this);
+		}
+
+		::System::Boolean ErrorIsNotNull()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_TEXTURE2DDECAL_ERRORISNOTNULL_OFFSET))(this);
+		}
+
+		::System::Boolean IsStreaming()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_TEXTURE2DDECAL_ISSTREAMING_OFFSET))(this);
+		}
+
+		::System::Boolean IsValid()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_TEXTURE2DDECAL_ISVALID_OFFSET))(this);
+		}
+
+		::System::Boolean IsMipmapLimits()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_TEXTURE2DDECAL_ISMIPMAPLIMITS_OFFSET))(this);
+		}
+	};
+}

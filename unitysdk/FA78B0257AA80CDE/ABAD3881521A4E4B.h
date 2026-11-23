@@ -1,0 +1,18 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace FA78B0257AA80CDE
+{
+	inline static constexpr unsigned int ABAD3881521A4E4B_TypeDefinitionIndex = 17818;
+
+	enum class ABAD3881521A4E4B : ::System::Int32
+	{
+		HAPI_STATUSVERBOSITY_0 = 0,
+		HAPI_STATUSVERBOSITY_1 = 1,
+		HAPI_STATUSVERBOSITY_2 = 2,
+		HAPI_STATUSVERBOSITY_ALL = 2,
+		HAPI_STATUSVERBOSITY_ERRORS = 0,
+		HAPI_STATUSVERBOSITY_WARNINGS = 1,
+		HAPI_STATUSVERBOSITY_MESSAGES = 2,
+	};
+}

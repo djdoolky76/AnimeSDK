@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/FCC2F8EABCD6F945.h"
+
+namespace System { class String; }
+
+#define A90A2EDD3B851607_B98372FE0E4E3B4A_OFFSET UNITYSDK_OFFSET(0x3C82DD0)
+#define A90A2EDD3B851607_BBC03804E6249768_OFFSET UNITYSDK_OFFSET(0x3C82D80)
+#define A90A2EDD3B851607_FC991FC5B1965F1C_OFFSET UNITYSDK_OFFSET(0x3C82CB0)
+
+inline static constexpr unsigned int A90A2EDD3B851607_TypeDefinitionIndex = 10429;
+
+class A90A2EDD3B851607 : public ::System::Object
+{
+public:
+	static ::System::String* B98372FE0E4E3B4A(::FCC2F8EABCD6F945<::System::Char> E26CCD2C64F622E4)
+	{
+		return ((::System::String*(*)(::FCC2F8EABCD6F945<::System::Char>))((::PBYTE)hIl2Cpp + A90A2EDD3B851607_B98372FE0E4E3B4A_OFFSET))(E26CCD2C64F622E4);
+	}
+
+	static ::System::Int32 BBC03804E6249768(::FCC2F8EABCD6F945<::System::Char> E26CCD2C64F622E4)
+	{
+		return ((::System::Int32(*)(::FCC2F8EABCD6F945<::System::Char>))((::PBYTE)hIl2Cpp + A90A2EDD3B851607_BBC03804E6249768_OFFSET))(E26CCD2C64F622E4);
+	}
+
+	static ::System::Boolean FC991FC5B1965F1C(::FCC2F8EABCD6F945<::System::Char> E26CCD2C64F622E4, ::System::String* E937D4885DAA1AE8)
+	{
+		return ((::System::Boolean(*)(::FCC2F8EABCD6F945<::System::Char>, ::System::String*))((::PBYTE)hIl2Cpp + A90A2EDD3B851607_FC991FC5B1965F1C_OFFSET))(E26CCD2C64F622E4, E937D4885DAA1AE8);
+	}
+};

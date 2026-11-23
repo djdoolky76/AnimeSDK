@@ -1,0 +1,53 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/A970A434E9CC38AD/A6ADD7383B6FABEA.h"
+#include "unitysdk/E7CA89B6690BA989.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+
+class A2255F4B9978A3BD;
+class B3CD6A968F0629C3;
+namespace System { class String; }
+
+#define AADD5B52CC71298E_A6174DD90CEC300C_OFFSET UNITYSDK_OFFSET(0x1B39860)
+#define AADD5B52CC71298E_B1BDC239F0C03307_OFFSET UNITYSDK_OFFSET(0x1B39960)
+#define AADD5B52CC71298E_B55DF268EDD637C2_OFFSET UNITYSDK_OFFSET(0x1B39750)
+#define AADD5B52CC71298E_EA28CF291EBB2931_OFFSET UNITYSDK_OFFSET(0x1B39780)
+
+inline static constexpr unsigned int AADD5B52CC71298E_TypeDefinitionIndex = 2117;
+
+struct alignas(8) AADD5B52CC71298E
+{
+	::B3CD6A968F0629C3* E503CF3EAE138E9D; // 0x10
+	::System::String* ADBD27F78077E8D2; // 0x18
+	::System::UInt32 AEA6A4F794917D32; // 0x20
+	::System::UInt32 FB92E9F3E0FD7BB6; // 0x24
+	::System::Boolean B9F09226B9489E06; // 0x28
+	::System::Nullable_1<::System::Boolean> FEB7D36D5855DCD7; // 0x29
+	::System::Nullable_1<::System::Boolean> EAED5B55E46D0E9A; // 0x2B
+	::System::Boolean E2D107987E8A0C78; // 0x2D
+	::System::Byte _padding0[0x2];
+	::UnityEngine::Quaternion A0FE9BD88AEBF8D9; // 0x30
+	::E7CA89B6690BA989 EF0F9D8D794F0A3C; // 0x40
+
+	::System::String* EA28CF291EBB2931()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + AADD5B52CC71298E_EA28CF291EBB2931_OFFSET))(this);
+	}
+
+	::System::Void A6174DD90CEC300C(::A970A434E9CC38AD::A6ADD7383B6FABEA BC5568F3D79C87F2, ::System::Boolean FFA00246E8ABA57B)
+	{
+		return ((::System::Void(*)(::PVOID, ::A970A434E9CC38AD::A6ADD7383B6FABEA, ::System::Boolean))((::PBYTE)hIl2Cpp + AADD5B52CC71298E_A6174DD90CEC300C_OFFSET))(this, BC5568F3D79C87F2, FFA00246E8ABA57B);
+	}
+
+	::System::Boolean B55DF268EDD637C2(::A2255F4B9978A3BD* F5BA898E96D1FD0D)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::A2255F4B9978A3BD*))((::PBYTE)hIl2Cpp + AADD5B52CC71298E_B55DF268EDD637C2_OFFSET))(this, F5BA898E96D1FD0D);
+	}
+
+	::System::Boolean B1BDC239F0C03307()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + AADD5B52CC71298E_B1BDC239F0C03307_OFFSET))(this);
+	}
+};

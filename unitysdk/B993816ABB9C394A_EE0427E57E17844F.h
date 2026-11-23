@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MiHoYo/SDK/Alert_FE2CBCAA6ADCE589.h"
+#include "unitysdk/System/Object.h"
+
+class B993816ABB9C394A_BDD168D2B5953EFF;
+namespace MiHoYo::SDK { class ComboUserModel; }
+namespace MiHoYo::SDK { template <typename T> class CallbackModel_1; }
+
+#define B993816ABB9C394A_EE0427E57E17844F_A8BFDFDD19BF3BF3_OFFSET UNITYSDK_OFFSET(0x38D2320)
+#define B993816ABB9C394A_EE0427E57E17844F_ACB6EC3E2AA37FEA_OFFSET UNITYSDK_OFFSET(0x38D22C0)
+#define B993816ABB9C394A_EE0427E57E17844F__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int B993816ABB9C394A_EE0427E57E17844F_TypeDefinitionIndex = 11734;
+
+class B993816ABB9C394A_EE0427E57E17844F : public ::System::Object
+{
+public:
+	::MiHoYo::SDK::CallbackModel_1<::MiHoYo::SDK::ComboUserModel*>* A55C1996E9795A80; // 0x10
+	::B993816ABB9C394A_BDD168D2B5953EFF* A8791C2B0F6F977B; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B993816ABB9C394A_EE0427E57E17844F__CTOR_OFFSET))(this);
+	}
+
+	::System::Void A8BFDFDD19BF3BF3()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B993816ABB9C394A_EE0427E57E17844F_A8BFDFDD19BF3BF3_OFFSET))(this);
+	}
+
+	::System::Void ACB6EC3E2AA37FEA(::MiHoYo::SDK::Alert_FE2CBCAA6ADCE589 E82293C0814051A5)
+	{
+		return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Alert_FE2CBCAA6ADCE589))((::PBYTE)hIl2Cpp + B993816ABB9C394A_EE0427E57E17844F_ACB6EC3E2AA37FEA_OFFSET))(this, E82293C0814051A5);
+	}
+};

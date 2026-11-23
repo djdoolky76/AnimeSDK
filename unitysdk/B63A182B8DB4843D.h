@@ -1,0 +1,86 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class E1095B1DC3EECFAC;
+namespace ABC::UI { class MonoButton; }
+namespace ABC::UI { class MonoPrefabLoader; }
+namespace System { template <typename T> class Action_1; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class RectTransform; }
+
+#define B63A182B8DB4843D_A16C8ED92C989C9B_OFFSET UNITYSDK_OFFSET(0x184C6D0)
+#define B63A182B8DB4843D_A52BBD19E40768FB_OFFSET UNITYSDK_OFFSET(0x184C5B0)
+#define B63A182B8DB4843D_B5C90A8040AB70F8_OFFSET UNITYSDK_OFFSET(0x184C910)
+#define B63A182B8DB4843D_E3C5D72B1F59C99C_OFFSET UNITYSDK_OFFSET(0x18249B0)
+#define B63A182B8DB4843D_EC3033C0485522FB_OFFSET UNITYSDK_OFFSET(0x184C630)
+#define B63A182B8DB4843D_F14BEFCB596EE4D7_OFFSET UNITYSDK_OFFSET(0x184C540)
+#define B63A182B8DB4843D_F62440884F87C089_OFFSET UNITYSDK_OFFSET(0x169C070)
+#define B63A182B8DB4843D_FC2C68AD12D08AAD_OFFSET UNITYSDK_OFFSET(0x17395E0)
+#define B63A182B8DB4843D_FCC7443573DD0222_OFFSET UNITYSDK_OFFSET(0x184C410)
+#define B63A182B8DB4843D__CTOR_OFFSET UNITYSDK_OFFSET(0x184C740)
+
+inline static constexpr unsigned int B63A182B8DB4843D_TypeDefinitionIndex = 1199;
+
+class B63A182B8DB4843D : public ::System::Object
+{
+public:
+	::ABC::UI::MonoButton* B175D8D86F00EE78; // 0x10
+	::UnityEngine::GameObject* E7EF1A47C3985444; // 0x18
+	::System::Action_1<::System::Int32>* A3015D21DCF4566F; // 0x20
+	::UnityEngine::GameObject* B7B4E9314E1DD999; // 0x28
+	::UnityEngine::RectTransform* E779513E283533E2; // 0x30
+	::System::Int32 A02AF894637B3DAE; // 0x38
+	::System::Byte _padding0[0x4];
+	::E1095B1DC3EECFAC* F4AA1B736EE0F6F0; // 0x40
+
+	::System::Void FCC7443573DD0222()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B63A182B8DB4843D_FCC7443573DD0222_OFFSET))(this);
+	}
+
+	::UnityEngine::RectTransform* FC2C68AD12D08AAD()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + B63A182B8DB4843D_FC2C68AD12D08AAD_OFFSET))(this);
+	}
+
+	::System::Void A52BBD19E40768FB(::System::Boolean EA07677F93AD775D)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + B63A182B8DB4843D_A52BBD19E40768FB_OFFSET))(this, EA07677F93AD775D);
+	}
+
+	::System::Void A16C8ED92C989C9B(::System::Boolean EA07677F93AD775D)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + B63A182B8DB4843D_A16C8ED92C989C9B_OFFSET))(this, EA07677F93AD775D);
+	}
+
+	::System::Void _ctor(::ABC::UI::MonoPrefabLoader* E6305B8DDD56CFBC, ::System::Int32 B48C66E5FB2449C6, ::System::Action_1<::System::Int32>* E75D93C2D305B812)
+	{
+		return ((::System::Void(*)(::PVOID, ::ABC::UI::MonoPrefabLoader*, ::System::Int32, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + B63A182B8DB4843D__CTOR_OFFSET))(this, E6305B8DDD56CFBC, B48C66E5FB2449C6, E75D93C2D305B812);
+	}
+
+	::UnityEngine::GameObject* F62440884F87C089()
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + B63A182B8DB4843D_F62440884F87C089_OFFSET))(this);
+	}
+
+	::System::Void EC3033C0485522FB(::E1095B1DC3EECFAC* B383F0530E7FBDBD)
+	{
+		return ((::System::Void(*)(::PVOID, ::E1095B1DC3EECFAC*))((::PBYTE)hIl2Cpp + B63A182B8DB4843D_EC3033C0485522FB_OFFSET))(this, B383F0530E7FBDBD);
+	}
+
+	::System::Void B5C90A8040AB70F8(::E1095B1DC3EECFAC* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::E1095B1DC3EECFAC*))((::PBYTE)hIl2Cpp + B63A182B8DB4843D_B5C90A8040AB70F8_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::E1095B1DC3EECFAC* E3C5D72B1F59C99C()
+	{
+		return ((::E1095B1DC3EECFAC*(*)(::PVOID))((::PBYTE)hIl2Cpp + B63A182B8DB4843D_E3C5D72B1F59C99C_OFFSET))(this);
+	}
+
+	::System::Void F14BEFCB596EE4D7()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B63A182B8DB4843D_F14BEFCB596EE4D7_OFFSET))(this);
+	}
+};

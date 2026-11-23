@@ -1,0 +1,106 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/E68AA4EB51923C98/FBF55A1A0273E5DE.h"
+#include "unitysdk/E68AA4EB51923C98/FDA2AF0546E99041.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+namespace ABC::UI { class MonoLocalizedTmp; }
+namespace System { class String; }
+namespace UnityEngine { class Transform; }
+namespace UnityEngine::InputSystem { class InputDevice; }
+namespace UnityEngine::UI { class Image; }
+
+#define MONOACTIONTIP_A6B9CE349D3EDBEC_OFFSET UNITYSDK_OFFSET(0x20728D0)
+#define MONOACTIONTIP_AB36E0EE549986E5_OFFSET UNITYSDK_OFFSET(0x20726C0)
+#define MONOACTIONTIP_B333B0202388A7A2_OFFSET UNITYSDK_OFFSET(0x2072640)
+#define MONOACTIONTIP_B356F061B3BC8613_OFFSET UNITYSDK_OFFSET(0x20723B0)
+#define MONOACTIONTIP_BAF559A40EEA14C0_OFFSET UNITYSDK_OFFSET(0x2072520)
+#define MONOACTIONTIP_BB4C2EBD67BE7B16_OFFSET UNITYSDK_OFFSET(0x2072980)
+#define MONOACTIONTIP_E21BC7CB651F6237_OFFSET UNITYSDK_OFFSET(0x20732D0)
+#define MONOACTIONTIP_E95119B1436804A6_OFFSET UNITYSDK_OFFSET(0x2072AA0)
+#define MONOACTIONTIP_F067234CD8545425_OFFSET UNITYSDK_OFFSET(0x2072780)
+#define MONOACTIONTIP_F16FD87693A39B61_OFFSET UNITYSDK_OFFSET(0x2072710)
+#define MONOACTIONTIP_FDBCDBBFE02CD51A_OFFSET UNITYSDK_OFFSET(0x2072360)
+#define MONOACTIONTIP_FE1D12C10C97D947_OFFSET UNITYSDK_OFFSET(0x2072830)
+#define MONOACTIONTIP__CTOR_OFFSET UNITYSDK_OFFSET(0x20732C0)
+
+inline static constexpr unsigned int MonoActionTip_TypeDefinitionIndex = 8500;
+
+class MonoActionTip : public ::UnityEngine::MonoBehaviour
+{
+public:
+	::System::String* ActionName; // 0x20
+	::UnityEngine::Transform* KeyFrame; // 0x28
+	::UnityEngine::UI::Image* Icon; // 0x30
+	::ABC::UI::MonoLocalizedTmp* TipText; // 0x38
+	::System::Boolean IsPositive; // 0x40
+	::System::Boolean A90776402BE9B0E3; // 0x41
+	::System::Byte _padding0[0x6];
+	::System::String* A32A9B0C0E298DAA; // 0x48
+	::E68AA4EB51923C98::FBF55A1A0273E5DE EBD05D93D2A7B464; // 0x50
+
+	::System::Boolean B356F061B3BC8613(::UnityEngine::InputSystem::InputDevice* B9AD68262157E9E0, ::E68AA4EB51923C98::FBF55A1A0273E5DE E8C3534D5186D9C8)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::UnityEngine::InputSystem::InputDevice*, ::E68AA4EB51923C98::FBF55A1A0273E5DE))((::PBYTE)hIl2Cpp + MONOACTIONTIP_B356F061B3BC8613_OFFSET))(this, B9AD68262157E9E0, E8C3534D5186D9C8);
+	}
+
+	::System::Void F16FD87693A39B61(::E68AA4EB51923C98::FBF55A1A0273E5DE E8C3534D5186D9C8)
+	{
+		return ((::System::Void(*)(::PVOID, ::E68AA4EB51923C98::FBF55A1A0273E5DE))((::PBYTE)hIl2Cpp + MONOACTIONTIP_F16FD87693A39B61_OFFSET))(this, E8C3534D5186D9C8);
+	}
+
+	::System::Void BB4C2EBD67BE7B16()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOACTIONTIP_BB4C2EBD67BE7B16_OFFSET))(this);
+	}
+
+	::System::Void A6B9CE349D3EDBEC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOACTIONTIP_A6B9CE349D3EDBEC_OFFSET))(this);
+	}
+
+	::System::Void F067234CD8545425()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOACTIONTIP_F067234CD8545425_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOACTIONTIP__CTOR_OFFSET))(this);
+	}
+
+	::System::Void B333B0202388A7A2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOACTIONTIP_B333B0202388A7A2_OFFSET))(this);
+	}
+
+	::System::Void FDBCDBBFE02CD51A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOACTIONTIP_FDBCDBBFE02CD51A_OFFSET))(this);
+	}
+
+	::System::Void FE1D12C10C97D947(::System::String* E7C99297BCFC5085)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MONOACTIONTIP_FE1D12C10C97D947_OFFSET))(this, E7C99297BCFC5085);
+	}
+
+	::E68AA4EB51923C98::FDA2AF0546E99041 BAF559A40EEA14C0(::System::String* A6DF35433337B6DF)
+	{
+		return ((::E68AA4EB51923C98::FDA2AF0546E99041(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MONOACTIONTIP_BAF559A40EEA14C0_OFFSET))(this, A6DF35433337B6DF);
+	}
+
+	::System::Void AB36E0EE549986E5()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOACTIONTIP_AB36E0EE549986E5_OFFSET))(this);
+	}
+
+	::System::Void E95119B1436804A6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOACTIONTIP_E95119B1436804A6_OFFSET))(this);
+	}
+
+	::System::String* E21BC7CB651F6237()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MONOACTIONTIP_E21BC7CB651F6237_OFFSET))(this);
+	}
+};

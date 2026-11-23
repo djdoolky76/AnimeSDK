@@ -1,0 +1,46 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/E4C8EC6CF969070E.h"
+#include "unitysdk/BD3E6890C9C82A9E.h"
+
+class A732A963AE00F2EC;
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define E85C7931E8A2B94F_ED6DB523E8D8A1A6_OFFSET UNITYSDK_OFFSET(0x233C5B0)
+#define E85C7931E8A2B94F_FA079206F1855950_OFFSET UNITYSDK_OFFSET(0x17F35A0)
+#define E85C7931E8A2B94F_FBBF870EA90E1D92_OFFSET UNITYSDK_OFFSET(0x24C8320)
+#define E85C7931E8A2B94F_FE9E42E41D770021_OFFSET UNITYSDK_OFFSET(0x17F35D0)
+#define E85C7931E8A2B94F__CTOR_OFFSET UNITYSDK_OFFSET(0x16514A0)
+
+inline static constexpr unsigned int E85C7931E8A2B94F_TypeDefinitionIndex = 4844;
+
+class E85C7931E8A2B94F : public ::E4C8EC6CF969070E
+{
+public:
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::A732A963AE00F2EC*>* E571F0E65DF3B7CD; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E85C7931E8A2B94F__CTOR_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::Dictionary_2<::System::UInt32, ::A732A963AE00F2EC*>* FA079206F1855950()
+	{
+		return ((::System::Collections::Generic::Dictionary_2<::System::UInt32, ::A732A963AE00F2EC*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + E85C7931E8A2B94F_FA079206F1855950_OFFSET))(this);
+	}
+
+	static ::System::UInt32 ED6DB523E8D8A1A6(::A732A963AE00F2EC* E937D4885DAA1AE8)
+	{
+		return ((::System::UInt32(*)(::A732A963AE00F2EC*))((::PBYTE)hIl2Cpp + E85C7931E8A2B94F_ED6DB523E8D8A1A6_OFFSET))(E937D4885DAA1AE8);
+	}
+
+	static ::System::Void FBBF870EA90E1D92(::BD3E6890C9C82A9E& F99B0FE319DB74D1, ::E85C7931E8A2B94F*& E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::BD3E6890C9C82A9E&, ::E85C7931E8A2B94F*&))((::PBYTE)hIl2Cpp + E85C7931E8A2B94F_FBBF870EA90E1D92_OFFSET))(F99B0FE319DB74D1, E937D4885DAA1AE8);
+	}
+
+	::System::Void FE9E42E41D770021(::System::Collections::Generic::Dictionary_2<::System::UInt32, ::A732A963AE00F2EC*>* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::UInt32, ::A732A963AE00F2EC*>*))((::PBYTE)hIl2Cpp + E85C7931E8A2B94F_FE9E42E41D770021_OFFSET))(this, E937D4885DAA1AE8);
+	}
+};

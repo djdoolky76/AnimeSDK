@@ -1,0 +1,57 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Guid.h"
+#include "unitysdk/System/Guid_A3547A7A141BC6C4.h"
+#include "unitysdk/System/Guid_EC6B8B87299758A4.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace System { class Exception; }
+namespace System { class Object; }
+namespace System { class String; }
+
+#define SYSTEM_GUID_AF0D0306765A1EE7_BB4A8187894E5893_OFFSET UNITYSDK_OFFSET(0x3B6BCF0)
+#define SYSTEM_GUID_AF0D0306765A1EE7_F6E0D175D129ADB3_1_OFFSET UNITYSDK_OFFSET(0x3B6BFD0)
+#define SYSTEM_GUID_AF0D0306765A1EE7_F6E0D175D129ADB3_2_OFFSET UNITYSDK_OFFSET(0x3B6BF20)
+#define SYSTEM_GUID_AF0D0306765A1EE7_F6E0D175D129ADB3_3_OFFSET UNITYSDK_OFFSET(0x3B6BE90)
+#define SYSTEM_GUID_AF0D0306765A1EE7_F6E0D175D129ADB3_OFFSET UNITYSDK_OFFSET(0x3B6BFB0)
+
+namespace System
+{
+	inline static constexpr unsigned int Guid_AF0D0306765A1EE7_TypeDefinitionIndex = 10331;
+
+	struct alignas(8) Guid_AF0D0306765A1EE7
+	{
+		::System::Guid EDFC287DF87B19D5; // 0x10
+		::System::Guid_A3547A7A141BC6C4 E6B251813A85A86A; // 0x20
+		::System::Guid_EC6B8B87299758A4 BB279D14A38CC914; // 0x24
+		::System::String* E4A08B8F0EFFCBE2; // 0x28
+		::System::Object* F8FFA30700A4FDA6; // 0x30
+		::System::String* E8629B57357AE576; // 0x38
+		::System::Exception* E8862C516B99039F; // 0x40
+
+		::System::Void F6E0D175D129ADB3(::System::Exception* A552BBFF8B378FD0)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_AF0D0306765A1EE7_F6E0D175D129ADB3_OFFSET))(this, A552BBFF8B378FD0);
+		}
+
+		::System::Void F6E0D175D129ADB3_1(::System::Guid_EC6B8B87299758A4 FC701D6D3B4C3F33, ::System::String* F38F4E5D6214E2C1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Guid_EC6B8B87299758A4, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_AF0D0306765A1EE7_F6E0D175D129ADB3_1_OFFSET))(this, FC701D6D3B4C3F33, F38F4E5D6214E2C1);
+		}
+
+		::System::Void F6E0D175D129ADB3_2(::System::Guid_EC6B8B87299758A4 FC701D6D3B4C3F33, ::System::String* F38F4E5D6214E2C1, ::System::Object* F12E9C6852E33B8D)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Guid_EC6B8B87299758A4, ::System::String*, ::System::Object*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_AF0D0306765A1EE7_F6E0D175D129ADB3_2_OFFSET))(this, FC701D6D3B4C3F33, F38F4E5D6214E2C1, F12E9C6852E33B8D);
+		}
+
+		::System::Void F6E0D175D129ADB3_3(::System::Guid_EC6B8B87299758A4 FC701D6D3B4C3F33, ::System::String* F38F4E5D6214E2C1, ::System::Object* F12E9C6852E33B8D, ::System::String* AE0767EE8AA59D35, ::System::Exception* FA644E43CA202E59)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Guid_EC6B8B87299758A4, ::System::String*, ::System::Object*, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_GUID_AF0D0306765A1EE7_F6E0D175D129ADB3_3_OFFSET))(this, FC701D6D3B4C3F33, F38F4E5D6214E2C1, F12E9C6852E33B8D, AE0767EE8AA59D35, FA644E43CA202E59);
+		}
+
+		::System::Exception* BB4A8187894E5893()
+		{
+			return ((::System::Exception*(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GUID_AF0D0306765A1EE7_BB4A8187894E5893_OFFSET))(this);
+		}
+	};
+}

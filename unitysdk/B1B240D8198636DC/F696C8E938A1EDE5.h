@@ -1,0 +1,73 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Playables/PlayableBehaviour.h"
+#include "unitysdk/FA1EDF0909FD0302/AABCC3E8F3F5A94A.h"
+#include "unitysdk/FA1EDF0909FD0302/AE42330449B9EF25.h"
+
+namespace ABC::Common::Timeline::Unity { class VFXTimelineClip; }
+namespace ABC::Common::Timeline::Unity { class VFXTimelineLateFollow; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class ParticleSystem; }
+namespace UnityEngine::Playables { class PlayableDirector; }
+namespace UnityEngine::Timeline { class TrackAsset; }
+
+#define B1B240D8198636DC_F696C8E938A1EDE5_A4E1C340D5AFD641_OFFSET UNITYSDK_OFFSET(0x1EF4C40)
+#define B1B240D8198636DC_F696C8E938A1EDE5_AA82DC29EE666AAD_OFFSET UNITYSDK_OFFSET(0x1BF9BA0)
+#define B1B240D8198636DC_F696C8E938A1EDE5_B106443B8CEFD69B_OFFSET UNITYSDK_OFFSET(0x17395E0)
+#define B1B240D8198636DC_F696C8E938A1EDE5_BA999F3B6103915A_OFFSET UNITYSDK_OFFSET(0x1EF48E0)
+#define B1B240D8198636DC_F696C8E938A1EDE5_F60D06B1585B89A4_OFFSET UNITYSDK_OFFSET(0x1EF4D40)
+#define B1B240D8198636DC_F696C8E938A1EDE5_FDE7680B8A4ED205_OFFSET UNITYSDK_OFFSET(0x1EF4DF0)
+#define B1B240D8198636DC_F696C8E938A1EDE5__CTOR_OFFSET UNITYSDK_OFFSET(0x1EF4FB0)
+
+namespace B1B240D8198636DC
+{
+	inline static constexpr unsigned int F696C8E938A1EDE5_TypeDefinitionIndex = 7388;
+
+	class F696C8E938A1EDE5 : public ::UnityEngine::Playables::PlayableBehaviour
+	{
+	public:
+		::UnityEngine::GameObject* A1801F10B1D76E44; // 0x10
+		::UnityEngine::Playables::PlayableDirector* F59C33C960253423; // 0x18
+		::UnityEngine::Timeline::TrackAsset* FF1448DA9DB33830; // 0x20
+		::ABC::Common::Timeline::Unity::VFXTimelineClip* A3D6BF9E70D1B9F4; // 0x28
+		::UnityEngine::GameObject* A2A5960C5CA33CB2; // 0x30
+		::ABC::Common::Timeline::Unity::VFXTimelineLateFollow* BC933A11392A7F1F; // 0x38
+		::System::Collections::Generic::List_1<::UnityEngine::ParticleSystem*>* A635EC614A3FF2AC; // 0x40
+
+		::System::Void BA999F3B6103915A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B1B240D8198636DC_F696C8E938A1EDE5_BA999F3B6103915A_OFFSET))(this);
+		}
+
+		::UnityEngine::GameObject* B106443B8CEFD69B()
+		{
+			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + B1B240D8198636DC_F696C8E938A1EDE5_B106443B8CEFD69B_OFFSET))(this);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B1B240D8198636DC_F696C8E938A1EDE5__CTOR_OFFSET))(this);
+		}
+
+		::System::Void A4E1C340D5AFD641(::FA1EDF0909FD0302::AE42330449B9EF25 F9739C01C3FB65CA, ::FA1EDF0909FD0302::AABCC3E8F3F5A94A B29880F033C1F232)
+		{
+			return ((::System::Void(*)(::PVOID, ::FA1EDF0909FD0302::AE42330449B9EF25, ::FA1EDF0909FD0302::AABCC3E8F3F5A94A))((::PBYTE)hIl2Cpp + B1B240D8198636DC_F696C8E938A1EDE5_A4E1C340D5AFD641_OFFSET))(this, F9739C01C3FB65CA, B29880F033C1F232);
+		}
+
+		::System::Void F60D06B1585B89A4(::FA1EDF0909FD0302::AE42330449B9EF25 F9739C01C3FB65CA, ::FA1EDF0909FD0302::AABCC3E8F3F5A94A B29880F033C1F232)
+		{
+			return ((::System::Void(*)(::PVOID, ::FA1EDF0909FD0302::AE42330449B9EF25, ::FA1EDF0909FD0302::AABCC3E8F3F5A94A))((::PBYTE)hIl2Cpp + B1B240D8198636DC_F696C8E938A1EDE5_F60D06B1585B89A4_OFFSET))(this, F9739C01C3FB65CA, B29880F033C1F232);
+		}
+
+		::System::Void AA82DC29EE666AAD(::UnityEngine::GameObject* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + B1B240D8198636DC_F696C8E938A1EDE5_AA82DC29EE666AAD_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void FDE7680B8A4ED205(::UnityEngine::GameObject* AD1247287D2D9217)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + B1B240D8198636DC_F696C8E938A1EDE5_FDE7680B8A4ED205_OFFSET))(this, AD1247287D2D9217);
+		}
+	};
+}

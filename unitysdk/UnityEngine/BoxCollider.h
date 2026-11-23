@@ -1,0 +1,62 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Collider.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+#define UNITYENGINE_BOXCOLLIDER_A4EB194B84E346B3_OFFSET UNITYSDK_OFFSET(0x41B1880)
+#define UNITYENGINE_BOXCOLLIDER_B44FC516815AF6A9_OFFSET UNITYSDK_OFFSET(0x41B1970)
+#define UNITYENGINE_BOXCOLLIDER_E789DD984F9509D0_OFFSET UNITYSDK_OFFSET(0x41B18D0)
+#define UNITYENGINE_BOXCOLLIDER_E79712C8F4B75D75_OFFSET UNITYSDK_OFFSET(0x41B19C0)
+#define UNITYENGINE_BOXCOLLIDER_EE159FB7B4E598F3_OFFSET UNITYSDK_OFFSET(0x41B1A10)
+#define UNITYENGINE_BOXCOLLIDER_EFF14C31C5C7E769_OFFSET UNITYSDK_OFFSET(0x41B1A60)
+#define UNITYENGINE_BOXCOLLIDER_FA2C9A92926D0CF3_OFFSET UNITYSDK_OFFSET(0x41B1830)
+#define UNITYENGINE_BOXCOLLIDER_FD4987BC3E5D912A_OFFSET UNITYSDK_OFFSET(0x41B1920)
+
+namespace UnityEngine
+{
+	inline static constexpr unsigned int BoxCollider_TypeDefinitionIndex = 20797;
+
+	class BoxCollider : public ::UnityEngine::Collider
+	{
+	public:
+		::UnityEngine::Vector3 A4EB194B84E346B3()
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_BOXCOLLIDER_A4EB194B84E346B3_OFFSET))(this);
+		}
+
+		::System::Void E79712C8F4B75D75(::UnityEngine::Vector3 E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_BOXCOLLIDER_E79712C8F4B75D75_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void FA2C9A92926D0CF3(::UnityEngine::Vector3& FEC8DC0392823C8D)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + UNITYENGINE_BOXCOLLIDER_FA2C9A92926D0CF3_OFFSET))(this, FEC8DC0392823C8D);
+		}
+
+		::System::Void EE159FB7B4E598F3(::UnityEngine::Vector3& E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + UNITYENGINE_BOXCOLLIDER_EE159FB7B4E598F3_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void EFF14C31C5C7E769(::UnityEngine::Vector3 E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_BOXCOLLIDER_EFF14C31C5C7E769_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::UnityEngine::Vector3 FD4987BC3E5D912A()
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_BOXCOLLIDER_FD4987BC3E5D912A_OFFSET))(this);
+		}
+
+		::System::Void E789DD984F9509D0(::UnityEngine::Vector3& FEC8DC0392823C8D)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + UNITYENGINE_BOXCOLLIDER_E789DD984F9509D0_OFFSET))(this, FEC8DC0392823C8D);
+		}
+
+		::System::Void B44FC516815AF6A9(::UnityEngine::Vector3& E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + UNITYENGINE_BOXCOLLIDER_B44FC516815AF6A9_OFFSET))(this, E937D4885DAA1AE8);
+		}
+	};
+}

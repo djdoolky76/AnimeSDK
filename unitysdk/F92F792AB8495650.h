@@ -1,0 +1,126 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/EFC4AEA2121EC272.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+
+class A1CE18DDB84B16AF;
+class A508918FB6426186;
+class FB4D53F2112AA417;
+namespace ABC::UI { class MonoPrefabLoader; }
+namespace ABC::UI { class MonoScrollRect; }
+namespace ABC::UI { class MonoUIAutoView; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+namespace System::Collections::Generic { template <typename T> class IReadOnlyList_1; }
+namespace UnityEngine { class RectTransform; }
+template <typename T1, typename T2> class E3A1DB35EFB413FC;
+
+#define F92F792AB8495650_A54D936318FAF9E3_OFFSET UNITYSDK_OFFSET(0x1ED7640)
+#define F92F792AB8495650_A6768434AAA2F8BB_OFFSET UNITYSDK_OFFSET(0x1ED75C0)
+#define F92F792AB8495650_AFE676A5D5DB277A_OFFSET UNITYSDK_OFFSET(0x1ED81C0)
+#define F92F792AB8495650_B950FF9810FC6646_OFFSET UNITYSDK_OFFSET(0x1ED7410)
+#define F92F792AB8495650_E49273FAE5DC7419_OFFSET UNITYSDK_OFFSET(0x1ED7BB0)
+#define F92F792AB8495650_E5F0FDCAD880DFA1_1_OFFSET UNITYSDK_OFFSET(0x1ED78B0)
+#define F92F792AB8495650_E5F0FDCAD880DFA1_OFFSET UNITYSDK_OFFSET(0x1ED7840)
+#define F92F792AB8495650_E84DC391CEE714AE_OFFSET UNITYSDK_OFFSET(0x1ED82C0)
+#define F92F792AB8495650_E8B4267A5166268A_OFFSET UNITYSDK_OFFSET(0x1ED7F30)
+#define F92F792AB8495650_EA9F5F599E861338_OFFSET UNITYSDK_OFFSET(0x1ED7EC0)
+#define F92F792AB8495650_EC22F59F2C588175_OFFSET UNITYSDK_OFFSET(0x1ED8350)
+#define F92F792AB8495650_F6A675B119E39F53_OFFSET UNITYSDK_OFFSET(0x1ED7A40)
+#define F92F792AB8495650_FC842CBA15C6A296_OFFSET UNITYSDK_OFFSET(0x1ED83D0)
+#define F92F792AB8495650_FCC7443573DD0222_OFFSET UNITYSDK_OFFSET(0x1ED7A90)
+#define F92F792AB8495650__CTOR_OFFSET UNITYSDK_OFFSET(0x16665F0)
+
+inline static constexpr unsigned int F92F792AB8495650_TypeDefinitionIndex = 7317;
+
+class F92F792AB8495650 : public ::EFC4AEA2121EC272
+{
+public:
+	::E3A1DB35EFB413FC<::A508918FB6426186*, ::FB4D53F2112AA417*>* BC835A68B98A306B; // 0x80
+	::System::Action_1<::System::Int32>* E655E3289C40F327; // 0x88
+	::System::Int32 F740755D410BFFF8; // 0x90
+	::System::Byte _padding0[0x4];
+	::A508918FB6426186* A2334C04D00C8306; // 0x98
+	::A1CE18DDB84B16AF* B12372CF8F861604; // 0xA0
+	::UnityEngine::RectTransform* AD0B1F8F860A5892; // 0xA8
+	::UnityEngine::RectTransform* E77D277C59DF7526; // 0xB0
+	::ABC::UI::MonoPrefabLoader* A50B540854F75CBB; // 0xB8
+	::UnityEngine::RectTransform* FB4BF8EFDF7924B0; // 0xC0
+	::ABC::UI::MonoScrollRect* BDA7A2FEA7B54926; // 0xC8
+
+	::System::Void E5F0FDCAD880DFA1(::System::Int32 A5C299C395D3E1B2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + F92F792AB8495650_E5F0FDCAD880DFA1_OFFSET))(this, A5C299C395D3E1B2);
+	}
+
+	::System::Void AFE676A5D5DB277A(::System::Collections::Generic::IReadOnlyList_1<::System::Int32>* A7C40B50508AAE3F, ::System::String* B9FBA0CE76DB58CD)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IReadOnlyList_1<::System::Int32>*, ::System::String*))((::PBYTE)hIl2Cpp + F92F792AB8495650_AFE676A5D5DB277A_OFFSET))(this, A7C40B50508AAE3F, B9FBA0CE76DB58CD);
+	}
+
+	::System::Void FC842CBA15C6A296()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F92F792AB8495650_FC842CBA15C6A296_OFFSET))(this);
+	}
+
+	::System::Void A6768434AAA2F8BB(::System::Action_1<::System::Int32>* E04D2BE64FCE9814)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::Int32>*))((::PBYTE)hIl2Cpp + F92F792AB8495650_A6768434AAA2F8BB_OFFSET))(this, E04D2BE64FCE9814);
+	}
+
+	::System::Void B950FF9810FC6646()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F92F792AB8495650_B950FF9810FC6646_OFFSET))(this);
+	}
+
+	::System::Void E8B4267A5166268A(::System::Int32 A5C299C395D3E1B2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + F92F792AB8495650_E8B4267A5166268A_OFFSET))(this, A5C299C395D3E1B2);
+	}
+
+	::System::Void E84DC391CEE714AE(::System::Boolean EE1B54E029300321)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + F92F792AB8495650_E84DC391CEE714AE_OFFSET))(this, EE1B54E029300321);
+	}
+
+	::System::Void F6A675B119E39F53()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F92F792AB8495650_F6A675B119E39F53_OFFSET))(this);
+	}
+
+	::System::Void EC22F59F2C588175(::System::Single EB5670302F34D4B7)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + F92F792AB8495650_EC22F59F2C588175_OFFSET))(this, EB5670302F34D4B7);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F92F792AB8495650__CTOR_OFFSET))(this);
+	}
+
+	::System::Void A54D936318FAF9E3(::ABC::UI::MonoUIAutoView* AE442F7D881522D8)
+	{
+		return ((::System::Void(*)(::PVOID, ::ABC::UI::MonoUIAutoView*))((::PBYTE)hIl2Cpp + F92F792AB8495650_A54D936318FAF9E3_OFFSET))(this, AE442F7D881522D8);
+	}
+
+	::System::Void E5F0FDCAD880DFA1_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F92F792AB8495650_E5F0FDCAD880DFA1_1_OFFSET))(this);
+	}
+
+	::System::Void E49273FAE5DC7419(::System::Collections::Generic::IEnumerable_1<::FB4D53F2112AA417*>* EA425C32DCC1F557)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IEnumerable_1<::FB4D53F2112AA417*>*))((::PBYTE)hIl2Cpp + F92F792AB8495650_E49273FAE5DC7419_OFFSET))(this, EA425C32DCC1F557);
+	}
+
+	::System::Void FCC7443573DD0222()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F92F792AB8495650_FCC7443573DD0222_OFFSET))(this);
+	}
+
+	::System::Void EA9F5F599E861338(::UnityEngine::Vector2 BAF8A3E3C5E8EAEF)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + F92F792AB8495650_EA9F5F599E861338_OFFSET))(this, BAF8A3E3C5E8EAEF);
+	}
+};

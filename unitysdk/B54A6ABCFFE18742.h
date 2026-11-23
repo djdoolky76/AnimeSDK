@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BDAD7F45EA9CF9E9/EE285593635B9C51.h"
+#include "unitysdk/System/Object.h"
+
+namespace UnityEngine::Timeline { class TimelineClip; }
+
+#define B54A6ABCFFE18742_A2013FD2255E947D_OFFSET UNITYSDK_OFFSET(0x40DD990)
+#define B54A6ABCFFE18742_AF2C1121B358EC3B_OFFSET UNITYSDK_OFFSET(0x40DD9A0)
+
+inline static constexpr unsigned int B54A6ABCFFE18742_TypeDefinitionIndex = 20244;
+
+class B54A6ABCFFE18742 : public ::System::Object
+{
+public:
+	static ::System::Boolean A2013FD2255E947D(::BDAD7F45EA9CF9E9::EE285593635B9C51 BD8B09E824741283, ::BDAD7F45EA9CF9E9::EE285593635B9C51 ABDE0F2A254CEB88)
+	{
+		return ((::System::Boolean(*)(::BDAD7F45EA9CF9E9::EE285593635B9C51, ::BDAD7F45EA9CF9E9::EE285593635B9C51))((::PBYTE)hIl2Cpp + B54A6ABCFFE18742_A2013FD2255E947D_OFFSET))(BD8B09E824741283, ABDE0F2A254CEB88);
+	}
+
+	static ::System::Boolean AF2C1121B358EC3B(::UnityEngine::Timeline::TimelineClip* AD43DEAB8304398A)
+	{
+		return ((::System::Boolean(*)(::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + B54A6ABCFFE18742_AF2C1121B358EC3B_OFFSET))(AD43DEAB8304398A);
+	}
+};

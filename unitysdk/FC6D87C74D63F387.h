@@ -1,0 +1,80 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FC6D87C74D63F387_FFE3487A98494832.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/BE0BEF1DB3D5D177.h"
+
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class Camera; }
+namespace UnityEngine { class RenderTexture; }
+
+#define FC6D87C74D63F387_AF0C822F78FEA200_OFFSET UNITYSDK_OFFSET(0x1F37D40)
+#define FC6D87C74D63F387_B326B5913E200150_OFFSET UNITYSDK_OFFSET(0x1F38550)
+#define FC6D87C74D63F387_BB23ECD0F8ACB556_OFFSET UNITYSDK_OFFSET(0x1F38450)
+#define FC6D87C74D63F387_BCBC99D9A6FDB3E5_OFFSET UNITYSDK_OFFSET(0x1F38520)
+#define FC6D87C74D63F387_BD9CD726F874B523_OFFSET UNITYSDK_OFFSET(0x1F37EF0)
+#define FC6D87C74D63F387_E3D17824AB1D819C_OFFSET UNITYSDK_OFFSET(0x1F38110)
+#define FC6D87C74D63F387_E56BD006E48FE8F1_OFFSET UNITYSDK_OFFSET(0x17D5EA0)
+#define FC6D87C74D63F387_E6B77EF373719A58_OFFSET UNITYSDK_OFFSET(0x1F38580)
+#define FC6D87C74D63F387_FF0997C535275E60_OFFSET UNITYSDK_OFFSET(0x1F381A0)
+#define FC6D87C74D63F387__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int FC6D87C74D63F387_TypeDefinitionIndex = 7633;
+
+class FC6D87C74D63F387 : public ::System::Object
+{
+public:
+	::UnityEngine::RenderTexture* ED25D37199BDF714; // 0x10
+	::FC6D87C74D63F387_FFE3487A98494832 EA8FA45115D7DA30; // 0x18
+	::System::Collections::Generic::List_1<::UnityEngine::Camera*>* F199D7B5ABAB81F0; // 0x48
+
+	::UnityEngine::RenderTexture* E56BD006E48FE8F1()
+	{
+		return ((::UnityEngine::RenderTexture*(*)(::PVOID))((::PBYTE)hIl2Cpp + FC6D87C74D63F387_E56BD006E48FE8F1_OFFSET))(this);
+	}
+
+	::System::Int32 B326B5913E200150()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + FC6D87C74D63F387_B326B5913E200150_OFFSET))(this);
+	}
+
+	::System::Void FF0997C535275E60()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FC6D87C74D63F387_FF0997C535275E60_OFFSET))(this);
+	}
+
+	::System::Void BD9CD726F874B523(::FC6D87C74D63F387_FFE3487A98494832 BE68C18FBFC68992, ::UnityEngine::BE0BEF1DB3D5D177 FA00B50F0035B65D)
+	{
+		return ((::System::Void(*)(::PVOID, ::FC6D87C74D63F387_FFE3487A98494832, ::UnityEngine::BE0BEF1DB3D5D177))((::PBYTE)hIl2Cpp + FC6D87C74D63F387_BD9CD726F874B523_OFFSET))(this, BE68C18FBFC68992, FA00B50F0035B65D);
+	}
+
+	::System::Collections::Generic::List_1<::UnityEngine::Camera*>* BB23ECD0F8ACB556()
+	{
+		return ((::System::Collections::Generic::List_1<::UnityEngine::Camera*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + FC6D87C74D63F387_BB23ECD0F8ACB556_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FC6D87C74D63F387__CTOR_OFFSET))(this);
+	}
+
+	::System::Int32 BCBC99D9A6FDB3E5()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + FC6D87C74D63F387_BCBC99D9A6FDB3E5_OFFSET))(this);
+	}
+
+	static ::UnityEngine::RenderTexture* E6B77EF373719A58(::FC6D87C74D63F387* BDF36F9092680C0B)
+	{
+		return ((::UnityEngine::RenderTexture*(*)(::FC6D87C74D63F387*))((::PBYTE)hIl2Cpp + FC6D87C74D63F387_E6B77EF373719A58_OFFSET))(BDF36F9092680C0B);
+	}
+
+	::System::Boolean AF0C822F78FEA200(::UnityEngine::Camera* E929054BCEC2CE82)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Camera*))((::PBYTE)hIl2Cpp + FC6D87C74D63F387_AF0C822F78FEA200_OFFSET))(this, E929054BCEC2CE82);
+	}
+
+	::System::Boolean E3D17824AB1D819C()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + FC6D87C74D63F387_E3D17824AB1D819C_OFFSET))(this);
+	}
+};

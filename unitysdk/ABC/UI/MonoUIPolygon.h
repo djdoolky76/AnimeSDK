@@ -1,0 +1,98 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/ABC/UI/MonoUIPolygon_VertexAttribute.h"
+#include "unitysdk/UnityEngine/UI/MaskableGraphic.h"
+#include "unitysdk/UnityEngine/E46B881AA2636190.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+
+namespace BF500EC7044DC6A8 { class F7D6E5F587A36E43; }
+namespace System { class Object; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class Sprite; }
+namespace UnityEngine { class Texture; }
+
+#define ABC_UI_MONOUIPOLYGON_A3CFEE8B897421E2_OFFSET UNITYSDK_OFFSET(0x204D2D0)
+#define ABC_UI_MONOUIPOLYGON_B439845261453FF3_OFFSET UNITYSDK_OFFSET(0x204B660)
+#define ABC_UI_MONOUIPOLYGON_BCE59076A15060C3_OFFSET UNITYSDK_OFFSET(0x204D2E0)
+#define ABC_UI_MONOUIPOLYGON_E09DE95BFFC53280_OFFSET UNITYSDK_OFFSET(0x204C410)
+#define ABC_UI_MONOUIPOLYGON_E245DFF17F3EFD92_OFFSET UNITYSDK_OFFSET(0x204DAF0)
+#define ABC_UI_MONOUIPOLYGON_E4177E339639D7D3_OFFSET UNITYSDK_OFFSET(0x204BF50)
+#define ABC_UI_MONOUIPOLYGON_F0B685FC47CBCA26_OFFSET UNITYSDK_OFFSET(0x204C490)
+#define ABC_UI_MONOUIPOLYGON_F0EE32C789CC61E7_OFFSET UNITYSDK_OFFSET(0x204B0D0)
+#define ABC_UI_MONOUIPOLYGON_F2CA690773E8D43B_OFFSET UNITYSDK_OFFSET(0x204C2A0)
+#define ABC_UI_MONOUIPOLYGON_FD13190FF985FD22_OFFSET UNITYSDK_OFFSET(0x204D020)
+#define ABC_UI_MONOUIPOLYGON__CTOR_OFFSET UNITYSDK_OFFSET(0x204D330)
+
+namespace ABC::UI
+{
+	inline static constexpr unsigned int MonoUIPolygon_TypeDefinitionIndex = 8325;
+
+	class MonoUIPolygon : public ::UnityEngine::UI::MaskableGraphic
+	{
+	public:
+		::UnityEngine::Sprite* sprite; // 0xF8
+		::System::Single antiAliasing; // 0x100
+		::System::Single strokeWidth; // 0x104
+		::UnityEngine::E46B881AA2636190 strokeColor; // 0x108
+		::System::Single vertexPointSize; // 0x118
+		::UnityEngine::E46B881AA2636190 vertexPointColor; // 0x11C
+		::ABC::UI::MonoUIPolygon_VertexAttribute anchorAttribute; // 0x12C
+		::System::Byte _padding0[0x4];
+		::System::Collections::Generic::List_1<::System::Object*>* vertexArray; // 0x150
+
+		::System::Void E4177E339639D7D3(::BF500EC7044DC6A8::F7D6E5F587A36E43* A1D6C72250268CE6)
+		{
+			return ((::System::Void(*)(::PVOID, ::BF500EC7044DC6A8::F7D6E5F587A36E43*))((::PBYTE)hIl2Cpp + ABC_UI_MONOUIPOLYGON_E4177E339639D7D3_OFFSET))(this, A1D6C72250268CE6);
+		}
+
+		::UnityEngine::Texture* BCE59076A15060C3()
+		{
+			return ((::UnityEngine::Texture*(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONOUIPOLYGON_BCE59076A15060C3_OFFSET))(this);
+		}
+
+		::System::Void E09DE95BFFC53280()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONOUIPOLYGON_E09DE95BFFC53280_OFFSET))(this);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONOUIPOLYGON__CTOR_OFFSET))(this);
+		}
+
+		::System::Void F0B685FC47CBCA26(::BF500EC7044DC6A8::F7D6E5F587A36E43* A1D6C72250268CE6)
+		{
+			return ((::System::Void(*)(::PVOID, ::BF500EC7044DC6A8::F7D6E5F587A36E43*))((::PBYTE)hIl2Cpp + ABC_UI_MONOUIPOLYGON_F0B685FC47CBCA26_OFFSET))(this, A1D6C72250268CE6);
+		}
+
+		::System::Void F2CA690773E8D43B(::BF500EC7044DC6A8::F7D6E5F587A36E43* A1D6C72250268CE6)
+		{
+			return ((::System::Void(*)(::PVOID, ::BF500EC7044DC6A8::F7D6E5F587A36E43*))((::PBYTE)hIl2Cpp + ABC_UI_MONOUIPOLYGON_F2CA690773E8D43B_OFFSET))(this, A1D6C72250268CE6);
+		}
+
+		::System::Void B439845261453FF3(::BF500EC7044DC6A8::F7D6E5F587A36E43* A1D6C72250268CE6, ::UnityEngine::Vector2 BC37316376A565D9, ::UnityEngine::Vector2 F53169E3300C680F, ::System::Single F5EF7E29767E03BF)
+		{
+			return ((::System::Void(*)(::PVOID, ::BF500EC7044DC6A8::F7D6E5F587A36E43*, ::UnityEngine::Vector2, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + ABC_UI_MONOUIPOLYGON_B439845261453FF3_OFFSET))(this, A1D6C72250268CE6, BC37316376A565D9, F53169E3300C680F, F5EF7E29767E03BF);
+		}
+
+		::System::Void FD13190FF985FD22(::System::Collections::Generic::List_1<::UnityEngine::Vector2>* BD39265906E120AC)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Vector2>*))((::PBYTE)hIl2Cpp + ABC_UI_MONOUIPOLYGON_FD13190FF985FD22_OFFSET))(this, BD39265906E120AC);
+		}
+
+		::System::Void A3CFEE8B897421E2(::BF500EC7044DC6A8::F7D6E5F587A36E43* EF750947C30CE985)
+		{
+			return ((::System::Void(*)(::PVOID, ::BF500EC7044DC6A8::F7D6E5F587A36E43*))((::PBYTE)hIl2Cpp + ABC_UI_MONOUIPOLYGON_A3CFEE8B897421E2_OFFSET))(this, EF750947C30CE985);
+		}
+
+		::System::Void F0EE32C789CC61E7(::BF500EC7044DC6A8::F7D6E5F587A36E43* A1D6C72250268CE6, ::UnityEngine::Vector2 BF7646B43BCFCBDC, ::System::Single F0CEBBB186782829, ::UnityEngine::E46B881AA2636190 FD6BEC6563AC7110, ::System::Int32 ACAF5AC989CEC027)
+		{
+			return ((::System::Void(*)(::PVOID, ::BF500EC7044DC6A8::F7D6E5F587A36E43*, ::UnityEngine::Vector2, ::System::Single, ::UnityEngine::E46B881AA2636190, ::System::Int32))((::PBYTE)hIl2Cpp + ABC_UI_MONOUIPOLYGON_F0EE32C789CC61E7_OFFSET))(this, A1D6C72250268CE6, BF7646B43BCFCBDC, F0CEBBB186782829, FD6BEC6563AC7110, ACAF5AC989CEC027);
+		}
+
+		::UnityEngine::Texture* E245DFF17F3EFD92()
+		{
+			return ((::UnityEngine::Texture*(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONOUIPOLYGON_E245DFF17F3EFD92_OFFSET))(this);
+		}
+	};
+}

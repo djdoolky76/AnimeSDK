@@ -1,0 +1,17 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/E12F55A5FCCCF1EC.h"
+#include "unitysdk/E68AA4EB51923C98/B727DF98108C49CA.h"
+#include "unitysdk/E68AA4EB51923C98/E9BD9626531CB4C0.h"
+#include "unitysdk/System/ValueType.h"
+
+inline static constexpr unsigned int A6EB2675AD17FC50_BB3C522022CD2A8C_TypeDefinitionIndex = 3560;
+
+struct alignas(4) A6EB2675AD17FC50_BB3C522022CD2A8C
+{
+	::E68AA4EB51923C98::E9BD9626531CB4C0 E598844CD64D8644; // 0x10
+	::System::Byte _padding0[0x4];
+	::E12F55A5FCCCF1EC B46A2B1EB537D3D4; // 0x18
+	::E12F55A5FCCCF1EC EBC78624D5515951; // 0x20
+	::E68AA4EB51923C98::B727DF98108C49CA AD20BF28726F99D7; // 0x28
+};

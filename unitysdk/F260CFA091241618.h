@@ -1,0 +1,53 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/E379DE61A548837D.h"
+
+namespace System { class String; }
+
+#define F260CFA091241618_A0C5FF94DF81749B_OFFSET UNITYSDK_OFFSET(0x165A440)
+#define F260CFA091241618_A62CA3BD61F86784_OFFSET UNITYSDK_OFFSET(0x165A480)
+#define F260CFA091241618_AA0FB3D49CEA1CEE_OFFSET UNITYSDK_OFFSET(0x16E1590)
+#define F260CFA091241618_BAA7DB851DA3FBB5_OFFSET UNITYSDK_OFFSET(0x165A410)
+#define F260CFA091241618_FA714D6F6F98A59F_OFFSET UNITYSDK_OFFSET(0x165A3B0)
+#define F260CFA091241618__CTOR_OFFSET UNITYSDK_OFFSET(0x16514A0)
+
+inline static constexpr unsigned int F260CFA091241618_TypeDefinitionIndex = 578;
+
+class F260CFA091241618 : public ::E379DE61A548837D
+{
+public:
+	::System::String* B8C8A59DBE4267F5; // 0x38
+	::System::Boolean E8CA8999F05D8A6C; // 0x40
+	::System::Byte _padding0[0x7];
+	::System::String* ED3453F2FFFEEF44; // 0x48
+
+	::System::Void A0C5FF94DF81749B(::System::Boolean E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + F260CFA091241618_A0C5FF94DF81749B_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::System::String* BAA7DB851DA3FBB5()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + F260CFA091241618_BAA7DB851DA3FBB5_OFFSET))(this);
+	}
+
+	::System::Void AA0FB3D49CEA1CEE(::System::String* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + F260CFA091241618_AA0FB3D49CEA1CEE_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::System::Boolean FA714D6F6F98A59F()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + F260CFA091241618_FA714D6F6F98A59F_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F260CFA091241618__CTOR_OFFSET))(this);
+	}
+
+	::System::Void A62CA3BD61F86784(::System::String* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + F260CFA091241618_A62CA3BD61F86784_OFFSET))(this, E937D4885DAA1AE8);
+	}
+};

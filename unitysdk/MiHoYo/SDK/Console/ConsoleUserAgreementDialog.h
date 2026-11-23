@@ -1,0 +1,108 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BED79290917896D4/B926396B5989E03E.h"
+#include "unitysdk/MiHoYo/SDK/Console/ConsoleDialogBase.h"
+#include "unitysdk/MiHoYo/SDK/Console/ConsoleUserAgreementDialog_B66AE7C3105965E6.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+
+namespace System { class Action; }
+namespace System::Collections { class IEnumerator; }
+namespace UnityEngine::UI { class ScrollRect; }
+
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_A3BD30AA314E03B8_OFFSET UNITYSDK_OFFSET(0x39D13C0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_AB36E0EE549986E5_OFFSET UNITYSDK_OFFSET(0x39D1370)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_BFA7961FF2AC380B_OFFSET UNITYSDK_OFFSET(0x39D14A0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_E02954280801633F_OFFSET UNITYSDK_OFFSET(0x39D1610)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_E060FD75EC8EE726_OFFSET UNITYSDK_OFFSET(0x393DE90)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_E85D1C741D5386D7_OFFSET UNITYSDK_OFFSET(0x39D1320)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_E86BF3D509D0F4E3_OFFSET UNITYSDK_OFFSET(0x391ECA0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_E90531992FFBA638_OFFSET UNITYSDK_OFFSET(0x39D13C0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_F328E4D8818B1E12_OFFSET UNITYSDK_OFFSET(0x39D1590)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_F9E212A481A77E73_OFFSET UNITYSDK_OFFSET(0x39D12B0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_FDBCDBBFE02CD51A_OFFSET UNITYSDK_OFFSET(0x39D05B0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x39D1820)
+
+namespace MiHoYo::SDK::Console
+{
+	inline static constexpr unsigned int ConsoleUserAgreementDialog_TypeDefinitionIndex = 12718;
+
+	class ConsoleUserAgreementDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
+	{
+	public:
+		static ::MiHoYo::SDK::Console::ConsoleUserAgreementDialog** StaticGet_F459A1CAE950E680()
+		{
+			return (::MiHoYo::SDK::Console::ConsoleUserAgreementDialog**)Il2CppClass::FromTypeDefinitionIndex(ConsoleUserAgreementDialog_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		::MiHoYo::SDK::Console::ConsoleUserAgreementDialog_B66AE7C3105965E6 A0244957CFAE872F; // 0xB8
+		::BED79290917896D4::B926396B5989E03E E7644C7CEC8C5684; // 0xBC
+		::System::Boolean EA4017AE75D02843; // 0xC0
+		::System::Boolean BBC985B5FC702179; // 0xC1
+		::System::Byte _padding0[0x6];
+		::System::Action* OnUserAgreementClicked; // 0xC8
+		::System::Action* OnPrivacyPolicyClicked; // 0xD0
+		::System::Action* OnChildrenPrivacyClicked; // 0xD8
+		::System::Action* OnAgreementCanceled; // 0xE0
+		::System::Action* OnAgreementAccepted; // 0xE8
+		::UnityEngine::UI::ScrollRect* protocolScrollRect; // 0xF0
+
+		::System::Void F328E4D8818B1E12()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_F328E4D8818B1E12_OFFSET))(this);
+		}
+
+		::System::Void E86BF3D509D0F4E3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_E86BF3D509D0F4E3_OFFSET))(this);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG__CTOR_OFFSET))(this);
+		}
+
+		::System::Void AB36E0EE549986E5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_AB36E0EE549986E5_OFFSET))(this);
+		}
+
+		static ::System::Void E85D1C741D5386D7()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_E85D1C741D5386D7_OFFSET))();
+		}
+
+		::System::Void FDBCDBBFE02CD51A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_FDBCDBBFE02CD51A_OFFSET))(this);
+		}
+
+		static ::System::Void BFA7961FF2AC380B(::MiHoYo::SDK::Console::ConsoleUserAgreementDialog_B66AE7C3105965E6 A84D57260767D5BD)
+		{
+			return ((::System::Void(*)(::MiHoYo::SDK::Console::ConsoleUserAgreementDialog_B66AE7C3105965E6))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_BFA7961FF2AC380B_OFFSET))(A84D57260767D5BD);
+		}
+
+		::System::Void E060FD75EC8EE726()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_E060FD75EC8EE726_OFFSET))(this);
+		}
+
+		::System::Void E02954280801633F()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_E02954280801633F_OFFSET))(this);
+		}
+
+		::System::Void E90531992FFBA638(::UnityEngine::Vector2 F519614FA72C7C68)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_E90531992FFBA638_OFFSET))(this, F519614FA72C7C68);
+		}
+
+		::System::Collections::IEnumerator* F9E212A481A77E73()
+		{
+			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_F9E212A481A77E73_OFFSET))(this);
+		}
+
+		::System::Void A3BD30AA314E03B8()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEUSERAGREEMENTDIALOG_A3BD30AA314E03B8_OFFSET))(this);
+		}
+	};
+}

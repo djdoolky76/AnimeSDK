@@ -1,0 +1,448 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/EFBB7DC1E7DA1269/E7FD19BB62A9BE0A.h"
+#include "unitysdk/UnityEngine/UI/Selectable.h"
+#include "unitysdk/AD61077CFCBEFAEA.h"
+
+namespace ABC::UI { class MonoDropDown_DropdownEvent; }
+namespace ABC::UI { class MonoDropDown_DropdownItem; }
+namespace ABC::UI { class MonoDropDown_OptionData; }
+namespace ABC::UI { class MonoDropDown_OptionDataList; }
+namespace ABC::UI { class MonoLocalizedTmp; }
+namespace ABC::UI { class MonoScrollRect; }
+namespace EFBB7DC1E7DA1269 { template <typename T> class BCC07239051A80A6; }
+namespace F5D9B2730D543D46 { class A9BDD7E8F3994CE6; }
+namespace F5D9B2730D543D46 { class EE9552F10B511EB1; }
+namespace System { class Action; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace System::Collections { class IEnumerator; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class Animator; }
+namespace UnityEngine { class B07D27203C69A8A5; }
+namespace UnityEngine { class Canvas; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class RectTransform; }
+namespace UnityEngine { class Sprite; }
+namespace UnityEngine::UI { class Graphic; }
+namespace UnityEngine::UI { class Image; }
+
+#define ABC_UI_MONODROPDOWN_A0705829B3851C92_OFFSET UNITYSDK_OFFSET(0x1FD68E0)
+#define ABC_UI_MONODROPDOWN_A0D3A3B2A67EBE33_OFFSET UNITYSDK_OFFSET(0x1FD65E0)
+#define ABC_UI_MONODROPDOWN_A0E810240C5C3DE1_OFFSET UNITYSDK_OFFSET(0x1CF7080)
+#define ABC_UI_MONODROPDOWN_A113E8E70FC36E7A_OFFSET UNITYSDK_OFFSET(0x1FD3980)
+#define ABC_UI_MONODROPDOWN_A28D6A0C3E793E7D_OFFSET UNITYSDK_OFFSET(0x1FD3710)
+#define ABC_UI_MONODROPDOWN_A2D9CE87103BCC1C_OFFSET UNITYSDK_OFFSET(0x1FD2770)
+#define ABC_UI_MONODROPDOWN_A46412E578B8D787_1_OFFSET UNITYSDK_OFFSET(0x1FD2310)
+#define ABC_UI_MONODROPDOWN_A46412E578B8D787_OFFSET UNITYSDK_OFFSET(0x1FD2500)
+#define ABC_UI_MONODROPDOWN_A63C010F7F895E1E_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+#define ABC_UI_MONODROPDOWN_A6AAFE56B860ABD1_OFFSET UNITYSDK_OFFSET(0x1FD4480)
+#define ABC_UI_MONODROPDOWN_A809A657BBE1334E_OFFSET UNITYSDK_OFFSET(0x1FD44F0)
+#define ABC_UI_MONODROPDOWN_A8306D5576F1B0C4_OFFSET UNITYSDK_OFFSET(0x1FD3C40)
+#define ABC_UI_MONODROPDOWN_A8DF02CF2B745345_1_OFFSET UNITYSDK_OFFSET(0x1FD2260)
+#define ABC_UI_MONODROPDOWN_A8DF02CF2B745345_2_OFFSET UNITYSDK_OFFSET(0x1FD2110)
+#define ABC_UI_MONODROPDOWN_A8DF02CF2B745345_3_OFFSET UNITYSDK_OFFSET(0x1FD1FB0)
+#define ABC_UI_MONODROPDOWN_A8DF02CF2B745345_OFFSET UNITYSDK_OFFSET(0x1FD1E60)
+#define ABC_UI_MONODROPDOWN_A953AB24FD8FA1D6_OFFSET UNITYSDK_OFFSET(0x1FD2F30)
+#define ABC_UI_MONODROPDOWN_A9C5F7C1E49E5F04_OFFSET UNITYSDK_OFFSET(0x1FD3910)
+#define ABC_UI_MONODROPDOWN_A9EA341057738946_OFFSET UNITYSDK_OFFSET(0x1FD6860)
+#define ABC_UI_MONODROPDOWN_AA38FB162D389406_OFFSET UNITYSDK_OFFSET(0x1FD6750)
+#define ABC_UI_MONODROPDOWN_AB2D15B2C90E6155_OFFSET UNITYSDK_OFFSET(0x1FD2DD0)
+#define ABC_UI_MONODROPDOWN_B074C1DCB1DD3448_OFFSET UNITYSDK_OFFSET(0x1FD42C0)
+#define ABC_UI_MONODROPDOWN_B1E1DAD74F50D76A_OFFSET UNITYSDK_OFFSET(0x1FD1B60)
+#define ABC_UI_MONODROPDOWN_B3502C47860E47F9_OFFSET UNITYSDK_OFFSET(0x1FD3F20)
+#define ABC_UI_MONODROPDOWN_B9EAA02A6B40511C_OFFSET UNITYSDK_OFFSET(0x18265C0)
+#define ABC_UI_MONODROPDOWN_BC64DD44CB2DEEFB_OFFSET UNITYSDK_OFFSET(0x1FD6620)
+#define ABC_UI_MONODROPDOWN_BCA3A2F86DBE09D7_OFFSET UNITYSDK_OFFSET(0x1FD3870)
+#define ABC_UI_MONODROPDOWN_BD8037B86393A135_OFFSET UNITYSDK_OFFSET(0x1FD2FF0)
+#define ABC_UI_MONODROPDOWN_BDB4166C50CD446C_OFFSET UNITYSDK_OFFSET(0x1FD3E30)
+#define ABC_UI_MONODROPDOWN_BEAACA676D3AD7CC_OFFSET UNITYSDK_OFFSET(0x1FD6580)
+#define ABC_UI_MONODROPDOWN_BF2EF0FEF0FCC4A3_OFFSET UNITYSDK_OFFSET(0x1FD4330)
+#define ABC_UI_MONODROPDOWN_BF338FF59441FF60_OFFSET UNITYSDK_OFFSET(0x17F0F40)
+#define ABC_UI_MONODROPDOWN_BFA7961FF2AC380B_OFFSET UNITYSDK_OFFSET(0x1FD4E10)
+#define ABC_UI_MONODROPDOWN_E32A153C58DA1BC0_OFFSET UNITYSDK_OFFSET(0x1FD6B10)
+#define ABC_UI_MONODROPDOWN_E4DD1634F1AE5955_OFFSET UNITYSDK_OFFSET(0x1FBAF80)
+#define ABC_UI_MONODROPDOWN_E5F8483595B2BB92_OFFSET UNITYSDK_OFFSET(0x1FD40F0)
+#define ABC_UI_MONODROPDOWN_E6500181EA2D1689_OFFSET UNITYSDK_OFFSET(0x1FD2870)
+#define ABC_UI_MONODROPDOWN_E68F54C58DC4FC7A_OFFSET UNITYSDK_OFFSET(0x1FD6740)
+#define ABC_UI_MONODROPDOWN_E7F8B75145AE60DF_OFFSET UNITYSDK_OFFSET(0x1FD6760)
+#define ABC_UI_MONODROPDOWN_E837D9E253A51D8A_OFFSET UNITYSDK_OFFSET(0x1FD6A90)
+#define ABC_UI_MONODROPDOWN_E85D1C741D5386D7_OFFSET UNITYSDK_OFFSET(0x1FD3190)
+#define ABC_UI_MONODROPDOWN_E8EFEE1095DADC53_OFFSET UNITYSDK_OFFSET(0x1FD6A10)
+#define ABC_UI_MONODROPDOWN_E960391A97BC9CC9_OFFSET UNITYSDK_OFFSET(0x1FBAFA0)
+#define ABC_UI_MONODROPDOWN_ED8432378BFBB357_OFFSET UNITYSDK_OFFSET(0x1FD3130)
+#define ABC_UI_MONODROPDOWN_EDFA3A0B53BC01D6_OFFSET UNITYSDK_OFFSET(0x1FD6600)
+#define ABC_UI_MONODROPDOWN_EE0C6E252935D113_OFFSET UNITYSDK_OFFSET(0x1FD6960)
+#define ABC_UI_MONODROPDOWN_EE566C961530DCB6_OFFSET UNITYSDK_OFFSET(0x16B6EE0)
+#define ABC_UI_MONODROPDOWN_EF2AD14EBBABBF52_OFFSET UNITYSDK_OFFSET(0x1FD46C0)
+#define ABC_UI_MONODROPDOWN_F2CAF9F8FEF091BE_OFFSET UNITYSDK_OFFSET(0x1FD67E0)
+#define ABC_UI_MONODROPDOWN_F328E4D8818B1E12_OFFSET UNITYSDK_OFFSET(0x1FD6290)
+#define ABC_UI_MONODROPDOWN_F32D144840035398_OFFSET UNITYSDK_OFFSET(0x1FD65F0)
+#define ABC_UI_MONODROPDOWN_F3446739C7961729_OFFSET UNITYSDK_OFFSET(0x1EC4220)
+#define ABC_UI_MONODROPDOWN_F4CF1BCE58510494_OFFSET UNITYSDK_OFFSET(0x1FD6980)
+#define ABC_UI_MONODROPDOWN_F7813F48E5C74DF0_OFFSET UNITYSDK_OFFSET(0x16B6EB0)
+#define ABC_UI_MONODROPDOWN_F94DADE743FF8414_OFFSET UNITYSDK_OFFSET(0x1FD3800)
+#define ABC_UI_MONODROPDOWN_F99F4F1CE8478402_OFFSET UNITYSDK_OFFSET(0x1FD3CF0)
+#define ABC_UI_MONODROPDOWN_FA3FF5B73B03ABD8_OFFSET UNITYSDK_OFFSET(0x1FD3460)
+#define ABC_UI_MONODROPDOWN_FC9828E8E429F8F2_OFFSET UNITYSDK_OFFSET(0x1FD2E80)
+#define ABC_UI_MONODROPDOWN_FDBCDBBFE02CD51A_OFFSET UNITYSDK_OFFSET(0x1FD25E0)
+#define ABC_UI_MONODROPDOWN_FF43F8B8EB9D49E1_OFFSET UNITYSDK_OFFSET(0x1FD36A0)
+#define ABC_UI_MONODROPDOWN_FFE46CEC7E03BE7C_OFFSET UNITYSDK_OFFSET(0x1FD3090)
+#define ABC_UI_MONODROPDOWN__CCTOR_OFFSET UNITYSDK_OFFSET(0x1FD6370)
+#define ABC_UI_MONODROPDOWN__CTOR_OFFSET UNITYSDK_OFFSET(0x1FD63E0)
+
+namespace ABC::UI
+{
+	inline static constexpr unsigned int MonoDropDown_TypeDefinitionIndex = 8019;
+
+	class MonoDropDown : public ::UnityEngine::UI::Selectable
+	{
+	public:
+		static ::ABC::UI::MonoDropDown_OptionData** StaticGet_F1307D33B0813110()
+		{
+			return (::ABC::UI::MonoDropDown_OptionData**)Il2CppClass::FromTypeDefinitionIndex(MonoDropDown_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		::UnityEngine::Animator* F16AF944175C9E34; // 0x100
+		::System::Boolean F2089C3DE0A319CC; // 0x108
+		::System::Boolean EF09BDFE0997CAC4; // 0x109
+		::System::Boolean F9E405BA7DE976E5; // 0x10A
+		::System::Byte _padding0[0x5];
+		::System::Action* AB4FE3AA04428961; // 0x110
+		::System::Action* A6C23089C0CCE84B; // 0x118
+		::UnityEngine::RectTransform* m_Template; // 0x120
+		::ABC::UI::MonoLocalizedTmp* m_CaptionText; // 0x128
+		::UnityEngine::UI::Image* m_CaptionImage; // 0x130
+		::UnityEngine::UI::Graphic* m_Placeholder; // 0x138
+		::ABC::UI::MonoLocalizedTmp* m_ItemText; // 0x140
+		::UnityEngine::UI::Image* m_ItemImage; // 0x148
+		::System::Int32 m_Value; // 0x150
+		::System::Byte _padding1[0x4];
+		::ABC::UI::MonoDropDown_OptionDataList* m_Options; // 0x158
+		::ABC::UI::MonoDropDown_DropdownEvent* m_OnValueChanged; // 0x160
+		::System::Single m_AlphaFadeSpeed; // 0x168
+		::System::Byte _padding2[0x4];
+		::UnityEngine::GameObject* A00AA0EE3D15CF4C; // 0x170
+		::UnityEngine::GameObject* FA902617D0A33EF5; // 0x178
+		::System::Collections::Generic::List_1<::System::Object*>* A2EDA9EC980C0636; // 0x180
+		::EFBB7DC1E7DA1269::BCC07239051A80A6<::EFBB7DC1E7DA1269::E7FD19BB62A9BE0A>* A04811C991ACCC05; // 0x188
+		::System::Boolean BEF2D6013C89B1C9; // 0x190
+		::System::Byte _padding3[0x7];
+		::UnityEngine::B07D27203C69A8A5* FAAA18A66D2A2B3F; // 0x198
+		::ABC::UI::MonoScrollRect* F0DF509E4BADB7B3; // 0x1A0
+
+		::System::Void E8EFEE1095DADC53(::UnityEngine::UI::Graphic* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Graphic*))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_E8EFEE1095DADC53_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void A9EA341057738946(::UnityEngine::UI::Image* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Image*))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_A9EA341057738946_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void A8306D5576F1B0C4(::System::Action* A748EC524E4D7C31, ::System::Action* E0A104395D034539)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*, ::System::Action*))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_A8306D5576F1B0C4_OFFSET))(this, A748EC524E4D7C31, E0A104395D034539);
+		}
+
+		::System::Void A8DF02CF2B745345(::System::Collections::Generic::List_1<::System::String*>* FADED64AD3E99C03)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::String*>*))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_A8DF02CF2B745345_OFFSET))(this, FADED64AD3E99C03);
+		}
+
+		::System::Void A9C5F7C1E49E5F04(::F5D9B2730D543D46::EE9552F10B511EB1* E7336521BA8945EE)
+		{
+			return ((::System::Void(*)(::PVOID, ::F5D9B2730D543D46::EE9552F10B511EB1*))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_A9C5F7C1E49E5F04_OFFSET))(this, E7336521BA8945EE);
+		}
+
+		::System::Void AA38FB162D389406(::System::Single E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_AA38FB162D389406_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::UnityEngine::UI::Image* BF338FF59441FF60()
+		{
+			return ((::UnityEngine::UI::Image*(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_BF338FF59441FF60_OFFSET))(this);
+		}
+
+		::System::Void F328E4D8818B1E12()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_F328E4D8818B1E12_OFFSET))(this);
+		}
+
+		::System::Void FDBCDBBFE02CD51A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_FDBCDBBFE02CD51A_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::List_1<::System::Object*>* EDFA3A0B53BC01D6()
+		{
+			return ((::System::Collections::Generic::List_1<::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_EDFA3A0B53BC01D6_OFFSET))(this);
+		}
+
+		::ABC::UI::MonoDropDown_DropdownEvent* F32D144840035398()
+		{
+			return ((::ABC::UI::MonoDropDown_DropdownEvent*(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_F32D144840035398_OFFSET))(this);
+		}
+
+		::System::Void A809A657BBE1334E(::System::Int32 E937D4885DAA1AE8, ::System::Boolean E9C09E61C2B0C943)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Boolean))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_A809A657BBE1334E_OFFSET))(this, E937D4885DAA1AE8, E9C09E61C2B0C943);
+		}
+
+		::System::Void A6AAFE56B860ABD1(::System::Int32 AF4717A1A80FD60F)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_A6AAFE56B860ABD1_OFFSET))(this, AF4717A1A80FD60F);
+		}
+
+		::System::Void FF43F8B8EB9D49E1(::F5D9B2730D543D46::EE9552F10B511EB1* E7336521BA8945EE)
+		{
+			return ((::System::Void(*)(::PVOID, ::F5D9B2730D543D46::EE9552F10B511EB1*))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_FF43F8B8EB9D49E1_OFFSET))(this, E7336521BA8945EE);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN__CCTOR_OFFSET))();
+		}
+
+		::ABC::UI::MonoScrollRect* BC64DD44CB2DEEFB()
+		{
+			return ((::ABC::UI::MonoScrollRect*(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_BC64DD44CB2DEEFB_OFFSET))(this);
+		}
+
+		::ABC::UI::MonoDropDown_DropdownItem* FC9828E8E429F8F2(::ABC::UI::MonoDropDown_DropdownItem* F080EBFAD0B3FCE7)
+		{
+			return ((::ABC::UI::MonoDropDown_DropdownItem*(*)(::PVOID, ::ABC::UI::MonoDropDown_DropdownItem*))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_FC9828E8E429F8F2_OFFSET))(this, F080EBFAD0B3FCE7);
+		}
+
+		::System::Void F99F4F1CE8478402(::System::Int32 B48C66E5FB2449C6)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_F99F4F1CE8478402_OFFSET))(this, B48C66E5FB2449C6);
+		}
+
+		::System::Void A8DF02CF2B745345_1(::System::Collections::Generic::List_1<::System::Object*>* FADED64AD3E99C03)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_A8DF02CF2B745345_1_OFFSET))(this, FADED64AD3E99C03);
+		}
+
+		::System::Void E960391A97BC9CC9()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_E960391A97BC9CC9_OFFSET))(this);
+		}
+
+		::System::Void BD8037B86393A135(::UnityEngine::GameObject* B54FD3DFB0D3D18F)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_BD8037B86393A135_OFFSET))(this, B54FD3DFB0D3D18F);
+		}
+
+		::System::Void BDB4166C50CD446C(::System::Single B293560EBB811EA6)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_BDB4166C50CD446C_OFFSET))(this, B293560EBB811EA6);
+		}
+
+		::System::Void B074C1DCB1DD3448(::System::Boolean BE92077D63B9B803)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_B074C1DCB1DD3448_OFFSET))(this, BE92077D63B9B803);
+		}
+
+		::System::Collections::IEnumerator* A953AB24FD8FA1D6(::System::Single B4A58A4ABADA5C6F)
+		{
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_A953AB24FD8FA1D6_OFFSET))(this, B4A58A4ABADA5C6F);
+		}
+
+		::UnityEngine::UI::Graphic* A0E810240C5C3DE1()
+		{
+			return ((::UnityEngine::UI::Graphic*(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_A0E810240C5C3DE1_OFFSET))(this);
+		}
+
+		::System::Void B3502C47860E47F9(::System::Boolean FD96BCA2122A7513)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_B3502C47860E47F9_OFFSET))(this, FD96BCA2122A7513);
+		}
+
+		::System::Single A0D3A3B2A67EBE33()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_A0D3A3B2A67EBE33_OFFSET))(this);
+		}
+
+		::System::Void F2CAF9F8FEF091BE(::ABC::UI::MonoLocalizedTmp* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::ABC::UI::MonoLocalizedTmp*))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_F2CAF9F8FEF091BE_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Boolean BEAACA676D3AD7CC()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_BEAACA676D3AD7CC_OFFSET))(this);
+		}
+
+		::System::Void E4DD1634F1AE5955()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_E4DD1634F1AE5955_OFFSET))(this);
+		}
+
+		::UnityEngine::GameObject* E6500181EA2D1689(::UnityEngine::Canvas* A35257639E786775)
+		{
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::UnityEngine::Canvas*))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_E6500181EA2D1689_OFFSET))(this, A35257639E786775);
+		}
+
+		::System::Void BCA3A2F86DBE09D7(::ABC::UI::MonoDropDown_DropdownItem* EC35F88C87A83BEB)
+		{
+			return ((::System::Void(*)(::PVOID, ::ABC::UI::MonoDropDown_DropdownItem*))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_BCA3A2F86DBE09D7_OFFSET))(this, EC35F88C87A83BEB);
+		}
+
+		::System::Void EE0C6E252935D113(::ABC::UI::MonoDropDown_DropdownEvent* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::ABC::UI::MonoDropDown_DropdownEvent*))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_EE0C6E252935D113_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::UnityEngine::RectTransform* B9EAA02A6B40511C()
+		{
+			return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_B9EAA02A6B40511C_OFFSET))(this);
+		}
+
+		::System::Void FA3FF5B73B03ABD8()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_FA3FF5B73B03ABD8_OFFSET))(this);
+		}
+
+		::System::Void A28D6A0C3E793E7D()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_A28D6A0C3E793E7D_OFFSET))(this);
+		}
+
+		::System::Void A63C010F7F895E1E()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_A63C010F7F895E1E_OFFSET))(this);
+		}
+
+		::System::Void F94DADE743FF8414(::F5D9B2730D543D46::A9BDD7E8F3994CE6* E7336521BA8945EE)
+		{
+			return ((::System::Void(*)(::PVOID, ::F5D9B2730D543D46::A9BDD7E8F3994CE6*))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_F94DADE743FF8414_OFFSET))(this, E7336521BA8945EE);
+		}
+
+		::System::Void F4CF1BCE58510494(::System::Collections::Generic::List_1<::System::Object*>* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_F4CF1BCE58510494_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void E32A153C58DA1BC0(::System::Int32 E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_E32A153C58DA1BC0_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void A8DF02CF2B745345_2(::System::Collections::Generic::List_1<::UnityEngine::Sprite*>* FADED64AD3E99C03)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Sprite*>*))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_A8DF02CF2B745345_2_OFFSET))(this, FADED64AD3E99C03);
+		}
+
+		::System::Void A113E8E70FC36E7A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_A113E8E70FC36E7A_OFFSET))(this);
+		}
+
+		::System::Void A46412E578B8D787(::System::Single BD3B33D72884EDA1, ::System::Single B293560EBB811EA6)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_A46412E578B8D787_OFFSET))(this, BD3B33D72884EDA1, B293560EBB811EA6);
+		}
+
+		::System::Void FFE46CEC7E03BE7C(::UnityEngine::GameObject* BF239068EE2F79D9)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_FFE46CEC7E03BE7C_OFFSET))(this, BF239068EE2F79D9);
+		}
+
+		::UnityEngine::UI::Image* EE566C961530DCB6()
+		{
+			return ((::UnityEngine::UI::Image*(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_EE566C961530DCB6_OFFSET))(this);
+		}
+
+		::ABC::UI::MonoDropDown_DropdownItem* B1E1DAD74F50D76A(::ABC::UI::MonoDropDown_OptionData* F220A2D27F7C6B6C, ::System::Boolean FB6FD2EB21388B99, ::ABC::UI::MonoDropDown_DropdownItem* F080EBFAD0B3FCE7, ::System::Collections::Generic::List_1<::System::Object*>* F7A3A9CBD78A50FC)
+		{
+			return ((::ABC::UI::MonoDropDown_DropdownItem*(*)(::PVOID, ::ABC::UI::MonoDropDown_OptionData*, ::System::Boolean, ::ABC::UI::MonoDropDown_DropdownItem*, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_B1E1DAD74F50D76A_OFFSET))(this, F220A2D27F7C6B6C, FB6FD2EB21388B99, F080EBFAD0B3FCE7, F7A3A9CBD78A50FC);
+		}
+
+		::ABC::UI::MonoLocalizedTmp* F7813F48E5C74DF0()
+		{
+			return ((::ABC::UI::MonoLocalizedTmp*(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_F7813F48E5C74DF0_OFFSET))(this);
+		}
+
+		::System::Void E837D9E253A51D8A(::UnityEngine::RectTransform* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_E837D9E253A51D8A_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN__CTOR_OFFSET))(this);
+		}
+
+		::System::Void A0705829B3851C92(::ABC::UI::MonoLocalizedTmp* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::ABC::UI::MonoLocalizedTmp*))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_A0705829B3851C92_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void A46412E578B8D787_1(::System::Single BD3B33D72884EDA1, ::System::Single BC37316376A565D9, ::System::Single F53169E3300C680F)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_A46412E578B8D787_1_OFFSET))(this, BD3B33D72884EDA1, BC37316376A565D9, F53169E3300C680F);
+		}
+
+		::UnityEngine::GameObject* AB2D15B2C90E6155(::UnityEngine::GameObject* A0A53AD4AABC1239)
+		{
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_AB2D15B2C90E6155_OFFSET))(this, A0A53AD4AABC1239);
+		}
+
+		::System::Void BF2EF0FEF0FCC4A3(::System::Boolean FB6FD2EB21388B99)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_BF2EF0FEF0FCC4A3_OFFSET))(this, FB6FD2EB21388B99);
+		}
+
+		::System::Void E7F8B75145AE60DF(::UnityEngine::UI::Image* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::UI::Image*))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_E7F8B75145AE60DF_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void BFA7961FF2AC380B()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_BFA7961FF2AC380B_OFFSET))(this);
+		}
+
+		::System::Void ED8432378BFBB357(::ABC::UI::MonoDropDown_DropdownItem* EC35F88C87A83BEB)
+		{
+			return ((::System::Void(*)(::PVOID, ::ABC::UI::MonoDropDown_DropdownItem*))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_ED8432378BFBB357_OFFSET))(this, EC35F88C87A83BEB);
+		}
+
+		::System::Int32 E68F54C58DC4FC7A()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_E68F54C58DC4FC7A_OFFSET))(this);
+		}
+
+		::ABC::UI::MonoLocalizedTmp* F3446739C7961729()
+		{
+			return ((::ABC::UI::MonoLocalizedTmp*(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_F3446739C7961729_OFFSET))(this);
+		}
+
+		::System::Void EF2AD14EBBABBF52()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_EF2AD14EBBABBF52_OFFSET))(this);
+		}
+
+		::System::Void A8DF02CF2B745345_3(::System::Collections::Generic::List_1<::AD61077CFCBEFAEA>* FADED64AD3E99C03)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::AD61077CFCBEFAEA>*))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_A8DF02CF2B745345_3_OFFSET))(this, FADED64AD3E99C03);
+		}
+
+		::System::Void E85D1C741D5386D7()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_E85D1C741D5386D7_OFFSET))(this);
+		}
+
+		::System::Void E5F8483595B2BB92(::System::Boolean EB8901FEAF009D26)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_E5F8483595B2BB92_OFFSET))(this, EB8901FEAF009D26);
+		}
+
+		::System::Void A2D9CE87103BCC1C()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONODROPDOWN_A2D9CE87103BCC1C_OFFSET))(this);
+		}
+	};
+}

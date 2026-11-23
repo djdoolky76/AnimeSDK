@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/ABC/Config/WwiseState.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/BD3E6890C9C82A9E.h"
+
+#define F04EE729AA0A8AC9_B741763BF70E6DF8_OFFSET UNITYSDK_OFFSET(0x2327240)
+#define F04EE729AA0A8AC9_E24847E5F0BFB565_OFFSET UNITYSDK_OFFSET(0x235C7F0)
+#define F04EE729AA0A8AC9_F4F74BF985263240_OFFSET UNITYSDK_OFFSET(0x2327230)
+#define F04EE729AA0A8AC9_FBBF870EA90E1D92_OFFSET UNITYSDK_OFFSET(0x25C2840)
+#define F04EE729AA0A8AC9_FD2C41316B27BE0B_OFFSET UNITYSDK_OFFSET(0x21AD3E0)
+#define F04EE729AA0A8AC9__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int F04EE729AA0A8AC9_TypeDefinitionIndex = 5513;
+
+class F04EE729AA0A8AC9 : public ::System::Object
+{
+public:
+	::System::Single FE5D9CF019BB03E6; // 0x10
+	::System::Byte _padding0[0x4];
+	::ABC::Config::WwiseState EA1E145B43BBA796; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F04EE729AA0A8AC9__CTOR_OFFSET))(this);
+	}
+
+	::System::Single F4F74BF985263240()
+	{
+		return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + F04EE729AA0A8AC9_F4F74BF985263240_OFFSET))(this);
+	}
+
+	::System::Void E24847E5F0BFB565(::ABC::Config::WwiseState E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::ABC::Config::WwiseState))((::PBYTE)hIl2Cpp + F04EE729AA0A8AC9_E24847E5F0BFB565_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::System::Void B741763BF70E6DF8(::System::Single E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + F04EE729AA0A8AC9_B741763BF70E6DF8_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::ABC::Config::WwiseState FD2C41316B27BE0B()
+	{
+		return ((::ABC::Config::WwiseState(*)(::PVOID))((::PBYTE)hIl2Cpp + F04EE729AA0A8AC9_FD2C41316B27BE0B_OFFSET))(this);
+	}
+
+	static ::System::Void FBBF870EA90E1D92(::BD3E6890C9C82A9E& F99B0FE319DB74D1, ::F04EE729AA0A8AC9*& E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::BD3E6890C9C82A9E&, ::F04EE729AA0A8AC9*&))((::PBYTE)hIl2Cpp + F04EE729AA0A8AC9_FBBF870EA90E1D92_OFFSET))(F99B0FE319DB74D1, E937D4885DAA1AE8);
+	}
+};

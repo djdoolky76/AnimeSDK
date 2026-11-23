@@ -1,0 +1,71 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Object.h"
+
+namespace System { class String; }
+namespace System { class Type; }
+namespace UnityEngine { class B01F336837EB9669; }
+
+#define UNITYENGINE_ASSETBUNDLE_A7B9187661EBF661_OFFSET UNITYSDK_OFFSET(0x4105550)
+#define UNITYENGINE_ASSETBUNDLE_AE0E5E0617BA271F_OFFSET UNITYSDK_OFFSET(0x4105510)
+#define UNITYENGINE_ASSETBUNDLE_AF8880C2EA7A71FF_OFFSET UNITYSDK_OFFSET(0x4105250)
+#define UNITYENGINE_ASSETBUNDLE_E7042CAB9F40833D_1_OFFSET UNITYSDK_OFFSET(0x4105440)
+#define UNITYENGINE_ASSETBUNDLE_E7042CAB9F40833D_OFFSET UNITYSDK_OFFSET(0x4105490)
+#define UNITYENGINE_ASSETBUNDLE_EE94FC80DEAC0949_OFFSET UNITYSDK_OFFSET(0x41052B0)
+#define UNITYENGINE_ASSETBUNDLE_F2347513527ACAE9_OFFSET UNITYSDK_OFFSET(0x41054D0)
+#define UNITYENGINE_ASSETBUNDLE_F23F4BF97451FF2D_OFFSET UNITYSDK_OFFSET(0x4105440)
+#define UNITYENGINE_ASSETBUNDLE__CTOR_OFFSET UNITYSDK_OFFSET(0x41055A0)
+
+namespace UnityEngine
+{
+	inline static constexpr unsigned int AssetBundle_TypeDefinitionIndex = 21507;
+
+	class AssetBundle : public ::UnityEngine::Object
+	{
+	public:
+		static ::UnityEngine::B01F336837EB9669* AE0E5E0617BA271F(::Il2CppArray<::System::Byte>* EF5E2A7A85FD6CC3)
+		{
+			return ((::UnityEngine::B01F336837EB9669*(*)(::Il2CppArray<::System::Byte>*))((::PBYTE)hIl2Cpp + UNITYENGINE_ASSETBUNDLE_AE0E5E0617BA271F_OFFSET))(EF5E2A7A85FD6CC3);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_ASSETBUNDLE__CTOR_OFFSET))(this);
+		}
+
+		static ::UnityEngine::B01F336837EB9669* F2347513527ACAE9(::Il2CppArray<::System::Byte>* EF5E2A7A85FD6CC3, ::System::UInt32 F7B1BDCAE895DC99)
+		{
+			return ((::UnityEngine::B01F336837EB9669*(*)(::Il2CppArray<::System::Byte>*, ::System::UInt32))((::PBYTE)hIl2Cpp + UNITYENGINE_ASSETBUNDLE_F2347513527ACAE9_OFFSET))(EF5E2A7A85FD6CC3, F7B1BDCAE895DC99);
+		}
+
+		static ::UnityEngine::AssetBundle* E7042CAB9F40833D(::System::String* EFF983A80A48BB2A)
+		{
+			return ((::UnityEngine::AssetBundle*(*)(::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_ASSETBUNDLE_E7042CAB9F40833D_OFFSET))(EFF983A80A48BB2A);
+		}
+
+		::System::Void A7B9187661EBF661(::System::Boolean E25DE2AD74CCB30C)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_ASSETBUNDLE_A7B9187661EBF661_OFFSET))(this, E25DE2AD74CCB30C);
+		}
+
+		::UnityEngine::Object* EE94FC80DEAC0949(::System::String* F79B4D487F303AB2, ::System::Type* A288CB28FC2A6DA3)
+		{
+			return ((::UnityEngine::Object*(*)(::PVOID, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_ASSETBUNDLE_EE94FC80DEAC0949_OFFSET))(this, F79B4D487F303AB2, A288CB28FC2A6DA3);
+		}
+
+		static ::UnityEngine::AssetBundle* E7042CAB9F40833D_1(::System::String* EFF983A80A48BB2A, ::System::UInt32 F7B1BDCAE895DC99, ::System::UInt64 BE9B161B3F3C2937)
+		{
+			return ((::UnityEngine::AssetBundle*(*)(::System::String*, ::System::UInt32, ::System::UInt64))((::PBYTE)hIl2Cpp + UNITYENGINE_ASSETBUNDLE_E7042CAB9F40833D_1_OFFSET))(EFF983A80A48BB2A, F7B1BDCAE895DC99, BE9B161B3F3C2937);
+		}
+
+		::UnityEngine::Object* AF8880C2EA7A71FF(::System::String* F79B4D487F303AB2, ::System::Type* A288CB28FC2A6DA3)
+		{
+			return ((::UnityEngine::Object*(*)(::PVOID, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_ASSETBUNDLE_AF8880C2EA7A71FF_OFFSET))(this, F79B4D487F303AB2, A288CB28FC2A6DA3);
+		}
+
+		static ::UnityEngine::AssetBundle* F23F4BF97451FF2D(::System::String* EFF983A80A48BB2A, ::System::UInt32 F7B1BDCAE895DC99, ::System::UInt64 BE9B161B3F3C2937)
+		{
+			return ((::UnityEngine::AssetBundle*(*)(::System::String*, ::System::UInt32, ::System::UInt64))((::PBYTE)hIl2Cpp + UNITYENGINE_ASSETBUNDLE_F23F4BF97451FF2D_OFFSET))(EFF983A80A48BB2A, F7B1BDCAE895DC99, BE9B161B3F3C2937);
+		}
+	};
+}

@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class AkRoom;
+
+#define AKROOM_EFBFFAD3F2F8E58F_FF6C9C0B4141FC1F_BCB0A4DD6EA3B4C9_OFFSET UNITYSDK_OFFSET(0x2928CC0)
+#define AKROOM_EFBFFAD3F2F8E58F_FF6C9C0B4141FC1F__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int AkRoom_EFBFFAD3F2F8E58F_FF6C9C0B4141FC1F_TypeDefinitionIndex = 20481;
+
+class AkRoom_EFBFFAD3F2F8E58F_FF6C9C0B4141FC1F : public ::System::Object
+{
+public:
+	::System::Int32 BCB0A4DD6EA3B4C9(::AkRoom* B35BBBE7E39341A2, ::AkRoom* AE40CAA6BBFEAD2C)
+	{
+		return ((::System::Int32(*)(::PVOID, ::AkRoom*, ::AkRoom*))((::PBYTE)hIl2Cpp + AKROOM_EFBFFAD3F2F8E58F_FF6C9C0B4141FC1F_BCB0A4DD6EA3B4C9_OFFSET))(this, B35BBBE7E39341A2, AE40CAA6BBFEAD2C);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKROOM_EFBFFAD3F2F8E58F_FF6C9C0B4141FC1F__CTOR_OFFSET))(this);
+	}
+};

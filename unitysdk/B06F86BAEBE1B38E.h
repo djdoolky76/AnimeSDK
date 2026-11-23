@@ -1,0 +1,45 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/E2B5EB9E4D010A64.h"
+
+class EA679C2EAB7B59DA;
+namespace TA::Iris { class IrisRenderer; }
+
+#define B06F86BAEBE1B38E_EC19246B3E8B1D46_OFFSET UNITYSDK_OFFSET(0x2873F50)
+#define B06F86BAEBE1B38E_F3E9BFF09C08956D_OFFSET UNITYSDK_OFFSET(0x2873D60)
+#define B06F86BAEBE1B38E_FD792C24FE49920B_OFFSET UNITYSDK_OFFSET(0x2873E20)
+#define B06F86BAEBE1B38E_FE54CCFB7A90ADB1_OFFSET UNITYSDK_OFFSET(0x2873CF0)
+#define B06F86BAEBE1B38E__CTOR_OFFSET UNITYSDK_OFFSET(0x16591D0)
+
+inline static constexpr unsigned int B06F86BAEBE1B38E_TypeDefinitionIndex = 16124;
+
+class B06F86BAEBE1B38E : public ::E2B5EB9E4D010A64
+{
+public:
+	::EA679C2EAB7B59DA* EA504DBA4A022108; // 0x18
+
+	::System::Void FD792C24FE49920B(::System::Single EB5670302F34D4B7)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + B06F86BAEBE1B38E_FD792C24FE49920B_OFFSET))(this, EB5670302F34D4B7);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B06F86BAEBE1B38E__CTOR_OFFSET))(this);
+	}
+
+	::TA::Iris::IrisRenderer* EC19246B3E8B1D46()
+	{
+		return ((::TA::Iris::IrisRenderer*(*)(::PVOID))((::PBYTE)hIl2Cpp + B06F86BAEBE1B38E_EC19246B3E8B1D46_OFFSET))(this);
+	}
+
+	::System::Void F3E9BFF09C08956D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B06F86BAEBE1B38E_F3E9BFF09C08956D_OFFSET))(this);
+	}
+
+	::System::Void FE54CCFB7A90ADB1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B06F86BAEBE1B38E_FE54CCFB7A90ADB1_OFFSET))(this);
+	}
+};

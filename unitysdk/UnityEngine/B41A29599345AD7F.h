@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace System { class Object; }
+
+#define UNITYENGINE_B41A29599345AD7F_AE1A0863005E0599_OFFSET UNITYSDK_OFFSET(0x410E860)
+#define UNITYENGINE_B41A29599345AD7F_E7483E7CBF06BCFD_1_OFFSET UNITYSDK_OFFSET(0x410E7D0)
+#define UNITYENGINE_B41A29599345AD7F_E7483E7CBF06BCFD_OFFSET UNITYSDK_OFFSET(0x410E7E0)
+#define UNITYENGINE_B41A29599345AD7F_EE0D547CFF7B7DF8_OFFSET UNITYSDK_OFFSET(0x410E870)
+
+namespace UnityEngine
+{
+	inline static constexpr unsigned int B41A29599345AD7F_TypeDefinitionIndex = 17011;
+
+	struct alignas(4) B41A29599345AD7F
+	{
+		::System::UInt32 F87AC9213B686801; // 0x10
+
+		::System::Boolean E7483E7CBF06BCFD(::System::Object* A86A90C31A146E9C)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + UNITYENGINE_B41A29599345AD7F_E7483E7CBF06BCFD_OFFSET))(this, A86A90C31A146E9C);
+		}
+
+		::System::Int32 AE1A0863005E0599()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_B41A29599345AD7F_AE1A0863005E0599_OFFSET))(this);
+		}
+
+		/*
+		::System::Boolean E7483E7CBF06BCFD_1(::UnityEngine::B41A29599345AD7F BEEE7A5A60941632)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::B41A29599345AD7F))((::PBYTE)hIl2Cpp + UNITYENGINE_B41A29599345AD7F_E7483E7CBF06BCFD_1_OFFSET))(this, BEEE7A5A60941632);
+		}
+		*/
+
+		::System::Boolean EE0D547CFF7B7DF8()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_B41A29599345AD7F_EE0D547CFF7B7DF8_OFFSET))(this);
+		}
+	};
+}

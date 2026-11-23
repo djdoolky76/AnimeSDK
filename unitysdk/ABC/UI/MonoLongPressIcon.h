@@ -1,0 +1,82 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+
+namespace System { class Action; }
+
+#define ABC_UI_MONOLONGPRESSICON_A1AC5E2898628C5C_OFFSET UNITYSDK_OFFSET(0x2265DA0)
+#define ABC_UI_MONOLONGPRESSICON_AD8AFF3CF224E466_OFFSET UNITYSDK_OFFSET(0x2265E00)
+#define ABC_UI_MONOLONGPRESSICON_B10456EE796D56CF_OFFSET UNITYSDK_OFFSET(0x2265D40)
+#define ABC_UI_MONOLONGPRESSICON_BF55D928942E5231_OFFSET UNITYSDK_OFFSET(0x2265E80)
+#define ABC_UI_MONOLONGPRESSICON_EC2164856ABA4F4D_OFFSET UNITYSDK_OFFSET(0x2265CD0)
+#define ABC_UI_MONOLONGPRESSICON_EF60FADDF9A719FD_OFFSET UNITYSDK_OFFSET(0x2265F00)
+#define ABC_UI_MONOLONGPRESSICON_F00B4ACD1CA392E6_OFFSET UNITYSDK_OFFSET(0x22660C0)
+#define ABC_UI_MONOLONGPRESSICON_F14E1EBF1B6431C5_OFFSET UNITYSDK_OFFSET(0x2266040)
+#define ABC_UI_MONOLONGPRESSICON_FC02C686A1F49B56_OFFSET UNITYSDK_OFFSET(0x2266160)
+#define ABC_UI_MONOLONGPRESSICON__CTOR_OFFSET UNITYSDK_OFFSET(0x176D770)
+
+namespace ABC::UI
+{
+	inline static constexpr unsigned int MonoLongPressIcon_TypeDefinitionIndex = 9242;
+
+	class MonoLongPressIcon : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::System::Single B87C9D8263B3A547; // 0x20
+		::System::Boolean E9C9C0ECAB9BC942; // 0x24
+		::System::Byte _padding0[0x3];
+		::UnityEngine::Vector2 F1B940E7FCE722C6; // 0x28
+		::System::Action* BB79CC0304626C19; // 0x30
+
+		static ::System::Single FC02C686A1F49B56()
+		{
+			return ((::System::Single(*)())((::PBYTE)hIl2Cpp + ABC_UI_MONOLONGPRESSICON_FC02C686A1F49B56_OFFSET))();
+		}
+
+		::System::Void EC2164856ABA4F4D(::System::Single EB5670302F34D4B7)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ABC_UI_MONOLONGPRESSICON_EC2164856ABA4F4D_OFFSET))(this, EB5670302F34D4B7);
+		}
+
+		::System::Void F00B4ACD1CA392E6()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONOLONGPRESSICON_F00B4ACD1CA392E6_OFFSET))(this);
+		}
+
+		::System::Boolean AD8AFF3CF224E466()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONOLONGPRESSICON_AD8AFF3CF224E466_OFFSET))(this);
+		}
+
+		::System::Void F14E1EBF1B6431C5(::UnityEngine::Vector2 B92E62066174B79E)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + ABC_UI_MONOLONGPRESSICON_F14E1EBF1B6431C5_OFFSET))(this, B92E62066174B79E);
+		}
+
+		::System::Void BF55D928942E5231(::System::Action* EC63D099BEB284F6)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + ABC_UI_MONOLONGPRESSICON_BF55D928942E5231_OFFSET))(this, EC63D099BEB284F6);
+		}
+
+		::System::Void B10456EE796D56CF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONOLONGPRESSICON_B10456EE796D56CF_OFFSET))(this);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONOLONGPRESSICON__CTOR_OFFSET))(this);
+		}
+
+		::System::Void A1AC5E2898628C5C()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONOLONGPRESSICON_A1AC5E2898628C5C_OFFSET))(this);
+		}
+
+		::System::Boolean EF60FADDF9A719FD(::UnityEngine::Vector2 AB927C455D30D3D6, ::System::Single FE7727C09D14D461)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2, ::System::Single))((::PBYTE)hIl2Cpp + ABC_UI_MONOLONGPRESSICON_EF60FADDF9A719FD_OFFSET))(this, AB927C455D30D3D6, FE7727C09D14D461);
+		}
+	};
+}

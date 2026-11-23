@@ -1,0 +1,63 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AD61077CFCBEFAEA.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/System/Object.h"
+
+class E78B436C7FACCBD8;
+
+#define E1D7A67A7A71754C_E2108D7CE84D4997_OFFSET UNITYSDK_OFFSET(0x21C6390)
+#define E1D7A67A7A71754C_E29A6453EE7442A8_OFFSET UNITYSDK_OFFSET(0x21C65A0)
+#define E1D7A67A7A71754C_FC0FF1A5CE65CE80_OFFSET UNITYSDK_OFFSET(0x21C62A0)
+#define E1D7A67A7A71754C_FC9DDFEF57E658AE_OFFSET UNITYSDK_OFFSET(0x21C5EB0)
+#define E1D7A67A7A71754C_FCC7443573DD0222_OFFSET UNITYSDK_OFFSET(0x21C6120)
+#define E1D7A67A7A71754C_FEE2E7DFBBE5E851_OFFSET UNITYSDK_OFFSET(0x21C6030)
+#define E1D7A67A7A71754C__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int E1D7A67A7A71754C_TypeDefinitionIndex = 8883;
+
+class E1D7A67A7A71754C : public ::System::Object
+{
+public:
+	::System::Nullable_1<::AD61077CFCBEFAEA> EE0909BAD4425FF9; // 0x10
+	::System::Byte _padding0[0x8];
+	::System::Boolean E51D5A5CCCAAD005; // 0x20
+	::System::Boolean BF6CB5A958CAA0C4; // 0x21
+	::System::Byte _padding1[0x6];
+	::E78B436C7FACCBD8* E5FADFFBBE2167D7; // 0x28
+
+	::System::Void FCC7443573DD0222()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E1D7A67A7A71754C_FCC7443573DD0222_OFFSET))(this);
+	}
+
+	::System::Void FC9DDFEF57E658AE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E1D7A67A7A71754C_FC9DDFEF57E658AE_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E1D7A67A7A71754C__CTOR_OFFSET))(this);
+	}
+
+	::System::Void E29A6453EE7442A8(::System::Nullable_1<::AD61077CFCBEFAEA> E97E8D008427A296)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::AD61077CFCBEFAEA>))((::PBYTE)hIl2Cpp + E1D7A67A7A71754C_E29A6453EE7442A8_OFFSET))(this, E97E8D008427A296);
+	}
+
+	::System::Void E2108D7CE84D4997()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E1D7A67A7A71754C_E2108D7CE84D4997_OFFSET))(this);
+	}
+
+	::System::Void FC0FF1A5CE65CE80()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E1D7A67A7A71754C_FC0FF1A5CE65CE80_OFFSET))(this);
+	}
+
+	::System::Void FEE2E7DFBBE5E851()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E1D7A67A7A71754C_FEE2E7DFBBE5E851_OFFSET))(this);
+	}
+};

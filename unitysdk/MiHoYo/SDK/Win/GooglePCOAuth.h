@@ -1,0 +1,126 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MiHoYo/SDK/Confirm_E18B39FBD22EF1C5.h"
+#include "unitysdk/MiHoYo/SDK/UIElement.h"
+
+namespace System { class Action; }
+namespace UnityEngine::UI { class Button; }
+namespace UnityEngine::UI { class Text; }
+
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_A4E766C89D8939EF_OFFSET UNITYSDK_OFFSET(0x3A00170)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_A7B9D97A8EACDFF4_OFFSET UNITYSDK_OFFSET(0x3A00790)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_AB36E0EE549986E5_OFFSET UNITYSDK_OFFSET(0x3A00080)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_AE4DCB9A6F400823_OFFSET UNITYSDK_OFFSET(0x3A00620)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_B0D966C939EB007C_OFFSET UNITYSDK_OFFSET(0x39FFE30)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_BFA7961FF2AC380B_OFFSET UNITYSDK_OFFSET(0x3A003C0)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_BFFF33EA83C86EC7_OFFSET UNITYSDK_OFFSET(0x39FFAE0)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_E1E3C23E79A23341_OFFSET UNITYSDK_OFFSET(0x3A000D0)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_E3D9249DD0E4032E_OFFSET UNITYSDK_OFFSET(0x3A00570)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_E85D1C741D5386D7_OFFSET UNITYSDK_OFFSET(0x39FFDE0)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_F20946C9BB3E3F3E_OFFSET UNITYSDK_OFFSET(0x39FFC90)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_F24A540BABED59DB_OFFSET UNITYSDK_OFFSET(0x39FFD40)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_FB08F0065135719A_OFFSET UNITYSDK_OFFSET(0x39FFA10)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH_FDBCDBBFE02CD51A_OFFSET UNITYSDK_OFFSET(0x39FF4D0)
+#define MIHOYO_SDK_WIN_GOOGLEPCOAUTH__CTOR_OFFSET UNITYSDK_OFFSET(0x39230A0)
+
+namespace MiHoYo::SDK::Win
+{
+	inline static constexpr unsigned int GooglePCOAuth_TypeDefinitionIndex = 12742;
+
+	class GooglePCOAuth : public ::MiHoYo::SDK::UIElement
+	{
+	public:
+		static ::MiHoYo::SDK::Win::GooglePCOAuth** StaticGet_F459A1CAE950E680()
+		{
+			return (::MiHoYo::SDK::Win::GooglePCOAuth**)Il2CppClass::FromTypeDefinitionIndex(GooglePCOAuth_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		::UnityEngine::UI::Button* F9B6CD06A11EA70F; // 0x60
+		::UnityEngine::UI::Button* A0C96F47DCDE8F74; // 0x68
+		::UnityEngine::UI::Button* F1C7ECBBBFF6AA0A; // 0x70
+		::UnityEngine::UI::Button* E9A57C640B72832D; // 0x78
+		::UnityEngine::UI::Button* A5B72B859721DFDC; // 0x80
+		::UnityEngine::UI::Text* A0830E09F3D64900; // 0x88
+		::UnityEngine::UI::Text* E9250243433F39FA; // 0x90
+		::UnityEngine::UI::Text* FBDF1B40720E3BF3; // 0x98
+		::UnityEngine::UI::Text* EDC6076095E27D23; // 0xA0
+		::UnityEngine::UI::Text* A5F6817677F02DD0; // 0xA8
+		::System::Action* OnBack; // 0xB0
+		::System::Action* OnAuth; // 0xB8
+		::System::Action* OnCheck; // 0xC0
+
+		::System::Void FDBCDBBFE02CD51A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCOAUTH_FDBCDBBFE02CD51A_OFFSET))(this);
+		}
+
+		::System::Void AB36E0EE549986E5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCOAUTH_AB36E0EE549986E5_OFFSET))(this);
+		}
+
+		::System::Void A4E766C89D8939EF(::System::Boolean E335132C2E0A2A51)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCOAUTH_A4E766C89D8939EF_OFFSET))(this, E335132C2E0A2A51);
+		}
+
+		::System::Void BFFF33EA83C86EC7()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCOAUTH_BFFF33EA83C86EC7_OFFSET))(this);
+		}
+
+		::System::Void FB08F0065135719A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCOAUTH_FB08F0065135719A_OFFSET))(this);
+		}
+
+		::System::Void A7B9D97A8EACDFF4()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCOAUTH_A7B9D97A8EACDFF4_OFFSET))(this);
+		}
+
+		::System::Void E1E3C23E79A23341()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCOAUTH_E1E3C23E79A23341_OFFSET))(this);
+		}
+
+		static ::System::Void BFA7961FF2AC380B()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCOAUTH_BFA7961FF2AC380B_OFFSET))();
+		}
+
+		::System::Void F20946C9BB3E3F3E()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCOAUTH_F20946C9BB3E3F3E_OFFSET))(this);
+		}
+
+		static ::System::Void E85D1C741D5386D7()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCOAUTH_E85D1C741D5386D7_OFFSET))();
+		}
+
+		::System::Void E3D9249DD0E4032E()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCOAUTH_E3D9249DD0E4032E_OFFSET))(this);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCOAUTH__CTOR_OFFSET))(this);
+		}
+
+		::System::Void F24A540BABED59DB()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCOAUTH_F24A540BABED59DB_OFFSET))(this);
+		}
+
+		::System::Void B0D966C939EB007C()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCOAUTH_B0D966C939EB007C_OFFSET))(this);
+		}
+
+		::System::Void AE4DCB9A6F400823(::MiHoYo::SDK::Confirm_E18B39FBD22EF1C5 E82293C0814051A5)
+		{
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::Confirm_E18B39FBD22EF1C5))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_GOOGLEPCOAUTH_AE4DCB9A6F400823_OFFSET))(this, E82293C0814051A5);
+		}
+	};
+}

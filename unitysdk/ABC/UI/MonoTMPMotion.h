@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AD61077CFCBEFAEA.h"
+
+namespace System { class String; }
+namespace TMPro { class TextMeshProUGUI; }
+
+#define ABC_UI_MONOTMPMOTION_A8E11C3365007BB8_1_OFFSET UNITYSDK_OFFSET(0x1F331B0)
+#define ABC_UI_MONOTMPMOTION_A8E11C3365007BB8_OFFSET UNITYSDK_OFFSET(0x1F33250)
+#define ABC_UI_MONOTMPMOTION_BA91936171F1AB3A_OFFSET UNITYSDK_OFFSET(0x1F33470)
+#define ABC_UI_MONOTMPMOTION_E238674919E92198_OFFSET UNITYSDK_OFFSET(0x1F33420)
+#define ABC_UI_MONOTMPMOTION_E6D2EC58C9A33F06_OFFSET UNITYSDK_OFFSET(0x1F334C0)
+#define ABC_UI_MONOTMPMOTION_F5F401CF08438963_OFFSET UNITYSDK_OFFSET(0x1F33340)
+#define ABC_UI_MONOTMPMOTION__CTOR_OFFSET UNITYSDK_OFFSET(0x1F333E0)
+
+namespace ABC::UI
+{
+	inline static constexpr unsigned int MonoTMPMotion_TypeDefinitionIndex = 7643;
+
+	class MonoTMPMotion
+	{
+	public:
+		::TMPro::TextMeshProUGUI* BE6E0D3D487E1FA8; // 0x28
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONOTMPMOTION__CTOR_OFFSET))(this);
+		}
+
+		::System::Void A8E11C3365007BB8(::AD61077CFCBEFAEA E97E8D008427A296)
+		{
+			return ((::System::Void(*)(::PVOID, ::AD61077CFCBEFAEA))((::PBYTE)hIl2Cpp + ABC_UI_MONOTMPMOTION_A8E11C3365007BB8_OFFSET))(this, E97E8D008427A296);
+		}
+
+		::System::Void A8E11C3365007BB8_1(::System::String* E97E8D008427A296)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + ABC_UI_MONOTMPMOTION_A8E11C3365007BB8_1_OFFSET))(this, E97E8D008427A296);
+		}
+
+		::System::Boolean E238674919E92198()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONOTMPMOTION_E238674919E92198_OFFSET))(this);
+		}
+
+		::TMPro::TextMeshProUGUI* E6D2EC58C9A33F06()
+		{
+			return ((::TMPro::TextMeshProUGUI*(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONOTMPMOTION_E6D2EC58C9A33F06_OFFSET))(this);
+		}
+
+		::System::Void F5F401CF08438963(::System::Int32 BD6C7C724B35E435)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ABC_UI_MONOTMPMOTION_F5F401CF08438963_OFFSET))(this, BD6C7C724B35E435);
+		}
+
+		::System::Int32 BA91936171F1AB3A()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONOTMPMOTION_BA91936171F1AB3A_OFFSET))(this);
+		}
+	};
+}

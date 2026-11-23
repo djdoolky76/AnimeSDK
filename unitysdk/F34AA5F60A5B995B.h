@@ -1,0 +1,56 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/FFE210F1A6F4BE2A.h"
+#include "unitysdk/System/DateTime.h"
+
+namespace System { class String; }
+namespace System::Collections { class E6C6EEEB155967C0; }
+namespace System::Globalization { class BB818A993EA8E2D1; }
+
+#define F34AA5F60A5B995B_A6E19DEC180E2771_OFFSET UNITYSDK_OFFSET(0x3BF8410)
+#define F34AA5F60A5B995B_A87215EE848424E0_OFFSET UNITYSDK_OFFSET(0x3BF87D0)
+#define F34AA5F60A5B995B_B5B6FD710D294F1E_OFFSET UNITYSDK_OFFSET(0x3BF8500)
+#define F34AA5F60A5B995B_BA4055A3CA8762B9_OFFSET UNITYSDK_OFFSET(0x3BF7EF0)
+#define F34AA5F60A5B995B_FAB3A1207F41B51F_OFFSET UNITYSDK_OFFSET(0x3BF8200)
+#define F34AA5F60A5B995B__CTOR_OFFSET UNITYSDK_OFFSET(0x3BF88F0)
+
+inline static constexpr unsigned int F34AA5F60A5B995B_TypeDefinitionIndex = 11343;
+
+class F34AA5F60A5B995B : public ::FFE210F1A6F4BE2A
+{
+public:
+	::System::Int64 AED93EE284F571CB; // 0x10
+	::System::String* A611EEE740173F7E; // 0x18
+	::System::String* BA62007FDFF6FF02; // 0x20
+	::System::Collections::E6C6EEEB155967C0* F855E08769F585C2; // 0x28
+
+	::System::Globalization::BB818A993EA8E2D1* FAB3A1207F41B51F(::System::Int32 A37FA04D6D3E36E7)
+	{
+		return ((::System::Globalization::BB818A993EA8E2D1*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + F34AA5F60A5B995B_FAB3A1207F41B51F_OFFSET))(this, A37FA04D6D3E36E7);
+	}
+
+	static ::System::Globalization::BB818A993EA8E2D1* BA4055A3CA8762B9(::System::Int32 A37FA04D6D3E36E7)
+	{
+		return ((::System::Globalization::BB818A993EA8E2D1*(*)(::System::Int32))((::PBYTE)hIl2Cpp + F34AA5F60A5B995B_BA4055A3CA8762B9_OFFSET))(A37FA04D6D3E36E7);
+	}
+
+	::System::Globalization::BB818A993EA8E2D1* A6E19DEC180E2771(::System::Int32 A37FA04D6D3E36E7)
+	{
+		return ((::System::Globalization::BB818A993EA8E2D1*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + F34AA5F60A5B995B_A6E19DEC180E2771_OFFSET))(this, A37FA04D6D3E36E7);
+	}
+
+	::System::Int64 B5B6FD710D294F1E(::System::DateTime FF0A37159A523E06, ::System::Boolean& F2714D7ABE3DCB4C)
+	{
+		return ((::System::Int64(*)(::PVOID, ::System::DateTime, ::System::Boolean&))((::PBYTE)hIl2Cpp + F34AA5F60A5B995B_B5B6FD710D294F1E_OFFSET))(this, FF0A37159A523E06, F2714D7ABE3DCB4C);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F34AA5F60A5B995B__CTOR_OFFSET))(this);
+	}
+
+	::System::DateTime A87215EE848424E0(::System::DateTime FF0A37159A523E06)
+	{
+		return ((::System::DateTime(*)(::PVOID, ::System::DateTime))((::PBYTE)hIl2Cpp + F34AA5F60A5B995B_A87215EE848424E0_OFFSET))(this, FF0A37159A523E06);
+	}
+};

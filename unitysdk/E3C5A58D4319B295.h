@@ -1,0 +1,100 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/EB1EE915D76B8ED6.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+
+class E6350CA2988BAC74;
+namespace ABC::UI { class MonoLocalizedTmp; }
+namespace ABC::UI { class MonoPrefabLoader; }
+namespace ABC::UI { class MonoUIAutoView; }
+namespace UnityEngine { class RectTransform; }
+namespace UnityEngine::UI { class Image; }
+
+#define E3C5A58D4319B295_A0046E30F870AE4D_OFFSET UNITYSDK_OFFSET(0x1E37930)
+#define E3C5A58D4319B295_A008695A47867472_OFFSET UNITYSDK_OFFSET(0x1779660)
+#define E3C5A58D4319B295_A54D936318FAF9E3_OFFSET UNITYSDK_OFFSET(0x22BE200)
+#define E3C5A58D4319B295_A8F1BA3673D236D2_OFFSET UNITYSDK_OFFSET(0x1BC3260)
+#define E3C5A58D4319B295_A93896F6B6CC3E55_OFFSET UNITYSDK_OFFSET(0x168A070)
+#define E3C5A58D4319B295_AE117F85DAE0D028_OFFSET UNITYSDK_OFFSET(0x22BE5B0)
+#define E3C5A58D4319B295_BCC30386F5FA9341_OFFSET UNITYSDK_OFFSET(0x17F0F50)
+#define E3C5A58D4319B295_EFE1C893A988C382_OFFSET UNITYSDK_OFFSET(0x1D19E40)
+#define E3C5A58D4319B295_F2BBCA7DDDBD3DE3_OFFSET UNITYSDK_OFFSET(0x2107AD0)
+#define E3C5A58D4319B295_F6A675B119E39F53_OFFSET UNITYSDK_OFFSET(0x22BE550)
+#define E3C5A58D4319B295_FCB761C928A6B564_OFFSET UNITYSDK_OFFSET(0x1921830)
+#define E3C5A58D4319B295__CTOR_OFFSET UNITYSDK_OFFSET(0x1EC4160)
+
+inline static constexpr unsigned int E3C5A58D4319B295_TypeDefinitionIndex = 7174;
+
+class E3C5A58D4319B295 : public ::EB1EE915D76B8ED6
+{
+public:
+	::UnityEngine::RectTransform* EF10AA4DB57863ED; // 0xD0
+	::ABC::UI::MonoPrefabLoader* F635755F2F69E641; // 0xD8
+	::UnityEngine::UI::Image* BE8B00C796036193; // 0xE0
+	::UnityEngine::UI::Image* E6EB0365FC3227CC; // 0xE8
+	::E6350CA2988BAC74* E3CF84CBADB8D8A5; // 0xF0
+	::UnityEngine::RectTransform* B94B8E513ED6A4A2; // 0xF8
+	::UnityEngine::RectTransform* EF49FA81FF6A541A; // 0x100
+	::UnityEngine::RectTransform* B853632B8B94ABD1; // 0x108
+	::ABC::UI::MonoLocalizedTmp* BA0665F7914B9387; // 0x110
+
+	::System::Void A54D936318FAF9E3(::ABC::UI::MonoUIAutoView* AE442F7D881522D8)
+	{
+		return ((::System::Void(*)(::PVOID, ::ABC::UI::MonoUIAutoView*))((::PBYTE)hIl2Cpp + E3C5A58D4319B295_A54D936318FAF9E3_OFFSET))(this, AE442F7D881522D8);
+	}
+
+	::ABC::UI::MonoLocalizedTmp* FCB761C928A6B564()
+	{
+		return ((::ABC::UI::MonoLocalizedTmp*(*)(::PVOID))((::PBYTE)hIl2Cpp + E3C5A58D4319B295_FCB761C928A6B564_OFFSET))(this);
+	}
+
+	::UnityEngine::RectTransform* EFE1C893A988C382()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + E3C5A58D4319B295_EFE1C893A988C382_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E3C5A58D4319B295__CTOR_OFFSET))(this);
+	}
+
+	::UnityEngine::RectTransform* A8F1BA3673D236D2()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + E3C5A58D4319B295_A8F1BA3673D236D2_OFFSET))(this);
+	}
+
+	::UnityEngine::RectTransform* A008695A47867472()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + E3C5A58D4319B295_A008695A47867472_OFFSET))(this);
+	}
+
+	::E6350CA2988BAC74* A93896F6B6CC3E55()
+	{
+		return ((::E6350CA2988BAC74*(*)(::PVOID))((::PBYTE)hIl2Cpp + E3C5A58D4319B295_A93896F6B6CC3E55_OFFSET))(this);
+	}
+
+	::UnityEngine::RectTransform* A0046E30F870AE4D()
+	{
+		return ((::UnityEngine::RectTransform*(*)(::PVOID))((::PBYTE)hIl2Cpp + E3C5A58D4319B295_A0046E30F870AE4D_OFFSET))(this);
+	}
+
+	::System::Void F6A675B119E39F53()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E3C5A58D4319B295_F6A675B119E39F53_OFFSET))(this);
+	}
+
+	::UnityEngine::UI::Image* F2BBCA7DDDBD3DE3()
+	{
+		return ((::UnityEngine::UI::Image*(*)(::PVOID))((::PBYTE)hIl2Cpp + E3C5A58D4319B295_F2BBCA7DDDBD3DE3_OFFSET))(this);
+	}
+
+	::UnityEngine::Vector2 AE117F85DAE0D028()
+	{
+		return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + E3C5A58D4319B295_AE117F85DAE0D028_OFFSET))(this);
+	}
+
+	::UnityEngine::UI::Image* BCC30386F5FA9341()
+	{
+		return ((::UnityEngine::UI::Image*(*)(::PVOID))((::PBYTE)hIl2Cpp + E3C5A58D4319B295_BCC30386F5FA9341_OFFSET))(this);
+	}
+};

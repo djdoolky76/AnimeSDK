@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/BD3E6890C9C82A9E.h"
+
+#define F39D71B574052A81_E6CB4DFFE578B4C8_OFFSET UNITYSDK_OFFSET(0x23D9FC0)
+#define F39D71B574052A81_F2F34CF7A22D6C71_OFFSET UNITYSDK_OFFSET(0x23D9F80)
+#define F39D71B574052A81_FBBF870EA90E1D92_OFFSET UNITYSDK_OFFSET(0x24864A0)
+#define F39D71B574052A81__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int F39D71B574052A81_TypeDefinitionIndex = 4571;
+
+class F39D71B574052A81 : public ::System::Object
+{
+public:
+	::UnityEngine::Vector3 E044ACEDB5633E8C; // 0x10
+
+	static ::System::Void FBBF870EA90E1D92(::BD3E6890C9C82A9E& F99B0FE319DB74D1, ::F39D71B574052A81*& E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::BD3E6890C9C82A9E&, ::F39D71B574052A81*&))((::PBYTE)hIl2Cpp + F39D71B574052A81_FBBF870EA90E1D92_OFFSET))(F99B0FE319DB74D1, E937D4885DAA1AE8);
+	}
+
+	::System::Void E6CB4DFFE578B4C8(::UnityEngine::Vector3 E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + F39D71B574052A81_E6CB4DFFE578B4C8_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::UnityEngine::Vector3 F2F34CF7A22D6C71()
+	{
+		return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + F39D71B574052A81_F2F34CF7A22D6C71_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F39D71B574052A81__CTOR_OFFSET))(this);
+	}
+};

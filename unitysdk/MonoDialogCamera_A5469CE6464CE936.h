@@ -1,0 +1,49 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MonoDialogCamera_B3A372FB46A5C968.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/MonoLookDevCameraRel_EF8F775C3FDA2430.h"
+
+namespace UnityEngine { class Transform; }
+
+#define MONODIALOGCAMERA_A5469CE6464CE936_A4B101A607469D0D_OFFSET UNITYSDK_OFFSET(0x18F6390)
+#define MONODIALOGCAMERA_A5469CE6464CE936_ADD80D0359F06025_OFFSET UNITYSDK_OFFSET(0x18F6560)
+#define MONODIALOGCAMERA_A5469CE6464CE936_FBECD84F4466F058_OFFSET UNITYSDK_OFFSET(0x18F67E0)
+
+inline static constexpr unsigned int MonoDialogCamera_A5469CE6464CE936_TypeDefinitionIndex = 1431;
+
+struct alignas(4) MonoDialogCamera_A5469CE6464CE936
+{
+	::System::Single FA544A860D2EF50E; // 0x10
+	::System::Single A8CD801A7FCF5B6F; // 0x14
+	::UnityEngine::Vector3 F171ABBE3B997D43; // 0x18
+	::UnityEngine::Vector3 B0E75B4BA91EE82E; // 0x24
+	::System::Single AC96F1BBED0C5424; // 0x30
+	::System::Single BE1DF74D7AE5711F; // 0x34
+	::UnityEngine::Vector3 ECCA08A8F491A2D3; // 0x38
+	::UnityEngine::Vector3 FC653E59CC69B816; // 0x44
+	::System::Single B12637F9F689E941; // 0x50
+	::System::Single A72039B2C493D47F; // 0x54
+
+	/*
+	static ::MonoDialogCamera_A5469CE6464CE936 FBECD84F4466F058(::UnityEngine::Transform* A545EAE76E16BF8D, ::System::Single B99CD0CFBD665E51, ::System::Single B19971EA5F71BAC1, ::System::Single BB6B4C94BC07FFAD, ::UnityEngine::Transform* ECFFBEC7B011E088, ::System::Single FCAB6D2EBF5D0563, ::System::Single EE0FDFBB9D5EAD52, ::System::Single B7BFD36059119657, ::System::Single AC7A523AB0F13A57, ::System::Single A89B21AFE8074A79)
+	{
+		return ((::MonoDialogCamera_A5469CE6464CE936(*)(::UnityEngine::Transform*, ::System::Single, ::System::Single, ::System::Single, ::UnityEngine::Transform*, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + MONODIALOGCAMERA_A5469CE6464CE936_FBECD84F4466F058_OFFSET))(A545EAE76E16BF8D, B99CD0CFBD665E51, B19971EA5F71BAC1, BB6B4C94BC07FFAD, ECFFBEC7B011E088, FCAB6D2EBF5D0563, EE0FDFBB9D5EAD52, B7BFD36059119657, AC7A523AB0F13A57, A89B21AFE8074A79);
+	}
+	*/
+
+	/*
+	static ::MonoLookDevCameraRel_EF8F775C3FDA2430 ADD80D0359F06025(::MonoDialogCamera_A5469CE6464CE936 A1B6BEB4FDB7ED2C)
+	{
+		return ((::MonoLookDevCameraRel_EF8F775C3FDA2430(*)(::MonoDialogCamera_A5469CE6464CE936))((::PBYTE)hIl2Cpp + MONODIALOGCAMERA_A5469CE6464CE936_ADD80D0359F06025_OFFSET))(A1B6BEB4FDB7ED2C);
+	}
+	*/
+
+	/*
+	static ::MonoDialogCamera_A5469CE6464CE936 A4B101A607469D0D(::MonoDialogCamera_A5469CE6464CE936 BC546FFFB0A5B7A6, ::MonoDialogCamera_B3A372FB46A5C968 E753BE58BD730B64)
+	{
+		return ((::MonoDialogCamera_A5469CE6464CE936(*)(::MonoDialogCamera_A5469CE6464CE936, ::MonoDialogCamera_B3A372FB46A5C968))((::PBYTE)hIl2Cpp + MONODIALOGCAMERA_A5469CE6464CE936_A4B101A607469D0D_OFFSET))(BC546FFFB0A5B7A6, E753BE58BD730B64);
+	}
+	*/
+};

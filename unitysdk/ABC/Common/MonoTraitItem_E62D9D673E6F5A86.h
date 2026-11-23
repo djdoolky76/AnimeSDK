@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/E68AA4EB51923C98/EF031D2AFC737495.h"
+#include "unitysdk/System/Object.h"
+
+class BABF1047784623D5;
+
+#define ABC_COMMON_MONOTRAITITEM_E62D9D673E6F5A86_E6FF46ADD6B79EFF_OFFSET UNITYSDK_OFFSET(0x1F3C7E0)
+#define ABC_COMMON_MONOTRAITITEM_E62D9D673E6F5A86__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+namespace ABC::Common
+{
+	inline static constexpr unsigned int MonoTraitItem_E62D9D673E6F5A86_TypeDefinitionIndex = 7638;
+
+	class MonoTraitItem_E62D9D673E6F5A86 : public ::System::Object
+	{
+	public:
+		::E68AA4EB51923C98::EF031D2AFC737495 EE637EDFBE1D6D04; // 0x10
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_COMMON_MONOTRAITITEM_E62D9D673E6F5A86__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean E6FF46ADD6B79EFF(::BABF1047784623D5* EC35F88C87A83BEB)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::BABF1047784623D5*))((::PBYTE)hIl2Cpp + ABC_COMMON_MONOTRAITITEM_E62D9D673E6F5A86_E6FF46ADD6B79EFF_OFFSET))(this, EC35F88C87A83BEB);
+		}
+	};
+}

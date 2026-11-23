@@ -1,0 +1,46 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class FCA5C313674202B0;
+
+#define A11D220DEF957A29_B3EA6E64FEFC6AD9_OFFSET UNITYSDK_OFFSET(0x27A2270)
+#define A11D220DEF957A29_E14A36F541410765_OFFSET UNITYSDK_OFFSET(0x169C070)
+#define A11D220DEF957A29_FD792C24FE49920B_OFFSET UNITYSDK_OFFSET(0x27A2520)
+#define A11D220DEF957A29__CTOR_OFFSET UNITYSDK_OFFSET(0x27A2890)
+
+inline static constexpr unsigned int A11D220DEF957A29_TypeDefinitionIndex = 16626;
+
+class A11D220DEF957A29 : public ::System::Object
+{
+public:
+	::System::Single F365BE3C67A08013; // 0x10
+	::System::Single AA1696DE7FDB10CD; // 0x14
+	::System::Single BF18306EF95F9B10; // 0x18
+	::System::Single F42FA9368307042E; // 0x1C
+	::System::Single BD8974B7B8708B25; // 0x20
+	::System::Single B1C0919AF80E7ABA; // 0x24
+	::FCA5C313674202B0* F8DDC76A3A877413; // 0x28
+	::System::Boolean AAE7C4D545B89104; // 0x30
+	::System::Boolean F24231D7FC1D41E4; // 0x31
+
+	::System::Boolean B3EA6E64FEFC6AD9(::System::Single A736A0868B90C9DE, ::System::Single BD28B22BA9C78A97, ::System::Single F57E6DA91346200D, ::System::Single EF6EDAED02A5DA0B, ::System::Single B1D38DFD7409FF69, ::System::Single E6365B2961492C49)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + A11D220DEF957A29_B3EA6E64FEFC6AD9_OFFSET))(this, A736A0868B90C9DE, BD28B22BA9C78A97, F57E6DA91346200D, EF6EDAED02A5DA0B, B1D38DFD7409FF69, E6365B2961492C49);
+	}
+
+	::FCA5C313674202B0* E14A36F541410765()
+	{
+		return ((::FCA5C313674202B0*(*)(::PVOID))((::PBYTE)hIl2Cpp + A11D220DEF957A29_E14A36F541410765_OFFSET))(this);
+	}
+
+	::System::Void FD792C24FE49920B(::System::Single A736A0868B90C9DE, ::System::Single BD28B22BA9C78A97, ::System::Single F57E6DA91346200D, ::System::Single EF6EDAED02A5DA0B, ::System::Single B1D38DFD7409FF69, ::System::Single E6365B2961492C49)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + A11D220DEF957A29_FD792C24FE49920B_OFFSET))(this, A736A0868B90C9DE, BD28B22BA9C78A97, F57E6DA91346200D, EF6EDAED02A5DA0B, B1D38DFD7409FF69, E6365B2961492C49);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A11D220DEF957A29__CTOR_OFFSET))(this);
+	}
+};

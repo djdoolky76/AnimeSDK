@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class E8C932FC42A3F77E;
+namespace MiHoYo::SDK { class NetworkResponseModel; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+
+#define E8C932FC42A3F77E_F920CA16818DB997_B6112B4248A192CB_OFFSET UNITYSDK_OFFSET(0x3976450)
+#define E8C932FC42A3F77E_F920CA16818DB997_FFDED155D2711677_OFFSET UNITYSDK_OFFSET(0x39764A0)
+#define E8C932FC42A3F77E_F920CA16818DB997__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int E8C932FC42A3F77E_F920CA16818DB997_TypeDefinitionIndex = 12475;
+
+class E8C932FC42A3F77E_F920CA16818DB997 : public ::System::Object
+{
+public:
+	::E8C932FC42A3F77E* A544919C800E2923; // 0x10
+	::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* E04D2BE64FCE9814; // 0x18
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E8C932FC42A3F77E_F920CA16818DB997__CTOR_OFFSET))(this);
+	}
+
+	::System::Void B6112B4248A192CB(::System::String* A9B0E744486424C1)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + E8C932FC42A3F77E_F920CA16818DB997_B6112B4248A192CB_OFFSET))(this, A9B0E744486424C1);
+	}
+
+	::System::Void FFDED155D2711677()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E8C932FC42A3F77E_F920CA16818DB997_FFDED155D2711677_OFFSET))(this);
+	}
+};

@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AA2A61A7920B77D2_A9694FE0257F719B.h"
+#include "unitysdk/F8FBBB4D131D01F9.h"
+#include "unitysdk/System/ValueType.h"
+
+class A9425FE80B7B8314;
+class EC4DE502D90A864B;
+namespace ABC::Performance::Miscs { class PrewarmInfoAsset; }
+namespace System { class Action; }
+namespace System { template <typename T> class Action_1; }
+
+#define A9425FE80B7B8314_E03C94F55F636E96_A24002EAA8F1539A_OFFSET UNITYSDK_OFFSET(0x1666A20)
+#define A9425FE80B7B8314_E03C94F55F636E96_E6CAD58306FCDCB5_OFFSET UNITYSDK_OFFSET(0x2021A10)
+
+inline static constexpr unsigned int A9425FE80B7B8314_E03C94F55F636E96_TypeDefinitionIndex = 8214;
+
+struct alignas(8) A9425FE80B7B8314_E03C94F55F636E96
+{
+	::System::Int32 FEB3551B7D8B59C1; // 0x10
+	::System::Byte _padding0[0x4];
+	::F8FBBB4D131D01F9 A1CA1C79468DC000; // 0x18
+	::A9425FE80B7B8314* A544919C800E2923; // 0x28
+	::System::Action_1<::System::Single>* A8BC2E28FE51AC6D; // 0x30
+	::System::Action* B294FBF5AC6D3546; // 0x38
+	::ABC::Performance::Miscs::PrewarmInfoAsset* E2EBFAA1063DB1D3; // 0x40
+	::AA2A61A7920B77D2_A9694FE0257F719B A109FC4638F13DC1; // 0x48
+
+	::System::Void E6CAD58306FCDCB5()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A9425FE80B7B8314_E03C94F55F636E96_E6CAD58306FCDCB5_OFFSET))(this);
+	}
+
+	::System::Void A24002EAA8F1539A(::EC4DE502D90A864B* FF331EB1F030063C)
+	{
+		return ((::System::Void(*)(::PVOID, ::EC4DE502D90A864B*))((::PBYTE)hIl2Cpp + A9425FE80B7B8314_E03C94F55F636E96_A24002EAA8F1539A_OFFSET))(this, FF331EB1F030063C);
+	}
+};

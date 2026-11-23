@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AF0DDAD639155D77.h"
+#include "unitysdk/E7F9C9491EE9F059/A1DD51B242BE0B4E.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/InputSystem/LowLevel/TouchState.h"
+
+class A912D0FA70AF74A8;
+namespace UnityEngine::InputSystem { class Touchscreen; }
+template <typename T> class FE49F524354D3A59;
+
+#define AF0DDAD639155D77_A305C36B5C05F264_B1A9A5CD4AEB88B3_OFFSET UNITYSDK_OFFSET(0x3FCDD40)
+#define AF0DDAD639155D77_A305C36B5C05F264_F93EC8430983E48D_OFFSET UNITYSDK_OFFSET(0x3FCDC00)
+#define AF0DDAD639155D77_A305C36B5C05F264_FCC7443573DD0222_OFFSET UNITYSDK_OFFSET(0x3FCDB70)
+#define AF0DDAD639155D77_A305C36B5C05F264_FEABF9CA327A68BF_OFFSET UNITYSDK_OFFSET(0x3FCDA40)
+
+inline static constexpr unsigned int AF0DDAD639155D77_A305C36B5C05F264_TypeDefinitionIndex = 14377;
+
+struct alignas(8) AF0DDAD639155D77_A305C36B5C05F264
+{
+	::E7F9C9491EE9F059::A1DD51B242BE0B4E EACE0D008B5E35EE; // 0x10
+	::System::Byte _padding0[0x4];
+	::Il2CppArray<::A912D0FA70AF74A8*>* F45F637F660E7D44; // 0x18
+	::Il2CppArray<::A912D0FA70AF74A8*>* F7D31616A4733FE8; // 0x20
+	::Il2CppArray<::AF0DDAD639155D77>* FFDAAA6580BCFE61; // 0x28
+	::System::Int32 AD99CC6FB59B9685; // 0x30
+	::System::Int32 EFA7878641E66BB1; // 0x34
+	::System::Int32 E45FE00657EF402D; // 0x38
+	::System::UInt32 AABEECA2C578F3BB; // 0x3C
+	::System::Boolean B6799914DB455085; // 0x40
+	::System::Boolean E22FE665EB48DC11; // 0x41
+	::System::Byte _padding1[0x6];
+	::FE49F524354D3A59<::UnityEngine::InputSystem::LowLevel::TouchState>* B68CBDB34A94FEFB; // 0x48
+
+	::System::Void FEABF9CA327A68BF(::UnityEngine::InputSystem::Touchscreen* EC85C08F164E7D38)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::InputSystem::Touchscreen*))((::PBYTE)hIl2Cpp + AF0DDAD639155D77_A305C36B5C05F264_FEABF9CA327A68BF_OFFSET))(this, EC85C08F164E7D38);
+	}
+
+	::System::Void F93EC8430983E48D(::UnityEngine::InputSystem::Touchscreen* EC85C08F164E7D38)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::InputSystem::Touchscreen*))((::PBYTE)hIl2Cpp + AF0DDAD639155D77_A305C36B5C05F264_F93EC8430983E48D_OFFSET))(this, EC85C08F164E7D38);
+	}
+
+	::System::Void FCC7443573DD0222()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AF0DDAD639155D77_A305C36B5C05F264_FCC7443573DD0222_OFFSET))(this);
+	}
+
+	::System::Void B1A9A5CD4AEB88B3()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AF0DDAD639155D77_A305C36B5C05F264_B1A9A5CD4AEB88B3_OFFSET))(this);
+	}
+};

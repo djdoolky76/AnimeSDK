@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace MiHoYo::SDK { class MiHoYoSDKWebViewManager; }
+namespace System { class Action; }
+namespace System { class String; }
+
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER_A313FFDA1B48186D_A94471611CAEC334_OFFSET UNITYSDK_OFFSET(0x29B1DB0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER_A313FFDA1B48186D_B346A85A8D9F984F_OFFSET UNITYSDK_OFFSET(0x29B1A20)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER_A313FFDA1B48186D_FB8D58BE68DBF52F_OFFSET UNITYSDK_OFFSET(0x29B19E0)
+#define MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER_A313FFDA1B48186D__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+namespace MiHoYo::SDK
+{
+	inline static constexpr unsigned int MiHoYoSDKWebViewManager_A313FFDA1B48186D_TypeDefinitionIndex = 15549;
+
+	class MiHoYoSDKWebViewManager_A313FFDA1B48186D : public ::System::Object
+	{
+	public:
+		::MiHoYo::SDK::MiHoYoSDKWebViewManager* A544919C800E2923; // 0x10
+		::System::Boolean F103835CAC0EB92E; // 0x18
+		::System::Boolean BE776DB4D1F26D06; // 0x19
+		::System::Byte _padding0[0x6];
+		::System::String* F594F3430DE68211; // 0x20
+		::System::Action* FC1BFCAB993D006C; // 0x28
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER_A313FFDA1B48186D__CTOR_OFFSET))(this);
+		}
+
+		::System::Void FB8D58BE68DBF52F()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER_A313FFDA1B48186D_FB8D58BE68DBF52F_OFFSET))(this);
+		}
+
+		::System::Void B346A85A8D9F984F()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER_A313FFDA1B48186D_B346A85A8D9F984F_OFFSET))(this);
+		}
+
+		::System::Void A94471611CAEC334()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKWEBVIEWMANAGER_A313FFDA1B48186D_A94471611CAEC334_OFFSET))(this);
+		}
+	};
+}

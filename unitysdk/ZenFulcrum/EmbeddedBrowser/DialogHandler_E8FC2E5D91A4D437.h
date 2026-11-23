@@ -1,0 +1,40 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class EC5A64A1B2C9997F;
+namespace ZenFulcrum::EmbeddedBrowser { class DialogHandler; }
+namespace ZenFulcrum::EmbeddedBrowser { class DialogHandler_BB9EF4E83D590FEC; }
+namespace ZenFulcrum::EmbeddedBrowser { class DialogHandler_E758FCEA47C8F0F3; }
+
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_E8FC2E5D91A4D437_A646DA74F703A2BF_OFFSET UNITYSDK_OFFSET(0x43FEEC0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_E8FC2E5D91A4D437_FD4B4CC4371BE3B8_OFFSET UNITYSDK_OFFSET(0x43FEDA0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_E8FC2E5D91A4D437__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+namespace ZenFulcrum::EmbeddedBrowser
+{
+	inline static constexpr unsigned int DialogHandler_E8FC2E5D91A4D437_TypeDefinitionIndex = 19411;
+
+	class DialogHandler_E8FC2E5D91A4D437 : public ::System::Object
+	{
+	public:
+		::ZenFulcrum::EmbeddedBrowser::DialogHandler_E758FCEA47C8F0F3* F7ACC2C2D03B6970; // 0x10
+		::ZenFulcrum::EmbeddedBrowser::DialogHandler* BFDEDF516F9ED7B7; // 0x18
+		::ZenFulcrum::EmbeddedBrowser::DialogHandler_BB9EF4E83D590FEC* E3F6D5F1498C4C8F; // 0x20
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_E8FC2E5D91A4D437__CTOR_OFFSET))(this);
+		}
+
+		::System::Void FD4B4CC4371BE3B8(::EC5A64A1B2C9997F* F0D3F87128A7C4CA)
+		{
+			return ((::System::Void(*)(::PVOID, ::EC5A64A1B2C9997F*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_E8FC2E5D91A4D437_FD4B4CC4371BE3B8_OFFSET))(this, F0D3F87128A7C4CA);
+		}
+
+		::System::Void A646DA74F703A2BF(::EC5A64A1B2C9997F* F0D3F87128A7C4CA)
+		{
+			return ((::System::Void(*)(::PVOID, ::EC5A64A1B2C9997F*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_DIALOGHANDLER_E8FC2E5D91A4D437_A646DA74F703A2BF_OFFSET))(this, F0D3F87128A7C4CA);
+		}
+	};
+}

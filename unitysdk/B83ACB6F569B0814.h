@@ -1,0 +1,18 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class AB642D1382756991;
+
+#define B83ACB6F569B0814_AF96FF77D19F6578_OFFSET UNITYSDK_OFFSET(0x17649C0)
+
+inline static constexpr unsigned int B83ACB6F569B0814_TypeDefinitionIndex = 818;
+
+class B83ACB6F569B0814 : public ::System::Object
+{
+public:
+	static ::System::Void AF96FF77D19F6578(::System::UInt32 F0CD92B4B97C830C, ::AB642D1382756991* E6DA63BCACEA450E, ::AB642D1382756991* B681047EDD902A64)
+	{
+		return ((::System::Void(*)(::System::UInt32, ::AB642D1382756991*, ::AB642D1382756991*))((::PBYTE)hIl2Cpp + B83ACB6F569B0814_AF96FF77D19F6578_OFFSET))(F0CD92B4B97C830C, E6DA63BCACEA450E, B681047EDD902A64);
+	}
+};

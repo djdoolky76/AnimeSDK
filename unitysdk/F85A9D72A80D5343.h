@@ -1,0 +1,64 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class B6AE86B8D9446EE4;
+class F104FC54D6492CD6;
+class FBE1E84058268223;
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class Transform; }
+template <typename T> class FA9B773E8C9B97E9;
+
+#define F85A9D72A80D5343_AB2CD53252A86544_OFFSET UNITYSDK_OFFSET(0x1FE1A40)
+#define F85A9D72A80D5343_ABC94AB81315C2A5_OFFSET UNITYSDK_OFFSET(0x1FE1980)
+#define F85A9D72A80D5343_AE34EE7669D77516_OFFSET UNITYSDK_OFFSET(0x1FE1B60)
+#define F85A9D72A80D5343_B88A918F6773219C_OFFSET UNITYSDK_OFFSET(0x1FE1E40)
+#define F85A9D72A80D5343_BD852F9315FAEC39_OFFSET UNITYSDK_OFFSET(0x1FE19E0)
+#define F85A9D72A80D5343_FCC7443573DD0222_OFFSET UNITYSDK_OFFSET(0x1FE1920)
+#define F85A9D72A80D5343__CTOR_OFFSET UNITYSDK_OFFSET(0x1FE1F10)
+
+inline static constexpr unsigned int F85A9D72A80D5343_TypeDefinitionIndex = 8124;
+
+class F85A9D72A80D5343 : public ::System::Object
+{
+public:
+	::UnityEngine::GameObject* B543C9490A3E2C5B; // 0x10
+	::System::UInt32 E09069232C7FD6E1; // 0x18
+	::System::UInt32 AA11875A6C8D85F1; // 0x1C
+
+	::System::Void B88A918F6773219C(::F104FC54D6492CD6* AA56373A845C8012)
+	{
+		return ((::System::Void(*)(::PVOID, ::F104FC54D6492CD6*))((::PBYTE)hIl2Cpp + F85A9D72A80D5343_B88A918F6773219C_OFFSET))(this, AA56373A845C8012);
+	}
+
+	::System::Collections::Generic::IEnumerable_1<::FBE1E84058268223*>* ABC94AB81315C2A5()
+	{
+		return ((::System::Collections::Generic::IEnumerable_1<::FBE1E84058268223*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + F85A9D72A80D5343_ABC94AB81315C2A5_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::IEnumerable_1<::FBE1E84058268223*>* BD852F9315FAEC39()
+	{
+		return ((::System::Collections::Generic::IEnumerable_1<::FBE1E84058268223*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + F85A9D72A80D5343_BD852F9315FAEC39_OFFSET))(this);
+	}
+
+	::System::Void FCC7443573DD0222()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F85A9D72A80D5343_FCC7443573DD0222_OFFSET))(this);
+	}
+
+	::FA9B773E8C9B97E9<::FBE1E84058268223*>* AB2CD53252A86544(::System::UInt32 B66321A80CF80AE3)
+	{
+		return ((::FA9B773E8C9B97E9<::FBE1E84058268223*>*(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + F85A9D72A80D5343_AB2CD53252A86544_OFFSET))(this, B66321A80CF80AE3);
+	}
+
+	::System::Void AE34EE7669D77516(::B6AE86B8D9446EE4* EA0D07F4EF21A5B5, ::System::UInt32 AF58E1443454EEF4)
+	{
+		return ((::System::Void(*)(::PVOID, ::B6AE86B8D9446EE4*, ::System::UInt32))((::PBYTE)hIl2Cpp + F85A9D72A80D5343_AE34EE7669D77516_OFFSET))(this, EA0D07F4EF21A5B5, AF58E1443454EEF4);
+	}
+
+	::System::Void _ctor(::UnityEngine::Transform* BF124AE2876EC524)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + F85A9D72A80D5343__CTOR_OFFSET))(this, BF124AE2876EC524);
+	}
+};

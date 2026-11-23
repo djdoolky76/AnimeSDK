@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+
+namespace System { class String; }
+namespace UnityEngine::InputSystem { class InputControl; }
+
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_STICKDEADZONEPROCESSOR_GETDEADZONEADJUSTEDVALUE_OFFSET UNITYSDK_OFFSET(0x3F6B800)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_STICKDEADZONEPROCESSOR_GET_MAXORDEFAULT_OFFSET UNITYSDK_OFFSET(0x3F6BD10)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_STICKDEADZONEPROCESSOR_GET_MINORDEFAULT_OFFSET UNITYSDK_OFFSET(0x3F6BD80)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_STICKDEADZONEPROCESSOR_PROCESS_OFFSET UNITYSDK_OFFSET(0x3F6B950)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_STICKDEADZONEPROCESSOR_TOSTRING_OFFSET UNITYSDK_OFFSET(0x3F6BB90)
+#define UNITYENGINE_INPUTSYSTEM_PROCESSORS_STICKDEADZONEPROCESSOR__CTOR_OFFSET UNITYSDK_OFFSET(0x3F6BCD0)
+
+namespace UnityEngine::InputSystem::Processors
+{
+	inline static constexpr unsigned int StickDeadzoneProcessor_TypeDefinitionIndex = 14290;
+
+	class StickDeadzoneProcessor
+	{
+	public:
+		::System::Single min; // 0x10
+		::System::Single max; // 0x14
+
+		::System::Single GetDeadZoneAdjustedValue(::System::Single E937D4885DAA1AE8)
+		{
+			return ((::System::Single(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_PROCESSORS_STICKDEADZONEPROCESSOR_GETDEADZONEADJUSTEDVALUE_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_PROCESSORS_STICKDEADZONEPROCESSOR__CTOR_OFFSET))(this);
+		}
+
+		::System::Single get_minOrDefault()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_PROCESSORS_STICKDEADZONEPROCESSOR_GET_MINORDEFAULT_OFFSET))(this);
+		}
+
+		::System::String* ToString()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_PROCESSORS_STICKDEADZONEPROCESSOR_TOSTRING_OFFSET))(this);
+		}
+
+		::System::Single get_maxOrDefault()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_PROCESSORS_STICKDEADZONEPROCESSOR_GET_MAXORDEFAULT_OFFSET))(this);
+		}
+
+		::UnityEngine::Vector2 Process(::UnityEngine::Vector2 E937D4885DAA1AE8, ::UnityEngine::InputSystem::InputControl* B35325D9541AD934)
+		{
+			return ((::UnityEngine::Vector2(*)(::PVOID, ::UnityEngine::Vector2, ::UnityEngine::InputSystem::InputControl*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_PROCESSORS_STICKDEADZONEPROCESSOR_PROCESS_OFFSET))(this, E937D4885DAA1AE8, B35325D9541AD934);
+		}
+	};
+}

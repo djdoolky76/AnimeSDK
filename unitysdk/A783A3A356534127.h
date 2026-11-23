@@ -1,0 +1,71 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/A783A3A356534127_E571292A4AAF5991.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+namespace System::Text { class StringBuilder; }
+
+#define A783A3A356534127_B09284696C713AED_OFFSET UNITYSDK_OFFSET(0x37FE900)
+#define A783A3A356534127_B0F4A1560CEDDFDA_OFFSET UNITYSDK_OFFSET(0x37FEA00)
+#define A783A3A356534127_B5190A48E85BAF98_OFFSET UNITYSDK_OFFSET(0x37FE880)
+#define A783A3A356534127_E48229829AEAE77E_OFFSET UNITYSDK_OFFSET(0x37FE0F0)
+#define A783A3A356534127_E9C0CB4331A9256A_OFFSET UNITYSDK_OFFSET(0x37FE980)
+#define A783A3A356534127_EBB6E45866BE14E4_OFFSET UNITYSDK_OFFSET(0x37FEAD0)
+#define A783A3A356534127_EC57B373F60AB7B7_OFFSET UNITYSDK_OFFSET(0x37FE5E0)
+#define A783A3A356534127__CCTOR_OFFSET UNITYSDK_OFFSET(0x37FEBE0)
+
+inline static constexpr unsigned int A783A3A356534127_TypeDefinitionIndex = 17811;
+
+class A783A3A356534127 : public ::System::Object
+{
+public:
+	static ::System::UIntPtr* StaticGet_E9E27C677E91F875()
+	{
+		return (::System::UIntPtr*)Il2CppClass::FromTypeDefinitionIndex(A783A3A356534127_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::System::UIntPtr* StaticGet_FD0FC86D80734720()
+	{
+		return (::System::UIntPtr*)Il2CppClass::FromTypeDefinitionIndex(A783A3A356534127_TypeDefinitionIndex)->GetStaticField(0x8);
+	}
+
+	static ::System::String* E48229829AEAE77E(::System::String* E1D3BBDC26CF0ECF)
+	{
+		return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + A783A3A356534127_E48229829AEAE77E_OFFSET))(E1D3BBDC26CF0ECF);
+	}
+
+	static ::System::UInt32 B0F4A1560CEDDFDA(::System::UIntPtr B2031B7CA0D30A08, ::System::String* ED2DDA009F38650D, ::System::UInt32 B8A370E64DC9C099, ::System::Int32 FD7EA07DD897A428, ::System::Int32& A67B10E5CAF0A2FF)
+	{
+		return ((::System::UInt32(*)(::System::UIntPtr, ::System::String*, ::System::UInt32, ::System::Int32, ::System::Int32&))((::PBYTE)hIl2Cpp + A783A3A356534127_B0F4A1560CEDDFDA_OFFSET))(B2031B7CA0D30A08, ED2DDA009F38650D, B8A370E64DC9C099, FD7EA07DD897A428, A67B10E5CAF0A2FF);
+	}
+
+	static ::System::String* EC57B373F60AB7B7(::System::UIntPtr AF989EA97DA87120, ::System::String* BFE14E2EE26DFD73, ::A783A3A356534127_E571292A4AAF5991 E02C2FB5E1993DE7, ::System::String* EEFDEE2E78F88A75)
+	{
+		return ((::System::String*(*)(::System::UIntPtr, ::System::String*, ::A783A3A356534127_E571292A4AAF5991, ::System::String*))((::PBYTE)hIl2Cpp + A783A3A356534127_EC57B373F60AB7B7_OFFSET))(AF989EA97DA87120, BFE14E2EE26DFD73, E02C2FB5E1993DE7, EEFDEE2E78F88A75);
+	}
+
+	static ::System::String* B5190A48E85BAF98(::System::UIntPtr AF989EA97DA87120, ::System::String* BFE14E2EE26DFD73, ::System::String* EEFDEE2E78F88A75)
+	{
+		return ((::System::String*(*)(::System::UIntPtr, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + A783A3A356534127_B5190A48E85BAF98_OFFSET))(AF989EA97DA87120, BFE14E2EE26DFD73, EEFDEE2E78F88A75);
+	}
+
+	static ::System::UInt32 E9C0CB4331A9256A(::System::Int32 B2031B7CA0D30A08)
+	{
+		return ((::System::UInt32(*)(::System::Int32))((::PBYTE)hIl2Cpp + A783A3A356534127_E9C0CB4331A9256A_OFFSET))(B2031B7CA0D30A08);
+	}
+
+	static ::System::String* B09284696C713AED(::System::UIntPtr AF989EA97DA87120, ::System::String* BFE14E2EE26DFD73, ::System::String* EEFDEE2E78F88A75)
+	{
+		return ((::System::String*(*)(::System::UIntPtr, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + A783A3A356534127_B09284696C713AED_OFFSET))(AF989EA97DA87120, BFE14E2EE26DFD73, EEFDEE2E78F88A75);
+	}
+
+	static ::System::Int32 EBB6E45866BE14E4(::System::Int32 B2031B7CA0D30A08, ::System::String* EA366033E1AAA716, ::System::Int32 F594153F866CB061, ::System::UInt32& F2B0DC53982BEB0D, ::System::Text::StringBuilder* E053C71BBFD9E845, ::System::UInt32& A7FA7E67C23763DA)
+	{
+		return ((::System::Int32(*)(::System::Int32, ::System::String*, ::System::Int32, ::System::UInt32&, ::System::Text::StringBuilder*, ::System::UInt32&))((::PBYTE)hIl2Cpp + A783A3A356534127_EBB6E45866BE14E4_OFFSET))(B2031B7CA0D30A08, EA366033E1AAA716, F594153F866CB061, F2B0DC53982BEB0D, E053C71BBFD9E845, A7FA7E67C23763DA);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + A783A3A356534127__CCTOR_OFFSET))();
+	}
+};

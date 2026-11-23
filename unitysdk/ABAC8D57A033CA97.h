@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/E7D5E0FD8E85B2BA.h"
+#include "unitysdk/E865F6F8B8B44C1E.h"
+
+namespace System { class String; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class RectTransform; }
+
+#define ABAC8D57A033CA97_A54D936318FAF9E3_OFFSET UNITYSDK_OFFSET(0x167A250)
+#define ABAC8D57A033CA97_B541E38C2848560E_OFFSET UNITYSDK_OFFSET(0x167A3D0)
+#define ABAC8D57A033CA97_E692C857813CC5FE_OFFSET UNITYSDK_OFFSET(0x167A4D0)
+#define ABAC8D57A033CA97_EAE41585CEDA7352_OFFSET UNITYSDK_OFFSET(0x167A530)
+#define ABAC8D57A033CA97_F4F15379285E00A5_OFFSET UNITYSDK_OFFSET(0x167A470)
+#define ABAC8D57A033CA97_F6A675B119E39F53_OFFSET UNITYSDK_OFFSET(0x167A380)
+#define ABAC8D57A033CA97__CTOR_OFFSET UNITYSDK_OFFSET(0x1655F80)
+
+inline static constexpr unsigned int ABAC8D57A033CA97_TypeDefinitionIndex = 61;
+
+class ABAC8D57A033CA97 : public ::E7D5E0FD8E85B2BA
+{
+public:
+	::UnityEngine::RectTransform* F63EF58DFBF28C39; // 0x120
+	::UnityEngine::GameObject* A93187AA8C4ABB64; // 0x128
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABAC8D57A033CA97__CTOR_OFFSET))(this);
+	}
+
+	::System::String* EAE41585CEDA7352()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + ABAC8D57A033CA97_EAE41585CEDA7352_OFFSET))(this);
+	}
+
+	::E865F6F8B8B44C1E B541E38C2848560E()
+	{
+		return ((::E865F6F8B8B44C1E(*)(::PVOID))((::PBYTE)hIl2Cpp + ABAC8D57A033CA97_B541E38C2848560E_OFFSET))(this);
+	}
+
+	::System::Void F6A675B119E39F53()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABAC8D57A033CA97_F6A675B119E39F53_OFFSET))(this);
+	}
+
+	::System::Void E692C857813CC5FE()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABAC8D57A033CA97_E692C857813CC5FE_OFFSET))(this);
+	}
+
+	::System::Void F4F15379285E00A5()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABAC8D57A033CA97_F4F15379285E00A5_OFFSET))(this);
+	}
+
+	::System::Void A54D936318FAF9E3()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABAC8D57A033CA97_A54D936318FAF9E3_OFFSET))(this);
+	}
+};

@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BF785CE0C5120FB3/BD9D7CC972E0F220.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/BDC595893C6EE433/B1CEBF4F391B01CE.h"
+
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace UnityEngine { class Camera; }
+
+#define FB6CC2D1BD2D7F92_B35EE1B5B7C23943_OFFSET UNITYSDK_OFFSET(0x28F00B0)
+#define FB6CC2D1BD2D7F92_B3DC2EB443D4A14A_OFFSET UNITYSDK_OFFSET(0x28F0150)
+#define FB6CC2D1BD2D7F92_BE34C7139EE1A327_OFFSET UNITYSDK_OFFSET(0x28EFFB0)
+#define FB6CC2D1BD2D7F92_ED040D592ADBB212_OFFSET UNITYSDK_OFFSET(0x28F01F0)
+#define FB6CC2D1BD2D7F92_F74022626F190AFD_OFFSET UNITYSDK_OFFSET(0x28EFE40)
+
+inline static constexpr unsigned int FB6CC2D1BD2D7F92_TypeDefinitionIndex = 16458;
+
+class FB6CC2D1BD2D7F92 : public ::System::Object
+{
+public:
+	static ::System::Boolean* StaticGet_F9BD16F1B29166BE()
+	{
+		return (::System::Boolean*)Il2CppClass::FromTypeDefinitionIndex(FB6CC2D1BD2D7F92_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::BF785CE0C5120FB3::BD9D7CC972E0F220* StaticGet_EC947EEC084E6CEB()
+	{
+		return (::BF785CE0C5120FB3::BD9D7CC972E0F220*)Il2CppClass::FromTypeDefinitionIndex(FB6CC2D1BD2D7F92_TypeDefinitionIndex)->GetStaticField(0x4);
+	}
+
+	static ::System::Boolean BE34C7139EE1A327()
+	{
+		return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + FB6CC2D1BD2D7F92_BE34C7139EE1A327_OFFSET))();
+	}
+
+	static ::BF785CE0C5120FB3::BD9D7CC972E0F220 ED040D592ADBB212()
+	{
+		return ((::BF785CE0C5120FB3::BD9D7CC972E0F220(*)())((::PBYTE)hIl2Cpp + FB6CC2D1BD2D7F92_ED040D592ADBB212_OFFSET))();
+	}
+
+	static ::System::Void B35EE1B5B7C23943(::System::Action_2<::BDC595893C6EE433::B1CEBF4F391B01CE, ::UnityEngine::Camera*>* ABCBCC5B21FA7C82)
+	{
+		return ((::System::Void(*)(::System::Action_2<::BDC595893C6EE433::B1CEBF4F391B01CE, ::UnityEngine::Camera*>*))((::PBYTE)hIl2Cpp + FB6CC2D1BD2D7F92_B35EE1B5B7C23943_OFFSET))(ABCBCC5B21FA7C82);
+	}
+
+	static ::BF785CE0C5120FB3::BD9D7CC972E0F220 F74022626F190AFD()
+	{
+		return ((::BF785CE0C5120FB3::BD9D7CC972E0F220(*)())((::PBYTE)hIl2Cpp + FB6CC2D1BD2D7F92_F74022626F190AFD_OFFSET))();
+	}
+
+	static ::System::Void B3DC2EB443D4A14A(::System::Action_2<::BDC595893C6EE433::B1CEBF4F391B01CE, ::UnityEngine::Camera*>* ABCBCC5B21FA7C82)
+	{
+		return ((::System::Void(*)(::System::Action_2<::BDC595893C6EE433::B1CEBF4F391B01CE, ::UnityEngine::Camera*>*))((::PBYTE)hIl2Cpp + FB6CC2D1BD2D7F92_B3DC2EB443D4A14A_OFFSET))(ABCBCC5B21FA7C82);
+	}
+};

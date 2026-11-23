@@ -1,0 +1,80 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+namespace ABC::ChessGame { class ChessAnimIKMonoComponent_AB733626E8906073; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class Transform; }
+
+#define ABC_CHESSGAME_CHESSANIMIKMONOCOMPONENT_A971AE4ABA3ACE50_A09D65460A4FB331_OFFSET UNITYSDK_OFFSET(0x1E4C300)
+#define ABC_CHESSGAME_CHESSANIMIKMONOCOMPONENT_A971AE4ABA3ACE50_A26F6643499516AC_OFFSET UNITYSDK_OFFSET(0x1E4CE80)
+#define ABC_CHESSGAME_CHESSANIMIKMONOCOMPONENT_A971AE4ABA3ACE50_A8EC0FFE16684A5C_OFFSET UNITYSDK_OFFSET(0x1E4C510)
+#define ABC_CHESSGAME_CHESSANIMIKMONOCOMPONENT_A971AE4ABA3ACE50_B0F7FDF871A616A7_OFFSET UNITYSDK_OFFSET(0x1E4D340)
+#define ABC_CHESSGAME_CHESSANIMIKMONOCOMPONENT_A971AE4ABA3ACE50_BD71651BC23F5A21_OFFSET UNITYSDK_OFFSET(0x1E4D880)
+#define ABC_CHESSGAME_CHESSANIMIKMONOCOMPONENT_A971AE4ABA3ACE50_E428BFDDDF31E2C0_OFFSET UNITYSDK_OFFSET(0x1E4D590)
+#define ABC_CHESSGAME_CHESSANIMIKMONOCOMPONENT_A971AE4ABA3ACE50_ECDAD9572A27D446_OFFSET UNITYSDK_OFFSET(0x1E4C770)
+#define ABC_CHESSGAME_CHESSANIMIKMONOCOMPONENT_A971AE4ABA3ACE50_F06AE8C772358A64_OFFSET UNITYSDK_OFFSET(0x1E4CA90)
+#define ABC_CHESSGAME_CHESSANIMIKMONOCOMPONENT_A971AE4ABA3ACE50__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+namespace ABC::ChessGame
+{
+	inline static constexpr unsigned int ChessAnimIKMonoComponent_A971AE4ABA3ACE50_TypeDefinitionIndex = 9535;
+
+	class ChessAnimIKMonoComponent_A971AE4ABA3ACE50 : public ::System::Object
+	{
+	public:
+		::System::Single AABFBC2D555FD122; // 0x10
+		::UnityEngine::Vector3 F9B2FCCFD15F2B6D; // 0x14
+		::System::Collections::Generic::List_1<::System::Single>* F5C94168DD33EA1F; // 0x20
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* F14EC927F2C2886A; // 0x28
+		::System::Collections::Generic::List_1<::UnityEngine::Quaternion>* F8F9B32D2003917C; // 0x30
+		::System::Collections::Generic::List_1<::UnityEngine::Vector3>* EA31523FA0B19137; // 0x38
+
+		::System::Void ECDAD9572A27D446(::System::Collections::Generic::List_1<::UnityEngine::Transform*>* A555A68F766E3B60)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::UnityEngine::Transform*>*))((::PBYTE)hIl2Cpp + ABC_CHESSGAME_CHESSANIMIKMONOCOMPONENT_A971AE4ABA3ACE50_ECDAD9572A27D446_OFFSET))(this, A555A68F766E3B60);
+		}
+
+		::System::Void E428BFDDDF31E2C0(::System::Collections::Generic::List_1<::System::Object*>* A5ADAC7EA0910099, ::UnityEngine::Vector3 FFF299FAC6915F64)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + ABC_CHESSGAME_CHESSANIMIKMONOCOMPONENT_A971AE4ABA3ACE50_E428BFDDDF31E2C0_OFFSET))(this, A5ADAC7EA0910099, FFF299FAC6915F64);
+		}
+
+		::System::Void A26F6643499516AC(::System::Collections::Generic::List_1<::System::Object*>* A5ADAC7EA0910099)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + ABC_CHESSGAME_CHESSANIMIKMONOCOMPONENT_A971AE4ABA3ACE50_A26F6643499516AC_OFFSET))(this, A5ADAC7EA0910099);
+		}
+
+		::UnityEngine::Vector3 B0F7FDF871A616A7(::UnityEngine::Vector3 FFC480D0B8D4857B, ::UnityEngine::Vector3 E27F98B8D7DDA5FA, ::System::Single A96B867D8BBB8B00)
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + ABC_CHESSGAME_CHESSANIMIKMONOCOMPONENT_A971AE4ABA3ACE50_B0F7FDF871A616A7_OFFSET))(this, FFC480D0B8D4857B, E27F98B8D7DDA5FA, A96B867D8BBB8B00);
+		}
+
+		::System::Void A8EC0FFE16684A5C(::UnityEngine::Vector3 EB211B01816ACA79)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + ABC_CHESSGAME_CHESSANIMIKMONOCOMPONENT_A971AE4ABA3ACE50_A8EC0FFE16684A5C_OFFSET))(this, EB211B01816ACA79);
+		}
+
+		::System::Void A09D65460A4FB331(::UnityEngine::Vector3 EB211B01816ACA79)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + ABC_CHESSGAME_CHESSANIMIKMONOCOMPONENT_A971AE4ABA3ACE50_A09D65460A4FB331_OFFSET))(this, EB211B01816ACA79);
+		}
+
+		::System::Void F06AE8C772358A64(::System::Collections::Generic::List_1<::System::Object*>* A5ADAC7EA0910099)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::System::Object*>*))((::PBYTE)hIl2Cpp + ABC_CHESSGAME_CHESSANIMIKMONOCOMPONENT_A971AE4ABA3ACE50_F06AE8C772358A64_OFFSET))(this, A5ADAC7EA0910099);
+		}
+
+		::System::Void BD71651BC23F5A21(::ABC::ChessGame::ChessAnimIKMonoComponent_AB733626E8906073*& F0BB11B32D1887FB, ::UnityEngine::Vector3 BD14C5FD06DB3344, ::UnityEngine::Vector3 A0BCE51F1374E7C0, ::System::Single FEE08DFCD06F58D2)
+		{
+			return ((::System::Void(*)(::PVOID, ::ABC::ChessGame::ChessAnimIKMonoComponent_AB733626E8906073*&, ::UnityEngine::Vector3, ::UnityEngine::Vector3, ::System::Single))((::PBYTE)hIl2Cpp + ABC_CHESSGAME_CHESSANIMIKMONOCOMPONENT_A971AE4ABA3ACE50_BD71651BC23F5A21_OFFSET))(this, F0BB11B32D1887FB, BD14C5FD06DB3344, A0BCE51F1374E7C0, FEE08DFCD06F58D2);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CHESSGAME_CHESSANIMIKMONOCOMPONENT_A971AE4ABA3ACE50__CTOR_OFFSET))(this);
+		}
+	};
+}

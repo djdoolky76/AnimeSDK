@@ -1,0 +1,21 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace UnityEngine::UI
+{
+	inline static constexpr unsigned int InputField_F6342D04D169C7DC_TypeDefinitionIndex = 18506;
+
+	enum class InputField_F6342D04D169C7DC : ::System::Int32
+	{
+		Standard = 0,
+		Autocorrected = 1,
+		IntegerNumber = 2,
+		DecimalNumber = 3,
+		Alphanumeric = 4,
+		Name = 5,
+		EmailAddress = 6,
+		Password = 7,
+		Pin = 8,
+		Custom = 9,
+	};
+}

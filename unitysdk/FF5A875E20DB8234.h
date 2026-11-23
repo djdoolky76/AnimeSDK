@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/BD3E6890C9C82A9E.h"
+
+namespace System { class String; }
+
+#define FF5A875E20DB8234_A29E78D5F0E60DB7_OFFSET UNITYSDK_OFFSET(0x17D5EA0)
+#define FF5A875E20DB8234_F78C75449E4CF74F_OFFSET UNITYSDK_OFFSET(0x17D6400)
+#define FF5A875E20DB8234_FBBF870EA90E1D92_OFFSET UNITYSDK_OFFSET(0x25FF900)
+#define FF5A875E20DB8234__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int FF5A875E20DB8234_TypeDefinitionIndex = 5875;
+
+class FF5A875E20DB8234 : public ::System::Object
+{
+public:
+	::System::String* FFBA01E1E29CA03C; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FF5A875E20DB8234__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void FBBF870EA90E1D92(::BD3E6890C9C82A9E& F99B0FE319DB74D1, ::FF5A875E20DB8234*& E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::BD3E6890C9C82A9E&, ::FF5A875E20DB8234*&))((::PBYTE)hIl2Cpp + FF5A875E20DB8234_FBBF870EA90E1D92_OFFSET))(F99B0FE319DB74D1, E937D4885DAA1AE8);
+	}
+
+	::System::String* A29E78D5F0E60DB7()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + FF5A875E20DB8234_A29E78D5F0E60DB7_OFFSET))(this);
+	}
+
+	::System::Void F78C75449E4CF74F(::System::String* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + FF5A875E20DB8234_F78C75449E4CF74F_OFFSET))(this, E937D4885DAA1AE8);
+	}
+};

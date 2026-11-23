@@ -1,0 +1,89 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/TA/SceneLightComponent/VLB/EffectAbstractBase_E52ACD6F9D9A1E7F.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+namespace TA::SceneLightComponent::VLB { class VolumetricDustParticles; }
+namespace TA::SceneLightComponent::VLB { class VolumetricLightBeamAbstractBase; }
+namespace TA::SceneLightComponent::VLB { class VolumetricLightBeamSD; }
+namespace UnityEngine { class Light; }
+
+#define TA_SCENELIGHTCOMPONENT_VLB_EFFECTABSTRACTBASE_A28D6A0C3E793E7D_OFFSET UNITYSDK_OFFSET(0x2858450)
+#define TA_SCENELIGHTCOMPONENT_VLB_EFFECTABSTRACTBASE_A852209D89898F50_OFFSET UNITYSDK_OFFSET(0x2858780)
+#define TA_SCENELIGHTCOMPONENT_VLB_EFFECTABSTRACTBASE_B7E7938E28EA0EF2_OFFSET UNITYSDK_OFFSET(0x2858510)
+#define TA_SCENELIGHTCOMPONENT_VLB_EFFECTABSTRACTBASE_BF13C91AD80643D2_OFFSET UNITYSDK_OFFSET(0x28584C0)
+#define TA_SCENELIGHTCOMPONENT_VLB_EFFECTABSTRACTBASE_E1E04CEA7F5BBABD_OFFSET UNITYSDK_OFFSET(0x28583A0)
+#define TA_SCENELIGHTCOMPONENT_VLB_EFFECTABSTRACTBASE_E4F017809BB06F8F_OFFSET UNITYSDK_OFFSET(0x28582E0)
+#define TA_SCENELIGHTCOMPONENT_VLB_EFFECTABSTRACTBASE_E9F38FFA3AE948FF_OFFSET UNITYSDK_OFFSET(0x23458E0)
+#define TA_SCENELIGHTCOMPONENT_VLB_EFFECTABSTRACTBASE_F4B54AF965CC2574_OFFSET UNITYSDK_OFFSET(0x23458F0)
+#define TA_SCENELIGHTCOMPONENT_VLB_EFFECTABSTRACTBASE_FDBCDBBFE02CD51A_OFFSET UNITYSDK_OFFSET(0x28580B0)
+#define TA_SCENELIGHTCOMPONENT_VLB_EFFECTABSTRACTBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x2858870)
+
+namespace TA::SceneLightComponent::VLB
+{
+	inline static constexpr unsigned int EffectAbstractBase_TypeDefinitionIndex = 16033;
+
+	class EffectAbstractBase : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::TA::SceneLightComponent::VLB::EffectAbstractBase_E52ACD6F9D9A1E7F componentsToChange; // 0x20
+		::System::Boolean restoreIntensityOnDisable; // 0x24
+		::System::Byte _padding0[0x3];
+		::TA::SceneLightComponent::VLB::VolumetricLightBeamAbstractBase* B8CE2972F20D7720; // 0x28
+		::UnityEngine::Light* E5D011E7BB6EF2AE; // 0x30
+		::TA::SceneLightComponent::VLB::VolumetricDustParticles* EEB647248592660D; // 0x38
+		::System::Single B49868653C17C074; // 0x40
+		::System::Single B9C4D88F7659BC23; // 0x44
+		::System::Single A1773D4E2227B1A8; // 0x48
+
+		::System::Void FDBCDBBFE02CD51A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TA_SCENELIGHTCOMPONENT_VLB_EFFECTABSTRACTBASE_FDBCDBBFE02CD51A_OFFSET))(this);
+		}
+
+		::System::Void E4F017809BB06F8F(::TA::SceneLightComponent::VLB::VolumetricLightBeamSD* AC89894A6933E3E7)
+		{
+			return ((::System::Void(*)(::PVOID, ::TA::SceneLightComponent::VLB::VolumetricLightBeamSD*))((::PBYTE)hIl2Cpp + TA_SCENELIGHTCOMPONENT_VLB_EFFECTABSTRACTBASE_E4F017809BB06F8F_OFFSET))(this, AC89894A6933E3E7);
+		}
+
+		::System::Boolean E9F38FFA3AE948FF()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + TA_SCENELIGHTCOMPONENT_VLB_EFFECTABSTRACTBASE_E9F38FFA3AE948FF_OFFSET))(this);
+		}
+
+		::System::Void F4B54AF965CC2574(::System::Boolean E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + TA_SCENELIGHTCOMPONENT_VLB_EFFECTABSTRACTBASE_F4B54AF965CC2574_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void BF13C91AD80643D2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TA_SCENELIGHTCOMPONENT_VLB_EFFECTABSTRACTBASE_BF13C91AD80643D2_OFFSET))(this);
+		}
+
+		::System::Void A28D6A0C3E793E7D()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TA_SCENELIGHTCOMPONENT_VLB_EFFECTABSTRACTBASE_A28D6A0C3E793E7D_OFFSET))(this);
+		}
+
+		::System::Void E1E04CEA7F5BBABD(::TA::SceneLightComponent::VLB::EffectAbstractBase* B71DB94CCECA26C4)
+		{
+			return ((::System::Void(*)(::PVOID, ::TA::SceneLightComponent::VLB::EffectAbstractBase*))((::PBYTE)hIl2Cpp + TA_SCENELIGHTCOMPONENT_VLB_EFFECTABSTRACTBASE_E1E04CEA7F5BBABD_OFFSET))(this, B71DB94CCECA26C4);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + TA_SCENELIGHTCOMPONENT_VLB_EFFECTABSTRACTBASE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void B7E7938E28EA0EF2(::System::Single F9CE768BDBCD90FA)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + TA_SCENELIGHTCOMPONENT_VLB_EFFECTABSTRACTBASE_B7E7938E28EA0EF2_OFFSET))(this, F9CE768BDBCD90FA);
+		}
+
+		::System::Void A852209D89898F50(::TA::SceneLightComponent::VLB::VolumetricLightBeamSD* AC89894A6933E3E7, ::System::Single F9CE768BDBCD90FA)
+		{
+			return ((::System::Void(*)(::PVOID, ::TA::SceneLightComponent::VLB::VolumetricLightBeamSD*, ::System::Single))((::PBYTE)hIl2Cpp + TA_SCENELIGHTCOMPONENT_VLB_EFFECTABSTRACTBASE_A852209D89898F50_OFFSET))(this, AC89894A6933E3E7, F9CE768BDBCD90FA);
+		}
+	};
+}

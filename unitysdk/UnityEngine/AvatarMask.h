@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/BCBA0634864BE92A.h"
+#include "unitysdk/UnityEngine/Object.h"
+
+namespace System { class String; }
+
+#define UNITYENGINE_AVATARMASK_A1B7AC0ABE24239F_OFFSET UNITYSDK_OFFSET(0x41047D0)
+#define UNITYENGINE_AVATARMASK_A84FA821186E8DB7_OFFSET UNITYSDK_OFFSET(0x4104990)
+#define UNITYENGINE_AVATARMASK_B2BAAC1D3A5D4EC8_OFFSET UNITYSDK_OFFSET(0x4104810)
+#define UNITYENGINE_AVATARMASK_B6681BFB4D39ADAB_OFFSET UNITYSDK_OFFSET(0x4104860)
+#define UNITYENGINE_AVATARMASK_EB411732C99E3152_OFFSET UNITYSDK_OFFSET(0x41048E0)
+#define UNITYENGINE_AVATARMASK_F180C5248716B60C_OFFSET UNITYSDK_OFFSET(0x41048A0)
+#define UNITYENGINE_AVATARMASK__CTOR_OFFSET UNITYSDK_OFFSET(0x4104920)
+
+namespace UnityEngine
+{
+	inline static constexpr unsigned int AvatarMask_TypeDefinitionIndex = 21082;
+
+	class AvatarMask : public ::UnityEngine::Object
+	{
+	public:
+		::System::Boolean B2BAAC1D3A5D4EC8(::System::Int32 B48C66E5FB2449C6)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AVATARMASK_B2BAAC1D3A5D4EC8_OFFSET))(this, B48C66E5FB2449C6);
+		}
+
+		::System::Boolean A1B7AC0ABE24239F(::UnityEngine::BCBA0634864BE92A B48C66E5FB2449C6)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::BCBA0634864BE92A))((::PBYTE)hIl2Cpp + UNITYENGINE_AVATARMASK_A1B7AC0ABE24239F_OFFSET))(this, B48C66E5FB2449C6);
+		}
+
+		::System::Single F180C5248716B60C(::System::Int32 B48C66E5FB2449C6)
+		{
+			return ((::System::Single(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AVATARMASK_F180C5248716B60C_OFFSET))(this, B48C66E5FB2449C6);
+		}
+
+		static ::System::Void EB411732C99E3152(::UnityEngine::AvatarMask* BD8273AB04C4B760)
+		{
+			return ((::System::Void(*)(::UnityEngine::AvatarMask*))((::PBYTE)hIl2Cpp + UNITYENGINE_AVATARMASK_EB411732C99E3152_OFFSET))(BD8273AB04C4B760);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AVATARMASK__CTOR_OFFSET))(this);
+		}
+
+		::System::Int32 A84FA821186E8DB7()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_AVATARMASK_A84FA821186E8DB7_OFFSET))(this);
+		}
+
+		::System::String* B6681BFB4D39ADAB(::System::Int32 B48C66E5FB2449C6)
+		{
+			return ((::System::String*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_AVATARMASK_B6681BFB4D39ADAB_OFFSET))(this, B48C66E5FB2449C6);
+		}
+	};
+}

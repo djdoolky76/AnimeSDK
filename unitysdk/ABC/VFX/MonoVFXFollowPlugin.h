@@ -1,0 +1,46 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/ABC/Entity/MonoVFXBase.h"
+#include "unitysdk/B4DC0F630E08B9B8/E3C78E0E13D5B00D.h"
+
+#define ABC_VFX_MONOVFXFOLLOWPLUGIN_A701E2D945E9BFFD_OFFSET UNITYSDK_OFFSET(0x1FBD2A0)
+#define ABC_VFX_MONOVFXFOLLOWPLUGIN_AA0DA33C6E692ED3_OFFSET UNITYSDK_OFFSET(0x1FBCFE0)
+#define ABC_VFX_MONOVFXFOLLOWPLUGIN_AA759CF84A82B2B3_OFFSET UNITYSDK_OFFSET(0x1F71560)
+#define ABC_VFX_MONOVFXFOLLOWPLUGIN_F3E546EFACD54F09_OFFSET UNITYSDK_OFFSET(0x1FBD030)
+#define ABC_VFX_MONOVFXFOLLOWPLUGIN__CTOR_OFFSET UNITYSDK_OFFSET(0x1708400)
+
+namespace ABC::VFX
+{
+	inline static constexpr unsigned int MonoVFXFollowPlugin_TypeDefinitionIndex = 6833;
+
+	class MonoVFXFollowPlugin : public ::ABC::Entity::MonoVFXBase
+	{
+	public:
+		::B4DC0F630E08B9B8::E3C78E0E13D5B00D FollowType; // 0x30
+
+		::System::Void A701E2D945E9BFFD()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_VFX_MONOVFXFOLLOWPLUGIN_A701E2D945E9BFFD_OFFSET))(this);
+		}
+
+		::System::Void F3E546EFACD54F09()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_VFX_MONOVFXFOLLOWPLUGIN_F3E546EFACD54F09_OFFSET))(this);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_VFX_MONOVFXFOLLOWPLUGIN__CTOR_OFFSET))(this);
+		}
+
+		::System::Void AA0DA33C6E692ED3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_VFX_MONOVFXFOLLOWPLUGIN_AA0DA33C6E692ED3_OFFSET))(this);
+		}
+
+		::System::Void AA759CF84A82B2B3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_VFX_MONOVFXFOLLOWPLUGIN_AA759CF84A82B2B3_OFFSET))(this);
+		}
+	};
+}

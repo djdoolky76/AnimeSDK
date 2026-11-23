@@ -1,0 +1,34 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+inline static constexpr unsigned int B5C2F18B73337FC8_BF625044E831C7D1_TypeDefinitionIndex = 19105;
+
+enum class B5C2F18B73337FC8_BF625044E831C7D1 : ::System::Int32
+{
+	Volume = 0,
+	Pitch = 1,
+	Pan3dAngle = 2,
+	Pan3dDistance = 3,
+	Pan3dVolume = 4,
+	BusSendLevel0 = 9,
+	BusSendLevel1 = 10,
+	BusSendLevel2 = 11,
+	BusSendLevel3 = 12,
+	BusSendLevel4 = 13,
+	BusSendLevel5 = 14,
+	BusSendLevel6 = 15,
+	BusSendLevel7 = 16,
+	BandPassFilterCofLow = 17,
+	BandPassFilterCofHigh = 18,
+	BiquadFilterType = 19,
+	BiquadFilterFreq = 20,
+	BiquadFIlterQ = 21,
+	BiquadFilterGain = 22,
+	EnvelopeAttackTime = 23,
+	EnvelopeHoldTime = 24,
+	EnvelopeDecayTime = 25,
+	EnvelopeReleaseTime = 26,
+	EnvelopeSustainLevel = 27,
+	StartTime = 28,
+	Priority = 31,
+};

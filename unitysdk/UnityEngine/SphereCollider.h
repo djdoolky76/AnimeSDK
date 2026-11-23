@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Collider.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+#define UNITYENGINE_SPHERECOLLIDER_A4EB194B84E346B3_OFFSET UNITYSDK_OFFSET(0x41BD700)
+#define UNITYENGINE_SPHERECOLLIDER_AC150E2090312218_OFFSET UNITYSDK_OFFSET(0x41BD750)
+#define UNITYENGINE_SPHERECOLLIDER_B44FC516815AF6A9_OFFSET UNITYSDK_OFFSET(0x41BD790)
+#define UNITYENGINE_SPHERECOLLIDER_E79712C8F4B75D75_OFFSET UNITYSDK_OFFSET(0x41BD7E0)
+#define UNITYENGINE_SPHERECOLLIDER_EFEDEB0FEA4CB594_OFFSET UNITYSDK_OFFSET(0x41BD830)
+#define UNITYENGINE_SPHERECOLLIDER_FA2C9A92926D0CF3_OFFSET UNITYSDK_OFFSET(0x41BD6B0)
+
+namespace UnityEngine
+{
+	inline static constexpr unsigned int SphereCollider_TypeDefinitionIndex = 20812;
+
+	class SphereCollider : public ::UnityEngine::Collider
+	{
+	public:
+		::System::Void E79712C8F4B75D75(::UnityEngine::Vector3 E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_SPHERECOLLIDER_E79712C8F4B75D75_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void B44FC516815AF6A9(::UnityEngine::Vector3& E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + UNITYENGINE_SPHERECOLLIDER_B44FC516815AF6A9_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void FA2C9A92926D0CF3(::UnityEngine::Vector3& FEC8DC0392823C8D)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + UNITYENGINE_SPHERECOLLIDER_FA2C9A92926D0CF3_OFFSET))(this, FEC8DC0392823C8D);
+		}
+
+		::System::Single AC150E2090312218()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_SPHERECOLLIDER_AC150E2090312218_OFFSET))(this);
+		}
+
+		::System::Void EFEDEB0FEA4CB594(::System::Single E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_SPHERECOLLIDER_EFEDEB0FEA4CB594_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::UnityEngine::Vector3 A4EB194B84E346B3()
+		{
+			return ((::UnityEngine::Vector3(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_SPHERECOLLIDER_A4EB194B84E346B3_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,65 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/AD61077CFCBEFAEA.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/UnityEngine/E46B881AA2636190.h"
+
+namespace ABC::UI { class MonoLocalizedTmp; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+
+#define BB48CE1188BAFEDF_A11EACC0E1D9A502_1_OFFSET UNITYSDK_OFFSET(0x2284760)
+#define BB48CE1188BAFEDF_A11EACC0E1D9A502_OFFSET UNITYSDK_OFFSET(0x2284850)
+#define BB48CE1188BAFEDF_A374DC47954B8D0B_OFFSET UNITYSDK_OFFSET(0x2284590)
+#define BB48CE1188BAFEDF_A5D8920F4335FFE3_OFFSET UNITYSDK_OFFSET(0x2284690)
+#define BB48CE1188BAFEDF_AD7FCA650E56631F_1_OFFSET UNITYSDK_OFFSET(0x2284C80)
+#define BB48CE1188BAFEDF_AD7FCA650E56631F_2_OFFSET UNITYSDK_OFFSET(0x2284B80)
+#define BB48CE1188BAFEDF_AD7FCA650E56631F_OFFSET UNITYSDK_OFFSET(0x2284A80)
+#define BB48CE1188BAFEDF_F73591DA04AC331A_OFFSET UNITYSDK_OFFSET(0x2284960)
+
+inline static constexpr unsigned int BB48CE1188BAFEDF_TypeDefinitionIndex = 7021;
+
+class BB48CE1188BAFEDF : public ::System::Object
+{
+public:
+	static ::System::Void AD7FCA650E56631F(::ABC::UI::MonoLocalizedTmp* E97E8D008427A296, ::AD61077CFCBEFAEA BB83557721B5F386, ::System::Boolean F7C511FBCE59B4A5)
+	{
+		return ((::System::Void(*)(::ABC::UI::MonoLocalizedTmp*, ::AD61077CFCBEFAEA, ::System::Boolean))((::PBYTE)hIl2Cpp + BB48CE1188BAFEDF_AD7FCA650E56631F_OFFSET))(E97E8D008427A296, BB83557721B5F386, F7C511FBCE59B4A5);
+	}
+
+	static ::System::Void F73591DA04AC331A(::ABC::UI::MonoLocalizedTmp* E97E8D008427A296, ::System::String* BB83557721B5F386, ::System::Boolean F7C511FBCE59B4A5)
+	{
+		return ((::System::Void(*)(::ABC::UI::MonoLocalizedTmp*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + BB48CE1188BAFEDF_F73591DA04AC331A_OFFSET))(E97E8D008427A296, BB83557721B5F386, F7C511FBCE59B4A5);
+	}
+
+	static ::System::Void AD7FCA650E56631F_1(::ABC::UI::MonoLocalizedTmp* E97E8D008427A296, ::System::Nullable_1<::AD61077CFCBEFAEA> BB83557721B5F386, ::System::Boolean F7C511FBCE59B4A5)
+	{
+		return ((::System::Void(*)(::ABC::UI::MonoLocalizedTmp*, ::System::Nullable_1<::AD61077CFCBEFAEA>, ::System::Boolean))((::PBYTE)hIl2Cpp + BB48CE1188BAFEDF_AD7FCA650E56631F_1_OFFSET))(E97E8D008427A296, BB83557721B5F386, F7C511FBCE59B4A5);
+	}
+
+	static ::System::Void AD7FCA650E56631F_2(::ABC::UI::MonoLocalizedTmp* E97E8D008427A296, ::System::String* BB83557721B5F386, ::System::Boolean F7C511FBCE59B4A5)
+	{
+		return ((::System::Void(*)(::ABC::UI::MonoLocalizedTmp*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + BB48CE1188BAFEDF_AD7FCA650E56631F_2_OFFSET))(E97E8D008427A296, BB83557721B5F386, F7C511FBCE59B4A5);
+	}
+
+	static ::System::Void A5D8920F4335FFE3(::ABC::UI::MonoLocalizedTmp* A4A61A7BC96D938B, ::System::Single B293560EBB811EA6, ::System::Boolean F7C511FBCE59B4A5)
+	{
+		return ((::System::Void(*)(::ABC::UI::MonoLocalizedTmp*, ::System::Single, ::System::Boolean))((::PBYTE)hIl2Cpp + BB48CE1188BAFEDF_A5D8920F4335FFE3_OFFSET))(A4A61A7BC96D938B, B293560EBB811EA6, F7C511FBCE59B4A5);
+	}
+
+	static ::System::Void A11EACC0E1D9A502(::ABC::UI::MonoLocalizedTmp* E97E8D008427A296, ::System::String* BB7018286CE6B1EB, ::System::Boolean F7C511FBCE59B4A5)
+	{
+		return ((::System::Void(*)(::ABC::UI::MonoLocalizedTmp*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + BB48CE1188BAFEDF_A11EACC0E1D9A502_OFFSET))(E97E8D008427A296, BB7018286CE6B1EB, F7C511FBCE59B4A5);
+	}
+
+	static ::System::Void A374DC47954B8D0B(::ABC::UI::MonoLocalizedTmp* E97E8D008427A296, ::System::Action_1<::System::String*>* A148D02C64816912, ::System::Boolean F7C511FBCE59B4A5)
+	{
+		return ((::System::Void(*)(::ABC::UI::MonoLocalizedTmp*, ::System::Action_1<::System::String*>*, ::System::Boolean))((::PBYTE)hIl2Cpp + BB48CE1188BAFEDF_A374DC47954B8D0B_OFFSET))(E97E8D008427A296, A148D02C64816912, F7C511FBCE59B4A5);
+	}
+
+	static ::System::Void A11EACC0E1D9A502_1(::ABC::UI::MonoLocalizedTmp* E97E8D008427A296, ::UnityEngine::E46B881AA2636190 FD6BEC6563AC7110, ::System::Boolean F7C511FBCE59B4A5)
+	{
+		return ((::System::Void(*)(::ABC::UI::MonoLocalizedTmp*, ::UnityEngine::E46B881AA2636190, ::System::Boolean))((::PBYTE)hIl2Cpp + BB48CE1188BAFEDF_A11EACC0E1D9A502_1_OFFSET))(E97E8D008427A296, FD6BEC6563AC7110, F7C511FBCE59B4A5);
+	}
+};

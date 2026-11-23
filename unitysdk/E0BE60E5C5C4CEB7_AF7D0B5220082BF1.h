@@ -1,0 +1,19 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+class EADDDF5E8A2AF75D;
+
+#define E0BE60E5C5C4CEB7_AF7D0B5220082BF1__CTOR_OFFSET UNITYSDK_OFFSET(0x19FB3C0)
+
+inline static constexpr unsigned int E0BE60E5C5C4CEB7_AF7D0B5220082BF1_TypeDefinitionIndex = 9088;
+
+struct alignas(8) E0BE60E5C5C4CEB7_AF7D0B5220082BF1
+{
+	::EADDDF5E8A2AF75D* E503CF3EAE138E9D; // 0x10
+
+	::System::Void _ctor(::EADDDF5E8A2AF75D* B64D58BD11014DA4)
+	{
+		return ((::System::Void(*)(::PVOID, ::EADDDF5E8A2AF75D*))((::PBYTE)hIl2Cpp + E0BE60E5C5C4CEB7_AF7D0B5220082BF1__CTOR_OFFSET))(this, B64D58BD11014DA4);
+	}
+};

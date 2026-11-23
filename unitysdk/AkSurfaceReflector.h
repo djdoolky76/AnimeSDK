@@ -1,0 +1,216 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+#include "unitysdk/AkSurfaceReflector_BF06A591335C5733.h"
+
+class AkRoom;
+namespace AK::Wwise { class AcousticTexture; }
+namespace System { class String; }
+namespace UnityEngine { class Mesh; }
+namespace UnityEngine { class MeshFilter; }
+namespace UnityEngine { class Transform; }
+
+#define AKSURFACEREFLECTOR_A0748C0E962B3AC6_OFFSET UNITYSDK_OFFSET(0x2926190)
+#define AKSURFACEREFLECTOR_A24676D2EBD7740F_OFFSET UNITYSDK_OFFSET(0x2924AB0)
+#define AKSURFACEREFLECTOR_A28D6A0C3E793E7D_OFFSET UNITYSDK_OFFSET(0x2925F10)
+#define AKSURFACEREFLECTOR_A2995DDF30A42AAB_OFFSET UNITYSDK_OFFSET(0x291E8E0)
+#define AKSURFACEREFLECTOR_A5397D957BF2553A_OFFSET UNITYSDK_OFFSET(0x2926CE0)
+#define AKSURFACEREFLECTOR_A67138C83B7242B7_OFFSET UNITYSDK_OFFSET(0x29262F0)
+#define AKSURFACEREFLECTOR_AB36E0EE549986E5_OFFSET UNITYSDK_OFFSET(0x2925EA0)
+#define AKSURFACEREFLECTOR_ABB7C9FCA995800D_OFFSET UNITYSDK_OFFSET(0x2926FA0)
+#define AKSURFACEREFLECTOR_AE31A5DDF084ECD1_OFFSET UNITYSDK_OFFSET(0x2924AD0)
+#define AKSURFACEREFLECTOR_AF790F9A37A247B8_1_OFFSET UNITYSDK_OFFSET(0x29264A0)
+#define AKSURFACEREFLECTOR_AF790F9A37A247B8_2_OFFSET UNITYSDK_OFFSET(0x29263E0)
+#define AKSURFACEREFLECTOR_AF790F9A37A247B8_OFFSET UNITYSDK_OFFSET(0x2926540)
+#define AKSURFACEREFLECTOR_B262A033AEC6EF1A_1_OFFSET UNITYSDK_OFFSET(0x29267B0)
+#define AKSURFACEREFLECTOR_B262A033AEC6EF1A_2_OFFSET UNITYSDK_OFFSET(0x29267D0)
+#define AKSURFACEREFLECTOR_B262A033AEC6EF1A_OFFSET UNITYSDK_OFFSET(0x29269C0)
+#define AKSURFACEREFLECTOR_B69D52AF03135543_OFFSET UNITYSDK_OFFSET(0x2926D60)
+#define AKSURFACEREFLECTOR_B773F6D990F85BD0_OFFSET UNITYSDK_OFFSET(0x17395E0)
+#define AKSURFACEREFLECTOR_B8B6F8FBE6B68C5A_OFFSET UNITYSDK_OFFSET(0x2924730)
+#define AKSURFACEREFLECTOR_BF13C91AD80643D2_OFFSET UNITYSDK_OFFSET(0x2926050)
+#define AKSURFACEREFLECTOR_E02954280801633F_OFFSET UNITYSDK_OFFSET(0x2926D70)
+#define AKSURFACEREFLECTOR_E1674174683AA990_OFFSET UNITYSDK_OFFSET(0x2924BB0)
+#define AKSURFACEREFLECTOR_E1D4DFD656F1258D_OFFSET UNITYSDK_OFFSET(0x29261F0)
+#define AKSURFACEREFLECTOR_E7CD5D695653C395_OFFSET UNITYSDK_OFFSET(0x2926FE0)
+#define AKSURFACEREFLECTOR_E888CE3D98210B73_OFFSET UNITYSDK_OFFSET(0x29259B0)
+#define AKSURFACEREFLECTOR_EC749B660EF0763D_OFFSET UNITYSDK_OFFSET(0x1BF9BA0)
+#define AKSURFACEREFLECTOR_EF2BBF7116E59BBE_OFFSET UNITYSDK_OFFSET(0x2925C70)
+#define AKSURFACEREFLECTOR_F23546272D390924_OFFSET UNITYSDK_OFFSET(0x2926AD0)
+#define AKSURFACEREFLECTOR_FA091D212AC84CCA_OFFSET UNITYSDK_OFFSET(0x2926290)
+#define AKSURFACEREFLECTOR_FDBCDBBFE02CD51A_OFFSET UNITYSDK_OFFSET(0x29249E0)
+#define AKSURFACEREFLECTOR__CTOR_OFFSET UNITYSDK_OFFSET(0x2926EB0)
+
+inline static constexpr unsigned int AkSurfaceReflector_TypeDefinitionIndex = 20452;
+
+class AkSurfaceReflector : public ::UnityEngine::MonoBehaviour
+{
+public:
+	static ::System::UInt64* StaticGet_B5418BEB31A153FF()
+	{
+		return (::System::UInt64*)Il2CppClass::FromTypeDefinitionIndex(AkSurfaceReflector_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	::UnityEngine::Mesh* Mesh; // 0x20
+	::Il2CppArray<::AK::Wwise::AcousticTexture*>* AcousticTextures; // 0x28
+	::Il2CppArray<::System::Single>* TransmissionLossValues; // 0x30
+	::System::Boolean EnableDiffraction; // 0x38
+	::System::Boolean EnableDiffractionOnBoundaryEdges; // 0x39
+	::System::Byte _padding0[0x6];
+	::AkRoom* AssociatedRoom; // 0x40
+	::System::Int32 AB0227580035A210; // 0x48
+	::System::Int32 A41DB45075F04AF9; // 0x4C
+	::System::Int32 BFF37D2124FBC515; // 0x50
+	::System::Boolean FD2D5492F13F8CF9; // 0x54
+	::System::Byte _padding1[0x3];
+	::AK::Wwise::AcousticTexture* AcousticTextureInternal; // 0x58
+
+	::System::Int32 AE31A5DDF084ECD1()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_AE31A5DDF084ECD1_OFFSET))(this);
+	}
+
+	::AK::Wwise::AcousticTexture* ABB7C9FCA995800D()
+	{
+		return ((::AK::Wwise::AcousticTexture*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_ABB7C9FCA995800D_OFFSET))(this);
+	}
+
+	static ::System::Void E1D4DFD656F1258D(::UnityEngine::MeshFilter* E4D9F1E6C2E2D895)
+	{
+		return ((::System::Void(*)(::UnityEngine::MeshFilter*))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_E1D4DFD656F1258D_OFFSET))(E4D9F1E6C2E2D895);
+	}
+
+	static ::System::Void B8B6F8FBE6B68C5A(::AK::Wwise::AcousticTexture* E32F1B01FA086C65, ::UnityEngine::MeshFilter* E4D9F1E6C2E2D895, ::System::UInt64 E7AF835EF5D89618, ::System::Boolean A77AFDE57C8DAA51, ::System::Boolean E096F515AC33A38E, ::System::Boolean F9B464CBAD56673A)
+	{
+		return ((::System::Void(*)(::AK::Wwise::AcousticTexture*, ::UnityEngine::MeshFilter*, ::System::UInt64, ::System::Boolean, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_B8B6F8FBE6B68C5A_OFFSET))(E32F1B01FA086C65, E4D9F1E6C2E2D895, E7AF835EF5D89618, A77AFDE57C8DAA51, E096F515AC33A38E, F9B464CBAD56673A);
+	}
+
+	::Il2CppArray<::System::Single>* B773F6D990F85BD0()
+	{
+		return ((::Il2CppArray<::System::Single>*(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_B773F6D990F85BD0_OFFSET))(this);
+	}
+
+	static ::System::Boolean AF790F9A37A247B8(::UnityEngine::Mesh* FF762A0FE86505A5, ::System::UInt64 E3875CB4D37749C6, ::System::Boolean A77AFDE57C8DAA51, ::System::Boolean E096F515AC33A38E, ::Il2CppArray<::AK::Wwise::AcousticTexture*>* A1EB9C8661EFEE50, ::Il2CppArray<::System::Single>* A15F64E3151C7574, ::System::String* F79B4D487F303AB2)
+	{
+		return ((::System::Boolean(*)(::UnityEngine::Mesh*, ::System::UInt64, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::AK::Wwise::AcousticTexture*>*, ::Il2CppArray<::System::Single>*, ::System::String*))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_AF790F9A37A247B8_OFFSET))(FF762A0FE86505A5, E3875CB4D37749C6, A77AFDE57C8DAA51, E096F515AC33A38E, A1EB9C8661EFEE50, A15F64E3151C7574, F79B4D487F303AB2);
+	}
+
+	::System::Void B69D52AF03135543()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_B69D52AF03135543_OFFSET))(this);
+	}
+
+	static ::System::Void AF790F9A37A247B8_1(::UnityEngine::Mesh* FF762A0FE86505A5, ::System::UInt64 E3875CB4D37749C6, ::System::Boolean A77AFDE57C8DAA51, ::System::Boolean E096F515AC33A38E, ::System::Boolean F9B464CBAD56673A, ::Il2CppArray<::AK::Wwise::AcousticTexture*>* A1EB9C8661EFEE50, ::Il2CppArray<::System::Single>* A15F64E3151C7574, ::System::String* F79B4D487F303AB2)
+	{
+		return ((::System::Void(*)(::UnityEngine::Mesh*, ::System::UInt64, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::AK::Wwise::AcousticTexture*>*, ::Il2CppArray<::System::Single>*, ::System::String*))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_AF790F9A37A247B8_1_OFFSET))(FF762A0FE86505A5, E3875CB4D37749C6, A77AFDE57C8DAA51, E096F515AC33A38E, F9B464CBAD56673A, A1EB9C8661EFEE50, A15F64E3151C7574, F79B4D487F303AB2);
+	}
+
+	static ::System::Void AF790F9A37A247B8_2(::UnityEngine::Mesh* FF762A0FE86505A5, ::UnityEngine::Transform* E7A41DB667CBC570, ::System::UInt64 E3875CB4D37749C6, ::System::UInt64 BE2620F0B5BF9619, ::System::Boolean A77AFDE57C8DAA51, ::System::Boolean E096F515AC33A38E, ::System::Boolean F9B464CBAD56673A, ::Il2CppArray<::AK::Wwise::AcousticTexture*>* A1EB9C8661EFEE50, ::Il2CppArray<::System::Single>* A15F64E3151C7574, ::System::String* F79B4D487F303AB2)
+	{
+		return ((::System::Void(*)(::UnityEngine::Mesh*, ::UnityEngine::Transform*, ::System::UInt64, ::System::UInt64, ::System::Boolean, ::System::Boolean, ::System::Boolean, ::Il2CppArray<::AK::Wwise::AcousticTexture*>*, ::Il2CppArray<::System::Single>*, ::System::String*))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_AF790F9A37A247B8_2_OFFSET))(FF762A0FE86505A5, E7A41DB667CBC570, E3875CB4D37749C6, BE2620F0B5BF9619, A77AFDE57C8DAA51, E096F515AC33A38E, F9B464CBAD56673A, A1EB9C8661EFEE50, A15F64E3151C7574, F79B4D487F303AB2);
+	}
+
+	::System::Void AB36E0EE549986E5()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_AB36E0EE549986E5_OFFSET))(this);
+	}
+
+	::System::Void B262A033AEC6EF1A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_B262A033AEC6EF1A_OFFSET))(this);
+	}
+
+	::System::Void FDBCDBBFE02CD51A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_FDBCDBBFE02CD51A_OFFSET))(this);
+	}
+
+	::System::Void BF13C91AD80643D2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_BF13C91AD80643D2_OFFSET))(this);
+	}
+
+	::System::Void A67138C83B7242B7(::AkRoom* BE6E61920F79DDD0)
+	{
+		return ((::System::Void(*)(::PVOID, ::AkRoom*))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_A67138C83B7242B7_OFFSET))(this, BE6E61920F79DDD0);
+	}
+
+	static ::System::Void B262A033AEC6EF1A_1(::System::UInt64 BA6243632A10C035, ::System::UInt64 E3875CB4D37749C6, ::System::UInt64 BE2620F0B5BF9619, ::UnityEngine::Transform* E7A41DB667CBC570)
+	{
+		return ((::System::Void(*)(::System::UInt64, ::System::UInt64, ::System::UInt64, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_B262A033AEC6EF1A_1_OFFSET))(BA6243632A10C035, E3875CB4D37749C6, BE2620F0B5BF9619, E7A41DB667CBC570);
+	}
+
+	::System::Void E02954280801633F()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_E02954280801633F_OFFSET))(this);
+	}
+
+	::System::Void FA091D212AC84CCA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_FA091D212AC84CCA_OFFSET))(this);
+	}
+
+	::System::Void F23546272D390924()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_F23546272D390924_OFFSET))(this);
+	}
+
+	static ::System::Void E1674174683AA990(::UnityEngine::Mesh* FF762A0FE86505A5, ::AkSurfaceReflector_BF06A591335C5733& AAAB70CDB02E5DA1, ::Il2CppArray<::AK::Wwise::AcousticTexture*>* A1EB9C8661EFEE50, ::Il2CppArray<::System::Single>* A15F64E3151C7574, ::System::String* F79B4D487F303AB2)
+	{
+		return ((::System::Void(*)(::UnityEngine::Mesh*, ::AkSurfaceReflector_BF06A591335C5733&, ::Il2CppArray<::AK::Wwise::AcousticTexture*>*, ::Il2CppArray<::System::Single>*, ::System::String*))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_E1674174683AA990_OFFSET))(FF762A0FE86505A5, AAAB70CDB02E5DA1, A1EB9C8661EFEE50, A15F64E3151C7574, F79B4D487F303AB2);
+	}
+
+	::System::Void E7CD5D695653C395(::AK::Wwise::AcousticTexture* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::AK::Wwise::AcousticTexture*))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_E7CD5D695653C395_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::System::Void A28D6A0C3E793E7D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_A28D6A0C3E793E7D_OFFSET))(this);
+	}
+
+	::System::UInt64 A2995DDF30A42AAB()
+	{
+		return ((::System::UInt64(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_A2995DDF30A42AAB_OFFSET))(this);
+	}
+
+	static ::System::UInt64 A24676D2EBD7740F(::UnityEngine::MeshFilter* E4D9F1E6C2E2D895)
+	{
+		return ((::System::UInt64(*)(::UnityEngine::MeshFilter*))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_A24676D2EBD7740F_OFFSET))(E4D9F1E6C2E2D895);
+	}
+
+	::System::Int32 EF2BBF7116E59BBE()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_EF2BBF7116E59BBE_OFFSET))(this);
+	}
+
+	::System::Void EC749B660EF0763D(::Il2CppArray<::System::Single>* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Single>*))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_EC749B660EF0763D_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR__CTOR_OFFSET))(this);
+	}
+
+	::System::Int32 E888CE3D98210B73()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_E888CE3D98210B73_OFFSET))(this);
+	}
+
+	::System::Void A0748C0E962B3AC6()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_A0748C0E962B3AC6_OFFSET))(this);
+	}
+
+	static ::System::Void B262A033AEC6EF1A_2(::System::UInt64 BA6243632A10C035, ::System::UInt64 E3875CB4D37749C6, ::System::UInt64 BE2620F0B5BF9619, ::UnityEngine::Transform* E7A41DB667CBC570, ::System::Boolean B3CE610F26C575EB)
+	{
+		return ((::System::Void(*)(::System::UInt64, ::System::UInt64, ::System::UInt64, ::UnityEngine::Transform*, ::System::Boolean))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_B262A033AEC6EF1A_2_OFFSET))(BA6243632A10C035, E3875CB4D37749C6, BE2620F0B5BF9619, E7A41DB667CBC570, B3CE610F26C575EB);
+	}
+
+	::System::Void A5397D957BF2553A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AKSURFACEREFLECTOR_A5397D957BF2553A_OFFSET))(this);
+	}
+};

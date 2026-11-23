@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class B8EB5B7DED398071;
+class EF81EFD5F1D42305;
+class F4BC7EEE233549F5;
+class FF8417F1391A56A6;
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+
+#define EDE6F6B28FD3EAD0_A514553F3A42FCDB_OFFSET UNITYSDK_OFFSET(0x169C070)
+#define EDE6F6B28FD3EAD0_B0968EC12C002A64_OFFSET UNITYSDK_OFFSET(0x17F35A0)
+#define EDE6F6B28FD3EAD0_BBEEB85655F7D464_OFFSET UNITYSDK_OFFSET(0x17D5EA0)
+#define EDE6F6B28FD3EAD0_E10432D47F58D006_OFFSET UNITYSDK_OFFSET(0x16BD320)
+#define EDE6F6B28FD3EAD0_E8AF1E0387A100FA_OFFSET UNITYSDK_OFFSET(0x1EB8060)
+#define EDE6F6B28FD3EAD0__CTOR_OFFSET UNITYSDK_OFFSET(0x27F4B30)
+
+inline static constexpr unsigned int EDE6F6B28FD3EAD0_TypeDefinitionIndex = 16784;
+
+class EDE6F6B28FD3EAD0 : public ::System::Object
+{
+public:
+	::System::Collections::Generic::List_1<::EF81EFD5F1D42305*>* E87AF783AD030B52; // 0x10
+	::F4BC7EEE233549F5* F03C04D8F43159C1; // 0x18
+	::FF8417F1391A56A6* B7438BBA53015EE9; // 0x20
+	::System::Collections::Generic::Dictionary_2<::EF81EFD5F1D42305*, ::B8EB5B7DED398071*>* F79EB97BCA22C22B; // 0x28
+
+	::System::Void E8AF1E0387A100FA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDE6F6B28FD3EAD0_E8AF1E0387A100FA_OFFSET))(this);
+	}
+
+	::F4BC7EEE233549F5* B0968EC12C002A64()
+	{
+		return ((::F4BC7EEE233549F5*(*)(::PVOID))((::PBYTE)hIl2Cpp + EDE6F6B28FD3EAD0_B0968EC12C002A64_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::Dictionary_2<::EF81EFD5F1D42305*, ::B8EB5B7DED398071*>* A514553F3A42FCDB()
+	{
+		return ((::System::Collections::Generic::Dictionary_2<::EF81EFD5F1D42305*, ::B8EB5B7DED398071*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + EDE6F6B28FD3EAD0_A514553F3A42FCDB_OFFSET))(this);
+	}
+
+	::FF8417F1391A56A6* E10432D47F58D006()
+	{
+		return ((::FF8417F1391A56A6*(*)(::PVOID))((::PBYTE)hIl2Cpp + EDE6F6B28FD3EAD0_E10432D47F58D006_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EDE6F6B28FD3EAD0__CTOR_OFFSET))(this);
+	}
+
+	::System::Collections::Generic::List_1<::EF81EFD5F1D42305*>* BBEEB85655F7D464()
+	{
+		return ((::System::Collections::Generic::List_1<::EF81EFD5F1D42305*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + EDE6F6B28FD3EAD0_BBEEB85655F7D464_OFFSET))(this);
+	}
+};

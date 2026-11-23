@@ -1,0 +1,115 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MiHoYo/SDK/UIElement.h"
+
+namespace System { class Action; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections { class IEnumerator; }
+namespace UnityEngine::UI { class Button; }
+namespace UnityEngine::UI { class Text; }
+
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_A7B9D97A8EACDFF4_OFFSET UNITYSDK_OFFSET(0x3A90D20)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_BFA7961FF2AC380B_OFFSET UNITYSDK_OFFSET(0x3A90AD0)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_E4FAE463BF57DA5A_OFFSET UNITYSDK_OFFSET(0x17F7070)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_E519943FDDF88FEF_OFFSET UNITYSDK_OFFSET(0x3A909A0)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_E5EAB397B370A7D3_OFFSET UNITYSDK_OFFSET(0x17F7050)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_E85D1C741D5386D7_OFFSET UNITYSDK_OFFSET(0x3A90A20)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_E872ACF6281B20DE_OFFSET UNITYSDK_OFFSET(0x17F7040)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_E9EE22D33973EDE4_OFFSET UNITYSDK_OFFSET(0x3A90BD0)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_F27E545EDD4E2AF4_OFFSET UNITYSDK_OFFSET(0x39A91F0)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_FA43DC75F5591120_OFFSET UNITYSDK_OFFSET(0x3A90AA0)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_FA70FF22E37CBF6E_OFFSET UNITYSDK_OFFSET(0x17F7020)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_FDBCDBBFE02CD51A_OFFSET UNITYSDK_OFFSET(0x3A90370)
+#define MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x39230A0)
+
+namespace MiHoYo::SDK::UI
+{
+	inline static constexpr unsigned int PayParentConsentSentDialog_TypeDefinitionIndex = 12022;
+
+	class PayParentConsentSentDialog : public ::MiHoYo::SDK::UIElement
+	{
+	public:
+		static ::MiHoYo::SDK::UI::PayParentConsentSentDialog** StaticGet_F459A1CAE950E680()
+		{
+			return (::MiHoYo::SDK::UI::PayParentConsentSentDialog**)Il2CppClass::FromTypeDefinitionIndex(PayParentConsentSentDialog_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		::UnityEngine::UI::Button* F2ED2414F3BB3CCC; // 0x60
+		::UnityEngine::UI::Text* F27EBC01D665CE33; // 0x68
+		::UnityEngine::UI::Text* B937A57E2712A82F; // 0x70
+		::UnityEngine::UI::Text* BC4736930612084F; // 0x78
+		::UnityEngine::UI::Text* F261C77725241191; // 0x80
+		::UnityEngine::UI::Button* BDD2445FDC4F3410; // 0x88
+		::UnityEngine::UI::Text* ACF0762ED0185E64; // 0x90
+		::UnityEngine::UI::Text* B7C3DB0FEB0B53B5; // 0x98
+		::System::Action* A8E530B8B0EAC905; // 0xA0
+		::System::Action_1<::System::String*>* BCC65C4C7C3453CA; // 0xA8
+		::System::String* A84DE5A50E3A05AA; // 0xB0
+		::System::Single FE870DE6F4A68680; // 0xB8
+
+		static ::System::Void BFA7961FF2AC380B(::System::String* F51E83A249C13FAD)
+		{
+			return ((::System::Void(*)(::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_BFA7961FF2AC380B_OFFSET))(F51E83A249C13FAD);
+		}
+
+		::System::Collections::IEnumerator* E519943FDDF88FEF(::System::Single FF0A37159A523E06)
+		{
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_E519943FDDF88FEF_OFFSET))(this, FF0A37159A523E06);
+		}
+
+		::System::Void FDBCDBBFE02CD51A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_FDBCDBBFE02CD51A_OFFSET))(this);
+		}
+
+		::System::Void A7B9D97A8EACDFF4()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_A7B9D97A8EACDFF4_OFFSET))(this);
+		}
+
+		::System::Void E4FAE463BF57DA5A(::System::Action* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_E4FAE463BF57DA5A_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void E9EE22D33973EDE4(::System::Single FF0A37159A523E06)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_E9EE22D33973EDE4_OFFSET))(this, FF0A37159A523E06);
+		}
+
+		::System::Action_1<::System::String*>* FA70FF22E37CBF6E()
+		{
+			return ((::System::Action_1<::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_FA70FF22E37CBF6E_OFFSET))(this);
+		}
+
+		::System::Action* E872ACF6281B20DE()
+		{
+			return ((::System::Action*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_E872ACF6281B20DE_OFFSET))(this);
+		}
+
+		::System::Void FA43DC75F5591120()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_FA43DC75F5591120_OFFSET))(this);
+		}
+
+		static ::System::Void E85D1C741D5386D7()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_E85D1C741D5386D7_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG__CTOR_OFFSET))(this);
+		}
+
+		::System::Void F27E545EDD4E2AF4()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_F27E545EDD4E2AF4_OFFSET))(this);
+		}
+
+		::System::Void E5EAB397B370A7D3(::System::Action_1<::System::String*>* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::System::String*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_UI_PAYPARENTCONSENTSENTDIALOG_E5EAB397B370A7D3_OFFSET))(this, E937D4885DAA1AE8);
+		}
+	};
+}

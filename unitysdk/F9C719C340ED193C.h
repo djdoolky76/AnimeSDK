@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/A14B3A9CAD1275B2.h"
+
+class E450DE1F74B3D9BD;
+class FF1DADE74DA2F1C7;
+namespace ABC::UI { class MonoPrefabLoader; }
+namespace ABC::UI { class MonoUIAutoView; }
+namespace UnityEngine::UI { class Image; }
+
+#define F9C719C340ED193C_A54D936318FAF9E3_OFFSET UNITYSDK_OFFSET(0x19182E0)
+#define F9C719C340ED193C_AFF6FCDB9A1621C3_OFFSET UNITYSDK_OFFSET(0x1918500)
+#define F9C719C340ED193C_F6A675B119E39F53_OFFSET UNITYSDK_OFFSET(0x1918420)
+#define F9C719C340ED193C_FCC7443573DD0222_OFFSET UNITYSDK_OFFSET(0x1918470)
+#define F9C719C340ED193C__CTOR_OFFSET UNITYSDK_OFFSET(0x16572C0)
+
+inline static constexpr unsigned int F9C719C340ED193C_TypeDefinitionIndex = 1526;
+
+class F9C719C340ED193C : public ::A14B3A9CAD1275B2
+{
+public:
+	::E450DE1F74B3D9BD* EC1BF0271C95149A; // 0x80
+	::ABC::UI::MonoPrefabLoader* BED3151A953B8AF4; // 0x88
+	::UnityEngine::UI::Image* E0EC5044BAF9AF18; // 0x90
+
+	::System::Void A54D936318FAF9E3(::ABC::UI::MonoUIAutoView* AE442F7D881522D8)
+	{
+		return ((::System::Void(*)(::PVOID, ::ABC::UI::MonoUIAutoView*))((::PBYTE)hIl2Cpp + F9C719C340ED193C_A54D936318FAF9E3_OFFSET))(this, AE442F7D881522D8);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F9C719C340ED193C__CTOR_OFFSET))(this);
+	}
+
+	::System::Void AFF6FCDB9A1621C3(::FF1DADE74DA2F1C7* B38CD92ED0B9C20A)
+	{
+		return ((::System::Void(*)(::PVOID, ::FF1DADE74DA2F1C7*))((::PBYTE)hIl2Cpp + F9C719C340ED193C_AFF6FCDB9A1621C3_OFFSET))(this, B38CD92ED0B9C20A);
+	}
+
+	::System::Void F6A675B119E39F53()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F9C719C340ED193C_F6A675B119E39F53_OFFSET))(this);
+	}
+
+	::System::Void FCC7443573DD0222()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F9C719C340ED193C_FCC7443573DD0222_OFFSET))(this);
+	}
+};

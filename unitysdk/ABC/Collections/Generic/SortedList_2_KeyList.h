@@ -1,0 +1,17 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace ABC::Collections::Generic { template <typename T1, typename T2> class SortedList_2; }
+
+namespace ABC::Collections::Generic
+{
+	inline static constexpr unsigned int SortedList_2_KeyList_TypeDefinitionIndex = 19682;
+
+	template <typename T1, typename T2>
+	class SortedList_2_KeyList : public ::System::Object
+	{
+	public:
+		::ABC::Collections::Generic::SortedList_2<T1, T2>* _dict; // 0x0
+	};
+}

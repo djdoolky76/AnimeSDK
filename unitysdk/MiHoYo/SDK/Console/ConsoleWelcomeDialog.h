@@ -1,0 +1,109 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BED79290917896D4/B926396B5989E03E.h"
+#include "unitysdk/MiHoYo/SDK/Console/ConsoleDialogBase.h"
+#include "unitysdk/MiHoYo/SDK/Console/ConsoleWelcomeDialog_E457B05ACB1F9BA3.h"
+
+namespace System { class Action; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine::UI { class Text; }
+
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_AB36E0EE549986E5_OFFSET UNITYSDK_OFFSET(0x3ACFA50)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_AD38EA5F748941CF_OFFSET UNITYSDK_OFFSET(0x3ACF9F0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_B849FB7530D11030_OFFSET UNITYSDK_OFFSET(0x3ACFCF0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_B874B290CD1D8EFD_OFFSET UNITYSDK_OFFSET(0x3ACFAD0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_BD542AB78B294683_OFFSET UNITYSDK_OFFSET(0x393E8A0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_BF13C91AD80643D2_OFFSET UNITYSDK_OFFSET(0x3ACFAA0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_BFA7961FF2AC380B_OFFSET UNITYSDK_OFFSET(0x3AD0160)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_E060FD75EC8EE726_OFFSET UNITYSDK_OFFSET(0x3ACF9C0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_E85D1C741D5386D7_OFFSET UNITYSDK_OFFSET(0x3ACFA00)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_E86BF3D509D0F4E3_OFFSET UNITYSDK_OFFSET(0x3ACF970)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_FDBCDBBFE02CD51A_OFFSET UNITYSDK_OFFSET(0x3ACF2D0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG__CTOR_OFFSET UNITYSDK_OFFSET(0x3AD02B0)
+
+namespace MiHoYo::SDK::Console
+{
+	inline static constexpr unsigned int ConsoleWelcomeDialog_TypeDefinitionIndex = 12189;
+
+	class ConsoleWelcomeDialog : public ::MiHoYo::SDK::Console::ConsoleDialogBase
+	{
+	public:
+		static ::MiHoYo::SDK::Console::ConsoleWelcomeDialog** StaticGet_F459A1CAE950E680()
+		{
+			return (::MiHoYo::SDK::Console::ConsoleWelcomeDialog**)Il2CppClass::FromTypeDefinitionIndex(ConsoleWelcomeDialog_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		::UnityEngine::UI::Text* A0830E09F3D64900; // 0xB8
+		::UnityEngine::UI::Text* EBDAAC6A711D7E55; // 0xC0
+		::UnityEngine::UI::Text* EBC8F4C78BA5E9A2; // 0xC8
+		::UnityEngine::UI::Text* A73B794C92041E31; // 0xD0
+		::UnityEngine::UI::Text* F3D1983AD0E190C3; // 0xD8
+		::UnityEngine::GameObject* bindExistingAccountBtnObj; // 0xE0
+		::UnityEngine::GameObject* A1AA1F5832A752F7; // 0xE8
+		::UnityEngine::GameObject* E0C5320C09683BDC; // 0xF0
+		::System::Action* OnBindExisitingAccount; // 0xF8
+		::System::Action* OnCreateAndBindNewAccount; // 0x100
+		::System::Action* OnCancelBinding; // 0x108
+		::BED79290917896D4::B926396B5989E03E A443DA74D392FE88; // 0x110
+		::MiHoYo::SDK::Console::ConsoleWelcomeDialog_E457B05ACB1F9BA3 B0FC2FC54CE95F0C; // 0x114
+
+		::System::Void E86BF3D509D0F4E3()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_E86BF3D509D0F4E3_OFFSET))(this);
+		}
+
+		::System::Void BF13C91AD80643D2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_BF13C91AD80643D2_OFFSET))(this);
+		}
+
+		::System::Void FDBCDBBFE02CD51A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_FDBCDBBFE02CD51A_OFFSET))(this);
+		}
+
+		::System::Void E060FD75EC8EE726()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_E060FD75EC8EE726_OFFSET))(this);
+		}
+
+		::System::Void AD38EA5F748941CF()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_AD38EA5F748941CF_OFFSET))(this);
+		}
+
+		::System::Void B874B290CD1D8EFD()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_B874B290CD1D8EFD_OFFSET))(this);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG__CTOR_OFFSET))(this);
+		}
+
+		::System::Void B849FB7530D11030()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_B849FB7530D11030_OFFSET))(this);
+		}
+
+		static ::System::Void BFA7961FF2AC380B()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_BFA7961FF2AC380B_OFFSET))();
+		}
+
+		::System::Void BD542AB78B294683()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_BD542AB78B294683_OFFSET))(this);
+		}
+
+		::System::Void AB36E0EE549986E5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_AB36E0EE549986E5_OFFSET))(this);
+		}
+
+		static ::System::Void E85D1C741D5386D7()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEWELCOMEDIALOG_E85D1C741D5386D7_OFFSET))();
+		}
+	};
+}

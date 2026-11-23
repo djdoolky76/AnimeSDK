@@ -1,0 +1,66 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/F3C59571077338C9/E88409E82FB4938D.h"
+#include "unitysdk/System/Object.h"
+
+template <typename T1, typename T2> class F5986F987EB32863;
+
+#define ZXING_COMMON_ENCODINGOPTIONS_GET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x4453C50)
+#define ZXING_COMMON_ENCODINGOPTIONS_GET_HINTS_OFFSET UNITYSDK_OFFSET(0x17D5EA0)
+#define ZXING_COMMON_ENCODINGOPTIONS_GET_WIDTH_OFFSET UNITYSDK_OFFSET(0x4453D10)
+#define ZXING_COMMON_ENCODINGOPTIONS_SET_HEIGHT_OFFSET UNITYSDK_OFFSET(0x4453DC0)
+#define ZXING_COMMON_ENCODINGOPTIONS_SET_HINTS_OFFSET UNITYSDK_OFFSET(0x17D6400)
+#define ZXING_COMMON_ENCODINGOPTIONS_SET_MARGIN_OFFSET UNITYSDK_OFFSET(0x4453E50)
+#define ZXING_COMMON_ENCODINGOPTIONS_SET_WIDTH_OFFSET UNITYSDK_OFFSET(0x4453EE0)
+#define ZXING_COMMON_ENCODINGOPTIONS__CTOR_OFFSET UNITYSDK_OFFSET(0x4453BD0)
+
+namespace ZXing::Common
+{
+	inline static constexpr unsigned int EncodingOptions_TypeDefinitionIndex = 19056;
+
+	class EncodingOptions : public ::System::Object
+	{
+	public:
+		::F5986F987EB32863<::F3C59571077338C9::E88409E82FB4938D, ::System::Object*>* _Hints_k__BackingField; // 0x10
+
+		::System::Void set_Height(::System::Int32 E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_COMMON_ENCODINGOPTIONS_SET_HEIGHT_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void set_Width(::System::Int32 E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_COMMON_ENCODINGOPTIONS_SET_WIDTH_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_COMMON_ENCODINGOPTIONS__CTOR_OFFSET))(this);
+		}
+
+		::System::Int32 get_Height()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_COMMON_ENCODINGOPTIONS_GET_HEIGHT_OFFSET))(this);
+		}
+
+		::System::Int32 get_Width()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_COMMON_ENCODINGOPTIONS_GET_WIDTH_OFFSET))(this);
+		}
+
+		::F5986F987EB32863<::F3C59571077338C9::E88409E82FB4938D, ::System::Object*>* get_Hints()
+		{
+			return ((::F5986F987EB32863<::F3C59571077338C9::E88409E82FB4938D, ::System::Object*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + ZXING_COMMON_ENCODINGOPTIONS_GET_HINTS_OFFSET))(this);
+		}
+
+		::System::Void set_Hints(::F5986F987EB32863<::F3C59571077338C9::E88409E82FB4938D, ::System::Object*>* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::F5986F987EB32863<::F3C59571077338C9::E88409E82FB4938D, ::System::Object*>*))((::PBYTE)hIl2Cpp + ZXING_COMMON_ENCODINGOPTIONS_SET_HINTS_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void set_Margin(::System::Int32 E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ZXING_COMMON_ENCODINGOPTIONS_SET_MARGIN_OFFSET))(this, E937D4885DAA1AE8);
+		}
+	};
+}

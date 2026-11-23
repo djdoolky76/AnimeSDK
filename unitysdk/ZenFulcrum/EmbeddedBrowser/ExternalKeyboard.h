@@ -1,0 +1,115 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+class EC5A64A1B2C9997F;
+namespace System { template <typename T1, typename T2> class Action_2; }
+namespace System::Collections { class IEnumerator; }
+namespace ZenFulcrum::EmbeddedBrowser { class Browser; }
+namespace ZenFulcrum::EmbeddedBrowser { class PointerUIBase; }
+
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_A33089B6106E6337_OFFSET UNITYSDK_OFFSET(0x4409240)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_A59B2D9F6A062271_OFFSET UNITYSDK_OFFSET(0x4409970)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_AEB6443D271BEC3C_OFFSET UNITYSDK_OFFSET(0x4409780)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_B7C8AE057A3C5AB2_OFFSET UNITYSDK_OFFSET(0x4409CE0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_BFEC6FF62AB87A33_OFFSET UNITYSDK_OFFSET(0x4409470)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_E10BAAE52B0491E6_OFFSET UNITYSDK_OFFSET(0x1685600)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_E2E485EB263C3626_OFFSET UNITYSDK_OFFSET(0x4409D90)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_E57F18AC5FA66F60_OFFSET UNITYSDK_OFFSET(0x4409670)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_E75988E71B51FCBE_OFFSET UNITYSDK_OFFSET(0x4409C30)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_E9E06251C0BE5F97_OFFSET UNITYSDK_OFFSET(0x44088D0)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_F2A848AD568B0943_OFFSET UNITYSDK_OFFSET(0x4409880)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_F77EE0724672483F_OFFSET UNITYSDK_OFFSET(0x4409400)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_FDBCDBBFE02CD51A_OFFSET UNITYSDK_OFFSET(0x4408570)
+#define ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD__CTOR_OFFSET UNITYSDK_OFFSET(0x4409B20)
+
+namespace ZenFulcrum::EmbeddedBrowser
+{
+	inline static constexpr unsigned int ExternalKeyboard_TypeDefinitionIndex = 19446;
+
+	class ExternalKeyboard : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::System::Boolean automaticFocus; // 0x20
+		::System::Byte _padding0[0x7];
+		::ZenFulcrum::EmbeddedBrowser::Browser* initialBrowser; // 0x28
+		::System::Boolean hideWhenUnneeded; // 0x30
+		::System::Byte _padding1[0x7];
+		::ZenFulcrum::EmbeddedBrowser::PointerUIBase* E9618152EA44DCF1; // 0x38
+		::ZenFulcrum::EmbeddedBrowser::Browser* A2A6A57EC360E3B3; // 0x40
+		::System::Boolean B959F0DB96A868F5; // 0x48
+		::System::Byte _padding2[0x7];
+		::ZenFulcrum::EmbeddedBrowser::Browser* ECF0C5F6FCF9E925; // 0x50
+		::System::Action_2<::ZenFulcrum::EmbeddedBrowser::Browser*, ::System::Boolean>* E8632BE51897D932; // 0x58
+
+		::System::Void BFEC6FF62AB87A33(::ZenFulcrum::EmbeddedBrowser::Browser* F4DFD92A32442E67)
+		{
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_BFEC6FF62AB87A33_OFFSET))(this, F4DFD92A32442E67);
+		}
+
+		::System::Void A59B2D9F6A062271(::ZenFulcrum::EmbeddedBrowser::Browser* F4DFD92A32442E67)
+		{
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_A59B2D9F6A062271_OFFSET))(this, F4DFD92A32442E67);
+		}
+
+		::System::Void AEB6443D271BEC3C(::System::Boolean A187B0A4ACA502FF)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_AEB6443D271BEC3C_OFFSET))(this, A187B0A4ACA502FF);
+		}
+
+		::ZenFulcrum::EmbeddedBrowser::Browser* E10BAAE52B0491E6()
+		{
+			return ((::ZenFulcrum::EmbeddedBrowser::Browser*(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_E10BAAE52B0491E6_OFFSET))(this);
+		}
+
+		::System::Void FDBCDBBFE02CD51A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_FDBCDBBFE02CD51A_OFFSET))(this);
+		}
+
+		::System::Void E57F18AC5FA66F60(::System::Boolean BBCCA2F3B00EF517, ::System::Boolean E76A1CD4D03DC04D)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean, ::System::Boolean))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_E57F18AC5FA66F60_OFFSET))(this, BBCCA2F3B00EF517, E76A1CD4D03DC04D);
+		}
+
+		::System::Void F2A848AD568B0943(::EC5A64A1B2C9997F* F0D3F87128A7C4CA)
+		{
+			return ((::System::Void(*)(::PVOID, ::EC5A64A1B2C9997F*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_F2A848AD568B0943_OFFSET))(this, F0D3F87128A7C4CA);
+		}
+
+		::System::Void A33089B6106E6337(::ZenFulcrum::EmbeddedBrowser::Browser* F4DFD92A32442E67)
+		{
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_A33089B6106E6337_OFFSET))(this, F4DFD92A32442E67);
+		}
+
+		::System::Void E9E06251C0BE5F97(::EC5A64A1B2C9997F* F0D3F87128A7C4CA)
+		{
+			return ((::System::Void(*)(::PVOID, ::EC5A64A1B2C9997F*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_E9E06251C0BE5F97_OFFSET))(this, F0D3F87128A7C4CA);
+		}
+
+		::System::Void B7C8AE057A3C5AB2(::System::Action_2<::ZenFulcrum::EmbeddedBrowser::Browser*, ::System::Boolean>* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::ZenFulcrum::EmbeddedBrowser::Browser*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_B7C8AE057A3C5AB2_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void E75988E71B51FCBE(::System::Action_2<::ZenFulcrum::EmbeddedBrowser::Browser*, ::System::Boolean>* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_2<::ZenFulcrum::EmbeddedBrowser::Browser*, ::System::Boolean>*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_E75988E71B51FCBE_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void E2E485EB263C3626(::ZenFulcrum::EmbeddedBrowser::Browser* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::ZenFulcrum::EmbeddedBrowser::Browser*))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_E2E485EB263C3626_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD__CTOR_OFFSET))(this);
+		}
+
+		::System::Collections::IEnumerator* F77EE0724672483F()
+		{
+			return ((::System::Collections::IEnumerator*(*)(::PVOID))((::PBYTE)hIl2Cpp + ZENFULCRUM_EMBEDDEDBROWSER_EXTERNALKEYBOARD_F77EE0724672483F_OFFSET))(this);
+		}
+	};
+}

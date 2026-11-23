@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/E12F55A5FCCCF1EC.h"
+#include "unitysdk/System/Object.h"
+
+class AB642D1382756991;
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define A901C317B4107BE8_A5046E11BF6CC22C_BCB0A4DD6EA3B4C9_OFFSET UNITYSDK_OFFSET(0x1C6D1C0)
+#define A901C317B4107BE8_A5046E11BF6CC22C__CTOR_OFFSET UNITYSDK_OFFSET(0x1C6D3F0)
+
+inline static constexpr unsigned int A901C317B4107BE8_A5046E11BF6CC22C_TypeDefinitionIndex = 9620;
+
+class A901C317B4107BE8_A5046E11BF6CC22C : public ::System::Object
+{
+public:
+	::System::Collections::Generic::Dictionary_2<::AB642D1382756991*, ::E12F55A5FCCCF1EC>* A8E58136CBE2F7E3; // 0x10
+	::E12F55A5FCCCF1EC B6393D105F147AEE; // 0x18
+	::System::Boolean EBDB6D7C318D1333; // 0x20
+
+	::System::Int32 BCB0A4DD6EA3B4C9(::AB642D1382756991* B35BBBE7E39341A2, ::AB642D1382756991* AE40CAA6BBFEAD2C)
+	{
+		return ((::System::Int32(*)(::PVOID, ::AB642D1382756991*, ::AB642D1382756991*))((::PBYTE)hIl2Cpp + A901C317B4107BE8_A5046E11BF6CC22C_BCB0A4DD6EA3B4C9_OFFSET))(this, B35BBBE7E39341A2, AE40CAA6BBFEAD2C);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A901C317B4107BE8_A5046E11BF6CC22C__CTOR_OFFSET))(this);
+	}
+};

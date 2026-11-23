@@ -1,0 +1,71 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+namespace System { class String; }
+namespace UnityEngine::UI { class Button; }
+namespace UnityEngine::UI { class Image; }
+namespace UnityEngine::UI { class Text; }
+
+#define MIHOYO_SDK_WIN_ACCOUNTLISTDROPDOWNITEMHANDLER_A28D6A0C3E793E7D_OFFSET UNITYSDK_OFFSET(0x393CCE0)
+#define MIHOYO_SDK_WIN_ACCOUNTLISTDROPDOWNITEMHANDLER_E09924C54065A943_OFFSET UNITYSDK_OFFSET(0x393CC50)
+#define MIHOYO_SDK_WIN_ACCOUNTLISTDROPDOWNITEMHANDLER_E22296587C64FD29_OFFSET UNITYSDK_OFFSET(0x393CD60)
+#define MIHOYO_SDK_WIN_ACCOUNTLISTDROPDOWNITEMHANDLER_E5E6DAAB8FB2A476_OFFSET UNITYSDK_OFFSET(0x393CC20)
+#define MIHOYO_SDK_WIN_ACCOUNTLISTDROPDOWNITEMHANDLER_F328E4D8818B1E12_OFFSET UNITYSDK_OFFSET(0x393D880)
+#define MIHOYO_SDK_WIN_ACCOUNTLISTDROPDOWNITEMHANDLER_FDBCDBBFE02CD51A_OFFSET UNITYSDK_OFFSET(0x393C810)
+#define MIHOYO_SDK_WIN_ACCOUNTLISTDROPDOWNITEMHANDLER__CTOR_OFFSET UNITYSDK_OFFSET(0x176D770)
+
+namespace MiHoYo::SDK::Win
+{
+	inline static constexpr unsigned int AccountListDropdownItemHandler_TypeDefinitionIndex = 12406;
+
+	class AccountListDropdownItemHandler : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::UnityEngine::UI::Text* E7D865DBBF333045; // 0x20
+		::UnityEngine::UI::Text* F971C31E6629134D; // 0x28
+		::UnityEngine::UI::Text* B4029DAD8F55FFBD; // 0x30
+		::UnityEngine::UI::Image* B84912C57ADD0F99; // 0x38
+		::UnityEngine::UI::Image* E4E742E1B1036350; // 0x40
+		::UnityEngine::UI::Image* F4F5C35FA92913D8; // 0x48
+		::UnityEngine::UI::Image* E0045FD182A36380; // 0x50
+		::UnityEngine::UI::Button* A0420AEEA1FFB5E8; // 0x58
+		::UnityEngine::UI::Text* BE6C4A280382B3AB; // 0x60
+		::System::String* F90267B6A9827A79; // 0x68
+
+		::System::String* E5E6DAAB8FB2A476()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_ACCOUNTLISTDROPDOWNITEMHANDLER_E5E6DAAB8FB2A476_OFFSET))(this);
+		}
+
+		::System::Void E22296587C64FD29()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_ACCOUNTLISTDROPDOWNITEMHANDLER_E22296587C64FD29_OFFSET))(this);
+		}
+
+		::System::Void E09924C54065A943()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_ACCOUNTLISTDROPDOWNITEMHANDLER_E09924C54065A943_OFFSET))(this);
+		}
+
+		::System::Void FDBCDBBFE02CD51A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_ACCOUNTLISTDROPDOWNITEMHANDLER_FDBCDBBFE02CD51A_OFFSET))(this);
+		}
+
+		::System::Void F328E4D8818B1E12()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_ACCOUNTLISTDROPDOWNITEMHANDLER_F328E4D8818B1E12_OFFSET))(this);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_ACCOUNTLISTDROPDOWNITEMHANDLER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void A28D6A0C3E793E7D()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_ACCOUNTLISTDROPDOWNITEMHANDLER_A28D6A0C3E793E7D_OFFSET))(this);
+		}
+	};
+}

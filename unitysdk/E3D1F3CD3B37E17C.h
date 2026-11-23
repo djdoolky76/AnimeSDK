@@ -1,0 +1,56 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+class A02C529E4F26A97B;
+namespace System { class Object; }
+namespace System::Threading { class Thread; }
+
+#define E3D1F3CD3B37E17C_A3A0405169EABB6A_OFFSET UNITYSDK_OFFSET(0x3B8B5B0)
+#define E3D1F3CD3B37E17C_B3964F83D534B116_OFFSET UNITYSDK_OFFSET(0x3B8B620)
+#define E3D1F3CD3B37E17C_B996A70283B60FAC_OFFSET UNITYSDK_OFFSET(0x3B8B500)
+#define E3D1F3CD3B37E17C_E8AF1E0387A100FA_OFFSET UNITYSDK_OFFSET(0x3B8B3F0)
+#define E3D1F3CD3B37E17C_FC3208D7B8C7EE04_1_OFFSET UNITYSDK_OFFSET(0x3B8B400)
+#define E3D1F3CD3B37E17C_FC3208D7B8C7EE04_OFFSET UNITYSDK_OFFSET(0x3B8B4C0)
+
+inline static constexpr unsigned int E3D1F3CD3B37E17C_TypeDefinitionIndex = 11121;
+
+struct alignas(8) E3D1F3CD3B37E17C
+{
+	::System::Boolean EC6A042F9092811C; // 0x10
+	::System::Byte _padding0[0x7];
+	::A02C529E4F26A97B* BCFE8C1BA7D232F1; // 0x18
+	::System::Threading::Thread* A0B4CAFB77EA582A; // 0x20
+
+	/*
+	::System::Boolean FC3208D7B8C7EE04(::E3D1F3CD3B37E17C A86A90C31A146E9C)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::E3D1F3CD3B37E17C))((::PBYTE)hIl2Cpp + E3D1F3CD3B37E17C_FC3208D7B8C7EE04_OFFSET))(this, A86A90C31A146E9C);
+	}
+	*/
+
+	::System::Void E8AF1E0387A100FA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E3D1F3CD3B37E17C_E8AF1E0387A100FA_OFFSET))(this);
+	}
+
+	::System::Int32 B996A70283B60FAC()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + E3D1F3CD3B37E17C_B996A70283B60FAC_OFFSET))(this);
+	}
+
+	::System::Void A3A0405169EABB6A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E3D1F3CD3B37E17C_A3A0405169EABB6A_OFFSET))(this);
+	}
+
+	::System::Boolean FC3208D7B8C7EE04_1(::System::Object* A86A90C31A146E9C)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + E3D1F3CD3B37E17C_FC3208D7B8C7EE04_1_OFFSET))(this, A86A90C31A146E9C);
+	}
+
+	::System::Void B3964F83D534B116()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E3D1F3CD3B37E17C_B3964F83D534B116_OFFSET))(this);
+	}
+};

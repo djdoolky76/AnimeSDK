@@ -1,0 +1,25 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace System { class Object; }
+
+#define E33A71A020261634_AE2D00A9A5CE52DD_B996A70283B60FAC_OFFSET UNITYSDK_OFFSET(0x1EAE1A0)
+#define E33A71A020261634_AE2D00A9A5CE52DD_FC3208D7B8C7EE04_OFFSET UNITYSDK_OFFSET(0x3F41760)
+
+inline static constexpr unsigned int E33A71A020261634_AE2D00A9A5CE52DD_TypeDefinitionIndex = 20554;
+
+struct alignas(4) E33A71A020261634_AE2D00A9A5CE52DD
+{
+	::System::Int32 E937D4885DAA1AE8; // 0x10
+
+	::System::Boolean FC3208D7B8C7EE04(::System::Object* A86A90C31A146E9C)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + E33A71A020261634_AE2D00A9A5CE52DD_FC3208D7B8C7EE04_OFFSET))(this, A86A90C31A146E9C);
+	}
+
+	::System::Int32 B996A70283B60FAC()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + E33A71A020261634_AE2D00A9A5CE52DD_B996A70283B60FAC_OFFSET))(this);
+	}
+};

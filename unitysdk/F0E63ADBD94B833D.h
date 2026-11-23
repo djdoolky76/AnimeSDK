@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define F0E63ADBD94B833D_A4CFF253D56ECB2D_OFFSET UNITYSDK_OFFSET(0x3D2EA90)
+#define F0E63ADBD94B833D_ECBA3479EAD9D18E_OFFSET UNITYSDK_OFFSET(0x3D2EFD0)
+#define F0E63ADBD94B833D_FCD0E53150114774_OFFSET UNITYSDK_OFFSET(0x3D2EB90)
+#define F0E63ADBD94B833D_FEFD5298862EC8D2_OFFSET UNITYSDK_OFFSET(0x3D2EF40)
+#define F0E63ADBD94B833D__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3D2ED60)
+#define F0E63ADBD94B833D__CTOR_2_OFFSET UNITYSDK_OFFSET(0x3D2EDE0)
+#define F0E63ADBD94B833D__CTOR_OFFSET UNITYSDK_OFFSET(0x3D2EE60)
+
+inline static constexpr unsigned int F0E63ADBD94B833D_TypeDefinitionIndex = 10881;
+
+class F0E63ADBD94B833D : public ::System::Object
+{
+public:
+	::Il2CppArray<::System::Object*>* E3F10B066DCA0196; // 0x10
+	::Il2CppArray<::System::Object*>* EE4A6DBE4573461C; // 0x18
+
+	::System::Void ECBA3479EAD9D18E(::System::Int32 B48C66E5FB2449C6, ::System::Object* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Object*))((::PBYTE)hIl2Cpp + F0E63ADBD94B833D_ECBA3479EAD9D18E_OFFSET))(this, B48C66E5FB2449C6, E937D4885DAA1AE8);
+	}
+
+	::System::Object* FEFD5298862EC8D2(::System::Int32 B48C66E5FB2449C6)
+	{
+		return ((::System::Object*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + F0E63ADBD94B833D_FEFD5298862EC8D2_OFFSET))(this, B48C66E5FB2449C6);
+	}
+
+	::System::Void _ctor(::F0E63ADBD94B833D* BB90163468C21889)
+	{
+		return ((::System::Void(*)(::PVOID, ::F0E63ADBD94B833D*))((::PBYTE)hIl2Cpp + F0E63ADBD94B833D__CTOR_OFFSET))(this, BB90163468C21889);
+	}
+
+	::System::Void _ctor_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F0E63ADBD94B833D__CTOR_1_OFFSET))(this);
+	}
+
+	::System::Void FCD0E53150114774(::System::Int32 B48C66E5FB2449C6)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + F0E63ADBD94B833D_FCD0E53150114774_OFFSET))(this, B48C66E5FB2449C6);
+	}
+
+	::System::Void _ctor_2(::System::Int32 A96B867D8BBB8B00)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + F0E63ADBD94B833D__CTOR_2_OFFSET))(this, A96B867D8BBB8B00);
+	}
+
+	::System::Object* A4CFF253D56ECB2D()
+	{
+		return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + F0E63ADBD94B833D_A4CFF253D56ECB2D_OFFSET))(this);
+	}
+};

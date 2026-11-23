@@ -1,0 +1,16 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace FA78B0257AA80CDE
+{
+	inline static constexpr unsigned int A3E8528E5B0BEF28_TypeDefinitionIndex = 18142;
+
+	enum class A3E8528E5B0BEF28 : ::System::Int32
+	{
+		HAPI_CURVEPARAMETERIZATION_INVALID = -1,
+		HAPI_CURVEPARAMETERIZATION_UNIFORM = 0,
+		HAPI_CURVEPARAMETERIZATION_CHORD = 1,
+		HAPI_CURVEPARAMETERIZATION_CENTRIPETAL = 2,
+		HAPI_CURVEPARAMETERIZATION_MAX = 3,
+	};
+}

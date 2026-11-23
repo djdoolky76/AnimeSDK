@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+
+#define MIHOYO_SDK_ABTESTCONFIG__CTOR_OFFSET UNITYSDK_OFFSET(0x3A9A8A0)
+
+namespace MiHoYo::SDK
+{
+	inline static constexpr unsigned int ABTestConfig_TypeDefinitionIndex = 12065;
+
+	class ABTestConfig : public ::System::Object
+	{
+	public:
+		::System::String* cardType; // 0x10
+		::System::String* cashierId; // 0x18
+		::System::Boolean foldOther; // 0x20
+		::System::Boolean expandMixedQRcode; // 0x21
+		::System::Boolean disableMarket; // 0x22
+		::System::Boolean cashierPreload; // 0x23
+		::System::Byte _padding0[0x4];
+		::System::String* levelQRCode; // 0x28
+		::System::String* webViewRenderMethod; // 0x30
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_ABTESTCONFIG__CTOR_OFFSET))(this);
+		}
+	};
+}

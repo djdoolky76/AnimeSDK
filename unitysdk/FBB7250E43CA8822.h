@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+#define FBB7250E43CA8822_B3964F83D534B116_OFFSET UNITYSDK_OFFSET(0x3CFD880)
+#define FBB7250E43CA8822_BE8B172CA2412F06_OFFSET UNITYSDK_OFFSET(0x3CFD870)
+#define FBB7250E43CA8822_E51F9409059DA392_OFFSET UNITYSDK_OFFSET(0x3CFD860)
+#define FBB7250E43CA8822_E8AF1E0387A100FA_OFFSET UNITYSDK_OFFSET(0x3CFD790)
+#define FBB7250E43CA8822_F27BD9C3EA338DD9_OFFSET UNITYSDK_OFFSET(0x3CFD780)
+#define FBB7250E43CA8822_FC3B9E0F84DA291C_OFFSET UNITYSDK_OFFSET(0x3CFD850)
+#define FBB7250E43CA8822__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3CFD930)
+#define FBB7250E43CA8822__CTOR_OFFSET UNITYSDK_OFFSET(0x3CFD960)
+
+inline static constexpr unsigned int FBB7250E43CA8822_TypeDefinitionIndex = 10731;
+
+class FBB7250E43CA8822 : public ::System::Object
+{
+public:
+	::System::IntPtr A8A375F33E855088; // 0x10
+	::System::Boolean E477EE42C1A4550D; // 0x18
+
+	static ::System::Boolean E51F9409059DA392()
+	{
+		return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + FBB7250E43CA8822_E51F9409059DA392_OFFSET))();
+	}
+
+	::System::Void _ctor(::System::IntPtr BD2C65BCCC92F212)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::IntPtr))((::PBYTE)hIl2Cpp + FBB7250E43CA8822__CTOR_OFFSET))(this, BD2C65BCCC92F212);
+	}
+
+	::System::Void E8AF1E0387A100FA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FBB7250E43CA8822_E8AF1E0387A100FA_OFFSET))(this);
+	}
+
+	static ::System::IntPtr FC3B9E0F84DA291C(::System::IntPtr BD2C65BCCC92F212)
+	{
+		return ((::System::IntPtr(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + FBB7250E43CA8822_FC3B9E0F84DA291C_OFFSET))(BD2C65BCCC92F212);
+	}
+
+	::System::Void B3964F83D534B116()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FBB7250E43CA8822_B3964F83D534B116_OFFSET))(this);
+	}
+
+	::System::Void _ctor_1()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FBB7250E43CA8822__CTOR_1_OFFSET))(this);
+	}
+
+	static ::System::Boolean BE8B172CA2412F06(::System::IntPtr BD2C65BCCC92F212)
+	{
+		return ((::System::Boolean(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + FBB7250E43CA8822_BE8B172CA2412F06_OFFSET))(BD2C65BCCC92F212);
+	}
+
+	static ::System::Boolean F27BD9C3EA338DD9(::System::IntPtr BD2C65BCCC92F212)
+	{
+		return ((::System::Boolean(*)(::System::IntPtr))((::PBYTE)hIl2Cpp + FBB7250E43CA8822_F27BD9C3EA338DD9_OFFSET))(BD2C65BCCC92F212);
+	}
+};

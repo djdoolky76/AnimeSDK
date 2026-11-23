@@ -1,0 +1,71 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+class E3850DE56028A1AB;
+
+#define ABC_COMMON_BEHAVIOR_ABCMONOBEHAVIOR_AWAKE_OFFSET UNITYSDK_OFFSET(0x2489810)
+#define ABC_COMMON_BEHAVIOR_ABCMONOBEHAVIOR_GET_BEHAVIOR_OFFSET UNITYSDK_OFFSET(0x2489BA0)
+#define ABC_COMMON_BEHAVIOR_ABCMONOBEHAVIOR_ONBECAMEINVISIBLE_OFFSET UNITYSDK_OFFSET(0x24898F0)
+#define ABC_COMMON_BEHAVIOR_ABCMONOBEHAVIOR_ONBECAMEVISIBLE_OFFSET UNITYSDK_OFFSET(0x2489950)
+#define ABC_COMMON_BEHAVIOR_ABCMONOBEHAVIOR_ONDESTROY_OFFSET UNITYSDK_OFFSET(0x24899B0)
+#define ABC_COMMON_BEHAVIOR_ABCMONOBEHAVIOR_ONDISABLE_OFFSET UNITYSDK_OFFSET(0x2489A80)
+#define ABC_COMMON_BEHAVIOR_ABCMONOBEHAVIOR_ONENABLE_OFFSET UNITYSDK_OFFSET(0x2489AE0)
+#define ABC_COMMON_BEHAVIOR_ABCMONOBEHAVIOR_START_OFFSET UNITYSDK_OFFSET(0x2489B40)
+#define ABC_COMMON_BEHAVIOR_ABCMONOBEHAVIOR__CTOR_OFFSET UNITYSDK_OFFSET(0x176D770)
+
+namespace ABC::Common::Behavior
+{
+	inline static constexpr unsigned int ABCMonoBehavior_TypeDefinitionIndex = 4685;
+
+	class ABCMonoBehavior : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		::E3850DE56028A1AB* _behavior; // 0x20
+
+		::System::Void OnBecameVisible()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_COMMON_BEHAVIOR_ABCMONOBEHAVIOR_ONBECAMEVISIBLE_OFFSET))(this);
+		}
+
+		::System::Void OnDisable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_COMMON_BEHAVIOR_ABCMONOBEHAVIOR_ONDISABLE_OFFSET))(this);
+		}
+
+		::System::Void OnBecameInvisible()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_COMMON_BEHAVIOR_ABCMONOBEHAVIOR_ONBECAMEINVISIBLE_OFFSET))(this);
+		}
+
+		::E3850DE56028A1AB* get_Behavior()
+		{
+			return ((::E3850DE56028A1AB*(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_COMMON_BEHAVIOR_ABCMONOBEHAVIOR_GET_BEHAVIOR_OFFSET))(this);
+		}
+
+		::System::Void Start()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_COMMON_BEHAVIOR_ABCMONOBEHAVIOR_START_OFFSET))(this);
+		}
+
+		::System::Void Awake()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_COMMON_BEHAVIOR_ABCMONOBEHAVIOR_AWAKE_OFFSET))(this);
+		}
+
+		::System::Void OnEnable()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_COMMON_BEHAVIOR_ABCMONOBEHAVIOR_ONENABLE_OFFSET))(this);
+		}
+
+		::System::Void OnDestroy()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_COMMON_BEHAVIOR_ABCMONOBEHAVIOR_ONDESTROY_OFFSET))(this);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_COMMON_BEHAVIOR_ABCMONOBEHAVIOR__CTOR_OFFSET))(this);
+		}
+	};
+}

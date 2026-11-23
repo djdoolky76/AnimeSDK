@@ -1,0 +1,21 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace FA78B0257AA80CDE
+{
+	inline static constexpr unsigned int E55122194CC4F731_TypeDefinitionIndex = 17844;
+
+	enum class E55122194CC4F731 : ::System::Int32
+	{
+		HAPI_IMAGE_PACKING_UNKNOWN = -1,
+		HAPI_IMAGE_PACKING_SINGLE = 0,
+		HAPI_IMAGE_PACKING_DUAL = 1,
+		HAPI_IMAGE_PACKING_RGB = 2,
+		HAPI_IMAGE_PACKING_BGR = 3,
+		HAPI_IMAGE_PACKING_RGBA = 4,
+		HAPI_IMAGE_PACKING_ABGR = 5,
+		HAPI_IMAGE_PACKING_MAX = 6,
+		HAPI_IMAGE_PACKING_DEFAULT3 = 2,
+		HAPI_IMAGE_PACKING_DEFAULT4 = 4,
+	};
+}

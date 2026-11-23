@@ -1,0 +1,40 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class EBC4B65C3C444336;
+namespace System { template <typename T> class E891BA3236FD13E7; }
+
+#define FEC171F0E94A81BE_F5628F8349D4A8A6_EF71A1F6C6464566_OFFSET UNITYSDK_OFFSET(0x1F95790)
+#define FEC171F0E94A81BE_F5628F8349D4A8A6__CCTOR_OFFSET UNITYSDK_OFFSET(0x1F958F0)
+#define FEC171F0E94A81BE_F5628F8349D4A8A6__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int FEC171F0E94A81BE_F5628F8349D4A8A6_TypeDefinitionIndex = 7934;
+
+class FEC171F0E94A81BE_F5628F8349D4A8A6 : public ::System::Object
+{
+public:
+	static ::FEC171F0E94A81BE_F5628F8349D4A8A6** StaticGet_AA32F971AB02398B()
+	{
+		return (::FEC171F0E94A81BE_F5628F8349D4A8A6**)Il2CppClass::FromTypeDefinitionIndex(FEC171F0E94A81BE_F5628F8349D4A8A6_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::System::E891BA3236FD13E7<::EBC4B65C3C444336*>** StaticGet_F4EB4229F3368E16()
+	{
+		return (::System::E891BA3236FD13E7<::EBC4B65C3C444336*>**)Il2CppClass::FromTypeDefinitionIndex(FEC171F0E94A81BE_F5628F8349D4A8A6_TypeDefinitionIndex)->GetStaticField(0x8);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + FEC171F0E94A81BE_F5628F8349D4A8A6__CCTOR_OFFSET))();
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FEC171F0E94A81BE_F5628F8349D4A8A6__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean EF71A1F6C6464566(::EBC4B65C3C444336* EC35F88C87A83BEB)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::EBC4B65C3C444336*))((::PBYTE)hIl2Cpp + FEC171F0E94A81BE_F5628F8349D4A8A6_EF71A1F6C6464566_OFFSET))(this, EC35F88C87A83BEB);
+	}
+};

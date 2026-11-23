@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class ACCD4AE635058D88;
+namespace MiHoYo::SDK { class MiHoYoSDKWebView; }
+
+#define B1BCCFCDE4BC46FF_F2DB16C48DF08590_BA06EEECB1B4382F_OFFSET UNITYSDK_OFFSET(0x2A1C1A0)
+#define B1BCCFCDE4BC46FF_F2DB16C48DF08590__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int B1BCCFCDE4BC46FF_F2DB16C48DF08590_TypeDefinitionIndex = 15907;
+
+class B1BCCFCDE4BC46FF_F2DB16C48DF08590 : public ::System::Object
+{
+public:
+	::ACCD4AE635058D88* F70AC30395956F92; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B1BCCFCDE4BC46FF_F2DB16C48DF08590__CTOR_OFFSET))(this);
+	}
+
+	::System::Void BA06EEECB1B4382F(::MiHoYo::SDK::MiHoYoSDKWebView* B5F62894A37965D9, ::System::Boolean FBF3AC291087F95C)
+	{
+		return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::MiHoYoSDKWebView*, ::System::Boolean))((::PBYTE)hIl2Cpp + B1BCCFCDE4BC46FF_F2DB16C48DF08590_BA06EEECB1B4382F_OFFSET))(this, B5F62894A37965D9, FBF3AC291087F95C);
+	}
+};

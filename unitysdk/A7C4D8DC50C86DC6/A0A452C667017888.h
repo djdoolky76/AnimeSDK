@@ -1,0 +1,86 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/A7C4D8DC50C86DC6/F95A72AA27FC4FA2.h"
+#include "unitysdk/AC0F03344772DE8E/F311F378F45C62DC.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/A32676FCB736C8E8.h"
+#include "unitysdk/UnityEngine/E8984F4E44AE20E5.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+namespace UnityEngine { class Material; }
+
+#define A7C4D8DC50C86DC6_A0A452C667017888_A5097B6582CA7FAD_OFFSET UNITYSDK_OFFSET(0x41F82C0)
+#define A7C4D8DC50C86DC6_A0A452C667017888_B10456EE796D56CF_OFFSET UNITYSDK_OFFSET(0x41F8020)
+#define A7C4D8DC50C86DC6_A0A452C667017888_B9F337ACA8C41A53_OFFSET UNITYSDK_OFFSET(0x41F8370)
+#define A7C4D8DC50C86DC6_A0A452C667017888_E066100E573F07CC_OFFSET UNITYSDK_OFFSET(0x41F8060)
+#define A7C4D8DC50C86DC6_A0A452C667017888_FB5B5DDD8BAE403B_OFFSET UNITYSDK_OFFSET(0x41F7FE0)
+#define A7C4D8DC50C86DC6_A0A452C667017888__CCTOR_OFFSET UNITYSDK_OFFSET(0x41F8FF0)
+#define A7C4D8DC50C86DC6_A0A452C667017888__CTOR_OFFSET UNITYSDK_OFFSET(0x41F9070)
+
+namespace A7C4D8DC50C86DC6
+{
+	inline static constexpr unsigned int A0A452C667017888_TypeDefinitionIndex = 18711;
+
+	struct alignas(8) A0A452C667017888
+	{
+		static ::UnityEngine::A32676FCB736C8E8* StaticGet_B9ACBDCE660A2D05()
+		{
+			return (::UnityEngine::A32676FCB736C8E8*)Il2CppClass::FromTypeDefinitionIndex(A0A452C667017888_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		static ::UnityEngine::Vector3* StaticGet_ED21D6420C47F324()
+		{
+			return (::UnityEngine::Vector3*)Il2CppClass::FromTypeDefinitionIndex(A0A452C667017888_TypeDefinitionIndex)->GetStaticField(0x4);
+		}
+		static ::UnityEngine::E8984F4E44AE20E5* StaticGet_E037593FD2C1DC2F()
+		{
+			return (::UnityEngine::E8984F4E44AE20E5*)Il2CppClass::FromTypeDefinitionIndex(A0A452C667017888_TypeDefinitionIndex)->GetStaticField(0x10);
+		}
+		::System::Int32 BD3F6A72D4D89F43; // 0x10
+		::System::Byte _padding0[0x4];
+		::Il2CppArray<::UnityEngine::Vector3>* B97CD6F12794685F; // 0x18
+		::Il2CppArray<::UnityEngine::Vector3>* A95B8AC2BAEA77E5; // 0x20
+		::Il2CppArray<::UnityEngine::E8984F4E44AE20E5>* EDABCBE23A206196; // 0x28
+		::Il2CppArray<::UnityEngine::E8984F4E44AE20E5>* BC74EE96F2EA60AD; // 0x30
+		::Il2CppArray<::UnityEngine::Vector2>* FEA773F928649673; // 0x38
+		::Il2CppArray<::UnityEngine::A32676FCB736C8E8>* EE5DF1B7F34E29FF; // 0x40
+		::Il2CppArray<::System::Int32>* E1BB9CB1061E7E3F; // 0x48
+		::UnityEngine::Material* F1F4E8E077FFCED5; // 0x50
+		::AC0F03344772DE8E::F311F378F45C62DC F5608239E275B918; // 0x58
+
+		::System::Void _ctor(::System::Int32 F54AF627638DE3C9)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + A7C4D8DC50C86DC6_A0A452C667017888__CTOR_OFFSET))(this, F54AF627638DE3C9);
+		}
+
+		::System::Void A5097B6582CA7FAD(::A7C4D8DC50C86DC6::F95A72AA27FC4FA2 EEE67C44C7E1DD7F)
+		{
+			return ((::System::Void(*)(::PVOID, ::A7C4D8DC50C86DC6::F95A72AA27FC4FA2))((::PBYTE)hIl2Cpp + A7C4D8DC50C86DC6_A0A452C667017888_A5097B6582CA7FAD_OFFSET))(this, EEE67C44C7E1DD7F);
+		}
+
+		::System::Void E066100E573F07CC(::System::Int32 F54AF627638DE3C9)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + A7C4D8DC50C86DC6_A0A452C667017888_E066100E573F07CC_OFFSET))(this, F54AF627638DE3C9);
+		}
+
+		::System::Void B10456EE796D56CF(::System::Boolean E134A049F1285900)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + A7C4D8DC50C86DC6_A0A452C667017888_B10456EE796D56CF_OFFSET))(this, E134A049F1285900);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + A7C4D8DC50C86DC6_A0A452C667017888__CCTOR_OFFSET))();
+		}
+
+		::System::Void FB5B5DDD8BAE403B()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A7C4D8DC50C86DC6_A0A452C667017888_FB5B5DDD8BAE403B_OFFSET))(this);
+		}
+
+		::System::Void B9F337ACA8C41A53(::System::Int32 BADCD2C933ABE188, ::System::Int32 B99D5F7DAE3E6B41)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + A7C4D8DC50C86DC6_A0A452C667017888_B9F337ACA8C41A53_OFFSET))(this, BADCD2C933ABE188, B99D5F7DAE3E6B41);
+		}
+	};
+}

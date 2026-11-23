@@ -1,0 +1,37 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/InputSystem/Controls/ButtonControl.h"
+
+#define UNITYENGINE_INPUTSYSTEM_CONTROLS_TOUCHPRESSCONTROL_FINISHSETUP_OFFSET UNITYSDK_OFFSET(0x3F59CC0)
+#define UNITYENGINE_INPUTSYSTEM_CONTROLS_TOUCHPRESSCONTROL_READUNPROCESSEDVALUEFROMSTATE_OFFSET UNITYSDK_OFFSET(0x3F59DD0)
+#define UNITYENGINE_INPUTSYSTEM_CONTROLS_TOUCHPRESSCONTROL_WRITEVALUEINTOSTATE_OFFSET UNITYSDK_OFFSET(0x3F59F30)
+#define UNITYENGINE_INPUTSYSTEM_CONTROLS_TOUCHPRESSCONTROL__CTOR_OFFSET UNITYSDK_OFFSET(0x3F59F70)
+
+namespace UnityEngine::InputSystem::Controls
+{
+	inline static constexpr unsigned int TouchPressControl_TypeDefinitionIndex = 14198;
+
+	class TouchPressControl : public ::UnityEngine::InputSystem::Controls::ButtonControl
+	{
+	public:
+		::System::Void WriteValueIntoState(::System::Single E937D4885DAA1AE8, ::PVOID A536377AC8D49ABB)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_CONTROLS_TOUCHPRESSCONTROL_WRITEVALUEINTOSTATE_OFFSET))(this, E937D4885DAA1AE8, A536377AC8D49ABB);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_CONTROLS_TOUCHPRESSCONTROL__CTOR_OFFSET))(this);
+		}
+
+		::System::Void FinishSetup()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_CONTROLS_TOUCHPRESSCONTROL_FINISHSETUP_OFFSET))(this);
+		}
+
+		::System::Single ReadUnprocessedValueFromState(::PVOID A536377AC8D49ABB)
+		{
+			return ((::System::Single(*)(::PVOID, ::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_CONTROLS_TOUCHPRESSCONTROL_READUNPROCESSEDVALUEFROMSTATE_OFFSET))(this, A536377AC8D49ABB);
+		}
+	};
+}

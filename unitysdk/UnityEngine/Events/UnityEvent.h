@@ -1,0 +1,64 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Events/UnityEventBase.h"
+
+namespace B2F70F41B9C3250D { class A57EE0C5B275A465; }
+namespace B2F70F41B9C3250D { class F1DC6352FFA05D5A; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace System { class Type; }
+namespace System::Reflection { class MethodInfo; }
+
+#define UNITYENGINE_EVENTS_UNITYEVENT_ADDLISTENER_OFFSET UNITYSDK_OFFSET(0x4121290)
+#define UNITYENGINE_EVENTS_UNITYEVENT_FINDMETHOD_IMPL_OFFSET UNITYSDK_OFFSET(0x4121300)
+#define UNITYENGINE_EVENTS_UNITYEVENT_GETDELEGATE_1_OFFSET UNITYSDK_OFFSET(0x41213D0)
+#define UNITYENGINE_EVENTS_UNITYEVENT_GETDELEGATE_OFFSET UNITYSDK_OFFSET(0x4121360)
+#define UNITYENGINE_EVENTS_UNITYEVENT_INVOKE_OFFSET UNITYSDK_OFFSET(0x4121430)
+#define UNITYENGINE_EVENTS_UNITYEVENT_REMOVELISTENER_OFFSET UNITYSDK_OFFSET(0x4121600)
+#define UNITYENGINE_EVENTS_UNITYEVENT__CTOR_OFFSET UNITYSDK_OFFSET(0x31823D0)
+
+namespace UnityEngine::Events
+{
+	inline static constexpr unsigned int UnityEvent_TypeDefinitionIndex = 16985;
+
+	class UnityEvent : public ::UnityEngine::Events::UnityEventBase
+	{
+	public:
+		::Il2CppArray<::System::Object*>* m_InvokeArray; // 0x28
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENT__CTOR_OFFSET))(this);
+		}
+
+		::System::Void Invoke()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENT_INVOKE_OFFSET))(this);
+		}
+
+		::B2F70F41B9C3250D::A57EE0C5B275A465* GetDelegate(::System::Object* F249A74E7BFBE1A7, ::System::Reflection::MethodInfo* F7AA9D18549AB152)
+		{
+			return ((::B2F70F41B9C3250D::A57EE0C5B275A465*(*)(::PVOID, ::System::Object*, ::System::Reflection::MethodInfo*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENT_GETDELEGATE_OFFSET))(this, F249A74E7BFBE1A7, F7AA9D18549AB152);
+		}
+
+		::System::Void RemoveListener(::B2F70F41B9C3250D::F1DC6352FFA05D5A* BB7BEB2027376C69)
+		{
+			return ((::System::Void(*)(::PVOID, ::B2F70F41B9C3250D::F1DC6352FFA05D5A*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENT_REMOVELISTENER_OFFSET))(this, BB7BEB2027376C69);
+		}
+
+		static ::B2F70F41B9C3250D::A57EE0C5B275A465* GetDelegate_1(::B2F70F41B9C3250D::F1DC6352FFA05D5A* BC288918C940C7A6)
+		{
+			return ((::B2F70F41B9C3250D::A57EE0C5B275A465*(*)(::B2F70F41B9C3250D::F1DC6352FFA05D5A*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENT_GETDELEGATE_1_OFFSET))(BC288918C940C7A6);
+		}
+
+		::System::Reflection::MethodInfo* FindMethod_Impl(::System::String* F79B4D487F303AB2, ::System::Type* B57ECB41B10AC162)
+		{
+			return ((::System::Reflection::MethodInfo*(*)(::PVOID, ::System::String*, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENT_FINDMETHOD_IMPL_OFFSET))(this, F79B4D487F303AB2, B57ECB41B10AC162);
+		}
+
+		::System::Void AddListener(::B2F70F41B9C3250D::F1DC6352FFA05D5A* BB7BEB2027376C69)
+		{
+			return ((::System::Void(*)(::PVOID, ::B2F70F41B9C3250D::F1DC6352FFA05D5A*))((::PBYTE)hIl2Cpp + UNITYENGINE_EVENTS_UNITYEVENT_ADDLISTENER_OFFSET))(this, BB7BEB2027376C69);
+		}
+	};
+}

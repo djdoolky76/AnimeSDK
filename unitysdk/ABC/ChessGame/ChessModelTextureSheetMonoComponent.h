@@ -1,0 +1,76 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/A3B17C172EC49C40.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class Material; }
+namespace UnityEngine { class Renderer; }
+
+#define ABC_CHESSGAME_CHESSMODELTEXTURESHEETMONOCOMPONENT_A2F13B4B2E757C7E_OFFSET UNITYSDK_OFFSET(0x1D9D620)
+#define ABC_CHESSGAME_CHESSMODELTEXTURESHEETMONOCOMPONENT_AB36E0EE549986E5_OFFSET UNITYSDK_OFFSET(0x1D9DAA0)
+#define ABC_CHESSGAME_CHESSMODELTEXTURESHEETMONOCOMPONENT_B4D205198F58BC0D_OFFSET UNITYSDK_OFFSET(0x1D9DD00)
+#define ABC_CHESSGAME_CHESSMODELTEXTURESHEETMONOCOMPONENT_B4D7A7FDC904AF60_OFFSET UNITYSDK_OFFSET(0x1D9DBE0)
+#define ABC_CHESSGAME_CHESSMODELTEXTURESHEETMONOCOMPONENT_E1766730DC6D33F9_OFFSET UNITYSDK_OFFSET(0x1D9D980)
+#define ABC_CHESSGAME_CHESSMODELTEXTURESHEETMONOCOMPONENT_FDBCDBBFE02CD51A_OFFSET UNITYSDK_OFFSET(0x1D9D8C0)
+#define ABC_CHESSGAME_CHESSMODELTEXTURESHEETMONOCOMPONENT__CCTOR_OFFSET UNITYSDK_OFFSET(0x1D9DF10)
+#define ABC_CHESSGAME_CHESSMODELTEXTURESHEETMONOCOMPONENT__CTOR_OFFSET UNITYSDK_OFFSET(0x176D770)
+
+namespace ABC::ChessGame
+{
+	inline static constexpr unsigned int ChessModelTextureSheetMonoComponent_TypeDefinitionIndex = 10151;
+
+	class ChessModelTextureSheetMonoComponent : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		static ::System::Int32* StaticGet_A531002170FDDDF8()
+		{
+			return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(ChessModelTextureSheetMonoComponent_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		::UnityEngine::A3B17C172EC49C40 SheetSize; // 0x20
+		::UnityEngine::Renderer* BF2C1AFA9AB2EF5B; // 0x28
+		::System::Single E016A017FB9798CF; // 0x30
+		::System::Single AC80C19E7A8008F4; // 0x34
+		::System::Collections::Generic::List_1<::UnityEngine::Material*>* FDCC17D0EFF6784F; // 0x38
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + ABC_CHESSGAME_CHESSMODELTEXTURESHEETMONOCOMPONENT__CCTOR_OFFSET))();
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CHESSGAME_CHESSMODELTEXTURESHEETMONOCOMPONENT__CTOR_OFFSET))(this);
+		}
+
+		::System::Void AB36E0EE549986E5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CHESSGAME_CHESSMODELTEXTURESHEETMONOCOMPONENT_AB36E0EE549986E5_OFFSET))(this);
+		}
+
+		::System::Void FDBCDBBFE02CD51A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CHESSGAME_CHESSMODELTEXTURESHEETMONOCOMPONENT_FDBCDBBFE02CD51A_OFFSET))(this);
+		}
+
+		::System::Void A2F13B4B2E757C7E(::Il2CppArray<::System::Int32>* B3C214D68C2A1275)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + ABC_CHESSGAME_CHESSMODELTEXTURESHEETMONOCOMPONENT_A2F13B4B2E757C7E_OFFSET))(this, B3C214D68C2A1275);
+		}
+
+		::System::Void B4D205198F58BC0D(::Il2CppArray<::System::Int32>* B3C214D68C2A1275)
+		{
+			return ((::System::Void(*)(::PVOID, ::Il2CppArray<::System::Int32>*))((::PBYTE)hIl2Cpp + ABC_CHESSGAME_CHESSMODELTEXTURESHEETMONOCOMPONENT_B4D205198F58BC0D_OFFSET))(this, B3C214D68C2A1275);
+		}
+
+		::System::Void E1766730DC6D33F9()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CHESSGAME_CHESSMODELTEXTURESHEETMONOCOMPONENT_E1766730DC6D33F9_OFFSET))(this);
+		}
+
+		::System::Void B4D7A7FDC904AF60(::UnityEngine::Material* E3AD885F703BB54B, ::System::Int32 E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Material*, ::System::Int32))((::PBYTE)hIl2Cpp + ABC_CHESSGAME_CHESSMODELTEXTURESHEETMONOCOMPONENT_B4D7A7FDC904AF60_OFFSET))(this, E3AD885F703BB54B, E937D4885DAA1AE8);
+		}
+	};
+}

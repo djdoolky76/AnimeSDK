@@ -1,0 +1,114 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/EF35976FB684FD99/B8CC2777B9CB8B17.h"
+#include "unitysdk/UnityEngine/Tilemaps/TileBase.h"
+#include "unitysdk/UnityEngine/Tilemaps/Tile_BA021AA90D1C7705.h"
+#include "unitysdk/UnityEngine/ACF10FE87B4C5617.h"
+#include "unitysdk/UnityEngine/E46B881AA2636190.h"
+#include "unitysdk/EF35976FB684FD99/ADB1DA7B264B7350.h"
+#include "unitysdk/UnityEngine/EDF2B20DF77FE472.h"
+
+namespace EF35976FB684FD99 { class BC01A8392BCC1B18; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class Sprite; }
+
+#define UNITYENGINE_TILEMAPS_TILE_GETTILEDATA_OFFSET UNITYSDK_OFFSET(0x4214C00)
+#define UNITYENGINE_TILEMAPS_TILE_GET_COLLIDERTYPE_OFFSET UNITYSDK_OFFSET(0x4214DE0)
+#define UNITYENGINE_TILEMAPS_TILE_GET_COLOR_OFFSET UNITYSDK_OFFSET(0x41C4050)
+#define UNITYENGINE_TILEMAPS_TILE_GET_FLAGS_OFFSET UNITYSDK_OFFSET(0x4123290)
+#define UNITYENGINE_TILEMAPS_TILE_GET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x4197850)
+#define UNITYENGINE_TILEMAPS_TILE_GET_SPRITE_OFFSET UNITYSDK_OFFSET(0x3559240)
+#define UNITYENGINE_TILEMAPS_TILE_GET_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x4214DF0)
+#define UNITYENGINE_TILEMAPS_TILE_SET_COLLIDERTYPE_OFFSET UNITYSDK_OFFSET(0x1D1F830)
+#define UNITYENGINE_TILEMAPS_TILE_SET_COLOR_OFFSET UNITYSDK_OFFSET(0x1DC0A40)
+#define UNITYENGINE_TILEMAPS_TILE_SET_FLAGS_OFFSET UNITYSDK_OFFSET(0x1DD7C50)
+#define UNITYENGINE_TILEMAPS_TILE_SET_GAMEOBJECT_OFFSET UNITYSDK_OFFSET(0x17395F0)
+#define UNITYENGINE_TILEMAPS_TILE_SET_SPRITE_OFFSET UNITYSDK_OFFSET(0x17F35D0)
+#define UNITYENGINE_TILEMAPS_TILE_SET_TRANSFORM_OFFSET UNITYSDK_OFFSET(0x16BD3C0)
+#define UNITYENGINE_TILEMAPS_TILE__CTOR_OFFSET UNITYSDK_OFFSET(0x4214D60)
+
+namespace UnityEngine::Tilemaps
+{
+	inline static constexpr unsigned int Tile_TypeDefinitionIndex = 21359;
+
+	class Tile : public ::UnityEngine::Tilemaps::TileBase
+	{
+	public:
+		::UnityEngine::Sprite* m_Sprite; // 0x18
+		::UnityEngine::E46B881AA2636190 m_Color; // 0x20
+		::UnityEngine::ACF10FE87B4C5617 m_Transform; // 0x30
+		::UnityEngine::GameObject* m_InstancedGameObject; // 0x70
+		::EF35976FB684FD99::B8CC2777B9CB8B17 m_Flags; // 0x78
+		::UnityEngine::Tilemaps::Tile_BA021AA90D1C7705 m_ColliderType; // 0x7C
+
+		::System::Void GetTileData(::UnityEngine::EDF2B20DF77FE472 EB211B01816ACA79, ::EF35976FB684FD99::BC01A8392BCC1B18* AD3A656E874249FB, ::EF35976FB684FD99::ADB1DA7B264B7350& A34FB1BDD41306A2)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::EDF2B20DF77FE472, ::EF35976FB684FD99::BC01A8392BCC1B18*, ::EF35976FB684FD99::ADB1DA7B264B7350&))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILE_GETTILEDATA_OFFSET))(this, EB211B01816ACA79, AD3A656E874249FB, A34FB1BDD41306A2);
+		}
+
+		::UnityEngine::GameObject* get_gameObject()
+		{
+			return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILE_GET_GAMEOBJECT_OFFSET))(this);
+		}
+
+		::EF35976FB684FD99::B8CC2777B9CB8B17 get_flags()
+		{
+			return ((::EF35976FB684FD99::B8CC2777B9CB8B17(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILE_GET_FLAGS_OFFSET))(this);
+		}
+
+		::System::Void set_sprite(::UnityEngine::Sprite* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Sprite*))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILE_SET_SPRITE_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::UnityEngine::Tilemaps::Tile_BA021AA90D1C7705 get_colliderType()
+		{
+			return ((::UnityEngine::Tilemaps::Tile_BA021AA90D1C7705(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILE_GET_COLLIDERTYPE_OFFSET))(this);
+		}
+
+		::System::Void set_colliderType(::UnityEngine::Tilemaps::Tile_BA021AA90D1C7705 E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Tilemaps::Tile_BA021AA90D1C7705))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILE_SET_COLLIDERTYPE_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::UnityEngine::E46B881AA2636190 get_color()
+		{
+			return ((::UnityEngine::E46B881AA2636190(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILE_GET_COLOR_OFFSET))(this);
+		}
+
+		::UnityEngine::ACF10FE87B4C5617 get_transform()
+		{
+			return ((::UnityEngine::ACF10FE87B4C5617(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILE_GET_TRANSFORM_OFFSET))(this);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void set_transform(::UnityEngine::ACF10FE87B4C5617 E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ACF10FE87B4C5617))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILE_SET_TRANSFORM_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void set_color(::UnityEngine::E46B881AA2636190 E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::E46B881AA2636190))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILE_SET_COLOR_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void set_flags(::EF35976FB684FD99::B8CC2777B9CB8B17 E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::EF35976FB684FD99::B8CC2777B9CB8B17))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILE_SET_FLAGS_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void set_gameObject(::UnityEngine::GameObject* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILE_SET_GAMEOBJECT_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::UnityEngine::Sprite* get_sprite()
+		{
+			return ((::UnityEngine::Sprite*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TILEMAPS_TILE_GET_SPRITE_OFFSET))(this);
+		}
+	};
+}

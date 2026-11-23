@@ -1,0 +1,40 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class E2FADEFAA22B066C_BBF68CB969A24F4D;
+namespace UnityEngine { class Texture2D; }
+
+#define E2FADEFAA22B066C_F5628F8349D4A8A6_AB86B2CFA909C0E2_OFFSET UNITYSDK_OFFSET(0x38F42B0)
+#define E2FADEFAA22B066C_F5628F8349D4A8A6__CCTOR_OFFSET UNITYSDK_OFFSET(0x38F5CA0)
+#define E2FADEFAA22B066C_F5628F8349D4A8A6__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int E2FADEFAA22B066C_F5628F8349D4A8A6_TypeDefinitionIndex = 11762;
+
+class E2FADEFAA22B066C_F5628F8349D4A8A6 : public ::System::Object
+{
+public:
+	static ::E2FADEFAA22B066C_F5628F8349D4A8A6** StaticGet_AA32F971AB02398B()
+	{
+		return (::E2FADEFAA22B066C_F5628F8349D4A8A6**)Il2CppClass::FromTypeDefinitionIndex(E2FADEFAA22B066C_F5628F8349D4A8A6_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::E2FADEFAA22B066C_BBF68CB969A24F4D** StaticGet_B61CC0AF0D30B87F()
+	{
+		return (::E2FADEFAA22B066C_BBF68CB969A24F4D**)Il2CppClass::FromTypeDefinitionIndex(E2FADEFAA22B066C_F5628F8349D4A8A6_TypeDefinitionIndex)->GetStaticField(0x8);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + E2FADEFAA22B066C_F5628F8349D4A8A6__CCTOR_OFFSET))();
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E2FADEFAA22B066C_F5628F8349D4A8A6__CTOR_OFFSET))(this);
+	}
+
+	::System::Void AB86B2CFA909C0E2(::UnityEngine::Texture2D* E2F69B1AC05DF698)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Texture2D*))((::PBYTE)hIl2Cpp + E2FADEFAA22B066C_F5628F8349D4A8A6_AB86B2CFA909C0E2_OFFSET))(this, E2F69B1AC05DF698);
+	}
+};

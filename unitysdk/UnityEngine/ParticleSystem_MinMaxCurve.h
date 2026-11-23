@@ -1,0 +1,84 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/E07263AB33ADCEC9.h"
+
+namespace UnityEngine { class FAED0374422E783A; }
+
+#define UNITYENGINE_PARTICLESYSTEM_MINMAXCURVE_GET_CONSTANT_OFFSET UNITYSDK_OFFSET(0x41A9BD0)
+#define UNITYENGINE_PARTICLESYSTEM_MINMAXCURVE_OP_IMPLICIT_OFFSET UNITYSDK_OFFSET(0x41AC770)
+#define UNITYENGINE_PARTICLESYSTEM_MINMAXCURVE_SET_CONSTANTMAX_OFFSET UNITYSDK_OFFSET(0x233F9E0)
+#define UNITYENGINE_PARTICLESYSTEM_MINMAXCURVE_SET_CONSTANTMIN_OFFSET UNITYSDK_OFFSET(0x233F9D0)
+#define UNITYENGINE_PARTICLESYSTEM_MINMAXCURVE_SET_CONSTANT_OFFSET UNITYSDK_OFFSET(0x233F9E0)
+#define UNITYENGINE_PARTICLESYSTEM_MINMAXCURVE_SET_MODE_OFFSET UNITYSDK_OFFSET(0x1EAE190)
+#define UNITYENGINE_PARTICLESYSTEM_MINMAXCURVE__CTOR_1_OFFSET UNITYSDK_OFFSET(0x41AC6C0)
+#define UNITYENGINE_PARTICLESYSTEM_MINMAXCURVE__CTOR_2_OFFSET UNITYSDK_OFFSET(0x41AC720)
+#define UNITYENGINE_PARTICLESYSTEM_MINMAXCURVE__CTOR_3_OFFSET UNITYSDK_OFFSET(0x41AC610)
+#define UNITYENGINE_PARTICLESYSTEM_MINMAXCURVE__CTOR_OFFSET UNITYSDK_OFFSET(0x41AC670)
+
+namespace UnityEngine
+{
+	inline static constexpr unsigned int ParticleSystem_MinMaxCurve_TypeDefinitionIndex = 21004;
+
+	struct alignas(8) ParticleSystem_MinMaxCurve
+	{
+		::UnityEngine::E07263AB33ADCEC9 m_Mode; // 0x10
+		::System::Single m_CurveMultiplier; // 0x14
+		::UnityEngine::FAED0374422E783A* m_CurveMin; // 0x18
+		::UnityEngine::FAED0374422E783A* m_CurveMax; // 0x20
+		::System::Single m_ConstantMin; // 0x28
+		::System::Single m_ConstantMax; // 0x2C
+
+		::System::Void _ctor(::System::Single E12D2D3AE540B32C)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_MINMAXCURVE__CTOR_OFFSET))(this, E12D2D3AE540B32C);
+		}
+
+		::System::Void _ctor_1(::System::Single F0C9551704E7DBB5, ::UnityEngine::FAED0374422E783A* BF3792D775A7C92E)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::FAED0374422E783A*))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_MINMAXCURVE__CTOR_1_OFFSET))(this, F0C9551704E7DBB5, BF3792D775A7C92E);
+		}
+
+		::System::Void _ctor_2(::System::Single F0C9551704E7DBB5, ::UnityEngine::FAED0374422E783A* BDD0BFB63061789A, ::UnityEngine::FAED0374422E783A* BD80BAA77F7F7D95)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::UnityEngine::FAED0374422E783A*, ::UnityEngine::FAED0374422E783A*))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_MINMAXCURVE__CTOR_2_OFFSET))(this, F0C9551704E7DBB5, BDD0BFB63061789A, BD80BAA77F7F7D95);
+		}
+
+		::System::Void _ctor_3(::System::Single BDD0BFB63061789A, ::System::Single BD80BAA77F7F7D95)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_MINMAXCURVE__CTOR_3_OFFSET))(this, BDD0BFB63061789A, BD80BAA77F7F7D95);
+		}
+
+		::System::Void set_mode(::UnityEngine::E07263AB33ADCEC9 E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::E07263AB33ADCEC9))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_MINMAXCURVE_SET_MODE_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void set_constantMax(::System::Single E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_MINMAXCURVE_SET_CONSTANTMAX_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void set_constantMin(::System::Single E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_MINMAXCURVE_SET_CONSTANTMIN_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Single get_constant()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_MINMAXCURVE_GET_CONSTANT_OFFSET))(this);
+		}
+
+		::System::Void set_constant(::System::Single E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_MINMAXCURVE_SET_CONSTANT_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		/*
+		static ::UnityEngine::ParticleSystem_MinMaxCurve op_Implicit(::System::Single E12D2D3AE540B32C)
+		{
+			return ((::UnityEngine::ParticleSystem_MinMaxCurve(*)(::System::Single))((::PBYTE)hIl2Cpp + UNITYENGINE_PARTICLESYSTEM_MINMAXCURVE_OP_IMPLICIT_OFFSET))(E12D2D3AE540B32C);
+		}
+		*/
+	};
+}

@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+
+namespace UnityEngine { class Camera; }
+namespace UnityEngine::UI { class Scrollbar; }
+
+#define UNITYENGINE_UI_SCROLLBAR_F075C0176E7AA99F_A2E77175FF63D86F_OFFSET UNITYSDK_OFFSET(0x1EB8060)
+#define UNITYENGINE_UI_SCROLLBAR_F075C0176E7AA99F_B22CEE576498E421_OFFSET UNITYSDK_OFFSET(0x17F35A0)
+#define UNITYENGINE_UI_SCROLLBAR_F075C0176E7AA99F_B5B5C7AD4F7ECB57_OFFSET UNITYSDK_OFFSET(0x43DA080)
+#define UNITYENGINE_UI_SCROLLBAR_F075C0176E7AA99F_EADFEE570279D42C_OFFSET UNITYSDK_OFFSET(0x43DA2E0)
+#define UNITYENGINE_UI_SCROLLBAR_F075C0176E7AA99F_FDCFB01D59E44C5C_OFFSET UNITYSDK_OFFSET(0x17F35A0)
+#define UNITYENGINE_UI_SCROLLBAR_F075C0176E7AA99F__CTOR_OFFSET UNITYSDK_OFFSET(0x1F26BB0)
+
+namespace UnityEngine::UI
+{
+	inline static constexpr unsigned int Scrollbar_F075C0176E7AA99F_TypeDefinitionIndex = 18659;
+
+	class Scrollbar_F075C0176E7AA99F : public ::System::Object
+	{
+	public:
+		::System::Int32 B60DFDECCEC6A7FE; // 0x10
+		::System::Byte _padding0[0x4];
+		::System::Object* B382D6FE9CD25B30; // 0x18
+		::UnityEngine::UI::Scrollbar* E57594B99F869E8B; // 0x20
+		::UnityEngine::Vector2 B7803DA1AD8D55F9; // 0x28
+		::UnityEngine::Camera* AECE461F5C4C1633; // 0x30
+
+		::System::Void _ctor(::System::Int32 FEB3551B7D8B59C1)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_SCROLLBAR_F075C0176E7AA99F__CTOR_OFFSET))(this, FEB3551B7D8B59C1);
+		}
+
+		::System::Void A2E77175FF63D86F()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_SCROLLBAR_F075C0176E7AA99F_A2E77175FF63D86F_OFFSET))(this);
+		}
+
+		::System::Boolean B5B5C7AD4F7ECB57()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_SCROLLBAR_F075C0176E7AA99F_B5B5C7AD4F7ECB57_OFFSET))(this);
+		}
+
+		::System::Object* FDCFB01D59E44C5C()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_SCROLLBAR_F075C0176E7AA99F_FDCFB01D59E44C5C_OFFSET))(this);
+		}
+
+		::System::Void EADFEE570279D42C()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_SCROLLBAR_F075C0176E7AA99F_EADFEE570279D42C_OFFSET))(this);
+		}
+
+		::System::Object* B22CEE576498E421()
+		{
+			return ((::System::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UI_SCROLLBAR_F075C0176E7AA99F_B22CEE576498E421_OFFSET))(this);
+		}
+	};
+}

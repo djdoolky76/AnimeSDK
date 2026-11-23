@@ -1,0 +1,53 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/A2A488E9EABC917B/B9D093506CDFCF90.h"
+#include "unitysdk/A2A488E9EABC917B/BCF7A0C60F8AB9B8.h"
+#include "unitysdk/A2A488E9EABC917B/BD463A0008CDC2B6.h"
+#include "unitysdk/A2A488E9EABC917B/F80ABC2F783D1E45.h"
+#include "unitysdk/System/Object.h"
+
+#define F3EB9F95ACED75D0_BAA6C9CB32566367_OFFSET UNITYSDK_OFFSET(0x3C81B80)
+#define F3EB9F95ACED75D0__CCTOR_OFFSET UNITYSDK_OFFSET(0x3C81C70)
+#define F3EB9F95ACED75D0__CTOR_OFFSET UNITYSDK_OFFSET(0x3C81D80)
+
+inline static constexpr unsigned int F3EB9F95ACED75D0_TypeDefinitionIndex = 10415;
+
+class F3EB9F95ACED75D0 : public ::System::Object
+{
+public:
+	static ::F3EB9F95ACED75D0** StaticGet_B33392F4D0AD039E()
+	{
+		return (::F3EB9F95ACED75D0**)Il2CppClass::FromTypeDefinitionIndex(F3EB9F95ACED75D0_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::F3EB9F95ACED75D0** StaticGet_F855815C4D521A1A()
+	{
+		return (::F3EB9F95ACED75D0**)Il2CppClass::FromTypeDefinitionIndex(F3EB9F95ACED75D0_TypeDefinitionIndex)->GetStaticField(0x8);
+	}
+	static ::F3EB9F95ACED75D0** StaticGet_AC818280F8A8608F()
+	{
+		return (::F3EB9F95ACED75D0**)Il2CppClass::FromTypeDefinitionIndex(F3EB9F95ACED75D0_TypeDefinitionIndex)->GetStaticField(0x10);
+	}
+	::System::Boolean AB6143528FD2D1B8; // 0x10
+	::System::Boolean FBA0FE9C37E7C777; // 0x11
+	::System::Byte _padding0[0x2];
+	::System::Int32 BD11D98A5133735D; // 0x14
+	::A2A488E9EABC917B::BD463A0008CDC2B6 B69142119166654F; // 0x18
+	::A2A488E9EABC917B::F80ABC2F783D1E45 BCBF524D7CBE983B; // 0x1C
+	::A2A488E9EABC917B::B9D093506CDFCF90 ED2C678F860E2E27; // 0x20
+	::System::Boolean F07B5E258F97D8DB; // 0x24
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + F3EB9F95ACED75D0__CCTOR_OFFSET))();
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F3EB9F95ACED75D0__CTOR_OFFSET))(this);
+	}
+
+	static ::F3EB9F95ACED75D0* BAA6C9CB32566367(::A2A488E9EABC917B::BCF7A0C60F8AB9B8 B9130AB833FC93C2)
+	{
+		return ((::F3EB9F95ACED75D0*(*)(::A2A488E9EABC917B::BCF7A0C60F8AB9B8))((::PBYTE)hIl2Cpp + F3EB9F95ACED75D0_BAA6C9CB32566367_OFFSET))(B9130AB833FC93C2);
+	}
+};

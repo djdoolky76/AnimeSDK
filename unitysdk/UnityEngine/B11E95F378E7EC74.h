@@ -1,0 +1,47 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/UnityEngine/EC2AC38D9624497F.h"
+
+namespace UnityEngine { class Camera; }
+namespace UnityEngine { class GameObject; }
+
+#define UNITYENGINE_B11E95F378E7EC74_ADCDFFDAB2BD785D_OFFSET UNITYSDK_OFFSET(0x41A7480)
+#define UNITYENGINE_B11E95F378E7EC74_AEA9083BC8C33CDF_OFFSET UNITYSDK_OFFSET(0x41A74F0)
+#define UNITYENGINE_B11E95F378E7EC74_B34B50D29788A308_OFFSET UNITYSDK_OFFSET(0x41A7410)
+#define UNITYENGINE_B11E95F378E7EC74_E78609AC6620AF9A_OFFSET UNITYSDK_OFFSET(0x41A73A0)
+#define UNITYENGINE_B11E95F378E7EC74__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+namespace UnityEngine
+{
+	inline static constexpr unsigned int B11E95F378E7EC74_TypeDefinitionIndex = 21332;
+
+	class B11E95F378E7EC74 : public ::System::Object
+	{
+	public:
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_B11E95F378E7EC74__CTOR_OFFSET))(this);
+		}
+
+		static ::UnityEngine::GameObject* ADCDFFDAB2BD785D(::UnityEngine::Camera* A98EBC175E852459, ::UnityEngine::EC2AC38D9624497F& FB23624BBB1753FE, ::System::Single BDDF0F6C01956F38, ::System::Int32 ED6A79BC42F10D49)
+		{
+			return ((::UnityEngine::GameObject*(*)(::UnityEngine::Camera*, ::UnityEngine::EC2AC38D9624497F&, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_B11E95F378E7EC74_ADCDFFDAB2BD785D_OFFSET))(A98EBC175E852459, FB23624BBB1753FE, BDDF0F6C01956F38, ED6A79BC42F10D49);
+		}
+
+		static ::UnityEngine::GameObject* B34B50D29788A308(::UnityEngine::Camera* A98EBC175E852459, ::UnityEngine::EC2AC38D9624497F FB23624BBB1753FE, ::System::Single BDDF0F6C01956F38, ::System::Int32 ED6A79BC42F10D49)
+		{
+			return ((::UnityEngine::GameObject*(*)(::UnityEngine::Camera*, ::UnityEngine::EC2AC38D9624497F, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_B11E95F378E7EC74_B34B50D29788A308_OFFSET))(A98EBC175E852459, FB23624BBB1753FE, BDDF0F6C01956F38, ED6A79BC42F10D49);
+		}
+
+		static ::UnityEngine::GameObject* E78609AC6620AF9A(::UnityEngine::Camera* A98EBC175E852459, ::UnityEngine::EC2AC38D9624497F& FB23624BBB1753FE, ::System::Single BDDF0F6C01956F38, ::System::Int32 ED6A79BC42F10D49)
+		{
+			return ((::UnityEngine::GameObject*(*)(::UnityEngine::Camera*, ::UnityEngine::EC2AC38D9624497F&, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_B11E95F378E7EC74_E78609AC6620AF9A_OFFSET))(A98EBC175E852459, FB23624BBB1753FE, BDDF0F6C01956F38, ED6A79BC42F10D49);
+		}
+
+		static ::UnityEngine::GameObject* AEA9083BC8C33CDF(::UnityEngine::Camera* A98EBC175E852459, ::UnityEngine::EC2AC38D9624497F FB23624BBB1753FE, ::System::Single BDDF0F6C01956F38, ::System::Int32 ED6A79BC42F10D49)
+		{
+			return ((::UnityEngine::GameObject*(*)(::UnityEngine::Camera*, ::UnityEngine::EC2AC38D9624497F, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_B11E95F378E7EC74_AEA9083BC8C33CDF_OFFSET))(A98EBC175E852459, FB23624BBB1753FE, BDDF0F6C01956F38, ED6A79BC42F10D49);
+		}
+	};
+}

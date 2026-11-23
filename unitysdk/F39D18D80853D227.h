@@ -1,0 +1,44 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/B638D4663B29ACC5.h"
+#include "unitysdk/System/Object.h"
+
+class BEE1F3B6E9801174;
+namespace System { class E343D2B68475A1DF; }
+namespace System::Threading { class ThreadAbortException; }
+
+#define F39D18D80853D227_A7C87CB9A08A1D7B_OFFSET UNITYSDK_OFFSET(0x2900A60)
+#define F39D18D80853D227_A8E4FC41623F962E_OFFSET UNITYSDK_OFFSET(0x1EB8060)
+#define F39D18D80853D227_ADA3FC776FE2F77A_OFFSET UNITYSDK_OFFSET(0x3E6EDF0)
+#define F39D18D80853D227__CTOR_OFFSET UNITYSDK_OFFSET(0x3E6EE20)
+
+inline static constexpr unsigned int F39D18D80853D227_TypeDefinitionIndex = 14932;
+
+class F39D18D80853D227 : public ::System::Object
+{
+public:
+	::System::B638D4663B29ACC5 A0A225C4EC9475CC; // 0x10
+	::System::Byte _padding0[0x4];
+	::System::E343D2B68475A1DF* E04D2BE64FCE9814; // 0x18
+	::BEE1F3B6E9801174* E5EB06E4FD2C32F7; // 0x20
+
+	::System::Void A8E4FC41623F962E(::System::Threading::ThreadAbortException* E1634F0E50977F5D)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Threading::ThreadAbortException*))((::PBYTE)hIl2Cpp + F39D18D80853D227_A8E4FC41623F962E_OFFSET))(this, E1634F0E50977F5D);
+	}
+
+	::System::Void _ctor(::System::B638D4663B29ACC5 A0A225C4EC9475CC, ::System::E343D2B68475A1DF* E04D2BE64FCE9814, ::BEE1F3B6E9801174* E5EB06E4FD2C32F7)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::B638D4663B29ACC5, ::System::E343D2B68475A1DF*, ::BEE1F3B6E9801174*))((::PBYTE)hIl2Cpp + F39D18D80853D227__CTOR_OFFSET))(this, A0A225C4EC9475CC, E04D2BE64FCE9814, E5EB06E4FD2C32F7);
+	}
+
+	::System::Void ADA3FC776FE2F77A()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F39D18D80853D227_ADA3FC776FE2F77A_OFFSET))(this);
+	}
+
+	::System::Void A7C87CB9A08A1D7B()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F39D18D80853D227_A7C87CB9A08A1D7B_OFFSET))(this);
+	}
+};

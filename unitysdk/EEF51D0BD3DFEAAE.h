@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/E987842ECE66EDDA.h"
+#include "unitysdk/UnityEngine/E9AA3902F13A885E.h"
+#include "unitysdk/UnityEngine/EDE5BB0E4FD7F1B5.h"
+
+#define EEF51D0BD3DFEAAE_AF1F7BE2BAC114B2_OFFSET UNITYSDK_OFFSET(0x19DB7F0)
+#define EEF51D0BD3DFEAAE_E1E9B9BF582F8A3A_OFFSET UNITYSDK_OFFSET(0x16A7BC0)
+
+inline static constexpr unsigned int EEF51D0BD3DFEAAE_TypeDefinitionIndex = 17024;
+
+class EEF51D0BD3DFEAAE : public ::UnityEngine::E987842ECE66EDDA
+{
+public:
+	::UnityEngine::EDE5BB0E4FD7F1B5 E99DF863FC9A66B7; // 0x10
+	::UnityEngine::E9AA3902F13A885E EA0D391DA0CE2BBB; // 0x14
+
+	::UnityEngine::E9AA3902F13A885E AF1F7BE2BAC114B2()
+	{
+		return ((::UnityEngine::E9AA3902F13A885E(*)(::PVOID))((::PBYTE)hIl2Cpp + EEF51D0BD3DFEAAE_AF1F7BE2BAC114B2_OFFSET))(this);
+	}
+
+	::UnityEngine::EDE5BB0E4FD7F1B5 E1E9B9BF582F8A3A()
+	{
+		return ((::UnityEngine::EDE5BB0E4FD7F1B5(*)(::PVOID))((::PBYTE)hIl2Cpp + EEF51D0BD3DFEAAE_E1E9B9BF582F8A3A_OFFSET))(this);
+	}
+};

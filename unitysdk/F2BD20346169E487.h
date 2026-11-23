@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/BA21B22DE113DED2.h"
+
+#define F2BD20346169E487_A27A72F74D0D812A_OFFSET UNITYSDK_OFFSET(0x1F201E0)
+#define F2BD20346169E487_B51A7DDE9C82A68C_OFFSET UNITYSDK_OFFSET(0x1F1FFF0)
+#define F2BD20346169E487_B8229F863634C076_OFFSET UNITYSDK_OFFSET(0x1F20240)
+#define F2BD20346169E487__CTOR_OFFSET UNITYSDK_OFFSET(0x1F201B0)
+
+inline static constexpr unsigned int F2BD20346169E487_TypeDefinitionIndex = 7509;
+
+struct alignas(8) F2BD20346169E487
+{
+	::PVOID A9F24F18E399863C; // 0x10
+
+	::System::Boolean B8229F863634C076()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + F2BD20346169E487_B8229F863634C076_OFFSET))(this);
+	}
+
+	::System::Void _ctor(::BA21B22DE113DED2<::System::UInt32> A6D0B3BFC448C248, ::System::Int32 F3FDBDF7C678496A)
+	{
+		return ((::System::Void(*)(::PVOID, ::BA21B22DE113DED2<::System::UInt32>, ::System::Int32))((::PBYTE)hIl2Cpp + F2BD20346169E487__CTOR_OFFSET))(this, A6D0B3BFC448C248, F3FDBDF7C678496A);
+	}
+
+	::System::Int32 A27A72F74D0D812A()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + F2BD20346169E487_A27A72F74D0D812A_OFFSET))(this);
+	}
+
+	::System::Boolean B51A7DDE9C82A68C(::System::Int32 B48C66E5FB2449C6)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + F2BD20346169E487_B51A7DDE9C82A68C_OFFSET))(this, B48C66E5FB2449C6);
+	}
+};

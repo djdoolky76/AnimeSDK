@@ -1,0 +1,33 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/B95DF7E83FC8D73C.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/InputSystem/Switch/SwitchProControllerHID_A2AA029568B6DCE9.h"
+#include "unitysdk/UnityEngine/InputSystem/Switch/SwitchProControllerHID_A2AA029568B6DCE9_A264A1FD784A60BB.h"
+#include "unitysdk/AFB530854B88B5A8.h"
+
+#define UNITYENGINE_INPUTSYSTEM_SWITCH_SWITCHPROCONTROLLERHID_FE89146905BF38C3_BC027A3F1442DAD8_OFFSET UNITYSDK_OFFSET(0x3F5E3A0)
+#define UNITYENGINE_INPUTSYSTEM_SWITCH_SWITCHPROCONTROLLERHID_FE89146905BF38C3_BD9CD726F874B523_OFFSET UNITYSDK_OFFSET(0x3FEF6C0)
+
+namespace UnityEngine::InputSystem::Switch
+{
+	inline static constexpr unsigned int SwitchProControllerHID_FE89146905BF38C3_TypeDefinitionIndex = 14490;
+
+	struct alignas(4) SwitchProControllerHID_FE89146905BF38C3
+	{
+		::B95DF7E83FC8D73C BD9195D7ACAD45EB; // 0x10
+		::UnityEngine::InputSystem::Switch::SwitchProControllerHID_A2AA029568B6DCE9 A9BBFB0BB2D970B1; // 0x18
+
+		static ::AFB530854B88B5A8 BC027A3F1442DAD8()
+		{
+			return ((::AFB530854B88B5A8(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_SWITCH_SWITCHPROCONTROLLERHID_FE89146905BF38C3_BC027A3F1442DAD8_OFFSET))();
+		}
+
+		/*
+		static ::UnityEngine::InputSystem::Switch::SwitchProControllerHID_FE89146905BF38C3 BD9CD726F874B523(::UnityEngine::InputSystem::Switch::SwitchProControllerHID_A2AA029568B6DCE9_A264A1FD784A60BB A288CB28FC2A6DA3)
+		{
+			return ((::UnityEngine::InputSystem::Switch::SwitchProControllerHID_FE89146905BF38C3(*)(::UnityEngine::InputSystem::Switch::SwitchProControllerHID_A2AA029568B6DCE9_A264A1FD784A60BB))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_SWITCH_SWITCHPROCONTROLLERHID_FE89146905BF38C3_BD9CD726F874B523_OFFSET))(A288CB28FC2A6DA3);
+		}
+		*/
+	};
+}

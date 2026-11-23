@@ -1,0 +1,61 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace System { class Object; }
+namespace System { class String; }
+namespace System::Text { class StringBuilder; }
+
+#define E7185CE2C4DA7AE6_A83BD201FCBCE144_OFFSET UNITYSDK_OFFSET(0x1F57630)
+#define E7185CE2C4DA7AE6_B996A70283B60FAC_OFFSET UNITYSDK_OFFSET(0x1F575D0)
+#define E7185CE2C4DA7AE6_EA28CF291EBB2931_OFFSET UNITYSDK_OFFSET(0x1F576A0)
+#define E7185CE2C4DA7AE6_EE8C76B731BE55CE_OFFSET UNITYSDK_OFFSET(0x1F57460)
+#define E7185CE2C4DA7AE6_FC3208D7B8C7EE04_1_OFFSET UNITYSDK_OFFSET(0x1F57560)
+#define E7185CE2C4DA7AE6_FC3208D7B8C7EE04_OFFSET UNITYSDK_OFFSET(0x1F574D0)
+#define E7185CE2C4DA7AE6__CTOR_OFFSET UNITYSDK_OFFSET(0x1EAE190)
+
+inline static constexpr unsigned int E7185CE2C4DA7AE6_TypeDefinitionIndex = 7758;
+
+struct alignas(4) E7185CE2C4DA7AE6
+{
+	::System::Int32 EA7CFF2710F5BB56; // 0x10
+
+	::System::Boolean FC3208D7B8C7EE04(::System::Object* A86A90C31A146E9C)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + E7185CE2C4DA7AE6_FC3208D7B8C7EE04_OFFSET))(this, A86A90C31A146E9C);
+	}
+
+	::System::Void _ctor(::System::Int32 F5AEFA05C9F71B82)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + E7185CE2C4DA7AE6__CTOR_OFFSET))(this, F5AEFA05C9F71B82);
+	}
+
+	/*
+	::System::Int32 EE8C76B731BE55CE(::E7185CE2C4DA7AE6 BEEE7A5A60941632)
+	{
+		return ((::System::Int32(*)(::PVOID, ::E7185CE2C4DA7AE6))((::PBYTE)hIl2Cpp + E7185CE2C4DA7AE6_EE8C76B731BE55CE_OFFSET))(this, BEEE7A5A60941632);
+	}
+	*/
+
+	::System::String* EA28CF291EBB2931()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + E7185CE2C4DA7AE6_EA28CF291EBB2931_OFFSET))(this);
+	}
+
+	::System::Int32 B996A70283B60FAC()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + E7185CE2C4DA7AE6_B996A70283B60FAC_OFFSET))(this);
+	}
+
+	/*
+	::System::Boolean FC3208D7B8C7EE04_1(::E7185CE2C4DA7AE6 BEEE7A5A60941632)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::E7185CE2C4DA7AE6))((::PBYTE)hIl2Cpp + E7185CE2C4DA7AE6_FC3208D7B8C7EE04_1_OFFSET))(this, BEEE7A5A60941632);
+	}
+	*/
+
+	::System::Boolean A83BD201FCBCE144(::System::Text::StringBuilder* B076D6911116907A)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Text::StringBuilder*))((::PBYTE)hIl2Cpp + E7185CE2C4DA7AE6_A83BD201FCBCE144_OFFSET))(this, B076D6911116907A);
+	}
+};

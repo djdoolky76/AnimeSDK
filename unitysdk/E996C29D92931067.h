@@ -1,0 +1,42 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/F0D7E1CC79344FE9.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+#include "unitysdk/E12F55A5FCCCF1EC.h"
+
+class BB53FDCEC0659F4F;
+namespace A970A434E9CC38AD { class E081240858EC757E; }
+
+#define E996C29D92931067_AFD5178090BD77F2_OFFSET UNITYSDK_OFFSET(0x16DC000)
+#define E996C29D92931067_B10E3DC12D780A60_OFFSET UNITYSDK_OFFSET(0x16DBF70)
+#define E996C29D92931067__CTOR_OFFSET UNITYSDK_OFFSET(0x16DC2B0)
+
+inline static constexpr unsigned int E996C29D92931067_TypeDefinitionIndex = 563;
+
+class E996C29D92931067 : public ::F0D7E1CC79344FE9
+{
+public:
+	::UnityEngine::Vector3 B18E0520EF27D9C8; // 0x28
+	::UnityEngine::Quaternion E8DFD419CD7A8A30; // 0x34
+	::System::Boolean AD344D0239A86BDC; // 0x44
+	::System::Boolean EFCE60F90FF02CB6; // 0x45
+	::System::Byte _padding0[0x2];
+	::System::Single B81506C6C1514A15; // 0x48
+	::System::Single B8D5AD75BE5D51F1; // 0x4C
+
+	::System::Void _ctor(::BB53FDCEC0659F4F* BBDFEFADBEC28609, ::A970A434E9CC38AD::E081240858EC757E* E0C29B9F427F1B80, ::UnityEngine::Vector3 F643CAC84B2D63EA, ::UnityEngine::Quaternion A242C4F634A9C509, ::System::Boolean FB07F63C84231F46)
+	{
+		return ((::System::Void(*)(::PVOID, ::BB53FDCEC0659F4F*, ::A970A434E9CC38AD::E081240858EC757E*, ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::System::Boolean))((::PBYTE)hIl2Cpp + E996C29D92931067__CTOR_OFFSET))(this, BBDFEFADBEC28609, E0C29B9F427F1B80, F643CAC84B2D63EA, A242C4F634A9C509, FB07F63C84231F46);
+	}
+
+	::System::Void AFD5178090BD77F2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E996C29D92931067_AFD5178090BD77F2_OFFSET))(this);
+	}
+
+	::System::Void B10E3DC12D780A60(::E12F55A5FCCCF1EC EB5670302F34D4B7)
+	{
+		return ((::System::Void(*)(::PVOID, ::E12F55A5FCCCF1EC))((::PBYTE)hIl2Cpp + E996C29D92931067_B10E3DC12D780A60_OFFSET))(this, EB5670302F34D4B7);
+	}
+};

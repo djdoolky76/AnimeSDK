@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/B87B08C7AD194242.h"
+
+namespace System { class Object; }
+namespace System { class String; }
+
+#define A0C1C7A1AC0DBE7E_B996A70283B60FAC_1_OFFSET UNITYSDK_OFFSET(0x3D08B20)
+#define A0C1C7A1AC0DBE7E_B996A70283B60FAC_OFFSET UNITYSDK_OFFSET(0x3D08BC0)
+#define A0C1C7A1AC0DBE7E_BCB0A4DD6EA3B4C9_OFFSET UNITYSDK_OFFSET(0x3D089C0)
+#define A0C1C7A1AC0DBE7E_FC3208D7B8C7EE04_1_OFFSET UNITYSDK_OFFSET(0x3D08A10)
+#define A0C1C7A1AC0DBE7E_FC3208D7B8C7EE04_OFFSET UNITYSDK_OFFSET(0x3D08A80)
+#define A0C1C7A1AC0DBE7E__CTOR_OFFSET UNITYSDK_OFFSET(0x3D08C20)
+
+inline static constexpr unsigned int A0C1C7A1AC0DBE7E_TypeDefinitionIndex = 10782;
+
+class A0C1C7A1AC0DBE7E : public ::B87B08C7AD194242
+{
+public:
+	::System::Boolean FD4B3B04B182C4B3; // 0x10
+
+	::System::Boolean FC3208D7B8C7EE04(::System::Object* A86A90C31A146E9C)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::Object*))((::PBYTE)hIl2Cpp + A0C1C7A1AC0DBE7E_FC3208D7B8C7EE04_OFFSET))(this, A86A90C31A146E9C);
+	}
+
+	::System::Void _ctor(::System::Boolean ACBE55281F187CE7)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + A0C1C7A1AC0DBE7E__CTOR_OFFSET))(this, ACBE55281F187CE7);
+	}
+
+	::System::Boolean FC3208D7B8C7EE04_1(::System::String* BB8C609F76620E45, ::System::String* A0A0D02932F12CFD)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + A0C1C7A1AC0DBE7E_FC3208D7B8C7EE04_1_OFFSET))(this, BB8C609F76620E45, A0A0D02932F12CFD);
+	}
+
+	::System::Int32 B996A70283B60FAC()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + A0C1C7A1AC0DBE7E_B996A70283B60FAC_OFFSET))(this);
+	}
+
+	::System::Int32 B996A70283B60FAC_1(::System::String* A86A90C31A146E9C)
+	{
+		return ((::System::Int32(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + A0C1C7A1AC0DBE7E_B996A70283B60FAC_1_OFFSET))(this, A86A90C31A146E9C);
+	}
+
+	::System::Int32 BCB0A4DD6EA3B4C9(::System::String* BB8C609F76620E45, ::System::String* A0A0D02932F12CFD)
+	{
+		return ((::System::Int32(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + A0C1C7A1AC0DBE7E_BCB0A4DD6EA3B4C9_OFFSET))(this, BB8C609F76620E45, A0A0D02932F12CFD);
+	}
+};

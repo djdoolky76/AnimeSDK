@@ -1,0 +1,29 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/B8DE4F47D53BC39B_5061BEE295C48C19.h"
+#include "unitysdk/FCC2F8EABCD6F945.h"
+
+namespace System::Globalization { class BC10A13177D0F3FF; }
+
+#define SYSTEM_GLOBALIZATION_FA3E86B3D42F5130_E14D1CCDD3FF276F_OFFSET UNITYSDK_OFFSET(0x3E09540)
+#define SYSTEM_GLOBALIZATION_FA3E86B3D42F5130__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+namespace System::Globalization
+{
+	inline static constexpr unsigned int FA3E86B3D42F5130_TypeDefinitionIndex = 21209;
+
+	class FA3E86B3D42F5130 : public ::System::Object
+	{
+	public:
+		static ::System::Void E14D1CCDD3FF276F(::B8DE4F47D53BC39B_5061BEE295C48C19& A94D8812A3A79CC8, ::System::Int32 E37F2DD025DAA5EF, ::System::Int32 A73B96BE7F2DEBF7, ::System::Boolean F966037CFDD4E6C2, ::FCC2F8EABCD6F945<::System::Char> F1B74DA73881CF9B, ::System::Globalization::BC10A13177D0F3FF* A5E76C8915BD4F7B, ::Il2CppArray<::System::Char>* F92B63DEB63D2101, ::System::Int32 B11388950C465AE2)
+		{
+			return ((::System::Void(*)(::B8DE4F47D53BC39B_5061BEE295C48C19&, ::System::Int32, ::System::Int32, ::System::Boolean, ::FCC2F8EABCD6F945<::System::Char>, ::System::Globalization::BC10A13177D0F3FF*, ::Il2CppArray<::System::Char>*, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FA3E86B3D42F5130_E14D1CCDD3FF276F_OFFSET))(A94D8812A3A79CC8, E37F2DD025DAA5EF, A73B96BE7F2DEBF7, F966037CFDD4E6C2, F1B74DA73881CF9B, A5E76C8915BD4F7B, F92B63DEB63D2101, B11388950C465AE2);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_GLOBALIZATION_FA3E86B3D42F5130__CTOR_OFFSET))(this);
+		}
+	};
+}

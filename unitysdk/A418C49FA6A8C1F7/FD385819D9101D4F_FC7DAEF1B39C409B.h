@@ -1,0 +1,17 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/A418C49FA6A8C1F7/F8F58B69ECD9E3B0_FC7DAEF1B39C409B.h"
+
+namespace A418C49FA6A8C1F7 { class BB6D09C3491971F6; }
+
+namespace A418C49FA6A8C1F7
+{
+	inline static constexpr unsigned int FD385819D9101D4F_FC7DAEF1B39C409B_TypeDefinitionIndex = 13984;
+
+	template <typename T>
+	class FD385819D9101D4F_FC7DAEF1B39C409B : public ::A418C49FA6A8C1F7::F8F58B69ECD9E3B0_FC7DAEF1B39C409B
+	{
+	public:
+		::A418C49FA6A8C1F7::BB6D09C3491971F6* EC95C99C4AB67D0D; // 0x0
+	};
+}

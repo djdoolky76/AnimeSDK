@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace F2792F2598627091 { class FD95F15AEC8727F4; }
+
+#define F2792F2598627091_AE9FC745BAE060C1_A3B03B1691EA85AB_AA86E7156486B09A_OFFSET UNITYSDK_OFFSET(0x4282880)
+
+namespace F2792F2598627091
+{
+	inline static constexpr unsigned int AE9FC745BAE060C1_A3B03B1691EA85AB_TypeDefinitionIndex = 13843;
+
+	struct alignas(8) AE9FC745BAE060C1_A3B03B1691EA85AB
+	{
+		::System::UInt32 FE4CC799A7EA66C7; // 0x10
+		::System::Byte _padding0[0x4];
+		::F2792F2598627091::FD95F15AEC8727F4* A8013FBEF1403741; // 0x18
+
+		::System::Void AA86E7156486B09A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F2792F2598627091_AE9FC745BAE060C1_A3B03B1691EA85AB_AA86E7156486B09A_OFFSET))(this);
+		}
+	};
+}

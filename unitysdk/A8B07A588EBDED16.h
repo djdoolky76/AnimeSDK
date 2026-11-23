@@ -1,0 +1,107 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/A59CAF95CAE9D5D3/F1D7BFDA7ED80FB9.h"
+#include "unitysdk/System/Object.h"
+
+namespace TA::CameraPostEffectSystem { class VolumeDataBase; }
+namespace UnityEngine::Rendering { class Volume; }
+namespace UnityEngine::Rendering { class VolumeComponent; }
+
+#define A8B07A588EBDED16_A1E97155B145443C_OFFSET UNITYSDK_OFFSET(0x2867BE0)
+#define A8B07A588EBDED16_A229FC4B2C9FFF87_OFFSET UNITYSDK_OFFSET(0x2867D50)
+#define A8B07A588EBDED16_A2488E8C280D5AA2_OFFSET UNITYSDK_OFFSET(0x2868040)
+#define A8B07A588EBDED16_AB63E4FCA9FE995B_OFFSET UNITYSDK_OFFSET(0x28679A0)
+#define A8B07A588EBDED16_B15A4DF355213D29_OFFSET UNITYSDK_OFFSET(0x2867F60)
+#define A8B07A588EBDED16_BF3BD8F78618C3E0_OFFSET UNITYSDK_OFFSET(0x2867A00)
+#define A8B07A588EBDED16_BFCEE111278C4278_OFFSET UNITYSDK_OFFSET(0x2867EF0)
+#define A8B07A588EBDED16_E0583C67B2722B88_OFFSET UNITYSDK_OFFSET(0x2867A90)
+#define A8B07A588EBDED16_E096355BB294D1ED_OFFSET UNITYSDK_OFFSET(0x168A070)
+#define A8B07A588EBDED16_E2AB669FA28D392E_OFFSET UNITYSDK_OFFSET(0x2867B90)
+#define A8B07A588EBDED16_E48D0203740B5BAA_OFFSET UNITYSDK_OFFSET(0x2867C50)
+#define A8B07A588EBDED16_E8A9B84E569DEF93_OFFSET UNITYSDK_OFFSET(0x2867E50)
+#define A8B07A588EBDED16_FCC7443573DD0222_OFFSET UNITYSDK_OFFSET(0x2867B00)
+#define A8B07A588EBDED16__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int A8B07A588EBDED16_TypeDefinitionIndex = 16051;
+
+class A8B07A588EBDED16 : public ::System::Object
+{
+public:
+	::UnityEngine::Rendering::Volume* F9A6A77353C9F600; // 0x10
+	::TA::CameraPostEffectSystem::VolumeDataBase* F35D3907ECB0617C; // 0x18
+	::TA::CameraPostEffectSystem::VolumeDataBase* BC5572D599A24661; // 0x20
+	::TA::CameraPostEffectSystem::VolumeDataBase* A5F175B5807E9D50; // 0x28
+	::A59CAF95CAE9D5D3::F1D7BFDA7ED80FB9 ADDED72A91C1873A; // 0x30
+	::System::Single FA138F9D800E4C5A; // 0x34
+	::System::Single A062E0B696CCC914; // 0x38
+
+	::System::Void FCC7443573DD0222()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A8B07A588EBDED16_FCC7443573DD0222_OFFSET))(this);
+	}
+
+	::System::Boolean E48D0203740B5BAA()
+	{
+		return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + A8B07A588EBDED16_E48D0203740B5BAA_OFFSET))(this);
+	}
+
+	::System::Void E8A9B84E569DEF93()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A8B07A588EBDED16_E8A9B84E569DEF93_OFFSET))(this);
+	}
+
+	::System::Void AB63E4FCA9FE995B(::TA::CameraPostEffectSystem::VolumeDataBase* F220A2D27F7C6B6C)
+	{
+		return ((::System::Void(*)(::PVOID, ::TA::CameraPostEffectSystem::VolumeDataBase*))((::PBYTE)hIl2Cpp + A8B07A588EBDED16_AB63E4FCA9FE995B_OFFSET))(this, F220A2D27F7C6B6C);
+	}
+
+	::System::Void A2488E8C280D5AA2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A8B07A588EBDED16_A2488E8C280D5AA2_OFFSET))(this);
+	}
+
+	::System::Void BFCEE111278C4278(::TA::CameraPostEffectSystem::VolumeDataBase* F220A2D27F7C6B6C)
+	{
+		return ((::System::Void(*)(::PVOID, ::TA::CameraPostEffectSystem::VolumeDataBase*))((::PBYTE)hIl2Cpp + A8B07A588EBDED16_BFCEE111278C4278_OFFSET))(this, F220A2D27F7C6B6C);
+	}
+
+	::System::Void E0583C67B2722B88(::System::Single AD78C8EF4081E0D4, ::TA::CameraPostEffectSystem::VolumeDataBase* EC867F4360A15CE3)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single, ::TA::CameraPostEffectSystem::VolumeDataBase*))((::PBYTE)hIl2Cpp + A8B07A588EBDED16_E0583C67B2722B88_OFFSET))(this, AD78C8EF4081E0D4, EC867F4360A15CE3);
+	}
+
+	::System::Void B15A4DF355213D29(::A59CAF95CAE9D5D3::F1D7BFDA7ED80FB9 EA0DE05E3DB3842E, ::System::Single EA080078A3C1FDF3)
+	{
+		return ((::System::Void(*)(::PVOID, ::A59CAF95CAE9D5D3::F1D7BFDA7ED80FB9, ::System::Single))((::PBYTE)hIl2Cpp + A8B07A588EBDED16_B15A4DF355213D29_OFFSET))(this, EA0DE05E3DB3842E, EA080078A3C1FDF3);
+	}
+
+	::TA::CameraPostEffectSystem::VolumeDataBase* E2AB669FA28D392E()
+	{
+		return ((::TA::CameraPostEffectSystem::VolumeDataBase*(*)(::PVOID))((::PBYTE)hIl2Cpp + A8B07A588EBDED16_E2AB669FA28D392E_OFFSET))(this);
+	}
+
+	::UnityEngine::Rendering::VolumeComponent* E096355BB294D1ED()
+	{
+		return ((::UnityEngine::Rendering::VolumeComponent*(*)(::PVOID))((::PBYTE)hIl2Cpp + A8B07A588EBDED16_E096355BB294D1ED_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A8B07A588EBDED16__CTOR_OFFSET))(this);
+	}
+
+	::System::Void A229FC4B2C9FFF87(::System::Single EB5670302F34D4B7)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + A8B07A588EBDED16_A229FC4B2C9FFF87_OFFSET))(this, EB5670302F34D4B7);
+	}
+
+	::System::Void A1E97155B145443C(::UnityEngine::Rendering::Volume* B44B351D79166B65)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Rendering::Volume*))((::PBYTE)hIl2Cpp + A8B07A588EBDED16_A1E97155B145443C_OFFSET))(this, B44B351D79166B65);
+	}
+
+	::System::Void BF3BD8F78618C3E0()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A8B07A588EBDED16_BF3BD8F78618C3E0_OFFSET))(this);
+	}
+};

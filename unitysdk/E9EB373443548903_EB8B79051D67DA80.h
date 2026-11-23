@@ -1,0 +1,16 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+class AB642D1382756991;
+class B5DEC2D247919E3A;
+class E85E0EBC7325901C;
+
+inline static constexpr unsigned int E9EB373443548903_EB8B79051D67DA80_TypeDefinitionIndex = 1072;
+
+struct alignas(8) E9EB373443548903_EB8B79051D67DA80
+{
+	::B5DEC2D247919E3A* E6D77B33BDD8348C; // 0x10
+	::E85E0EBC7325901C* A414D8927C50ADC9; // 0x18
+	::AB642D1382756991* F612230AADCB175E; // 0x20
+};

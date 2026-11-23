@@ -1,0 +1,47 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AB07E24B584983C1.h"
+#include "unitysdk/E12F55A5FCCCF1EC.h"
+
+class B74F4AB7B916DA86;
+namespace ABC::Collections::Generic { template <typename T1, typename T2> class SortedDictionary_2; }
+
+#define B8118AE0F4B497A7_A3C2F655C6B4F5E2_OFFSET UNITYSDK_OFFSET(0x1D389F0)
+#define B8118AE0F4B497A7_A8C1447337F4EFDC_OFFSET UNITYSDK_OFFSET(0x1D38780)
+#define B8118AE0F4B497A7_AFD5178090BD77F2_OFFSET UNITYSDK_OFFSET(0x1D388E0)
+#define B8118AE0F4B497A7_E46F0F16C063D636_OFFSET UNITYSDK_OFFSET(0x1D38A50)
+#define B8118AE0F4B497A7__CTOR_OFFSET UNITYSDK_OFFSET(0x1D391F0)
+
+inline static constexpr unsigned int B8118AE0F4B497A7_TypeDefinitionIndex = 10039;
+
+class B8118AE0F4B497A7 : public ::AB07E24B584983C1
+{
+public:
+	::B74F4AB7B916DA86* E153D4E60968173A; // 0x50
+	::ABC::Collections::Generic::SortedDictionary_2<::System::Int32, ::System::Int32>* F4C1E4E55D3FB3C1; // 0x58
+
+	::System::Void E46F0F16C063D636(::E12F55A5FCCCF1EC EB5670302F34D4B7)
+	{
+		return ((::System::Void(*)(::PVOID, ::E12F55A5FCCCF1EC))((::PBYTE)hIl2Cpp + B8118AE0F4B497A7_E46F0F16C063D636_OFFSET))(this, EB5670302F34D4B7);
+	}
+
+	::System::Void AFD5178090BD77F2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B8118AE0F4B497A7_AFD5178090BD77F2_OFFSET))(this);
+	}
+
+	::System::Void A3C2F655C6B4F5E2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B8118AE0F4B497A7_A3C2F655C6B4F5E2_OFFSET))(this);
+	}
+
+	::System::Void A8C1447337F4EFDC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B8118AE0F4B497A7_A8C1447337F4EFDC_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B8118AE0F4B497A7__CTOR_OFFSET))(this);
+	}
+};

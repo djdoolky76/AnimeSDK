@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/A916C3A9658A83A2.h"
+#include "unitysdk/E68AA4EB51923C98/B958571647EA6D1E.h"
+#include "unitysdk/A8301CA80B3783D6.h"
+
+class BE98E3D28EE196D2;
+namespace ABC::UI { class MonoPrefabLoader; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class RectTransform; }
+namespace UnityEngine { class Transform; }
+
+#define B991EB444DBAE27C_B09E35DE5AFC798A_OFFSET UNITYSDK_OFFSET(0x1CDE410)
+#define B991EB444DBAE27C_E90510386B13CDB0_OFFSET UNITYSDK_OFFSET(0x1CDE6C0)
+#define B991EB444DBAE27C_EC3033C0485522FB_OFFSET UNITYSDK_OFFSET(0x1CDEAB0)
+#define B991EB444DBAE27C_FCC7443573DD0222_OFFSET UNITYSDK_OFFSET(0x1CDE4F0)
+#define B991EB444DBAE27C__CTOR_OFFSET UNITYSDK_OFFSET(0x1CDEBD0)
+
+inline static constexpr unsigned int B991EB444DBAE27C_TypeDefinitionIndex = 9840;
+
+class B991EB444DBAE27C : public ::A916C3A9658A83A2
+{
+public:
+	::ABC::UI::MonoPrefabLoader* AEC874F0A9FEE50C; // 0x48
+	::System::Collections::Generic::List_1<::BE98E3D28EE196D2*>* E08686CC34AFD0A6; // 0x50
+
+	::System::Void FCC7443573DD0222()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B991EB444DBAE27C_FCC7443573DD0222_OFFSET))(this);
+	}
+
+	::System::Void B09E35DE5AFC798A(::UnityEngine::RectTransform* F9E6A5ABE3F78299)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + B991EB444DBAE27C_B09E35DE5AFC798A_OFFSET))(this, F9E6A5ABE3F78299);
+	}
+
+	::System::Void EC3033C0485522FB(::A8301CA80B3783D6 EAE5C1E2483CA606, ::E68AA4EB51923C98::B958571647EA6D1E F44CFA3DD28647E8, ::UnityEngine::Transform* EFE497ABF6BF98D8)
+	{
+		return ((::System::Void(*)(::PVOID, ::A8301CA80B3783D6, ::E68AA4EB51923C98::B958571647EA6D1E, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + B991EB444DBAE27C_EC3033C0485522FB_OFFSET))(this, EAE5C1E2483CA606, F44CFA3DD28647E8, EFE497ABF6BF98D8);
+	}
+
+	::System::Void _ctor(::UnityEngine::GameObject* A6BEFB09A5DF1AF7, ::UnityEngine::RectTransform* F9E6A5ABE3F78299)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + B991EB444DBAE27C__CTOR_OFFSET))(this, A6BEFB09A5DF1AF7, F9E6A5ABE3F78299);
+	}
+
+	::System::Void E90510386B13CDB0(::A8301CA80B3783D6 EAE5C1E2483CA606, ::E68AA4EB51923C98::B958571647EA6D1E F44CFA3DD28647E8)
+	{
+		return ((::System::Void(*)(::PVOID, ::A8301CA80B3783D6, ::E68AA4EB51923C98::B958571647EA6D1E))((::PBYTE)hIl2Cpp + B991EB444DBAE27C_E90510386B13CDB0_OFFSET))(this, EAE5C1E2483CA606, F44CFA3DD28647E8);
+	}
+};

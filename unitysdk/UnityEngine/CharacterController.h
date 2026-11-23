@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/B010290C81450760.h"
+#include "unitysdk/UnityEngine/Collider.h"
+#include "unitysdk/UnityEngine/Vector3.h"
+
+#define UNITYENGINE_CHARACTERCONTROLLER_AC150E2090312218_OFFSET UNITYSDK_OFFSET(0x41B2370)
+#define UNITYENGINE_CHARACTERCONTROLLER_E334DAF2A6A6F333_OFFSET UNITYSDK_OFFSET(0x41B2230)
+#define UNITYENGINE_CHARACTERCONTROLLER_F1BB04959EFAB336_OFFSET UNITYSDK_OFFSET(0x41B2320)
+#define UNITYENGINE_CHARACTERCONTROLLER_F48CA48B59D0BF18_OFFSET UNITYSDK_OFFSET(0x41B2280)
+#define UNITYENGINE_CHARACTERCONTROLLER_F50754F556076FF5_OFFSET UNITYSDK_OFFSET(0x41B22D0)
+#define UNITYENGINE_CHARACTERCONTROLLER__CTOR_OFFSET UNITYSDK_OFFSET(0x410F8D0)
+
+namespace UnityEngine
+{
+	inline static constexpr unsigned int CharacterController_TypeDefinitionIndex = 20795;
+
+	class CharacterController : public ::UnityEngine::Collider
+	{
+	public:
+		::UnityEngine::B010290C81450760 F48CA48B59D0BF18(::UnityEngine::Vector3 A6EDA6A0D3FCC390)
+		{
+			return ((::UnityEngine::B010290C81450760(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_CHARACTERCONTROLLER_F48CA48B59D0BF18_OFFSET))(this, A6EDA6A0D3FCC390);
+		}
+
+		::System::Boolean F1BB04959EFAB336(::UnityEngine::Vector3 F7EF7A8033FFCB17)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3))((::PBYTE)hIl2Cpp + UNITYENGINE_CHARACTERCONTROLLER_F1BB04959EFAB336_OFFSET))(this, F7EF7A8033FFCB17);
+		}
+
+		::UnityEngine::B010290C81450760 E334DAF2A6A6F333(::UnityEngine::Vector3& A6EDA6A0D3FCC390)
+		{
+			return ((::UnityEngine::B010290C81450760(*)(::PVOID, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + UNITYENGINE_CHARACTERCONTROLLER_E334DAF2A6A6F333_OFFSET))(this, A6EDA6A0D3FCC390);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CHARACTERCONTROLLER__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean F50754F556076FF5(::UnityEngine::Vector3& F7EF7A8033FFCB17)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector3&))((::PBYTE)hIl2Cpp + UNITYENGINE_CHARACTERCONTROLLER_F50754F556076FF5_OFFSET))(this, F7EF7A8033FFCB17);
+		}
+
+		::System::Single AC150E2090312218()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_CHARACTERCONTROLLER_AC150E2090312218_OFFSET))(this);
+		}
+	};
+}

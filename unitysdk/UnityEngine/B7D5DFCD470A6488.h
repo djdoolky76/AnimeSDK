@@ -1,0 +1,20 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace UnityEngine
+{
+	inline static constexpr unsigned int B7D5DFCD470A6488_TypeDefinitionIndex = 21338;
+
+	enum class B7D5DFCD470A6488 : ::System::Int32
+	{
+		UpperLeft = 0,
+		UpperCenter = 1,
+		UpperRight = 2,
+		MiddleLeft = 3,
+		MiddleCenter = 4,
+		MiddleRight = 5,
+		LowerLeft = 6,
+		LowerCenter = 7,
+		LowerRight = 8,
+	};
+}

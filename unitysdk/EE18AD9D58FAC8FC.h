@@ -1,0 +1,36 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/B4F4C69D3CB58A89.h"
+
+namespace System { class String; }
+
+#define EE18AD9D58FAC8FC_B6F2C1B8CF39D6C3_OFFSET UNITYSDK_OFFSET(0x204F140)
+#define EE18AD9D58FAC8FC_E1968A43379B3607_OFFSET UNITYSDK_OFFSET(0x204EB30)
+#define EE18AD9D58FAC8FC_F550ECD6C5A8696E_OFFSET UNITYSDK_OFFSET(0x204F0E0)
+#define EE18AD9D58FAC8FC__CTOR_OFFSET UNITYSDK_OFFSET(0x16514A0)
+
+inline static constexpr unsigned int EE18AD9D58FAC8FC_TypeDefinitionIndex = 8327;
+
+class EE18AD9D58FAC8FC : public ::B4F4C69D3CB58A89
+{
+public:
+	static ::System::String* E1968A43379B3607(::System::String* A16A4F19B08E04BF)
+	{
+		return ((::System::String*(*)(::System::String*))((::PBYTE)hIl2Cpp + EE18AD9D58FAC8FC_E1968A43379B3607_OFFSET))(A16A4F19B08E04BF);
+	}
+
+	static ::EE18AD9D58FAC8FC* B6F2C1B8CF39D6C3(::System::String* AF34928E358AD71B)
+	{
+		return ((::EE18AD9D58FAC8FC*(*)(::System::String*))((::PBYTE)hIl2Cpp + EE18AD9D58FAC8FC_B6F2C1B8CF39D6C3_OFFSET))(AF34928E358AD71B);
+	}
+
+	static ::System::Boolean F550ECD6C5A8696E(::System::String* A16A4F19B08E04BF)
+	{
+		return ((::System::Boolean(*)(::System::String*))((::PBYTE)hIl2Cpp + EE18AD9D58FAC8FC_F550ECD6C5A8696E_OFFSET))(A16A4F19B08E04BF);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EE18AD9D58FAC8FC__CTOR_OFFSET))(this);
+	}
+};

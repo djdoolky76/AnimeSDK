@@ -1,0 +1,55 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/B39AAAD1233537D7/FE8E213D8DAD2390.h"
+#include "unitysdk/EFC4AEA2121EC272.h"
+
+class A95DE8256EE91C35;
+namespace ABC::UI { class MonoLocalizedTmp; }
+namespace ABC::UI { class MonoUIAutoView; }
+namespace UnityEngine { class RectTransform; }
+namespace UnityEngine::UI { class Image; }
+
+#define E80DCD787500C997_A54D936318FAF9E3_OFFSET UNITYSDK_OFFSET(0x1770850)
+#define E80DCD787500C997_B648FA0B4DC7B166_OFFSET UNITYSDK_OFFSET(0x1770AD0)
+#define E80DCD787500C997_EC3033C0485522FB_OFFSET UNITYSDK_OFFSET(0x1770BC0)
+#define E80DCD787500C997_F6A675B119E39F53_OFFSET UNITYSDK_OFFSET(0x1770B70)
+#define E80DCD787500C997__CTOR_OFFSET UNITYSDK_OFFSET(0x16665F0)
+
+inline static constexpr unsigned int E80DCD787500C997_TypeDefinitionIndex = 811;
+
+class E80DCD787500C997 : public ::EFC4AEA2121EC272
+{
+public:
+	::UnityEngine::UI::Image* BE8B00C796036193; // 0x80
+	::UnityEngine::UI::Image* B050E8C1D7354F31; // 0x88
+	::UnityEngine::RectTransform* F7D271ACCD5E6BEB; // 0x90
+	::UnityEngine::RectTransform* E3DDCC2FF44316FB; // 0x98
+	::ABC::UI::MonoLocalizedTmp* E5B5CC491D23A242; // 0xA0
+	::ABC::UI::MonoLocalizedTmp* A2B9DE099CB3A77D; // 0xA8
+	::ABC::UI::MonoLocalizedTmp* FB85C74D45856F16; // 0xB0
+
+	::System::Void F6A675B119E39F53()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E80DCD787500C997_F6A675B119E39F53_OFFSET))(this);
+	}
+
+	::System::Void EC3033C0485522FB(::A95DE8256EE91C35* F382EA32EC97AF52, ::B39AAAD1233537D7::FE8E213D8DAD2390 ED4A4DE044BDD37D)
+	{
+		return ((::System::Void(*)(::PVOID, ::A95DE8256EE91C35*, ::B39AAAD1233537D7::FE8E213D8DAD2390))((::PBYTE)hIl2Cpp + E80DCD787500C997_EC3033C0485522FB_OFFSET))(this, F382EA32EC97AF52, ED4A4DE044BDD37D);
+	}
+
+	::System::Void A54D936318FAF9E3(::ABC::UI::MonoUIAutoView* AE442F7D881522D8)
+	{
+		return ((::System::Void(*)(::PVOID, ::ABC::UI::MonoUIAutoView*))((::PBYTE)hIl2Cpp + E80DCD787500C997_A54D936318FAF9E3_OFFSET))(this, AE442F7D881522D8);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E80DCD787500C997__CTOR_OFFSET))(this);
+	}
+
+	::System::Void B648FA0B4DC7B166()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E80DCD787500C997_B648FA0B4DC7B166_OFFSET))(this);
+	}
+};

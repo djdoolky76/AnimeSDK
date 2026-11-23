@@ -1,0 +1,688 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BC8642FD702CE6CC.h"
+#include "unitysdk/FA1EDF0909FD0302/AE42330449B9EF25.h"
+#include "unitysdk/System/Nullable_1.h"
+#include "unitysdk/UnityEngine/Playables/PlayableAsset.h"
+#include "unitysdk/UnityEngine/Timeline/MarkerList.h"
+#include "unitysdk/UnityEngine/Timeline/TrackAsset_B545E1443B349FAA.h"
+#include "unitysdk/FA1EDF0909FD0302/B98D7A2DC3621144.h"
+#include "unitysdk/FA1EDF0909FD0302/ED10F6CA1871D5DB.h"
+
+class A7746705C4B387D4;
+class E606D165FF9BCC82;
+class E9BF0C87287F5F69;
+class F85D883F5D6BA0DA;
+class F90C78A091240CC4;
+namespace System { class String; }
+namespace System { class Type; }
+namespace System { template <typename T1, typename T2, typename T3> class Action_3; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+namespace System::Collections::Generic { template <typename T> class IEnumerable_1; }
+namespace System::Collections::Generic { template <typename T> class IList_1; }
+namespace System::Collections::Generic { template <typename T> class List_1; }
+namespace UnityEngine { class AnimationClip; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class Object; }
+namespace UnityEngine { class ScriptableObject; }
+namespace UnityEngine::Playables { class PlayableDirector; }
+namespace UnityEngine::Timeline { class TimelineAsset; }
+namespace UnityEngine::Timeline { class TimelineClip; }
+template <typename T> class A3FE65E73120668A;
+
+#define UNITYENGINE_TIMELINE_TRACKASSET_ADDCHILD_OFFSET UNITYSDK_OFFSET(0x40E1C20)
+#define UNITYENGINE_TIMELINE_TRACKASSET_ADDCLIP_OFFSET UNITYSDK_OFFSET(0x40E1CD0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_ADDMARKER_OFFSET UNITYSDK_OFFSET(0x40E1D70)
+#define UNITYENGINE_TIMELINE_TRACKASSET_ADD_ONCLIPPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0x40E7890)
+#define UNITYENGINE_TIMELINE_TRACKASSET_ADD_ONTRACKANIMATIONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0x40E79A0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_CALCULATEITEMSHASH_OFFSET UNITYSDK_OFFSET(0x40E1D80)
+#define UNITYENGINE_TIMELINE_TRACKASSET_CANCOMPILECLIPS_OFFSET UNITYSDK_OFFSET(0x40E1E30)
+#define UNITYENGINE_TIMELINE_TRACKASSET_CANCOMPILENOTIFICATIONS_OFFSET UNITYSDK_OFFSET(0x40E1E90)
+#define UNITYENGINE_TIMELINE_TRACKASSET_CANCREATEMIXERRECURSIVE_OFFSET UNITYSDK_OFFSET(0x40E1ED0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_CANCREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x40E2060)
+#define UNITYENGINE_TIMELINE_TRACKASSET_CLEARCLIPSINTERNAL_OFFSET UNITYSDK_OFFSET(0x40E2080)
+#define UNITYENGINE_TIMELINE_TRACKASSET_CLEARMARKERS_OFFSET UNITYSDK_OFFSET(0x40E2110)
+#define UNITYENGINE_TIMELINE_TRACKASSET_CLEARSUBTRACKSINTERNAL_OFFSET UNITYSDK_OFFSET(0x40E2180)
+#define UNITYENGINE_TIMELINE_TRACKASSET_COMPILECLIPS_OFFSET UNITYSDK_OFFSET(0x40E2200)
+#define UNITYENGINE_TIMELINE_TRACKASSET_CONFIGURETRACKANIMATION_OFFSET UNITYSDK_OFFSET(0x40E2730)
+#define UNITYENGINE_TIMELINE_TRACKASSET_CREATEANDADDNEWCLIPOFTYPE_OFFSET UNITYSDK_OFFSET(0x40E28A0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_CREATECLIPFROMASSET_OFFSET UNITYSDK_OFFSET(0x40E28E0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_CREATECLIPFROMPLAYABLEASSET_OFFSET UNITYSDK_OFFSET(0x40E2AE0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_CREATECLIPOFTYPE_OFFSET UNITYSDK_OFFSET(0x40E2D90)
+#define UNITYENGINE_TIMELINE_TRACKASSET_CREATECLIP_OFFSET UNITYSDK_OFFSET(0x40E2FD0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_CREATECURVES_OFFSET UNITYSDK_OFFSET(0x40E3100)
+#define UNITYENGINE_TIMELINE_TRACKASSET_CREATEDEFAULTCLIP_OFFSET UNITYSDK_OFFSET(0x40E31B0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_CREATEMARKER_OFFSET UNITYSDK_OFFSET(0x40E34A0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_CREATEMIXERPLAYABLEGRAPH_OFFSET UNITYSDK_OFFSET(0x40E34D0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_CREATENEWCLIPCONTAINERINTERNAL_OFFSET UNITYSDK_OFFSET(0x40E3BD0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_CREATENOTIFICATIONSPLAYABLE_OFFSET UNITYSDK_OFFSET(0x40E3F80)
+#define UNITYENGINE_TIMELINE_TRACKASSET_CREATEPLAYABLEGRAPH_OFFSET UNITYSDK_OFFSET(0x40E42E0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_CREATEPLAYABLE_1_OFFSET UNITYSDK_OFFSET(0x40E4670)
+#define UNITYENGINE_TIMELINE_TRACKASSET_CREATEPLAYABLE_OFFSET UNITYSDK_OFFSET(0x40E46D0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_CREATETRACKMIXER_OFFSET UNITYSDK_OFFSET(0x40E49E0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_DELETECLIP_OFFSET UNITYSDK_OFFSET(0x40E4A60)
+#define UNITYENGINE_TIMELINE_TRACKASSET_DELETEMARKERRAW_OFFSET UNITYSDK_OFFSET(0x40E4B80)
+#define UNITYENGINE_TIMELINE_TRACKASSET_DELETEMARKER_OFFSET UNITYSDK_OFFSET(0x40E4BC0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GATHERCOMPILABLETRACKS_OFFSET UNITYSDK_OFFSET(0x40E4BD0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GATHERNOTIFICATIONS_OFFSET UNITYSDK_OFFSET(0x40E4E30)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GATHERPROPERTIES_OFFSET UNITYSDK_OFFSET(0x40E50B0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GETANIMATIONCLIPHASH_OFFSET UNITYSDK_OFFSET(0x40E55E0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GETCHILDTRACKS_OFFSET UNITYSDK_OFFSET(0x40E56C0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GETCLIPSHASH_OFFSET UNITYSDK_OFFSET(0x40E56E0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GETCLIPS_OFFSET UNITYSDK_OFFSET(0x40E5990)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GETEVALUATIONTIME_OFFSET UNITYSDK_OFFSET(0x40E59A0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GETGAMEOBJECTBINDING_OFFSET UNITYSDK_OFFSET(0x40E5BD0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GETMARKERCOUNT_OFFSET UNITYSDK_OFFSET(0x40E5D60)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GETMARKERSRAW_OFFSET UNITYSDK_OFFSET(0x18347C0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GETMARKERS_OFFSET UNITYSDK_OFFSET(0x40E5E10)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GETMARKER_OFFSET UNITYSDK_OFFSET(0x40E5DB0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GETNOTIFICATIONDURATION_OFFSET UNITYSDK_OFFSET(0x40E5E40)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GETSEQUENCETIME_OFFSET UNITYSDK_OFFSET(0x40E5FD0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GETTIMERANGEHASH_OFFSET UNITYSDK_OFFSET(0x40E5FF0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GET_CLIPS_OFFSET UNITYSDK_OFFSET(0x40E7AB0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GET_CURVES_OFFSET UNITYSDK_OFFSET(0x165A410)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GET_CUSTOMPLAYABLETYPENAME_OFFSET UNITYSDK_OFFSET(0x17395E0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GET_DURATION_OFFSET UNITYSDK_OFFSET(0x40E7B80)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GET_END_OFFSET UNITYSDK_OFFSET(0x40E7C20)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GET_HASCLIPS_OFFSET UNITYSDK_OFFSET(0x40E7CB0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GET_HASCURVES_OFFSET UNITYSDK_OFFSET(0x40E7D00)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GET_ISEMPTY_OFFSET UNITYSDK_OFFSET(0x40E7D90)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GET_ISSUBTRACK_OFFSET UNITYSDK_OFFSET(0x40E7E30)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GET_LOCKEDINHIERARCHY_OFFSET UNITYSDK_OFFSET(0x40E7F40)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GET_LOCKED_OFFSET UNITYSDK_OFFSET(0x1925A40)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GET_MUTEDINHIERARCHY_OFFSET UNITYSDK_OFFSET(0x40E80F0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GET_MUTED_OFFSET UNITYSDK_OFFSET(0x1D6F0B0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GET_OUTPUTS_OFFSET UNITYSDK_OFFSET(0x40E82A0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GET_PARENT_OFFSET UNITYSDK_OFFSET(0x18249B0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GET_START_OFFSET UNITYSDK_OFFSET(0x40E8320)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GET_SUBTRACKSOBJECTS_OFFSET UNITYSDK_OFFSET(0x17A62C0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GET_SUPPORTSNOTIFICATIONS_OFFSET UNITYSDK_OFFSET(0x40E83B0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_GET_TIMELINEASSET_OFFSET UNITYSDK_OFFSET(0x40E85C0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_HASH_OFFSET UNITYSDK_OFFSET(0x40E6250)
+#define UNITYENGINE_TIMELINE_TRACKASSET_HASNOTIFICATIONS_OFFSET UNITYSDK_OFFSET(0x40E6220)
+#define UNITYENGINE_TIMELINE_TRACKASSET_INVALIDATE_OFFSET UNITYSDK_OFFSET(0x40E62C0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_ISCOMPILABLE_OFFSET UNITYSDK_OFFSET(0x40E6370)
+#define UNITYENGINE_TIMELINE_TRACKASSET_MOVELASTTRACKBEFORE_OFFSET UNITYSDK_OFFSET(0x40E6610)
+#define UNITYENGINE_TIMELINE_TRACKASSET_ONAFTERTRACKDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EB8060)
+#define UNITYENGINE_TIMELINE_TRACKASSET_ONBEFORETRACKSERIALIZE_OFFSET UNITYSDK_OFFSET(0x1EB8060)
+#define UNITYENGINE_TIMELINE_TRACKASSET_ONCLIPMOVE_OFFSET UNITYSDK_OFFSET(0x40E6810)
+#define UNITYENGINE_TIMELINE_TRACKASSET_ONCREATECLIP_OFFSET UNITYSDK_OFFSET(0x1EB8060)
+#define UNITYENGINE_TIMELINE_TRACKASSET_ONUPGRADEFROMVERSION_OFFSET UNITYSDK_OFFSET(0x1EB8060)
+#define UNITYENGINE_TIMELINE_TRACKASSET_REMOVECLIP_OFFSET UNITYSDK_OFFSET(0x40E6820)
+#define UNITYENGINE_TIMELINE_TRACKASSET_REMOVESUBTRACK_OFFSET UNITYSDK_OFFSET(0x40E6890)
+#define UNITYENGINE_TIMELINE_TRACKASSET_REMOVE_ONCLIPPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0x40E8760)
+#define UNITYENGINE_TIMELINE_TRACKASSET_REMOVE_ONTRACKANIMATIONPLAYABLECREATE_OFFSET UNITYSDK_OFFSET(0x40E8870)
+#define UNITYENGINE_TIMELINE_TRACKASSET_SET_CURVES_OFFSET UNITYSDK_OFFSET(0x165A480)
+#define UNITYENGINE_TIMELINE_TRACKASSET_SET_CUSTOMPLAYABLETYPENAME_OFFSET UNITYSDK_OFFSET(0x1BF9BA0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_SET_LOCKED_OFFSET UNITYSDK_OFFSET(0x1925A50)
+#define UNITYENGINE_TIMELINE_TRACKASSET_SET_MUTED_OFFSET UNITYSDK_OFFSET(0x1D6F0D0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_SET_PARENT_OFFSET UNITYSDK_OFFSET(0x184C910)
+#define UNITYENGINE_TIMELINE_TRACKASSET_SORTCLIPS_OFFSET UNITYSDK_OFFSET(0x40E6920)
+#define UNITYENGINE_TIMELINE_TRACKASSET_UNITYENGINE_ISERIALIZATIONCALLBACKRECEIVER_ONAFTERDESERIALIZE_OFFSET UNITYSDK_OFFSET(0x40E6A60)
+#define UNITYENGINE_TIMELINE_TRACKASSET_UNITYENGINE_ISERIALIZATIONCALLBACKRECEIVER_ONBEFORESERIALIZE_OFFSET UNITYSDK_OFFSET(0x40E6D00)
+#define UNITYENGINE_TIMELINE_TRACKASSET_UNITYENGINE_TIMELINE_ICURVESOWNER_GET_ASSETOWNER_OFFSET UNITYSDK_OFFSET(0x40E6E80)
+#define UNITYENGINE_TIMELINE_TRACKASSET_UNITYENGINE_TIMELINE_ICURVESOWNER_GET_ASSET_OFFSET UNITYSDK_OFFSET(0x1F2A920)
+#define UNITYENGINE_TIMELINE_TRACKASSET_UNITYENGINE_TIMELINE_ICURVESOWNER_GET_DEFAULTCURVESNAME_OFFSET UNITYSDK_OFFSET(0x40E6E90)
+#define UNITYENGINE_TIMELINE_TRACKASSET_UNITYENGINE_TIMELINE_ICURVESOWNER_GET_TARGETTRACK_OFFSET UNITYSDK_OFFSET(0x1F2A920)
+#define UNITYENGINE_TIMELINE_TRACKASSET_UPDATECHILDTRACKCACHE_OFFSET UNITYSDK_OFFSET(0x40E6EC0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_UPDATEDURATION_OFFSET UNITYSDK_OFFSET(0x40E70C0)
+#define UNITYENGINE_TIMELINE_TRACKASSET_UPGRADETOLATESTVERSION_OFFSET UNITYSDK_OFFSET(0x1EB8060)
+#define UNITYENGINE_TIMELINE_TRACKASSET_VALIDATECLIPTYPE_OFFSET UNITYSDK_OFFSET(0x40E7220)
+#define UNITYENGINE_TIMELINE_TRACKASSET__CCTOR_OFFSET UNITYSDK_OFFSET(0x40E75A0)
+#define UNITYENGINE_TIMELINE_TRACKASSET__CTOR_OFFSET UNITYSDK_OFFSET(0x40E77A0)
+#define UNITYENGINE_TIMELINE_TRACKASSET___INTERNALAWAKE_OFFSET UNITYSDK_OFFSET(0x40E74C0)
+
+namespace UnityEngine::Timeline
+{
+	inline static constexpr unsigned int TrackAsset_TypeDefinitionIndex = 20257;
+
+	class TrackAsset : public ::UnityEngine::Playables::PlayableAsset
+	{
+	public:
+		static ::UnityEngine::Timeline::TrackAsset_B545E1443B349FAA* StaticGet_s_BuildData()
+		{
+			return (::UnityEngine::Timeline::TrackAsset_B545E1443B349FAA*)Il2CppClass::FromTypeDefinitionIndex(TrackAsset_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		static ::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::FA1EDF0909FD0302::AE42330449B9EF25>** StaticGet_OnClipPlayableCreate()
+		{
+			return (::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::FA1EDF0909FD0302::AE42330449B9EF25>**)Il2CppClass::FromTypeDefinitionIndex(TrackAsset_TypeDefinitionIndex)->GetStaticField(0x18);
+		}
+		static ::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::FA1EDF0909FD0302::AE42330449B9EF25>** StaticGet_OnTrackAnimationPlayableCreate()
+		{
+			return (::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::FA1EDF0909FD0302::AE42330449B9EF25>**)Il2CppClass::FromTypeDefinitionIndex(TrackAsset_TypeDefinitionIndex)->GetStaticField(0x20);
+		}
+		static ::Il2CppArray<::UnityEngine::Timeline::TrackAsset*>** StaticGet_s_EmptyCache()
+		{
+			return (::Il2CppArray<::UnityEngine::Timeline::TrackAsset*>**)Il2CppClass::FromTypeDefinitionIndex(TrackAsset_TypeDefinitionIndex)->GetStaticField(0x28);
+		}
+		static ::System::Collections::Generic::Dictionary_2<::System::Type*, ::A7746705C4B387D4*>** StaticGet_s_TrackBindingTypeAttributeCache()
+		{
+			return (::System::Collections::Generic::Dictionary_2<::System::Type*, ::A7746705C4B387D4*>**)Il2CppClass::FromTypeDefinitionIndex(TrackAsset_TypeDefinitionIndex)->GetStaticField(0x30);
+		}
+		::System::Int32 m_Version; // 0x18
+		::System::Byte _padding0[0x4];
+		::UnityEngine::AnimationClip* m_AnimClip; // 0x20
+		::System::Boolean m_Locked; // 0x28
+		::System::Boolean m_Muted; // 0x29
+		::System::Byte _padding1[0x6];
+		::System::String* m_CustomPlayableFullTypename; // 0x30
+		::UnityEngine::AnimationClip* m_Curves; // 0x38
+		::UnityEngine::Playables::PlayableAsset* m_Parent; // 0x40
+		::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject*>* m_Children; // 0x48
+		::System::Int32 m_ItemsHash; // 0x50
+		::System::Byte _padding2[0x4];
+		::Il2CppArray<::UnityEngine::Timeline::TimelineClip*>* m_ClipsCache; // 0x58
+		::BC8642FD702CE6CC m_Start; // 0x60
+		::BC8642FD702CE6CC m_End; // 0x68
+		::System::Boolean m_CacheSorted; // 0x70
+		::System::Nullable_1<::System::Boolean> m_SupportsNotifications; // 0x71
+		::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* m_ChildTrackCache; // 0x78
+		::System::Collections::Generic::List_1<::UnityEngine::Timeline::TimelineClip*>* m_Clips; // 0x80
+		::UnityEngine::Timeline::MarkerList m_Markers; // 0x88
+
+		::System::Boolean CanCompileNotifications()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_CANCOMPILENOTIFICATIONS_OFFSET))(this);
+		}
+
+		static ::System::Void add_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::FA1EDF0909FD0302::AE42330449B9EF25>* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::FA1EDF0909FD0302::AE42330449B9EF25>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_ADD_ONTRACKANIMATIONPLAYABLECREATE_OFFSET))(E937D4885DAA1AE8);
+		}
+
+		static ::System::Int32 GetAnimationClipHash(::UnityEngine::AnimationClip* AD43DEAB8304398A)
+		{
+			return ((::System::Int32(*)(::UnityEngine::AnimationClip*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GETANIMATIONCLIPHASH_OFFSET))(AD43DEAB8304398A);
+		}
+
+		::UnityEngine::GameObject* GetGameObjectBinding(::UnityEngine::Playables::PlayableDirector* A9F0E1077186BAC8)
+		{
+			return ((::UnityEngine::GameObject*(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GETGAMEOBJECTBINDING_OFFSET))(this, A9F0E1077186BAC8);
+		}
+
+		::System::Boolean get_isSubTrack()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GET_ISSUBTRACK_OFFSET))(this);
+		}
+
+		::System::Int32 GetMarkerCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GETMARKERCOUNT_OFFSET))(this);
+		}
+
+		::System::Int32 Hash()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_HASH_OFFSET))(this);
+		}
+
+		::System::Void set_customPlayableTypename(::System::String* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_SET_CUSTOMPLAYABLETYPENAME_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Boolean ValidateClipType(::System::Type* E1150012BA99AED4)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_VALIDATECLIPTYPE_OFFSET))(this, E1150012BA99AED4);
+		}
+
+		::System::Void MoveLastTrackBefore(::UnityEngine::Timeline::TrackAsset* B286159CFDC40A9F)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TrackAsset*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_MOVELASTTRACKBEFORE_OFFSET))(this, B286159CFDC40A9F);
+		}
+
+		::System::Void set_locked(::System::Boolean E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_SET_LOCKED_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::E9BF0C87287F5F69* GetMarker(::System::Int32 AA292D26F1CE96C4)
+		{
+			return ((::E9BF0C87287F5F69*(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GETMARKER_OFFSET))(this, AA292D26F1CE96C4);
+		}
+
+		::FA1EDF0909FD0302::AE42330449B9EF25 CreateTrackMixer(::FA1EDF0909FD0302::ED10F6CA1871D5DB FF3BC15A84BE456D, ::UnityEngine::GameObject* AD1247287D2D9217, ::System::Int32 E0526D776D4634F5)
+		{
+			return ((::FA1EDF0909FD0302::AE42330449B9EF25(*)(::PVOID, ::FA1EDF0909FD0302::ED10F6CA1871D5DB, ::UnityEngine::GameObject*, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_CREATETRACKMIXER_OFFSET))(this, FF3BC15A84BE456D, AD1247287D2D9217, E0526D776D4634F5);
+		}
+
+		::System::Void AddChild(::UnityEngine::Timeline::TrackAsset* F975A8D35C361C0A)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TrackAsset*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_ADDCHILD_OFFSET))(this, F975A8D35C361C0A);
+		}
+
+		::System::Boolean get_isEmpty()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GET_ISEMPTY_OFFSET))(this);
+		}
+
+		::System::Void RemoveClip(::UnityEngine::Timeline::TimelineClip* AD43DEAB8304398A)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_REMOVECLIP_OFFSET))(this, AD43DEAB8304398A);
+		}
+
+		::System::Void AddClip(::UnityEngine::Timeline::TimelineClip* FCA61269BC7F713B)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_ADDCLIP_OFFSET))(this, FCA61269BC7F713B);
+		}
+
+		::System::String* get_customPlayableTypename()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GET_CUSTOMPLAYABLETYPENAME_OFFSET))(this);
+		}
+
+		::System::Int32 GetTimeRangeHash()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GETTIMERANGEHASH_OFFSET))(this);
+		}
+
+		::System::Boolean DeleteClip(::UnityEngine::Timeline::TimelineClip* AD43DEAB8304398A)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_DELETECLIP_OFFSET))(this, AD43DEAB8304398A);
+		}
+
+		::System::Void __internalAwake()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET___INTERNALAWAKE_OFFSET))(this);
+		}
+
+		::System::Void OnCreateClip(::UnityEngine::Timeline::TimelineClip* AD43DEAB8304398A)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_ONCREATECLIP_OFFSET))(this, AD43DEAB8304398A);
+		}
+
+		::System::Void OnBeforeTrackSerialize()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_ONBEFORETRACKSERIALIZE_OFFSET))(this);
+		}
+
+		::System::Boolean get_supportsNotifications()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GET_SUPPORTSNOTIFICATIONS_OFFSET))(this);
+		}
+
+		::System::Void ConfigureTrackAnimation(::A3FE65E73120668A<::E606D165FF9BCC82*>* E1CDECD731148FAA, ::UnityEngine::GameObject* AD1247287D2D9217, ::FA1EDF0909FD0302::AE42330449B9EF25 BE7A99FDCA3A4D85)
+		{
+			return ((::System::Void(*)(::PVOID, ::A3FE65E73120668A<::E606D165FF9BCC82*>*, ::UnityEngine::GameObject*, ::FA1EDF0909FD0302::AE42330449B9EF25))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_CONFIGURETRACKANIMATION_OFFSET))(this, E1CDECD731148FAA, AD1247287D2D9217, BE7A99FDCA3A4D85);
+		}
+
+		::UnityEngine::Timeline::TimelineClip* CreateAndAddNewClipOfType(::System::Type* AFABD8BA5628A26D)
+		{
+			return ((::UnityEngine::Timeline::TimelineClip*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_CREATEANDADDNEWCLIPOFTYPE_OFFSET))(this, AFABD8BA5628A26D);
+		}
+
+		::System::Void UpdateDuration()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_UPDATEDURATION_OFFSET))(this);
+		}
+
+		::System::Void OnUpgradeFromVersion(::System::Int32 B76BF6362F64F59F)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_ONUPGRADEFROMVERSION_OFFSET))(this, B76BF6362F64F59F);
+		}
+
+		::System::Boolean CanCompileClips()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_CANCOMPILECLIPS_OFFSET))(this);
+		}
+
+		::UnityEngine::Object* UnityEngine_Timeline_ICurvesOwner_get_assetOwner()
+		{
+			return ((::UnityEngine::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_UNITYENGINE_TIMELINE_ICURVESOWNER_GET_ASSETOWNER_OFFSET))(this);
+		}
+
+		::System::String* UnityEngine_Timeline_ICurvesOwner_get_defaultCurvesName()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_UNITYENGINE_TIMELINE_ICURVESOWNER_GET_DEFAULTCURVESNAME_OFFSET))(this);
+		}
+
+		::UnityEngine::Timeline::TimelineClip* CreateClipFromPlayableAsset(::F90C78A091240CC4* B286159CFDC40A9F)
+		{
+			return ((::UnityEngine::Timeline::TimelineClip*(*)(::PVOID, ::F90C78A091240CC4*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_CREATECLIPFROMPLAYABLEASSET_OFFSET))(this, B286159CFDC40A9F);
+		}
+
+		::System::Void GatherCompilableTracks(::System::Collections::Generic::IList_1<::UnityEngine::Timeline::TrackAsset*>* E342C6021260A1EB)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::IList_1<::UnityEngine::Timeline::TrackAsset*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GATHERCOMPILABLETRACKS_OFFSET))(this, E342C6021260A1EB);
+		}
+
+		::System::Collections::Generic::IEnumerable_1<::E9BF0C87287F5F69*>* GetMarkers()
+		{
+			return ((::System::Collections::Generic::IEnumerable_1<::E9BF0C87287F5F69*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GETMARKERS_OFFSET))(this);
+		}
+
+		::System::Boolean HasNotifications()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_HASNOTIFICATIONS_OFFSET))(this);
+		}
+
+		::System::Int32 GetClipsHash()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GETCLIPSHASH_OFFSET))(this);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean get_locked()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GET_LOCKED_OFFSET))(this);
+		}
+
+		::FA1EDF0909FD0302::AE42330449B9EF25 CompileClips(::FA1EDF0909FD0302::ED10F6CA1871D5DB FF3BC15A84BE456D, ::UnityEngine::GameObject* AD1247287D2D9217, ::System::Collections::Generic::IList_1<::UnityEngine::Timeline::TimelineClip*>* B3E90C6A64538D83, ::A3FE65E73120668A<::E606D165FF9BCC82*>* E1CDECD731148FAA)
+		{
+			return ((::FA1EDF0909FD0302::AE42330449B9EF25(*)(::PVOID, ::FA1EDF0909FD0302::ED10F6CA1871D5DB, ::UnityEngine::GameObject*, ::System::Collections::Generic::IList_1<::UnityEngine::Timeline::TimelineClip*>*, ::A3FE65E73120668A<::E606D165FF9BCC82*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_COMPILECLIPS_OFFSET))(this, FF3BC15A84BE456D, AD1247287D2D9217, B3E90C6A64538D83, E1CDECD731148FAA);
+		}
+
+		::System::Void UnityEngine_ISerializationCallbackReceiver_OnAfterDeserialize()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_UNITYENGINE_ISERIALIZATIONCALLBACKRECEIVER_ONAFTERDESERIALIZE_OFFSET))(this);
+		}
+
+		::UnityEngine::Timeline::TimelineClip* CreateClipOfType(::System::Type* AFABD8BA5628A26D)
+		{
+			return ((::UnityEngine::Timeline::TimelineClip*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_CREATECLIPOFTYPE_OFFSET))(this, AFABD8BA5628A26D);
+		}
+
+		::System::Void UnityEngine_ISerializationCallbackReceiver_OnBeforeSerialize()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_UNITYENGINE_ISERIALIZATIONCALLBACKRECEIVER_ONBEFORESERIALIZE_OFFSET))(this);
+		}
+
+		static ::System::Void add_OnClipPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::FA1EDF0909FD0302::AE42330449B9EF25>* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::FA1EDF0909FD0302::AE42330449B9EF25>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_ADD_ONCLIPPLAYABLECREATE_OFFSET))(E937D4885DAA1AE8);
+		}
+
+		::System::Double get_end()
+		{
+			return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GET_END_OFFSET))(this);
+		}
+
+		::E9BF0C87287F5F69* CreateMarker(::System::Type* A288CB28FC2A6DA3, ::System::Double FF0A37159A523E06)
+		{
+			return ((::E9BF0C87287F5F69*(*)(::PVOID, ::System::Type*, ::System::Double))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_CREATEMARKER_OFFSET))(this, A288CB28FC2A6DA3, FF0A37159A523E06);
+		}
+
+		::System::Collections::Generic::IEnumerable_1<::UnityEngine::ScriptableObject*>* GetMarkersRaw()
+		{
+			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::ScriptableObject*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GETMARKERSRAW_OFFSET))(this);
+		}
+
+		::System::Void UpgradeToLatestVersion()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_UPGRADETOLATESTVERSION_OFFSET))(this);
+		}
+
+		::FA1EDF0909FD0302::AE42330449B9EF25 CreatePlayableGraph(::FA1EDF0909FD0302::ED10F6CA1871D5DB FF3BC15A84BE456D, ::UnityEngine::GameObject* AD1247287D2D9217, ::A3FE65E73120668A<::E606D165FF9BCC82*>* E1CDECD731148FAA, ::FA1EDF0909FD0302::AE42330449B9EF25 E9E7A77282DD517D)
+		{
+			return ((::FA1EDF0909FD0302::AE42330449B9EF25(*)(::PVOID, ::FA1EDF0909FD0302::ED10F6CA1871D5DB, ::UnityEngine::GameObject*, ::A3FE65E73120668A<::E606D165FF9BCC82*>*, ::FA1EDF0909FD0302::AE42330449B9EF25))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_CREATEPLAYABLEGRAPH_OFFSET))(this, FF3BC15A84BE456D, AD1247287D2D9217, E1CDECD731148FAA, E9E7A77282DD517D);
+		}
+
+		::System::Void GatherNotifications(::System::Collections::Generic::List_1<::E9BF0C87287F5F69*>* E04E0C5D84BE063D)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::List_1<::E9BF0C87287F5F69*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GATHERNOTIFICATIONS_OFFSET))(this, E04E0C5D84BE063D);
+		}
+
+		::UnityEngine::Timeline::TimelineClip* CreateClip(::System::Type* AFABD8BA5628A26D)
+		{
+			return ((::UnityEngine::Timeline::TimelineClip*(*)(::PVOID, ::System::Type*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_CREATECLIP_OFFSET))(this, AFABD8BA5628A26D);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET__CCTOR_OFFSET))();
+		}
+
+		::System::Void ClearClipsInternal()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_CLEARCLIPSINTERNAL_OFFSET))(this);
+		}
+
+		::System::Void GetSequenceTime(::System::Double& EE5644B9090AC066, ::System::Double& AE89163C9A9E802F)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Double&, ::System::Double&))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GETSEQUENCETIME_OFFSET))(this, EE5644B9090AC066, AE89163C9A9E802F);
+		}
+
+		::System::Boolean RemoveSubTrack(::UnityEngine::Timeline::TrackAsset* F975A8D35C361C0A)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Timeline::TrackAsset*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_REMOVESUBTRACK_OFFSET))(this, F975A8D35C361C0A);
+		}
+
+		::System::Boolean get_mutedInHierarchy()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GET_MUTEDINHIERARCHY_OFFSET))(this);
+		}
+
+		::System::Void GetEvaluationTime(::System::Double& EE5644B9090AC066, ::System::Double& AE89163C9A9E802F)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Double&, ::System::Double&))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GETEVALUATIONTIME_OFFSET))(this, EE5644B9090AC066, AE89163C9A9E802F);
+		}
+
+		::FA1EDF0909FD0302::AE42330449B9EF25 CreateMixerPlayableGraph(::FA1EDF0909FD0302::ED10F6CA1871D5DB FF3BC15A84BE456D, ::UnityEngine::GameObject* AD1247287D2D9217, ::A3FE65E73120668A<::E606D165FF9BCC82*>* E1CDECD731148FAA)
+		{
+			return ((::FA1EDF0909FD0302::AE42330449B9EF25(*)(::PVOID, ::FA1EDF0909FD0302::ED10F6CA1871D5DB, ::UnityEngine::GameObject*, ::A3FE65E73120668A<::E606D165FF9BCC82*>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_CREATEMIXERPLAYABLEGRAPH_OFFSET))(this, FF3BC15A84BE456D, AD1247287D2D9217, E1CDECD731148FAA);
+		}
+
+		::System::Double GetNotificationDuration()
+		{
+			return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GETNOTIFICATIONDURATION_OFFSET))(this);
+		}
+
+		::UnityEngine::Timeline::TimelineClip* CreateDefaultClip()
+		{
+			return ((::UnityEngine::Timeline::TimelineClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_CREATEDEFAULTCLIP_OFFSET))(this);
+		}
+
+		::UnityEngine::Timeline::TimelineClip* CreateNewClipContainerInternal()
+		{
+			return ((::UnityEngine::Timeline::TimelineClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_CREATENEWCLIPCONTAINERINTERNAL_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>* GetChildTracks()
+		{
+			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TrackAsset*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GETCHILDTRACKS_OFFSET))(this);
+		}
+
+		::System::Boolean IsCompilable()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_ISCOMPILABLE_OFFSET))(this);
+		}
+
+		::System::Void CreateCurves(::System::String* AF0D941CF4965C29)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_CREATECURVES_OFFSET))(this, AF0D941CF4965C29);
+		}
+
+		::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject*>* get_subTracksObjects()
+		{
+			return ((::System::Collections::Generic::List_1<::UnityEngine::ScriptableObject*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GET_SUBTRACKSOBJECTS_OFFSET))(this);
+		}
+
+		::UnityEngine::Playables::PlayableAsset* get_parent()
+		{
+			return ((::UnityEngine::Playables::PlayableAsset*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GET_PARENT_OFFSET))(this);
+		}
+
+		::System::Void Invalidate()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_INVALIDATE_OFFSET))(this);
+		}
+
+		::System::Void AddMarker(::UnityEngine::ScriptableObject* A5FB7225DA5C5A9B)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ScriptableObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_ADDMARKER_OFFSET))(this, A5FB7225DA5C5A9B);
+		}
+
+		::System::Void set_curves(::UnityEngine::AnimationClip* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::AnimationClip*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_SET_CURVES_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::FA1EDF0909FD0302::AE42330449B9EF25 CreatePlayable(::FA1EDF0909FD0302::ED10F6CA1871D5DB FF3BC15A84BE456D, ::UnityEngine::GameObject* BC63F4052E4478D7, ::UnityEngine::Timeline::TimelineClip* AD43DEAB8304398A)
+		{
+			return ((::FA1EDF0909FD0302::AE42330449B9EF25(*)(::PVOID, ::FA1EDF0909FD0302::ED10F6CA1871D5DB, ::UnityEngine::GameObject*, ::UnityEngine::Timeline::TimelineClip*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_CREATEPLAYABLE_OFFSET))(this, FF3BC15A84BE456D, BC63F4052E4478D7, AD43DEAB8304398A);
+		}
+
+		::System::Int32 CalculateItemsHash()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_CALCULATEITEMSHASH_OFFSET))(this);
+		}
+
+		::FA1EDF0909FD0302::AE42330449B9EF25 CreatePlayable_1(::FA1EDF0909FD0302::ED10F6CA1871D5DB FF3BC15A84BE456D, ::UnityEngine::GameObject* AD1247287D2D9217)
+		{
+			return ((::FA1EDF0909FD0302::AE42330449B9EF25(*)(::PVOID, ::FA1EDF0909FD0302::ED10F6CA1871D5DB, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_CREATEPLAYABLE_1_OFFSET))(this, FF3BC15A84BE456D, AD1247287D2D9217);
+		}
+
+		::System::Void SortClips()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_SORTCLIPS_OFFSET))(this);
+		}
+
+		::System::Boolean CanCreateMixerRecursive()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_CANCREATEMIXERRECURSIVE_OFFSET))(this);
+		}
+
+		::UnityEngine::AnimationClip* get_curves()
+		{
+			return ((::UnityEngine::AnimationClip*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GET_CURVES_OFFSET))(this);
+		}
+
+		::FA1EDF0909FD0302::AE42330449B9EF25 CreateNotificationsPlayable(::FA1EDF0909FD0302::ED10F6CA1871D5DB FF3BC15A84BE456D, ::FA1EDF0909FD0302::AE42330449B9EF25 E590A91933ABDF3C, ::UnityEngine::GameObject* AD1247287D2D9217, ::FA1EDF0909FD0302::AE42330449B9EF25 E9E7A77282DD517D)
+		{
+			return ((::FA1EDF0909FD0302::AE42330449B9EF25(*)(::PVOID, ::FA1EDF0909FD0302::ED10F6CA1871D5DB, ::FA1EDF0909FD0302::AE42330449B9EF25, ::UnityEngine::GameObject*, ::FA1EDF0909FD0302::AE42330449B9EF25))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_CREATENOTIFICATIONSPLAYABLE_OFFSET))(this, FF3BC15A84BE456D, E590A91933ABDF3C, AD1247287D2D9217, E9E7A77282DD517D);
+		}
+
+		::System::Void OnClipMove()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_ONCLIPMOVE_OFFSET))(this);
+		}
+
+		static ::System::Void remove_OnTrackAnimationPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::FA1EDF0909FD0302::AE42330449B9EF25>* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::System::Action_3<::UnityEngine::Timeline::TrackAsset*, ::UnityEngine::GameObject*, ::FA1EDF0909FD0302::AE42330449B9EF25>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_REMOVE_ONTRACKANIMATIONPLAYABLECREATE_OFFSET))(E937D4885DAA1AE8);
+		}
+
+		::System::Boolean get_lockedInHierarchy()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GET_LOCKEDINHIERARCHY_OFFSET))(this);
+		}
+
+		::System::Boolean DeleteMarker(::E9BF0C87287F5F69* FAFEBCB1FF1CD826)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::E9BF0C87287F5F69*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_DELETEMARKER_OFFSET))(this, FAFEBCB1FF1CD826);
+		}
+
+		::System::Boolean get_hasClips()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GET_HASCLIPS_OFFSET))(this);
+		}
+
+		::System::Void ClearMarkers()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_CLEARMARKERS_OFFSET))(this);
+		}
+
+		::System::Void GatherProperties(::UnityEngine::Playables::PlayableDirector* A9F0E1077186BAC8, ::F85D883F5D6BA0DA* A9BAF281B87EFA01)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableDirector*, ::F85D883F5D6BA0DA*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GATHERPROPERTIES_OFFSET))(this, A9F0E1077186BAC8, A9BAF281B87EFA01);
+		}
+
+		::System::Boolean get_hasCurves()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GET_HASCURVES_OFFSET))(this);
+		}
+
+		::System::Void set_muted(::System::Boolean E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_SET_MUTED_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::UnityEngine::Object* UnityEngine_Timeline_ICurvesOwner_get_asset()
+		{
+			return ((::UnityEngine::Object*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_UNITYENGINE_TIMELINE_ICURVESOWNER_GET_ASSET_OFFSET))(this);
+		}
+
+		::System::Boolean get_muted()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GET_MUTED_OFFSET))(this);
+		}
+
+		::UnityEngine::Timeline::TimelineAsset* get_timelineAsset()
+		{
+			return ((::UnityEngine::Timeline::TimelineAsset*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GET_TIMELINEASSET_OFFSET))(this);
+		}
+
+		::Il2CppArray<::UnityEngine::Timeline::TimelineClip*>* get_clips()
+		{
+			return ((::Il2CppArray<::UnityEngine::Timeline::TimelineClip*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GET_CLIPS_OFFSET))(this);
+		}
+
+		::System::Void ClearSubTracksInternal()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_CLEARSUBTRACKSINTERNAL_OFFSET))(this);
+		}
+
+		::System::Collections::Generic::IEnumerable_1<::FA1EDF0909FD0302::B98D7A2DC3621144>* get_outputs()
+		{
+			return ((::System::Collections::Generic::IEnumerable_1<::FA1EDF0909FD0302::B98D7A2DC3621144>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GET_OUTPUTS_OFFSET))(this);
+		}
+
+		::UnityEngine::Timeline::TrackAsset* UnityEngine_Timeline_ICurvesOwner_get_targetTrack()
+		{
+			return ((::UnityEngine::Timeline::TrackAsset*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_UNITYENGINE_TIMELINE_ICURVESOWNER_GET_TARGETTRACK_OFFSET))(this);
+		}
+
+		::System::Boolean CanCreateTrackMixer()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_CANCREATETRACKMIXER_OFFSET))(this);
+		}
+
+		::System::Double get_start()
+		{
+			return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GET_START_OFFSET))(this);
+		}
+
+		static ::System::Void remove_OnClipPlayableCreate(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::FA1EDF0909FD0302::AE42330449B9EF25>* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::System::Action_3<::UnityEngine::Timeline::TimelineClip*, ::UnityEngine::GameObject*, ::FA1EDF0909FD0302::AE42330449B9EF25>*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_REMOVE_ONCLIPPLAYABLECREATE_OFFSET))(E937D4885DAA1AE8);
+		}
+
+		::System::Void OnAfterTrackDeserialize()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_ONAFTERTRACKDESERIALIZE_OFFSET))(this);
+		}
+
+		::System::Double get_duration()
+		{
+			return ((::System::Double(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GET_DURATION_OFFSET))(this);
+		}
+
+		::System::Void UpdateChildTrackCache()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_UPDATECHILDTRACKCACHE_OFFSET))(this);
+		}
+
+		::UnityEngine::Timeline::TimelineClip* CreateClipFromAsset(::UnityEngine::ScriptableObject* F47C27FF9ABE9A8D)
+		{
+			return ((::UnityEngine::Timeline::TimelineClip*(*)(::PVOID, ::UnityEngine::ScriptableObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_CREATECLIPFROMASSET_OFFSET))(this, F47C27FF9ABE9A8D);
+		}
+
+		::System::Void set_parent(::UnityEngine::Playables::PlayableAsset* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Playables::PlayableAsset*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_SET_PARENT_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TimelineClip*>* GetClips()
+		{
+			return ((::System::Collections::Generic::IEnumerable_1<::UnityEngine::Timeline::TimelineClip*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_GETCLIPS_OFFSET))(this);
+		}
+
+		::System::Boolean DeleteMarkerRaw(::UnityEngine::ScriptableObject* FAFEBCB1FF1CD826)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::ScriptableObject*))((::PBYTE)hIl2Cpp + UNITYENGINE_TIMELINE_TRACKASSET_DELETEMARKERRAW_OFFSET))(this, FAFEBCB1FF1CD826);
+		}
+	};
+}

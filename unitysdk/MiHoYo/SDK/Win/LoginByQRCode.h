@@ -1,0 +1,168 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BED79290917896D4/F06B0A1E7343B846.h"
+#include "unitysdk/MiHoYo/SDK/UIElement.h"
+
+namespace MiHoYo::SDK::Win { class QRCode; }
+namespace System { class Action; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine::UI { class Button; }
+namespace UnityEngine::UI { class Text; }
+namespace UnityEngine::UI { class Toggle; }
+
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_A39BC77D48262624_OFFSET UNITYSDK_OFFSET(0x3A88D50)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_A7B9D97A8EACDFF4_OFFSET UNITYSDK_OFFSET(0x3A89620)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_AB36E0EE549986E5_OFFSET UNITYSDK_OFFSET(0x3A88C10)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_B21D23C4437AD38D_OFFSET UNITYSDK_OFFSET(0x3A88CF0)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_B45E8C9182823EB0_OFFSET UNITYSDK_OFFSET(0x393E960)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_B5ACAF167D922632_OFFSET UNITYSDK_OFFSET(0x3A88BA0)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_BA6706DFBC04795C_OFFSET UNITYSDK_OFFSET(0x3A89290)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_BD53B17679181FE8_OFFSET UNITYSDK_OFFSET(0x3A88C80)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_BF13C91AD80643D2_OFFSET UNITYSDK_OFFSET(0x3A88C60)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_BFA7961FF2AC380B_OFFSET UNITYSDK_OFFSET(0x3A890F0)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_E42B744BA0B2C2AA_OFFSET UNITYSDK_OFFSET(0x3A89030)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_E85D1C741D5386D7_OFFSET UNITYSDK_OFFSET(0x3A88BC0)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_EAF0C5D95E400883_OFFSET UNITYSDK_OFFSET(0x3A88DE0)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_F1A8EF5AC773C0D0_OFFSET UNITYSDK_OFFSET(0x3A88EA0)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_F27E545EDD4E2AF4_OFFSET UNITYSDK_OFFSET(0x39947F0)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_F49FAA59941B0939_OFFSET UNITYSDK_OFFSET(0x3A88F40)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_FB08F0065135719A_OFFSET UNITYSDK_OFFSET(0x393E8C0)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE_FDBCDBBFE02CD51A_OFFSET UNITYSDK_OFFSET(0x3A87940)
+#define MIHOYO_SDK_WIN_LOGINBYQRCODE__CTOR_OFFSET UNITYSDK_OFFSET(0x39230A0)
+
+namespace MiHoYo::SDK::Win
+{
+	inline static constexpr unsigned int LoginByQRCode_TypeDefinitionIndex = 12052;
+
+	class LoginByQRCode : public ::MiHoYo::SDK::UIElement
+	{
+	public:
+		static ::MiHoYo::SDK::Win::LoginByQRCode** StaticGet_F459A1CAE950E680()
+		{
+			return (::MiHoYo::SDK::Win::LoginByQRCode**)Il2CppClass::FromTypeDefinitionIndex(LoginByQRCode_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		::UnityEngine::UI::Button* FB1D17DE05FD99DB; // 0x60
+		::UnityEngine::UI::Button* B1D38914498DA7C9; // 0x68
+		::UnityEngine::GameObject* A9ABE631C4E39315; // 0x70
+		::UnityEngine::UI::Text* E2D67131AF9A993B; // 0x78
+		::UnityEngine::GameObject* F989B26EA877510C; // 0x80
+		::UnityEngine::GameObject* F5A3D2A498325AE1; // 0x88
+		::UnityEngine::GameObject* E43BFE623CEBDEB6; // 0x90
+		::UnityEngine::GameObject* B3AC311C7E655173; // 0x98
+		::UnityEngine::UI::Button* FD81FC847D72B122; // 0xA0
+		::UnityEngine::GameObject* BBD6C727C49C65A6; // 0xA8
+		::UnityEngine::GameObject* E7E777E8BDBB613A; // 0xB0
+		::UnityEngine::GameObject* B2A8B9151B0559E7; // 0xB8
+		::UnityEngine::GameObject* E9D3938D4392E136; // 0xC0
+		::UnityEngine::UI::Button* BAB94071B07E8F31; // 0xC8
+		::UnityEngine::GameObject* E23B22922BD6062F; // 0xD0
+		::UnityEngine::UI::Button* E1D40832A230B6AA; // 0xD8
+		::UnityEngine::GameObject* FE2B0F0C8226B982; // 0xE0
+		::MiHoYo::SDK::Win::QRCode* FFB71F80B9B2FF1D; // 0xE8
+		::UnityEngine::GameObject* A1976DC377B4627A; // 0xF0
+		::UnityEngine::UI::Toggle* B4E6B622270B9B5F; // 0xF8
+		::UnityEngine::UI::Text* F7CD54AE78A36CAD; // 0x100
+		::System::Action* OnClose; // 0x108
+		::System::Action* OnBack; // 0x110
+		::System::Action* OnRefresh; // 0x118
+		::System::Action_1<::System::Boolean>* OnSaveRecordToggleClicked; // 0x120
+		::BED79290917896D4::F06B0A1E7343B846 FC0946AE21BD368C; // 0x128
+
+		::System::Void E42B744BA0B2C2AA()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE_E42B744BA0B2C2AA_OFFSET))(this);
+		}
+
+		::System::Void EAF0C5D95E400883()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE_EAF0C5D95E400883_OFFSET))(this);
+		}
+
+		::System::Void FB08F0065135719A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE_FB08F0065135719A_OFFSET))(this);
+		}
+
+		::System::Void BA6706DFBC04795C()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE_BA6706DFBC04795C_OFFSET))(this);
+		}
+
+		::System::Void BD53B17679181FE8(::System::String* BED3D2FCDB0CB19C)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE_BD53B17679181FE8_OFFSET))(this, BED3D2FCDB0CB19C);
+		}
+
+		::System::Void B45E8C9182823EB0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE_B45E8C9182823EB0_OFFSET))(this);
+		}
+
+		static ::System::Void E85D1C741D5386D7()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE_E85D1C741D5386D7_OFFSET))();
+		}
+
+		::System::Void F49FAA59941B0939(::System::String* B960AC235824C6C8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE_F49FAA59941B0939_OFFSET))(this, B960AC235824C6C8);
+		}
+
+		::System::Void B5ACAF167D922632(::System::Boolean FE9C48DCF56C7987)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE_B5ACAF167D922632_OFFSET))(this, FE9C48DCF56C7987);
+		}
+
+		::System::Void F1A8EF5AC773C0D0()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE_F1A8EF5AC773C0D0_OFFSET))(this);
+		}
+
+		::System::Void AB36E0EE549986E5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE_AB36E0EE549986E5_OFFSET))(this);
+		}
+
+		::System::Void FDBCDBBFE02CD51A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE_FDBCDBBFE02CD51A_OFFSET))(this);
+		}
+
+		::System::Void F27E545EDD4E2AF4()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE_F27E545EDD4E2AF4_OFFSET))(this);
+		}
+
+		::System::Void A39BC77D48262624()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE_A39BC77D48262624_OFFSET))(this);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void BF13C91AD80643D2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE_BF13C91AD80643D2_OFFSET))(this);
+		}
+
+		::System::Void B21D23C4437AD38D()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE_B21D23C4437AD38D_OFFSET))(this);
+		}
+
+		static ::System::Void BFA7961FF2AC380B(::BED79290917896D4::F06B0A1E7343B846 A288CB28FC2A6DA3)
+		{
+			return ((::System::Void(*)(::BED79290917896D4::F06B0A1E7343B846))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE_BFA7961FF2AC380B_OFFSET))(A288CB28FC2A6DA3);
+		}
+
+		::System::Void A7B9D97A8EACDFF4()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_WIN_LOGINBYQRCODE_A7B9D97A8EACDFF4_OFFSET))(this);
+		}
+	};
+}

@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class AB52107ADC477C70;
+class B8E8B43DB9599142;
+class FC6AC40B111D4976;
+
+#define E0F4ED612021ADF6_B87BBF89A9A2DF84_OFFSET UNITYSDK_OFFSET(0x17D5EA0)
+#define E0F4ED612021ADF6_BFE2325D5F158ACF_OFFSET UNITYSDK_OFFSET(0x3DFE780)
+#define E0F4ED612021ADF6_E2108D7CE84D4997_OFFSET UNITYSDK_OFFSET(0x3DFE440)
+#define E0F4ED612021ADF6_F7B0A23335A3DB16_OFFSET UNITYSDK_OFFSET(0x3DFE730)
+#define E0F4ED612021ADF6__CCTOR_OFFSET UNITYSDK_OFFSET(0x3DFE610)
+#define E0F4ED612021ADF6__CTOR_OFFSET UNITYSDK_OFFSET(0x3DFE690)
+
+inline static constexpr unsigned int E0F4ED612021ADF6_TypeDefinitionIndex = 14635;
+
+class E0F4ED612021ADF6 : public ::System::Object
+{
+public:
+	static ::E0F4ED612021ADF6** StaticGet_ABFACF4B79951FBB()
+	{
+		return (::E0F4ED612021ADF6**)Il2CppClass::FromTypeDefinitionIndex(E0F4ED612021ADF6_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::System::Object** StaticGet_B375DA73BD9ABEC6()
+	{
+		return (::System::Object**)Il2CppClass::FromTypeDefinitionIndex(E0F4ED612021ADF6_TypeDefinitionIndex)->GetStaticField(0x8);
+	}
+	::FC6AC40B111D4976* F270F326773A964B; // 0x10
+
+	static ::E0F4ED612021ADF6* F7B0A23335A3DB16()
+	{
+		return ((::E0F4ED612021ADF6*(*)())((::PBYTE)hIl2Cpp + E0F4ED612021ADF6_F7B0A23335A3DB16_OFFSET))();
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E0F4ED612021ADF6__CTOR_OFFSET))(this);
+	}
+
+	::B8E8B43DB9599142* BFE2325D5F158ACF()
+	{
+		return ((::B8E8B43DB9599142*(*)(::PVOID))((::PBYTE)hIl2Cpp + E0F4ED612021ADF6_BFE2325D5F158ACF_OFFSET))(this);
+	}
+
+	static ::System::Void E2108D7CE84D4997()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + E0F4ED612021ADF6_E2108D7CE84D4997_OFFSET))();
+	}
+
+	::AB52107ADC477C70* B87BBF89A9A2DF84()
+	{
+		return ((::AB52107ADC477C70*(*)(::PVOID))((::PBYTE)hIl2Cpp + E0F4ED612021ADF6_B87BBF89A9A2DF84_OFFSET))(this);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + E0F4ED612021ADF6__CCTOR_OFFSET))();
+	}
+};

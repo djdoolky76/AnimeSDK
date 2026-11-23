@@ -1,0 +1,63 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/A916C3A9658A83A2_FF37064058BE64B6.h"
+#include "unitysdk/BE3EF76DC054C986.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+
+namespace ABC::UI { class MonoButton; }
+namespace UnityEngine { class GameObject; }
+namespace UnityEngine { class RectTransform; }
+namespace UnityEngine { class Transform; }
+
+#define A08FA26A068E999C_B7BB68C7CB7D503B_OFFSET UNITYSDK_OFFSET(0x20380C0)
+#define A08FA26A068E999C_BC627BFA937AF175_OFFSET UNITYSDK_OFFSET(0x2038B80)
+#define A08FA26A068E999C_EC3033C0485522FB_1_OFFSET UNITYSDK_OFFSET(0x2038CE0)
+#define A08FA26A068E999C_EC3033C0485522FB_OFFSET UNITYSDK_OFFSET(0x2038C30)
+#define A08FA26A068E999C_EE86DB630B7406C1_OFFSET UNITYSDK_OFFSET(0x2038160)
+#define A08FA26A068E999C_FCC7443573DD0222_OFFSET UNITYSDK_OFFSET(0x2037F50)
+#define A08FA26A068E999C__CTOR_OFFSET UNITYSDK_OFFSET(0x2039120)
+
+inline static constexpr unsigned int A08FA26A068E999C_TypeDefinitionIndex = 8278;
+
+class A08FA26A068E999C : public ::BE3EF76DC054C986
+{
+public:
+	::ABC::UI::MonoButton* BCB1983449205758; // 0xC8
+	::A916C3A9658A83A2_FF37064058BE64B6 B331198A3137B5B6; // 0xD0
+	::UnityEngine::Vector2 F5D9E66A14B5FBFD; // 0xD4
+
+	::System::Void EE86DB630B7406C1(::System::UInt32 EA3C9D11E469EAA2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + A08FA26A068E999C_EE86DB630B7406C1_OFFSET))(this, EA3C9D11E469EAA2);
+	}
+
+	::System::Void EC3033C0485522FB(::System::UInt32 EA3C9D11E469EAA2, ::UnityEngine::Vector2 A7D010719A57D5B4, ::UnityEngine::RectTransform* F9E6A5ABE3F78299)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::Vector2, ::UnityEngine::RectTransform*))((::PBYTE)hIl2Cpp + A08FA26A068E999C_EC3033C0485522FB_OFFSET))(this, EA3C9D11E469EAA2, A7D010719A57D5B4, F9E6A5ABE3F78299);
+	}
+
+	::System::Void B7BB68C7CB7D503B(::System::Single F54AF627638DE3C9)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + A08FA26A068E999C_B7BB68C7CB7D503B_OFFSET))(this, F54AF627638DE3C9);
+	}
+
+	::System::Void BC627BFA937AF175(::UnityEngine::Vector2 BFDC0BA71944D9AA)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + A08FA26A068E999C_BC627BFA937AF175_OFFSET))(this, BFDC0BA71944D9AA);
+	}
+
+	::System::Void FCC7443573DD0222()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A08FA26A068E999C_FCC7443573DD0222_OFFSET))(this);
+	}
+
+	::System::Void _ctor(::UnityEngine::GameObject* A6BEFB09A5DF1AF7, ::UnityEngine::RectTransform* F9E6A5ABE3F78299, ::A916C3A9658A83A2_FF37064058BE64B6 EFFA7BC703C258CD)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::UnityEngine::RectTransform*, ::A916C3A9658A83A2_FF37064058BE64B6))((::PBYTE)hIl2Cpp + A08FA26A068E999C__CTOR_OFFSET))(this, A6BEFB09A5DF1AF7, F9E6A5ABE3F78299, EFFA7BC703C258CD);
+	}
+
+	::System::Void EC3033C0485522FB_1(::System::UInt32 EA3C9D11E469EAA2, ::UnityEngine::Transform* EFE497ABF6BF98D8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::UInt32, ::UnityEngine::Transform*))((::PBYTE)hIl2Cpp + A08FA26A068E999C_EC3033C0485522FB_1_OFFSET))(this, EA3C9D11E469EAA2, EFE497ABF6BF98D8);
+	}
+};

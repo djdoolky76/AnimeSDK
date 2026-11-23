@@ -1,0 +1,60 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/B88870E9FB4B8C1A/E6E535EDFA14822E.h"
+
+#define ABC_CUSTOMRENDERPIPELINE_PCSSSETTINGS_CONDITIONALCOPY_OFFSET UNITYSDK_OFFSET(0x27D8CE0)
+#define ABC_CUSTOMRENDERPIPELINE_PCSSSETTINGS_GET_ENABLED_OFFSET UNITYSDK_OFFSET(0x1873260)
+#define ABC_CUSTOMRENDERPIPELINE_PCSSSETTINGS_GET_LIGHTSOURCEANGLE_OFFSET UNITYSDK_OFFSET(0x233F9C0)
+#define ABC_CUSTOMRENDERPIPELINE_PCSSSETTINGS_GET_PENUMBRACOLORRAMPENABLED_OFFSET UNITYSDK_OFFSET(0x18732A0)
+#define ABC_CUSTOMRENDERPIPELINE_PCSSSETTINGS_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x27D8D90)
+#define ABC_CUSTOMRENDERPIPELINE_PCSSSETTINGS_SET_PENUMBRACOLORRAMPENABLED_OFFSET UNITYSDK_OFFSET(0x27D8DE0)
+#define ABC_CUSTOMRENDERPIPELINE_PCSSSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x27D8D80)
+
+namespace ABC::CustomRenderPipeline
+{
+	inline static constexpr unsigned int PCSSSettings_TypeDefinitionIndex = 16725;
+
+	class PCSSSettings : public ::B88870E9FB4B8C1A::E6E535EDFA14822E
+	{
+	public:
+		::System::Boolean m_Enabled; // 0x18
+		::System::Boolean m_PenumbraColorRampEnabled; // 0x19
+		::System::Byte _padding0[0x2];
+		::System::Single m_LightSourceAngle; // 0x1C
+
+		::System::Boolean get_enabled()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_PCSSSETTINGS_GET_ENABLED_OFFSET))(this);
+		}
+
+		::System::Single get_lightSourceAngle()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_PCSSSETTINGS_GET_LIGHTSOURCEANGLE_OFFSET))(this);
+		}
+
+		::System::Void set_enabled(::System::Boolean E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_PCSSSETTINGS_SET_ENABLED_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_PCSSSETTINGS__CTOR_OFFSET))(this);
+		}
+
+		::System::Boolean get_penumbraColorRampEnabled()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_PCSSSETTINGS_GET_PENUMBRACOLORRAMPENABLED_OFFSET))(this);
+		}
+
+		::System::Void ConditionalCopy(::B88870E9FB4B8C1A::E6E535EDFA14822E* B093D14BEB149AD9)
+		{
+			return ((::System::Void(*)(::PVOID, ::B88870E9FB4B8C1A::E6E535EDFA14822E*))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_PCSSSETTINGS_CONDITIONALCOPY_OFFSET))(this, B093D14BEB149AD9);
+		}
+
+		::System::Void set_penumbraColorRampEnabled(::System::Boolean E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_PCSSSETTINGS_SET_PENUMBRACOLORRAMPENABLED_OFFSET))(this, E937D4885DAA1AE8);
+		}
+	};
+}

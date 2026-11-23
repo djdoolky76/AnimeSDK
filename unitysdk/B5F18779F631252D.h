@@ -1,0 +1,35 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class EB11DE8A8A1E3314;
+
+#define B5F18779F631252D_B207750A5667CDCC_OFFSET UNITYSDK_OFFSET(0x1F66EB0)
+#define B5F18779F631252D_E07A4C9087566F88_OFFSET UNITYSDK_OFFSET(0x1F66E40)
+#define B5F18779F631252D_F7B90DE4161D7910_OFFSET UNITYSDK_OFFSET(0x1F66F60)
+
+inline static constexpr unsigned int B5F18779F631252D_TypeDefinitionIndex = 7763;
+
+class B5F18779F631252D : public ::System::Object
+{
+public:
+	static ::System::Int32* StaticGet_F153A05EEEA5A729()
+	{
+		return (::System::Int32*)Il2CppClass::FromTypeDefinitionIndex(B5F18779F631252D_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+
+	static ::System::UInt32 B207750A5667CDCC(::System::UInt32 E8B3E6E429BC5C43)
+	{
+		return ((::System::UInt32(*)(::System::UInt32))((::PBYTE)hIl2Cpp + B5F18779F631252D_B207750A5667CDCC_OFFSET))(E8B3E6E429BC5C43);
+	}
+
+	static ::System::Int32 E07A4C9087566F88()
+	{
+		return ((::System::Int32(*)())((::PBYTE)hIl2Cpp + B5F18779F631252D_E07A4C9087566F88_OFFSET))();
+	}
+
+	static ::System::Boolean F7B90DE4161D7910(::EB11DE8A8A1E3314* FDB9059155C670D8, ::EB11DE8A8A1E3314* F16902E0C20D53B1)
+	{
+		return ((::System::Boolean(*)(::EB11DE8A8A1E3314*, ::EB11DE8A8A1E3314*))((::PBYTE)hIl2Cpp + B5F18779F631252D_F7B90DE4161D7910_OFFSET))(FDB9059155C670D8, F16902E0C20D53B1);
+	}
+};

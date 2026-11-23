@@ -1,0 +1,26 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class EA1C3C9B85AD9F51;
+
+#define BF8D61BC78D890EA_B35AB88F2DEFC391_FF6AC602A7E1180C_OFFSET UNITYSDK_OFFSET(0x1D2FA40)
+#define BF8D61BC78D890EA_B35AB88F2DEFC391__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int BF8D61BC78D890EA_B35AB88F2DEFC391_TypeDefinitionIndex = 18124;
+
+class BF8D61BC78D890EA_B35AB88F2DEFC391 : public ::System::Object
+{
+public:
+	::System::Int32 FC300ADBDFF24726; // 0x10
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + BF8D61BC78D890EA_B35AB88F2DEFC391__CTOR_OFFSET))(this);
+	}
+
+	::System::Boolean FF6AC602A7E1180C(::EA1C3C9B85AD9F51* F5006C45C2B93A1C)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::EA1C3C9B85AD9F51*))((::PBYTE)hIl2Cpp + BF8D61BC78D890EA_B35AB88F2DEFC391_FF6AC602A7E1180C_OFFSET))(this, F5006C45C2B93A1C);
+	}
+};

@@ -1,0 +1,67 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace UnityEngine { class Animation; }
+namespace UnityEngine { class B598BD10BB43E7FA; }
+namespace UnityEngine { class GameObject; }
+
+#define A903E20457344AA1_A5276A8E959E697A_OFFSET UNITYSDK_OFFSET(0x17D5EA0)
+#define A903E20457344AA1_ACED4FBAFBD039FB_OFFSET UNITYSDK_OFFSET(0x1FBD4D0)
+#define A903E20457344AA1_BA911D6AD4B3C977_OFFSET UNITYSDK_OFFSET(0x1FBD560)
+#define A903E20457344AA1_E34471A68505FC45_OFFSET UNITYSDK_OFFSET(0x1FBD810)
+#define A903E20457344AA1_EC3033C0485522FB_OFFSET UNITYSDK_OFFSET(0x1FBD6A0)
+#define A903E20457344AA1_F75C82EB8926D867_OFFSET UNITYSDK_OFFSET(0x1FBD5F0)
+#define A903E20457344AA1_FCC7443573DD0222_OFFSET UNITYSDK_OFFSET(0x1FBD410)
+#define A903E20457344AA1__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int A903E20457344AA1_TypeDefinitionIndex = 6867;
+
+class A903E20457344AA1 : public ::System::Object
+{
+public:
+	::UnityEngine::GameObject* FF0861877F1685D7; // 0x10
+	::UnityEngine::Animation* EBECCB6DC301ED9B; // 0x18
+	::UnityEngine::B598BD10BB43E7FA* EC48C28FAD758410; // 0x20
+	::System::Single E85E37F5A9529CB0; // 0x28
+
+	::System::Void ACED4FBAFBD039FB(::System::Boolean A407A9FAC784FD51)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + A903E20457344AA1_ACED4FBAFBD039FB_OFFSET))(this, A407A9FAC784FD51);
+	}
+
+	::System::Void EC3033C0485522FB(::UnityEngine::GameObject* B919B846D6BC0B1B, ::System::UInt32 B48C66E5FB2449C6)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*, ::System::UInt32))((::PBYTE)hIl2Cpp + A903E20457344AA1_EC3033C0485522FB_OFFSET))(this, B919B846D6BC0B1B, B48C66E5FB2449C6);
+	}
+
+	::System::Void F75C82EB8926D867(::System::Single FC6FAAE852B2379B)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + A903E20457344AA1_F75C82EB8926D867_OFFSET))(this, FC6FAAE852B2379B);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A903E20457344AA1__CTOR_OFFSET))(this);
+	}
+
+	::System::Void E34471A68505FC45(::System::Single FC6FAAE852B2379B, ::System::Single F7EF7A8033FFCB17)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single, ::System::Single))((::PBYTE)hIl2Cpp + A903E20457344AA1_E34471A68505FC45_OFFSET))(this, FC6FAAE852B2379B, F7EF7A8033FFCB17);
+	}
+
+	::UnityEngine::GameObject* A5276A8E959E697A()
+	{
+		return ((::UnityEngine::GameObject*(*)(::PVOID))((::PBYTE)hIl2Cpp + A903E20457344AA1_A5276A8E959E697A_OFFSET))(this);
+	}
+
+	::System::Void FCC7443573DD0222()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A903E20457344AA1_FCC7443573DD0222_OFFSET))(this);
+	}
+
+	::System::Void BA911D6AD4B3C977(::System::Boolean FFA00246E8ABA57B)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + A903E20457344AA1_BA911D6AD4B3C977_OFFSET))(this, FFA00246E8ABA57B);
+	}
+};

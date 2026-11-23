@@ -1,0 +1,84 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/E68AA4EB51923C98/E9D6B32419BEA8B5.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/BB7311E0B052ED82.h"
+#include "unitysdk/BD3E6890C9C82A9E.h"
+
+namespace System { class String; }
+
+#define EB11C8A445EFFFDF_AAA67EE098557B85_OFFSET UNITYSDK_OFFSET(0x218C660)
+#define EB11C8A445EFFFDF_EE61DA8B181352BF_OFFSET UNITYSDK_OFFSET(0x1D19FB0)
+#define EB11C8A445EFFFDF_F6DF57F0F0358F35_OFFSET UNITYSDK_OFFSET(0x218A1E0)
+#define EB11C8A445EFFFDF_FBBF870EA90E1D92_OFFSET UNITYSDK_OFFSET(0x218A1F0)
+#define EB11C8A445EFFFDF__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int EB11C8A445EFFFDF_TypeDefinitionIndex = 8779;
+
+class EB11C8A445EFFFDF : public ::System::Object
+{
+public:
+	::System::String* E6D0B1E7DF644E5F; // 0x10
+	::System::String* FFB22342AF49E069; // 0x18
+	::System::UInt32 BAB63712CBD510E2; // 0x20
+	::System::Boolean FC25194623A47B94; // 0x24
+	::System::Byte _padding0[0x3];
+	::System::String* EFDC3CEC2BD69E72; // 0x28
+	::System::String* A11F9591D3920DBD; // 0x30
+	::System::UInt32 BE0640F75CC5E477; // 0x38
+	::System::UInt32 FDD852DE2E3E1ECE; // 0x3C
+	::System::String* BE531D7319B7573F; // 0x40
+	::System::String* E2B43DA35B408141; // 0x48
+	::System::Boolean FD0BDDD905AB20E7; // 0x50
+	::System::Byte _padding1[0x7];
+	::System::String* ED5B862BF8DCA70B; // 0x58
+	::System::String* BBB75CDF27C8F6E7; // 0x60
+	::System::UInt32 AD3D79CBE8156CA2; // 0x68
+	::System::Byte _padding2[0x4];
+	::System::String* BDD5E93969A599DC; // 0x70
+	::System::String* BEE3D5B4E567B570; // 0x78
+	::System::String* B27D668F485F984F; // 0x80
+	::System::String* B283B81D6F3A64AA; // 0x88
+	::System::UInt32 E8790080D0337976; // 0x90
+	::System::Byte _padding3[0x4];
+	::System::String* AE08AE2CDCC8D331; // 0x98
+	::System::UInt32 E9EF1688081C3B62; // 0xA0
+	::System::UInt32 EED444AEAD47D297; // 0xA4
+	::System::String* B4861F220A75C6B0; // 0xA8
+	::System::UInt32 AC85D5E15CF980E0; // 0xB0
+	::System::Byte _padding4[0x4];
+	::System::String* FE1CFFCC374D3C56; // 0xB8
+	::System::Boolean AC507CB15DF154AA; // 0xC0
+	::System::Byte _padding5[0x3];
+	::E68AA4EB51923C98::E9D6B32419BEA8B5 BD667E7B8F901E5A; // 0xC4
+	::System::String* B5D1B44823D64A11; // 0xC8
+	::System::Boolean E027C02D6FAEFBE0; // 0xD0
+	::System::Byte _padding6[0x3];
+	::System::UInt32 AC93B69600CCC16F; // 0xD4
+	::System::String* EFCC378D42892A51; // 0xD8
+
+	static ::System::Void FBBF870EA90E1D92(::BD3E6890C9C82A9E& F99B0FE319DB74D1, ::EB11C8A445EFFFDF*& E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::BD3E6890C9C82A9E&, ::EB11C8A445EFFFDF*&))((::PBYTE)hIl2Cpp + EB11C8A445EFFFDF_FBBF870EA90E1D92_OFFSET))(F99B0FE319DB74D1, E937D4885DAA1AE8);
+	}
+
+	::System::String* EE61DA8B181352BF()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + EB11C8A445EFFFDF_EE61DA8B181352BF_OFFSET))(this);
+	}
+
+	static ::System::Void AAA67EE098557B85(::BB7311E0B052ED82& F99B0FE319DB74D1, ::EB11C8A445EFFFDF* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::BB7311E0B052ED82&, ::EB11C8A445EFFFDF*))((::PBYTE)hIl2Cpp + EB11C8A445EFFFDF_AAA67EE098557B85_OFFSET))(F99B0FE319DB74D1, E937D4885DAA1AE8);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + EB11C8A445EFFFDF__CTOR_OFFSET))(this);
+	}
+
+	::E68AA4EB51923C98::E9D6B32419BEA8B5 F6DF57F0F0358F35()
+	{
+		return ((::E68AA4EB51923C98::E9D6B32419BEA8B5(*)(::PVOID))((::PBYTE)hIl2Cpp + EB11C8A445EFFFDF_F6DF57F0F0358F35_OFFSET))(this);
+	}
+};

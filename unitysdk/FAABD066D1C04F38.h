@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/EFC4AEA2121EC272.h"
+
+class A4C375117EE7C7B8;
+namespace ABC::UI { class MonoButton; }
+namespace ABC::UI { class MonoLocalizedTmp; }
+namespace ABC::UI { class MonoUIAutoView; }
+
+#define FAABD066D1C04F38_A54D936318FAF9E3_OFFSET UNITYSDK_OFFSET(0x1D78750)
+#define FAABD066D1C04F38_B8EEC5CD6E572B66_OFFSET UNITYSDK_OFFSET(0x1D78860)
+#define FAABD066D1C04F38_B950FF9810FC6646_OFFSET UNITYSDK_OFFSET(0x1D78690)
+#define FAABD066D1C04F38_EC3033C0485522FB_OFFSET UNITYSDK_OFFSET(0x1D788B0)
+#define FAABD066D1C04F38__CTOR_OFFSET UNITYSDK_OFFSET(0x16665F0)
+
+inline static constexpr unsigned int FAABD066D1C04F38_TypeDefinitionIndex = 9353;
+
+class FAABD066D1C04F38 : public ::EFC4AEA2121EC272
+{
+public:
+	::ABC::UI::MonoLocalizedTmp* A0FB631C9CD77603; // 0x80
+	::ABC::UI::MonoButton* B65AA2D0CDA1D23A; // 0x88
+
+	::System::Void B950FF9810FC6646()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FAABD066D1C04F38_B950FF9810FC6646_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FAABD066D1C04F38__CTOR_OFFSET))(this);
+	}
+
+	::System::Void EC3033C0485522FB(::A4C375117EE7C7B8* ACDE58E97E37D13C)
+	{
+		return ((::System::Void(*)(::PVOID, ::A4C375117EE7C7B8*))((::PBYTE)hIl2Cpp + FAABD066D1C04F38_EC3033C0485522FB_OFFSET))(this, ACDE58E97E37D13C);
+	}
+
+	::System::Void B8EEC5CD6E572B66()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + FAABD066D1C04F38_B8EEC5CD6E572B66_OFFSET))(this);
+	}
+
+	::System::Void A54D936318FAF9E3(::ABC::UI::MonoUIAutoView* E32DFA894DBD320D)
+	{
+		return ((::System::Void(*)(::PVOID, ::ABC::UI::MonoUIAutoView*))((::PBYTE)hIl2Cpp + FAABD066D1C04F38_A54D936318FAF9E3_OFFSET))(this, E32DFA894DBD320D);
+	}
+};

@@ -1,0 +1,31 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/EFBB2C1B92181E07.h"
+
+class BCA0E2700C819E81;
+class BD197BE803ACBDD8;
+namespace PampelGames::RoadConstructor { class RoadObject; }
+
+#define A78901AAED47F0F4__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3DA2A20)
+#define A78901AAED47F0F4__CTOR_OFFSET UNITYSDK_OFFSET(0x3D83690)
+
+inline static constexpr unsigned int A78901AAED47F0F4_TypeDefinitionIndex = 18921;
+
+class A78901AAED47F0F4 : public ::EFBB2C1B92181E07
+{
+public:
+	::BCA0E2700C819E81* AF2D77904893BF96; // 0x30
+	::PampelGames::RoadConstructor::RoadObject* B53D9FA4D4836DFD; // 0x38
+	::BD197BE803ACBDD8* A41B3E45D4260B03; // 0x40
+	::BD197BE803ACBDD8* A29E81FBBE9D73F6; // 0x48
+
+	::System::Void _ctor(::System::Boolean A916524018361755)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + A78901AAED47F0F4__CTOR_OFFSET))(this, A916524018361755);
+	}
+
+	::System::Void _ctor_1(::BCA0E2700C819E81* AF2D77904893BF96, ::PampelGames::RoadConstructor::RoadObject* B53D9FA4D4836DFD, ::BD197BE803ACBDD8* A41B3E45D4260B03, ::BD197BE803ACBDD8* A29E81FBBE9D73F6)
+	{
+		return ((::System::Void(*)(::PVOID, ::BCA0E2700C819E81*, ::PampelGames::RoadConstructor::RoadObject*, ::BD197BE803ACBDD8*, ::BD197BE803ACBDD8*))((::PBYTE)hIl2Cpp + A78901AAED47F0F4__CTOR_1_OFFSET))(this, AF2D77904893BF96, B53D9FA4D4836DFD, A41B3E45D4260B03, A29E81FBBE9D73F6);
+	}
+};

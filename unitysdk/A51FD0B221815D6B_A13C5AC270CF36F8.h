@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace UnityEngine::InputSystem { class InputControl; }
+
+#define A51FD0B221815D6B_A13C5AC270CF36F8_A5A18DA4885FA84F_OFFSET UNITYSDK_OFFSET(0x1EAE190)
+#define A51FD0B221815D6B_A13C5AC270CF36F8_A8301059B862CDE6_OFFSET UNITYSDK_OFFSET(0x2064C00)
+#define A51FD0B221815D6B_A13C5AC270CF36F8_B824E10060EC9408_OFFSET UNITYSDK_OFFSET(0x21A2B90)
+#define A51FD0B221815D6B_A13C5AC270CF36F8_FD7223C3941F7CF8_OFFSET UNITYSDK_OFFSET(0x1EAE1A0)
+
+inline static constexpr unsigned int A51FD0B221815D6B_A13C5AC270CF36F8_TypeDefinitionIndex = 14357;
+
+struct alignas(8) A51FD0B221815D6B_A13C5AC270CF36F8
+{
+	::System::Int32 FD69739ED7041928; // 0x10
+	::System::Byte _padding0[0x4];
+	::UnityEngine::InputSystem::InputControl* FC9ADDD26CFB1FF2; // 0x18
+
+	::System::Int32 FD7223C3941F7CF8()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + A51FD0B221815D6B_A13C5AC270CF36F8_FD7223C3941F7CF8_OFFSET))(this);
+	}
+
+	::System::Void A5A18DA4885FA84F(::System::Int32 E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + A51FD0B221815D6B_A13C5AC270CF36F8_A5A18DA4885FA84F_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::UnityEngine::InputSystem::InputControl* B824E10060EC9408()
+	{
+		return ((::UnityEngine::InputSystem::InputControl*(*)(::PVOID))((::PBYTE)hIl2Cpp + A51FD0B221815D6B_A13C5AC270CF36F8_B824E10060EC9408_OFFSET))(this);
+	}
+
+	::System::Void A8301059B862CDE6(::UnityEngine::InputSystem::InputControl* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::InputSystem::InputControl*))((::PBYTE)hIl2Cpp + A51FD0B221815D6B_A13C5AC270CF36F8_A8301059B862CDE6_OFFSET))(this, E937D4885DAA1AE8);
+	}
+};

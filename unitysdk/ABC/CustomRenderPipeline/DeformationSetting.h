@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/B88870E9FB4B8C1A/E6E535EDFA14822E.h"
+
+#define ABC_CUSTOMRENDERPIPELINE_DEFORMATIONSETTING_CONDITIONALCOPY_OFFSET UNITYSDK_OFFSET(0x27856D0)
+#define ABC_CUSTOMRENDERPIPELINE_DEFORMATIONSETTING_GET_ENABLED_OFFSET UNITYSDK_OFFSET(0x1873260)
+#define ABC_CUSTOMRENDERPIPELINE_DEFORMATIONSETTING_GET_SURFACEHEIGHT_OFFSET UNITYSDK_OFFSET(0x233F9C0)
+#define ABC_CUSTOMRENDERPIPELINE_DEFORMATIONSETTING_GET_TRACKCAMERAPOS_OFFSET UNITYSDK_OFFSET(0x17D6270)
+#define ABC_CUSTOMRENDERPIPELINE_DEFORMATIONSETTING_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x2785780)
+#define ABC_CUSTOMRENDERPIPELINE_DEFORMATIONSETTING__CTOR_OFFSET UNITYSDK_OFFSET(0x2785770)
+
+namespace ABC::CustomRenderPipeline
+{
+	inline static constexpr unsigned int DeformationSetting_TypeDefinitionIndex = 16584;
+
+	class DeformationSetting : public ::B88870E9FB4B8C1A::E6E535EDFA14822E
+	{
+	public:
+		::System::Boolean m_Enabled; // 0x18
+		::System::Byte _padding0[0x3];
+		::System::Single m_SurfaceHeight; // 0x1C
+		::System::Boolean m_trackCameraPos; // 0x20
+
+		::System::Boolean get_trackCameraPos()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_DEFORMATIONSETTING_GET_TRACKCAMERAPOS_OFFSET))(this);
+		}
+
+		::System::Boolean get_enabled()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_DEFORMATIONSETTING_GET_ENABLED_OFFSET))(this);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_DEFORMATIONSETTING__CTOR_OFFSET))(this);
+		}
+
+		::System::Single get_surfaceHeight()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_DEFORMATIONSETTING_GET_SURFACEHEIGHT_OFFSET))(this);
+		}
+
+		::System::Void ConditionalCopy(::B88870E9FB4B8C1A::E6E535EDFA14822E* B093D14BEB149AD9)
+		{
+			return ((::System::Void(*)(::PVOID, ::B88870E9FB4B8C1A::E6E535EDFA14822E*))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_DEFORMATIONSETTING_CONDITIONALCOPY_OFFSET))(this, B093D14BEB149AD9);
+		}
+
+		::System::Void set_enabled(::System::Boolean E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_DEFORMATIONSETTING_SET_ENABLED_OFFSET))(this, E937D4885DAA1AE8);
+		}
+	};
+}

@@ -1,0 +1,27 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+
+#define AC5272709773EA72_EE8C76B731BE55CE_OFFSET UNITYSDK_OFFSET(0x27DE5D0)
+#define AC5272709773EA72__CTOR_OFFSET UNITYSDK_OFFSET(0x1EE75B0)
+
+inline static constexpr unsigned int AC5272709773EA72_TypeDefinitionIndex = 16744;
+
+struct alignas(4) AC5272709773EA72
+{
+	::System::Int32 BB8C609F76620E45; // 0x10
+	::System::Int32 A0A0D02932F12CFD; // 0x14
+	::System::Int32 AD81898AAF8869D2; // 0x18
+
+	::System::Void _ctor(::System::Int32 BEDAF4A3B5A0A00A, ::System::Int32 F36CE88202BB80DC, ::System::Int32 A3EFEA49363FEB92)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::System::Int32, ::System::Int32))((::PBYTE)hIl2Cpp + AC5272709773EA72__CTOR_OFFSET))(this, BEDAF4A3B5A0A00A, F36CE88202BB80DC, A3EFEA49363FEB92);
+	}
+
+	/*
+	::System::Int32 EE8C76B731BE55CE(::AC5272709773EA72 BEEE7A5A60941632)
+	{
+		return ((::System::Int32(*)(::PVOID, ::AC5272709773EA72))((::PBYTE)hIl2Cpp + AC5272709773EA72_EE8C76B731BE55CE_OFFSET))(this, BEEE7A5A60941632);
+	}
+	*/
+};

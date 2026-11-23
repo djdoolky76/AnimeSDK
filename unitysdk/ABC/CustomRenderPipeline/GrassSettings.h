@@ -1,0 +1,80 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/B88870E9FB4B8C1A/E6E535EDFA14822E.h"
+#include "unitysdk/UnityEngine/GrassMemorySettings.h"
+
+#define ABC_CUSTOMRENDERPIPELINE_GRASSSETTINGS_CONDITIONALCOPY_OFFSET UNITYSDK_OFFSET(0x2818FF0)
+#define ABC_CUSTOMRENDERPIPELINE_GRASSSETTINGS_GET_ENABLEGRASSV2_OFFSET UNITYSDK_OFFSET(0x1873260)
+#define ABC_CUSTOMRENDERPIPELINE_GRASSSETTINGS_GET_GLOBALLODBIAS_OFFSET UNITYSDK_OFFSET(0x1831260)
+#define ABC_CUSTOMRENDERPIPELINE_GRASSSETTINGS_GET_GLOBALVIEWDISTANCE_OFFSET UNITYSDK_OFFSET(0x233F9C0)
+#define ABC_CUSTOMRENDERPIPELINE_GRASSSETTINGS_GET_MEMORYSETTINGS_OFFSET UNITYSDK_OFFSET(0x2496920)
+#define ABC_CUSTOMRENDERPIPELINE_GRASSSETTINGS_SET_ENABLEGRASSV2_OFFSET UNITYSDK_OFFSET(0x28190F0)
+#define ABC_CUSTOMRENDERPIPELINE_GRASSSETTINGS_SET_GLOBALLODBIAS_OFFSET UNITYSDK_OFFSET(0x2819140)
+#define ABC_CUSTOMRENDERPIPELINE_GRASSSETTINGS_SET_GLOBALVIEWDISTANCE_OFFSET UNITYSDK_OFFSET(0x2819190)
+#define ABC_CUSTOMRENDERPIPELINE_GRASSSETTINGS_SET_MEMORYSETTINGS_OFFSET UNITYSDK_OFFSET(0x28191E0)
+#define ABC_CUSTOMRENDERPIPELINE_GRASSSETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x28190A0)
+
+namespace ABC::CustomRenderPipeline
+{
+	inline static constexpr unsigned int GrassSettings_TypeDefinitionIndex = 16858;
+
+	class GrassSettings : public ::B88870E9FB4B8C1A::E6E535EDFA14822E
+	{
+	public:
+		::System::Boolean m_EnableGrassV2; // 0x18
+		::System::Byte _padding0[0x3];
+		::System::Single m_GlobalViewDistance; // 0x1C
+		::System::UInt32 m_GlobalLodBias; // 0x20
+		::UnityEngine::GrassMemorySettings m_MemorySettings; // 0x24
+
+		::System::UInt32 get_globalLodBias()
+		{
+			return ((::System::UInt32(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_GRASSSETTINGS_GET_GLOBALLODBIAS_OFFSET))(this);
+		}
+
+		::System::Void set_enableGrassV2(::System::Boolean E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_GRASSSETTINGS_SET_ENABLEGRASSV2_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::UnityEngine::GrassMemorySettings get_memorySettings()
+		{
+			return ((::UnityEngine::GrassMemorySettings(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_GRASSSETTINGS_GET_MEMORYSETTINGS_OFFSET))(this);
+		}
+
+		::System::Single get_globalViewDistance()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_GRASSSETTINGS_GET_GLOBALVIEWDISTANCE_OFFSET))(this);
+		}
+
+		::System::Void ConditionalCopy(::B88870E9FB4B8C1A::E6E535EDFA14822E* B093D14BEB149AD9)
+		{
+			return ((::System::Void(*)(::PVOID, ::B88870E9FB4B8C1A::E6E535EDFA14822E*))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_GRASSSETTINGS_CONDITIONALCOPY_OFFSET))(this, B093D14BEB149AD9);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_GRASSSETTINGS__CTOR_OFFSET))(this);
+		}
+
+		::System::Void set_memorySettings(::UnityEngine::GrassMemorySettings E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GrassMemorySettings))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_GRASSSETTINGS_SET_MEMORYSETTINGS_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void set_globalViewDistance(::System::Single E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_GRASSSETTINGS_SET_GLOBALVIEWDISTANCE_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void set_globalLodBias(::System::UInt32 E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::UInt32))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_GRASSSETTINGS_SET_GLOBALLODBIAS_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Boolean get_enableGrassV2()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_GRASSSETTINGS_GET_ENABLEGRASSV2_OFFSET))(this);
+		}
+	};
+}

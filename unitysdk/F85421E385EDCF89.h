@@ -1,0 +1,39 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+class B417AD069EC8AD84;
+namespace ABC::Collections::Pooled { template <typename T> class PooledList_1; }
+
+#define F85421E385EDCF89_E8AF1E0387A100FA_OFFSET UNITYSDK_OFFSET(0x2180FF0)
+#define F85421E385EDCF89_ECBA3479EAD9D18E_OFFSET UNITYSDK_OFFSET(0x21810B0)
+#define F85421E385EDCF89_F8C7B8F8FBCEF9A5_OFFSET UNITYSDK_OFFSET(0x2181070)
+#define F85421E385EDCF89_FA079206F1855950_OFFSET UNITYSDK_OFFSET(0x17D5EA0)
+
+inline static constexpr unsigned int F85421E385EDCF89_TypeDefinitionIndex = 8766;
+
+class F85421E385EDCF89 : public ::System::Object
+{
+public:
+	::ABC::Collections::Pooled::PooledList_1<::B417AD069EC8AD84*>* E571F0E65DF3B7CD; // 0x10
+
+	::System::Void ECBA3479EAD9D18E(::System::Int32 B48C66E5FB2449C6, ::B417AD069EC8AD84* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Int32, ::B417AD069EC8AD84*))((::PBYTE)hIl2Cpp + F85421E385EDCF89_ECBA3479EAD9D18E_OFFSET))(this, B48C66E5FB2449C6, E937D4885DAA1AE8);
+	}
+
+	::ABC::Collections::Pooled::PooledList_1<::B417AD069EC8AD84*>* FA079206F1855950()
+	{
+		return ((::ABC::Collections::Pooled::PooledList_1<::B417AD069EC8AD84*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + F85421E385EDCF89_FA079206F1855950_OFFSET))(this);
+	}
+
+	::System::Void E8AF1E0387A100FA()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F85421E385EDCF89_E8AF1E0387A100FA_OFFSET))(this);
+	}
+
+	::System::Int32 F8C7B8F8FBCEF9A5()
+	{
+		return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + F85421E385EDCF89_F8C7B8F8FBCEF9A5_OFFSET))(this);
+	}
+};

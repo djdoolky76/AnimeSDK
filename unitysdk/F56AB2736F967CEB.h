@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/B4B32ACCE75256DD.h"
+#include "unitysdk/E865F6F8B8B44C1E.h"
+#include "unitysdk/System/Nullable_1.h"
+
+namespace System { class String; }
+
+#define F56AB2736F967CEB_B541E38C2848560E_OFFSET UNITYSDK_OFFSET(0x209F5B0)
+#define F56AB2736F967CEB_EAE41585CEDA7352_OFFSET UNITYSDK_OFFSET(0x209F900)
+#define F56AB2736F967CEB_EF69B9F8DCB7786F_OFFSET UNITYSDK_OFFSET(0x209F650)
+#define F56AB2736F967CEB_FCA5AD1739BA7277_OFFSET UNITYSDK_OFFSET(0x209F850)
+#define F56AB2736F967CEB_FE8E0280B48C317D_OFFSET UNITYSDK_OFFSET(0x209F540)
+#define F56AB2736F967CEB__CTOR_OFFSET UNITYSDK_OFFSET(0x209F8B0)
+
+inline static constexpr unsigned int F56AB2736F967CEB_TypeDefinitionIndex = 8582;
+
+class F56AB2736F967CEB : public ::B4B32ACCE75256DD
+{
+public:
+	::E865F6F8B8B44C1E B541E38C2848560E()
+	{
+		return ((::E865F6F8B8B44C1E(*)(::PVOID))((::PBYTE)hIl2Cpp + F56AB2736F967CEB_B541E38C2848560E_OFFSET))(this);
+	}
+
+	::System::Void EF69B9F8DCB7786F()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F56AB2736F967CEB_EF69B9F8DCB7786F_OFFSET))(this);
+	}
+
+	::System::String* EAE41585CEDA7352()
+	{
+		return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + F56AB2736F967CEB_EAE41585CEDA7352_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F56AB2736F967CEB__CTOR_OFFSET))(this);
+	}
+
+	::System::Void FCA5AD1739BA7277(::System::Single FC6FAAE852B2379B)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + F56AB2736F967CEB_FCA5AD1739BA7277_OFFSET))(this, FC6FAAE852B2379B);
+	}
+
+	::System::Void FE8E0280B48C317D(::System::Nullable_1<::System::Single> ECA2CE6699D81DC2)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Nullable_1<::System::Single>))((::PBYTE)hIl2Cpp + F56AB2736F967CEB_FE8E0280B48C317D_OFFSET))(this, ECA2CE6699D81DC2);
+	}
+};

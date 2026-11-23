@@ -1,0 +1,163 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/B88870E9FB4B8C1A/E6E535EDFA14822E.h"
+
+#define ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_CONDITIONALCOPY_OFFSET UNITYSDK_OFFSET(0x2822680)
+#define ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_AGGRESSIVESAMPLECOUNT_OFFSET UNITYSDK_OFFSET(0x16B0640)
+#define ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_DENOISERADIUSSCALE_OFFSET UNITYSDK_OFFSET(0x2264C00)
+#define ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_DEPTHTOLERANCESCALE_OFFSET UNITYSDK_OFFSET(0x233F9A0)
+#define ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_ENABLED_OFFSET UNITYSDK_OFFSET(0x1873260)
+#define ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_FALLBACKTOSKY_OFFSET UNITYSDK_OFFSET(0x18732A0)
+#define ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_PROBEIMPORTANCESAMPLING_OFFSET UNITYSDK_OFFSET(0x278FE60)
+#define ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_QUADRES_OFFSET UNITYSDK_OFFSET(0x1E18F70)
+#define ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_SAMPLECOUNT_OFFSET UNITYSDK_OFFSET(0x1831260)
+#define ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_SKYSTRENGTH_OFFSET UNITYSDK_OFFSET(0x173A940)
+#define ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_SSGIINTENSITY_OFFSET UNITYSDK_OFFSET(0x2347260)
+#define ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_SSGIRAYLENGTH_OFFSET UNITYSDK_OFFSET(0x23255D0)
+#define ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_SSGISATURATIONSCALE_OFFSET UNITYSDK_OFFSET(0x21CC1D0)
+#define ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_SSGISTRENGTH_OFFSET UNITYSDK_OFFSET(0x19C3B80)
+#define ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_UPSAMPLE_OFFSET UNITYSDK_OFFSET(0x1EC9A30)
+#define ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_USEAO_OFFSET UNITYSDK_OFFSET(0x27FC250)
+#define ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_USEBENTNORMAL_OFFSET UNITYSDK_OFFSET(0x2430170)
+#define ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_USESREENPROBE_OFFSET UNITYSDK_OFFSET(0x278FE70)
+#define ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_SET_ENABLED_OFFSET UNITYSDK_OFFSET(0x28227D0)
+#define ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_SET_QUADRES_OFFSET UNITYSDK_OFFSET(0x2822820)
+#define ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_SET_SAMPLECOUNT_OFFSET UNITYSDK_OFFSET(0x2822870)
+#define ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS__CTOR_OFFSET UNITYSDK_OFFSET(0x2822780)
+
+namespace ABC::CustomRenderPipeline
+{
+	inline static constexpr unsigned int SSGISettings_TypeDefinitionIndex = 16854;
+
+	class SSGISettings : public ::B88870E9FB4B8C1A::E6E535EDFA14822E
+	{
+	public:
+		::System::Boolean m_Enabled; // 0x18
+		::System::Boolean m_FallbackToSky; // 0x19
+		::System::Boolean m_UseBentNormal; // 0x1A
+		::System::Boolean m_UseAO; // 0x1B
+		::System::Boolean m_QuadRes; // 0x1C
+		::System::Boolean m_Upsample; // 0x1D
+		::System::Boolean m_UseSreenProbe; // 0x1E
+		::System::Boolean m_ProbeImportanceSampling; // 0x1F
+		::System::Int32 m_SampleCount; // 0x20
+		::System::Int32 m_AggressiveSampleCount; // 0x24
+		::System::Single m_SSGIRayLength; // 0x28
+		::System::Single m_DepthToleranceScale; // 0x2C
+		::System::Single m_SSGIIntensity; // 0x30
+		::System::Single m_SSGIStrength; // 0x34
+		::System::Single m_SkyStrength; // 0x38
+		::System::Single m_DenoiseRadiusScale; // 0x3C
+		::System::Single m_SSGISaturationScale; // 0x40
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS__CTOR_OFFSET))(this);
+		}
+
+		::System::Int32 get_sampleCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_SAMPLECOUNT_OFFSET))(this);
+		}
+
+		::System::Single get_depthToleranceScale()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_DEPTHTOLERANCESCALE_OFFSET))(this);
+		}
+
+		::System::Single get_skyStrength()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_SKYSTRENGTH_OFFSET))(this);
+		}
+
+		::System::Boolean get_probeImportanceSampling()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_PROBEIMPORTANCESAMPLING_OFFSET))(this);
+		}
+
+		::System::Boolean get_useSreenProbe()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_USESREENPROBE_OFFSET))(this);
+		}
+
+		::System::Void set_enabled(::System::Boolean E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_SET_ENABLED_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Boolean get_enabled()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_ENABLED_OFFSET))(this);
+		}
+
+		::System::Void set_quadRes(::System::Boolean E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_SET_QUADRES_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Boolean get_upsample()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_UPSAMPLE_OFFSET))(this);
+		}
+
+		::System::Single get_ssgiRayLength()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_SSGIRAYLENGTH_OFFSET))(this);
+		}
+
+		::System::Boolean get_quadRes()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_QUADRES_OFFSET))(this);
+		}
+
+		::System::Single get_ssgiStrength()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_SSGISTRENGTH_OFFSET))(this);
+		}
+
+		::System::Int32 get_aggressiveSampleCount()
+		{
+			return ((::System::Int32(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_AGGRESSIVESAMPLECOUNT_OFFSET))(this);
+		}
+
+		::System::Boolean get_fallbackToSky()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_FALLBACKTOSKY_OFFSET))(this);
+		}
+
+		::System::Single get_ssgiIntensity()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_SSGIINTENSITY_OFFSET))(this);
+		}
+
+		::System::Boolean get_useAO()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_USEAO_OFFSET))(this);
+		}
+
+		::System::Boolean get_useBentNormal()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_USEBENTNORMAL_OFFSET))(this);
+		}
+
+		::System::Single get_ssgiSaturationScale()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_SSGISATURATIONSCALE_OFFSET))(this);
+		}
+
+		::System::Single get_denoiseRadiusScale()
+		{
+			return ((::System::Single(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_GET_DENOISERADIUSSCALE_OFFSET))(this);
+		}
+
+		::System::Void ConditionalCopy(::B88870E9FB4B8C1A::E6E535EDFA14822E* B093D14BEB149AD9)
+		{
+			return ((::System::Void(*)(::PVOID, ::B88870E9FB4B8C1A::E6E535EDFA14822E*))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_CONDITIONALCOPY_OFFSET))(this, B093D14BEB149AD9);
+		}
+
+		::System::Void set_sampleCount(::System::Int32 E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + ABC_CUSTOMRENDERPIPELINE_SSGISETTINGS_SET_SAMPLECOUNT_OFFSET))(this, E937D4885DAA1AE8);
+		}
+	};
+}

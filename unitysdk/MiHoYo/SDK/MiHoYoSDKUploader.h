@@ -1,0 +1,134 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BED79290917896D4/E362F7B568182313.h"
+#include "unitysdk/UnityEngine/MonoBehaviour.h"
+
+class BB8559CEF83DD869;
+class F00D975466190277;
+namespace AB3F1F7F10B11FBF { class E3A9F767C10AFECA; }
+namespace MiHoYo::SDK { class NetworkResponseModel; }
+namespace System { class Action; }
+namespace System { class Object; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+namespace System::Collections { class IEnumerator; }
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_AAF7508F1DF53D5E_OFFSET UNITYSDK_OFFSET(0x294FF10)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_AD2EDD17BB41E1C5_OFFSET UNITYSDK_OFFSET(0x2951480)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_AF187B8BDBBFE597_OFFSET UNITYSDK_OFFSET(0x29510F0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_B6EC3AD279816F73_OFFSET UNITYSDK_OFFSET(0x2951390)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_B9AB3B5A781D4B7C_OFFSET UNITYSDK_OFFSET(0x2952740)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_BF3B4B6421CC8E91_OFFSET UNITYSDK_OFFSET(0x2951FE0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_E4C4F73014194BFD_OFFSET UNITYSDK_OFFSET(0x2950DC0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_E6CFE3C75B5C4AD6_OFFSET UNITYSDK_OFFSET(0x29527C0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_EFD578EF3397BDD2_OFFSET UNITYSDK_OFFSET(0x2952330)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_F1DA3B003D9FF18B_OFFSET UNITYSDK_OFFSET(0x2952400)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_F37BCA9A254441D3_OFFSET UNITYSDK_OFFSET(0x29509E0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_F4403F534935E116_OFFSET UNITYSDK_OFFSET(0x2950DA0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_F5FA821676AF0AFB_OFFSET UNITYSDK_OFFSET(0x29524D0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_FCC7AD46DDE5E059_OFFSET UNITYSDK_OFFSET(0x29519E0)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_FD24398133C69B92_OFFSET UNITYSDK_OFFSET(0x2950780)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER_FFB464BBC0C46543_OFFSET UNITYSDK_OFFSET(0x2951070)
+#define MIHOYO_SDK_MIHOYOSDKUPLOADER__CTOR_OFFSET UNITYSDK_OFFSET(0x176D770)
+
+namespace MiHoYo::SDK
+{
+	inline static constexpr unsigned int MiHoYoSDKUploader_TypeDefinitionIndex = 15422;
+
+	class MiHoYoSDKUploader : public ::UnityEngine::MonoBehaviour
+	{
+	public:
+		static ::MiHoYo::SDK::MiHoYoSDKUploader** StaticGet_EAE0569B007CD057()
+		{
+			return (::MiHoYo::SDK::MiHoYoSDKUploader**)Il2CppClass::FromTypeDefinitionIndex(MiHoYoSDKUploader_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		::BB8559CEF83DD869* F449B704B5635B71; // 0x20
+		::System::Boolean A9C228D1F176A84C; // 0x28
+
+		::System::String* AAF7508F1DF53D5E(::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>* BE68C18FBFC68992)
+		{
+			return ((::System::String*(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::System::String*, ::System::Object*>*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_AAF7508F1DF53D5E_OFFSET))(this, BE68C18FBFC68992);
+		}
+
+		::System::Void BF3B4B6421CC8E91(::MiHoYo::SDK::NetworkResponseModel* E0BB02EDCCFC0E4E)
+		{
+			return ((::System::Void(*)(::PVOID, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_BF3B4B6421CC8E91_OFFSET))(this, E0BB02EDCCFC0E4E);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER__CTOR_OFFSET))(this);
+		}
+
+		::MiHoYo::SDK::NetworkResponseModel* E4C4F73014194BFD(::System::String* A9B0E744486424C1)
+		{
+			return ((::MiHoYo::SDK::NetworkResponseModel*(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_E4C4F73014194BFD_OFFSET))(this, A9B0E744486424C1);
+		}
+
+		::System::Void AF187B8BDBBFE597(::System::String* AF821F194E6AF0BA, ::F00D975466190277* B38A9B2983CE63FE, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* E04D2BE64FCE9814, ::System::Single B8CEFF124B3872B8, ::System::Int32 A42E6C8E59968368)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::F00D975466190277*, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_AF187B8BDBBFE597_OFFSET))(this, AF821F194E6AF0BA, B38A9B2983CE63FE, E04D2BE64FCE9814, B8CEFF124B3872B8, A42E6C8E59968368);
+		}
+
+		static ::System::Boolean B9AB3B5A781D4B7C()
+		{
+			return ((::System::Boolean(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_B9AB3B5A781D4B7C_OFFSET))();
+		}
+
+		::System::Collections::IEnumerator* B6EC3AD279816F73(::System::String* AF821F194E6AF0BA, ::System::String* E7E685A9390734EE, ::System::Action_1<::System::String*>* E04D2BE64FCE9814, ::System::Action* E5753F48089F9529, ::System::Single B8CEFF124B3872B8, ::System::Int32 A42E6C8E59968368)
+		{
+			return ((::System::Collections::IEnumerator*(*)(::PVOID, ::System::String*, ::System::String*, ::System::Action_1<::System::String*>*, ::System::Action*, ::System::Single, ::System::Int32))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_B6EC3AD279816F73_OFFSET))(this, AF821F194E6AF0BA, E7E685A9390734EE, E04D2BE64FCE9814, E5753F48089F9529, B8CEFF124B3872B8, A42E6C8E59968368);
+		}
+
+		::System::Int32 EFD578EF3397BDD2(::Il2CppArray<::System::Byte>* F6C2EBBDFCAEF915, ::AB3F1F7F10B11FBF::E3A9F767C10AFECA* E04D2BE64FCE9814)
+		{
+			return ((::System::Int32(*)(::PVOID, ::Il2CppArray<::System::Byte>*, ::AB3F1F7F10B11FBF::E3A9F767C10AFECA*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_EFD578EF3397BDD2_OFFSET))(this, F6C2EBBDFCAEF915, E04D2BE64FCE9814);
+		}
+
+		::MiHoYo::SDK::NetworkResponseModel* FFB464BBC0C46543()
+		{
+			return ((::MiHoYo::SDK::NetworkResponseModel*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_FFB464BBC0C46543_OFFSET))(this);
+		}
+
+		::System::String* FD24398133C69B92()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_FD24398133C69B92_OFFSET))(this);
+		}
+
+		static ::MiHoYo::SDK::MiHoYoSDKUploader* F5FA821676AF0AFB()
+		{
+			return ((::MiHoYo::SDK::MiHoYoSDKUploader*(*)())((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_F5FA821676AF0AFB_OFFSET))();
+		}
+
+		::BED79290917896D4::E362F7B568182313 E6CFE3C75B5C4AD6()
+		{
+			return ((::BED79290917896D4::E362F7B568182313(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_E6CFE3C75B5C4AD6_OFFSET))(this);
+		}
+
+		::System::Void F4403F534935E116(::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>* E04D2BE64FCE9814, ::MiHoYo::SDK::NetworkResponseModel* A6CAE7339066B0FB)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action_1<::MiHoYo::SDK::NetworkResponseModel*>*, ::MiHoYo::SDK::NetworkResponseModel*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_F4403F534935E116_OFFSET))(this, E04D2BE64FCE9814, A6CAE7339066B0FB);
+		}
+
+		::System::String* F37BCA9A254441D3()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_F37BCA9A254441D3_OFFSET))(this);
+		}
+
+		::System::Int32 F1DA3B003D9FF18B(::System::String* EFF983A80A48BB2A, ::AB3F1F7F10B11FBF::E3A9F767C10AFECA* E04D2BE64FCE9814)
+		{
+			return ((::System::Int32(*)(::PVOID, ::System::String*, ::AB3F1F7F10B11FBF::E3A9F767C10AFECA*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_F1DA3B003D9FF18B_OFFSET))(this, EFF983A80A48BB2A, E04D2BE64FCE9814);
+		}
+
+		::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>* FCC7AD46DDE5E059()
+		{
+			return ((::System::Collections::Generic::Dictionary_2<::System::String*, ::System::String*>*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_FCC7AD46DDE5E059_OFFSET))(this);
+		}
+
+		::System::Void AD2EDD17BB41E1C5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_MIHOYOSDKUPLOADER_AD2EDD17BB41E1C5_OFFSET))(this);
+		}
+	};
+}

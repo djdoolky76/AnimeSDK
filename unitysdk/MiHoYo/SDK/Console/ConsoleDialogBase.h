@@ -1,0 +1,110 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/MiHoYo/SDK/UIElement.h"
+
+namespace MiHoYo::SDK::Console { class SDKUIController; }
+namespace MiHoYo::SDK::Console { class SDKUIDialog; }
+namespace System { class Action; }
+namespace System { class String; }
+namespace System { template <typename T> class Action_1; }
+namespace UnityEngine { class GameObject; }
+
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_A6A4F0FA076A5E5D_OFFSET UNITYSDK_OFFSET(0x39067E0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_A96D35592E82A76D_OFFSET UNITYSDK_OFFSET(0x3AB5F50)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_AFBFBC5C5915E294_OFFSET UNITYSDK_OFFSET(0x3AB5E90)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_B15277FE510A2233_OFFSET UNITYSDK_OFFSET(0x3AB6150)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_B79CB0B104D6429A_OFFSET UNITYSDK_OFFSET(0x3AB5960)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_BF13C91AD80643D2_OFFSET UNITYSDK_OFFSET(0x3AB5A60)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_BFD6B3AFFE7D2F74_OFFSET UNITYSDK_OFFSET(0x3AB6010)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_E6B04256803CD89B_OFFSET UNITYSDK_OFFSET(0x3AB59E0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_F2DB5535DDB17830_OFFSET UNITYSDK_OFFSET(0x3AB5E60)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_F7520718CD11ED08_OFFSET UNITYSDK_OFFSET(0x3AB5D90)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_FDBCDBBFE02CD51A_OFFSET UNITYSDK_OFFSET(0x3AB55F0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_FE02383FA67E194C_OFFSET UNITYSDK_OFFSET(0x3AB60A0)
+#define MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE__CTOR_OFFSET UNITYSDK_OFFSET(0x39230A0)
+
+namespace MiHoYo::SDK::Console
+{
+	inline static constexpr unsigned int ConsoleDialogBase_TypeDefinitionIndex = 12135;
+
+	class ConsoleDialogBase : public ::MiHoYo::SDK::UIElement
+	{
+	public:
+		::System::Action* OnDialogConfirmed; // 0x60
+		::System::Action* OnDialogCanceled; // 0x68
+		::System::Action_1<::UnityEngine::GameObject*>* OnDialogHighlightedChanged; // 0x70
+		::UnityEngine::GameObject* ConfirmButtonObject; // 0x78
+		::UnityEngine::GameObject* CancelButtonObject; // 0x80
+		::MiHoYo::SDK::Console::SDKUIController* A8F63DC331F6A9FF; // 0x88
+		::MiHoYo::SDK::Console::SDKUIDialog* BD8C7AA873E98B3B; // 0x90
+		::UnityEngine::GameObject* B346A3BE321E32AA; // 0x98
+		::UnityEngine::GameObject* F4CE13A3777192ED; // 0xA0
+		::UnityEngine::GameObject* FF30865F05632964; // 0xA8
+		::UnityEngine::GameObject* FDB2B0CB3B627E64; // 0xB0
+
+		::System::String* AFBFBC5C5915E294()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_AFBFBC5C5915E294_OFFSET))(this);
+		}
+
+		::System::String* A96D35592E82A76D()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_A96D35592E82A76D_OFFSET))(this);
+		}
+
+		::System::Void B79CB0B104D6429A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_B79CB0B104D6429A_OFFSET))(this);
+		}
+
+		::System::Void E6B04256803CD89B()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_E6B04256803CD89B_OFFSET))(this);
+		}
+
+		::System::Void F2DB5535DDB17830(::UnityEngine::GameObject* A86A90C31A146E9C)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_F2DB5535DDB17830_OFFSET))(this, A86A90C31A146E9C);
+		}
+
+		::System::Boolean BFD6B3AFFE7D2F74()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_BFD6B3AFFE7D2F74_OFFSET))(this);
+		}
+
+		::System::Void BF13C91AD80643D2()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_BF13C91AD80643D2_OFFSET))(this);
+		}
+
+		::System::Void B15277FE510A2233(::System::String* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_B15277FE510A2233_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void FDBCDBBFE02CD51A()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_FDBCDBBFE02CD51A_OFFSET))(this);
+		}
+
+		::System::Void F7520718CD11ED08()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_F7520718CD11ED08_OFFSET))(this);
+		}
+
+		::System::Void FE02383FA67E194C(::System::String* E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_FE02383FA67E194C_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void A6A4F0FA076A5E5D(::UnityEngine::GameObject* A86A90C31A146E9C)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::GameObject*))((::PBYTE)hIl2Cpp + MIHOYO_SDK_CONSOLE_CONSOLEDIALOGBASE_A6A4F0FA076A5E5D_OFFSET))(this, A86A90C31A146E9C);
+		}
+	};
+}

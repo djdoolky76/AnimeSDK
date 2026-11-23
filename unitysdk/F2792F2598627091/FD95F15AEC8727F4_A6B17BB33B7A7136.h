@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/B8C48C8BF406E9BC/EF22C423CB30F1A1.h"
+#include "unitysdk/F2792F2598627091/B445D15CB8A026F5.h"
+#include "unitysdk/System/Object.h"
+
+namespace F2792F2598627091 { class A88EFC4757C1ED82; }
+
+namespace F2792F2598627091
+{
+	inline static constexpr unsigned int FD95F15AEC8727F4_A6B17BB33B7A7136_TypeDefinitionIndex = 13950;
+
+	template <typename T>
+	class FD95F15AEC8727F4_A6B17BB33B7A7136 : public ::System::Object
+	{
+	public:
+		::System::Boolean A9994705971AB712; // 0x0
+		::System::Object* EEFC152DA5F8B21D; // 0x0
+		::B8C48C8BF406E9BC::EF22C423CB30F1A1<T> F8FA20804FB3C49C; // 0x0
+		::B8C48C8BF406E9BC::EF22C423CB30F1A1<::F2792F2598627091::B445D15CB8A026F5> F75C0F41377A72A7; // 0x0
+		::F2792F2598627091::A88EFC4757C1ED82* BBA0D7D5B61FB59C; // 0x0
+		::System::UInt32 FE6CD52262121458; // 0x0
+		::System::UInt32 F041CBCF58A74EF6; // 0x0
+		::System::UInt32 B043CF161B2DAEFC; // 0x0
+		::System::UInt32 F52679CBAAFEDF7F; // 0x0
+		::System::UInt32 EE5BA790F85CEDC9; // 0x0
+		::System::UInt32 A42F2A626B6C30CE; // 0x0
+		::System::Boolean F7E659C4E8C9EC39; // 0x0
+	};
+}

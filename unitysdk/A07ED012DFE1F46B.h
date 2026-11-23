@@ -1,0 +1,52 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AC9E411942782445/A64DF5B44FF381C3.h"
+#include "unitysdk/AC9E411942782445/F72F76771C791B7F.h"
+#include "unitysdk/E12756DA5AD65331.h"
+#include "unitysdk/EF45E3648A4A7C4D.h"
+#include "unitysdk/System/ValueType.h"
+
+namespace System { class String; }
+
+inline static constexpr unsigned int A07ED012DFE1F46B_TypeDefinitionIndex = 15051;
+
+struct alignas(8) A07ED012DFE1F46B
+{
+	::EF45E3648A4A7C4D EDF7CA62AF273381; // 0x10
+	::System::IntPtr EF9A71062D235E1D; // 0x18
+	::System::String* E1F1AF54FAC30159; // 0x20
+	::System::IntPtr EDBFB12515E4463C; // 0x28
+	::System::IntPtr A7078DA2F0FE9543; // 0x30
+	::System::IntPtr F4221F263F2EF9FD; // 0x38
+	::System::IntPtr B77ACCB48B1E71A0; // 0x40
+	::System::String* E725346E329265A2; // 0x48
+	::System::String* A4E23C908997681E; // 0x50
+	::System::String* A76B92C25F254226; // 0x58
+	::Il2CppArray<::System::Byte>* B010334D63F9361B; // 0x60
+	::System::UInt32 F73F422C98382E67; // 0x68
+	::System::UInt32 A7C7A87FBF9A14B2; // 0x6C
+	::System::UInt32 E6161DA39DBAC53C; // 0x70
+	::AC9E411942782445::F72F76771C791B7F F95FD35D6A78FB9C; // 0x74
+	::AC9E411942782445::A64DF5B44FF381C3 BDA34422CC104AD3; // 0x78
+	::System::Int32 F8AAD1CB52ACDE8A; // 0x7C
+	::Il2CppArray<::System::UInt32>* B055636F464D85AC; // 0x80
+	::System::IntPtr EFAE6E125763BFED; // 0x88
+	::System::UInt64 E15ECF57D340C248; // 0x90
+	::System::UInt64 AF42E046D1EF47FE; // 0x98
+	::System::IntPtr BC5BBA15D47A23D2; // 0xA0
+	::System::IntPtr F8416CB4C973B205; // 0xA8
+	::System::UInt32 EEBF911781ACE1AF; // 0xB0
+	::System::UInt32 AD0E51D27BF06BAD; // 0xB4
+	::System::UInt64 AFEC02C4D9F6A2FE; // 0xB8
+	::E12756DA5AD65331 AD807BD4CCF48689; // 0xC0
+	::System::UInt32 E26A420A33485B00; // 0xD0
+	::System::Byte _padding0[0x4];
+	::System::UInt64 BA050918C810F4C5; // 0xD8
+	::System::Int32 E23887403F178832; // 0xE0
+	::System::Int32 A8FDCCC0A637A4CE; // 0xE4
+	::E12756DA5AD65331 B1C21AA8A2C0A2CB; // 0xE8
+	::Il2CppArray<::System::Byte>* BE62A6A8202F2E5A; // 0xF8
+	::System::UInt64 B8A1429840A326F2; // 0x100
+	::System::UInt64 FB21BF51A6A0EF4D; // 0x108
+	::System::IntPtr E0B53BD43C563FE9; // 0x110
+};

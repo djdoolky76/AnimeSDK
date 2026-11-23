@@ -1,0 +1,77 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/Behaviour.h"
+#include "unitysdk/UnityEngine/B3A7F113FE1DE383.h"
+#include "unitysdk/UnityEngine/Vector2.h"
+
+namespace UnityEngine { class Rigidbody2D; }
+
+#define UNITYENGINE_COLLIDER2D_A30D6265FB8990CD_OFFSET UNITYSDK_OFFSET(0x41AEBC0)
+#define UNITYENGINE_COLLIDER2D_A374FCEC5C197241_OFFSET UNITYSDK_OFFSET(0x41AEC60)
+#define UNITYENGINE_COLLIDER2D_A41FA4A821391D6A_OFFSET UNITYSDK_OFFSET(0x41AEAF0)
+#define UNITYENGINE_COLLIDER2D_A7939956CD8D4E5A_OFFSET UNITYSDK_OFFSET(0x41AEB30)
+#define UNITYENGINE_COLLIDER2D_A84CBE026AE895BD_OFFSET UNITYSDK_OFFSET(0x41AED00)
+#define UNITYENGINE_COLLIDER2D_AF6D8A5052BBDC49_OFFSET UNITYSDK_OFFSET(0x41AEC20)
+#define UNITYENGINE_COLLIDER2D_B83EB5D2372F911B_OFFSET UNITYSDK_OFFSET(0x41AEAA0)
+#define UNITYENGINE_COLLIDER2D_B9AB183329E792F6_OFFSET UNITYSDK_OFFSET(0x41AECB0)
+#define UNITYENGINE_COLLIDER2D_E2EDC4CD2FAD7258_OFFSET UNITYSDK_OFFSET(0x41AEB70)
+#define UNITYENGINE_COLLIDER2D__CTOR_OFFSET UNITYSDK_OFFSET(0x40E9D70)
+
+namespace UnityEngine
+{
+	inline static constexpr unsigned int Collider2D_TypeDefinitionIndex = 21372;
+
+	class Collider2D : public ::UnityEngine::Behaviour
+	{
+	public:
+		::UnityEngine::Vector2 B9AB183329E792F6()
+		{
+			return ((::UnityEngine::Vector2(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_COLLIDER2D_B9AB183329E792F6_OFFSET))(this);
+		}
+
+		::System::Boolean AF6D8A5052BBDC49()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_COLLIDER2D_AF6D8A5052BBDC49_OFFSET))(this);
+		}
+
+		::UnityEngine::B3A7F113FE1DE383 A30D6265FB8990CD()
+		{
+			return ((::UnityEngine::B3A7F113FE1DE383(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_COLLIDER2D_A30D6265FB8990CD_OFFSET))(this);
+		}
+
+		::System::Void E2EDC4CD2FAD7258(::UnityEngine::B3A7F113FE1DE383& FEC8DC0392823C8D)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::B3A7F113FE1DE383&))((::PBYTE)hIl2Cpp + UNITYENGINE_COLLIDER2D_E2EDC4CD2FAD7258_OFFSET))(this, FEC8DC0392823C8D);
+		}
+
+		::System::Boolean A41FA4A821391D6A(::UnityEngine::Vector2 FF9A37DE513AC35B)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2))((::PBYTE)hIl2Cpp + UNITYENGINE_COLLIDER2D_A41FA4A821391D6A_OFFSET))(this, FF9A37DE513AC35B);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_COLLIDER2D__CTOR_OFFSET))(this);
+		}
+
+		::System::Void A374FCEC5C197241(::UnityEngine::Vector2& FEC8DC0392823C8D)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_COLLIDER2D_A374FCEC5C197241_OFFSET))(this, FEC8DC0392823C8D);
+		}
+
+		::System::Boolean B83EB5D2372F911B(::UnityEngine::Vector2& FF9A37DE513AC35B)
+		{
+			return ((::System::Boolean(*)(::PVOID, ::UnityEngine::Vector2&))((::PBYTE)hIl2Cpp + UNITYENGINE_COLLIDER2D_B83EB5D2372F911B_OFFSET))(this, FF9A37DE513AC35B);
+		}
+
+		::UnityEngine::Rigidbody2D* A7939956CD8D4E5A()
+		{
+			return ((::UnityEngine::Rigidbody2D*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_COLLIDER2D_A7939956CD8D4E5A_OFFSET))(this);
+		}
+
+		::System::Void A84CBE026AE895BD(::System::Boolean E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_COLLIDER2D_A84CBE026AE895BD_OFFSET))(this, E937D4885DAA1AE8);
+		}
+	};
+}

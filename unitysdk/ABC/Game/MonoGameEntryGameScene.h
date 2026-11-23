@@ -1,0 +1,38 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/ABC/Game/MonoAdvGameSceneBase.h"
+#include "unitysdk/E0B58AD87D1F143C/BD1CD50E903C4D8C.h"
+
+#define ABC_GAME_MONOGAMEENTRYGAMESCENE_A3E019A570609191_OFFSET UNITYSDK_OFFSET(0x17B7850)
+#define ABC_GAME_MONOGAMEENTRYGAMESCENE_B04F98F06E9423A5_OFFSET UNITYSDK_OFFSET(0x17D26E0)
+#define ABC_GAME_MONOGAMEENTRYGAMESCENE_F3D25EE382F202C7_OFFSET UNITYSDK_OFFSET(0x17D2600)
+#define ABC_GAME_MONOGAMEENTRYGAMESCENE__CTOR_OFFSET UNITYSDK_OFFSET(0x1746BA0)
+
+namespace ABC::Game
+{
+	inline static constexpr unsigned int MonoGameEntryGameScene_TypeDefinitionIndex = 999;
+
+	class MonoGameEntryGameScene : public ::ABC::Game::MonoAdvGameSceneBase
+	{
+	public:
+		::System::Void F3D25EE382F202C7()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_GAME_MONOGAMEENTRYGAMESCENE_F3D25EE382F202C7_OFFSET))(this);
+		}
+
+		::E0B58AD87D1F143C::BD1CD50E903C4D8C A3E019A570609191()
+		{
+			return ((::E0B58AD87D1F143C::BD1CD50E903C4D8C(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_GAME_MONOGAMEENTRYGAMESCENE_A3E019A570609191_OFFSET))(this);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_GAME_MONOGAMEENTRYGAMESCENE__CTOR_OFFSET))(this);
+		}
+
+		::System::Void B04F98F06E9423A5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_GAME_MONOGAMEENTRYGAMESCENE_B04F98F06E9423A5_OFFSET))(this);
+		}
+	};
+}

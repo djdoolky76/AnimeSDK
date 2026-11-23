@@ -1,0 +1,21 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace A418C49FA6A8C1F7 { class B99B33F5B840AA6C; }
+namespace A418C49FA6A8C1F7 { class BF6CEBEFA69D00D6; }
+namespace A418C49FA6A8C1F7 { class F5A720D39664FB39; }
+
+namespace A418C49FA6A8C1F7
+{
+	inline static constexpr unsigned int F525D866D2029FA7_TypeDefinitionIndex = 13571;
+
+	template <typename T>
+	class F525D866D2029FA7
+	{
+	public:
+		::A418C49FA6A8C1F7::F5A720D39664FB39* ED6D51FC9125F95B; // 0x0
+		::A418C49FA6A8C1F7::B99B33F5B840AA6C* A90BF5510F2B8691; // 0x0
+		::A418C49FA6A8C1F7::BF6CEBEFA69D00D6* B038BF5E7DB020FD; // 0x0
+		::System::Boolean FC01A36168A43318; // 0x0
+	};
+}

@@ -1,0 +1,51 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/A7127AC734CB39BB.h"
+
+class EC86200CA891A8F7;
+class F1C2A97D6B5D5036;
+namespace System { class String; }
+namespace UnityEngine { class AssetBundle; }
+namespace UnityEngine { class B01F336837EB9669; }
+
+#define E1F8853A4BEDE53F_ADB4C2D70F11BF28_OFFSET UNITYSDK_OFFSET(0x16E1590)
+#define E1F8853A4BEDE53F_E8AF1E0387A100FA_OFFSET UNITYSDK_OFFSET(0x2ABFB10)
+#define E1F8853A4BEDE53F_F7D5C72A663EB352_OFFSET UNITYSDK_OFFSET(0x184C910)
+#define E1F8853A4BEDE53F_FD792C24FE49920B_OFFSET UNITYSDK_OFFSET(0x2ABFB90)
+#define E1F8853A4BEDE53F__CTOR_OFFSET UNITYSDK_OFFSET(0x2ABFCA0)
+
+inline static constexpr unsigned int E1F8853A4BEDE53F_TypeDefinitionIndex = 19177;
+
+class E1F8853A4BEDE53F : public ::A7127AC734CB39BB
+{
+public:
+	::System::String* B718EEE8274CEA19; // 0x40
+	::UnityEngine::AssetBundle* A1AA19C2811A6D84; // 0x48
+	::F1C2A97D6B5D5036* BAD5E18B4F59796D; // 0x50
+	::UnityEngine::B01F336837EB9669* F5A7457D7C61A4DB; // 0x58
+
+	::System::Void ADB4C2D70F11BF28(::UnityEngine::AssetBundle* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::UnityEngine::AssetBundle*))((::PBYTE)hIl2Cpp + E1F8853A4BEDE53F_ADB4C2D70F11BF28_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::System::Void FD792C24FE49920B()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E1F8853A4BEDE53F_FD792C24FE49920B_OFFSET))(this);
+	}
+
+	::System::Void E8AF1E0387A100FA(::System::Boolean FB4A1BD5C4242BE9)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + E1F8853A4BEDE53F_E8AF1E0387A100FA_OFFSET))(this, FB4A1BD5C4242BE9);
+	}
+
+	::System::Void F7D5C72A663EB352(::System::String* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + E1F8853A4BEDE53F_F7D5C72A663EB352_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::System::Void _ctor(::EC86200CA891A8F7* BDC56A5F2BC6B532, ::System::String* EFF983A80A48BB2A, ::System::Int32 FD5F06FE4DCCFE0A)
+	{
+		return ((::System::Void(*)(::PVOID, ::EC86200CA891A8F7*, ::System::String*, ::System::Int32))((::PBYTE)hIl2Cpp + E1F8853A4BEDE53F__CTOR_OFFSET))(this, BDC56A5F2BC6B532, EFF983A80A48BB2A, FD5F06FE4DCCFE0A);
+	}
+};

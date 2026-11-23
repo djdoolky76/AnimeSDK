@@ -1,0 +1,49 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/ValueType.h"
+#include "unitysdk/UnityEngine/AC1BB7673F96FC67.h"
+
+namespace System { class String; }
+
+#define UNITYENGINE_EEB516C3073B704E_A91D6DC3494737C7_OFFSET UNITYSDK_OFFSET(0x4146FF0)
+#define UNITYENGINE_EEB516C3073B704E_B574FB25845CB022_OFFSET UNITYSDK_OFFSET(0x4147010)
+#define UNITYENGINE_EEB516C3073B704E_B7B09F990AD2C92B_OFFSET UNITYSDK_OFFSET(0x4146FE0)
+#define UNITYENGINE_EEB516C3073B704E_FADE33A8A8E2F06E_OFFSET UNITYSDK_OFFSET(0x4146FE0)
+#define UNITYENGINE_EEB516C3073B704E__CTOR_OFFSET UNITYSDK_OFFSET(0x4146FA0)
+
+namespace UnityEngine
+{
+	inline static constexpr unsigned int EEB516C3073B704E_TypeDefinitionIndex = 17444;
+
+	struct alignas(4) EEB516C3073B704E
+	{
+		::UnityEngine::AC1BB7673F96FC67 AD03D87007AF671A; // 0x10
+
+		::System::Boolean B7B09F990AD2C92B()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EEB516C3073B704E_B7B09F990AD2C92B_OFFSET))(this);
+		}
+
+		/*
+		static ::System::Boolean A91D6DC3494737C7(::UnityEngine::EEB516C3073B704E E3C04B7921CB0667)
+		{
+			return ((::System::Boolean(*)(::UnityEngine::EEB516C3073B704E))((::PBYTE)hIl2Cpp + UNITYENGINE_EEB516C3073B704E_A91D6DC3494737C7_OFFSET))(E3C04B7921CB0667);
+		}
+		*/
+
+		::System::Boolean FADE33A8A8E2F06E()
+		{
+			return ((::System::Boolean(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_EEB516C3073B704E_FADE33A8A8E2F06E_OFFSET))(this);
+		}
+
+		::System::Void B574FB25845CB022(::System::Boolean E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_EEB516C3073B704E_B574FB25845CB022_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::System::Void _ctor(::System::String* F79B4D487F303AB2, ::System::String* A90E48A7BCFA135B, ::System::Boolean E068F60C6205B02D)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*, ::System::Boolean))((::PBYTE)hIl2Cpp + UNITYENGINE_EEB516C3073B704E__CTOR_OFFSET))(this, F79B4D487F303AB2, A90E48A7BCFA135B, E068F60C6205B02D);
+		}
+	};
+}

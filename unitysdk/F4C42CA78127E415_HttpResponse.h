@@ -1,0 +1,24 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+
+namespace System { class String; }
+
+#define F4C42CA78127E415_HTTPRESPONSE__CTOR_OFFSET UNITYSDK_OFFSET(0x297A910)
+
+inline static constexpr unsigned int F4C42CA78127E415_HttpResponse_TypeDefinitionIndex = 15535;
+
+class F4C42CA78127E415_HttpResponse : public ::System::Object
+{
+public:
+	::System::String* response; // 0x10
+	::System::String* header_response; // 0x18
+	::System::Int32 http_code; // 0x20
+	::System::Int32 error_code; // 0x24
+	::System::String* error_msg; // 0x28
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F4C42CA78127E415_HTTPRESPONSE__CTOR_OFFSET))(this);
+	}
+};

@@ -1,0 +1,30 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BDC595893C6EE433/E62B6E53F892264C.h"
+#include "unitysdk/System/Object.h"
+
+#define BD91E547C2121F3A_F40C61D7EA773D73_A1E97155B145443C_OFFSET UNITYSDK_OFFSET(0x27F7910)
+
+inline static constexpr unsigned int BD91E547C2121F3A_F40C61D7EA773D73_TypeDefinitionIndex = 16765;
+
+class BD91E547C2121F3A_F40C61D7EA773D73 : public ::System::Object
+{
+public:
+	static ::BDC595893C6EE433::E62B6E53F892264C* StaticGet_E11B10D11D97A47F()
+	{
+		return (::BDC595893C6EE433::E62B6E53F892264C*)Il2CppClass::FromTypeDefinitionIndex(BD91E547C2121F3A_F40C61D7EA773D73_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::BDC595893C6EE433::E62B6E53F892264C* StaticGet_F5115DB6FEC19583()
+	{
+		return (::BDC595893C6EE433::E62B6E53F892264C*)Il2CppClass::FromTypeDefinitionIndex(BD91E547C2121F3A_F40C61D7EA773D73_TypeDefinitionIndex)->GetStaticField(0x10);
+	}
+	static ::BDC595893C6EE433::E62B6E53F892264C* StaticGet_FAA493F091D599B5()
+	{
+		return (::BDC595893C6EE433::E62B6E53F892264C*)Il2CppClass::FromTypeDefinitionIndex(BD91E547C2121F3A_F40C61D7EA773D73_TypeDefinitionIndex)->GetStaticField(0x20);
+	}
+
+	static ::System::Void A1E97155B145443C()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + BD91E547C2121F3A_F40C61D7EA773D73_A1E97155B145443C_OFFSET))();
+	}
+};

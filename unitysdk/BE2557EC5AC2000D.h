@@ -1,0 +1,76 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/BDC595893C6EE433/A14C324B8BE02E9A.h"
+#include "unitysdk/BDC595893C6EE433/EBEEDB1E8980A908.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/BE2557EC5AC2000D_FAE26CC0C01C2C20.h"
+
+class BE2557EC5AC2000D_A5E9A4CC235B326B;
+namespace System::Collections { class E6C6EEEB155967C0; }
+namespace UnityEngine { class E2E2311225330715; }
+namespace UnityEngine { class Material; }
+namespace UnityEngine { class Shader; }
+
+#define BE2557EC5AC2000D_A6698A90374B8BAA_OFFSET UNITYSDK_OFFSET(0x2863B70)
+#define BE2557EC5AC2000D_A787FCF0B7F5E32C_1_OFFSET UNITYSDK_OFFSET(0x2863520)
+#define BE2557EC5AC2000D_A787FCF0B7F5E32C_OFFSET UNITYSDK_OFFSET(0x2863610)
+#define BE2557EC5AC2000D_E1255B156145FA71_OFFSET UNITYSDK_OFFSET(0x2863C00)
+#define BE2557EC5AC2000D_E60C3D369DDD5E30_OFFSET UNITYSDK_OFFSET(0x28639E0)
+#define BE2557EC5AC2000D__CCTOR_OFFSET UNITYSDK_OFFSET(0x2863C90)
+
+inline static constexpr unsigned int BE2557EC5AC2000D_TypeDefinitionIndex = 16021;
+
+class BE2557EC5AC2000D : public ::System::Object
+{
+public:
+	static ::UnityEngine::E2E2311225330715** StaticGet_FB2092C9CC55F616()
+	{
+		return (::UnityEngine::E2E2311225330715**)Il2CppClass::FromTypeDefinitionIndex(BE2557EC5AC2000D_TypeDefinitionIndex)->GetStaticField(0x0);
+	}
+	static ::Il2CppArray<::BDC595893C6EE433::A14C324B8BE02E9A>** StaticGet_EEBD7F81858F8BB0()
+	{
+		return (::Il2CppArray<::BDC595893C6EE433::A14C324B8BE02E9A>**)Il2CppClass::FromTypeDefinitionIndex(BE2557EC5AC2000D_TypeDefinitionIndex)->GetStaticField(0x8);
+	}
+	static ::Il2CppArray<::BDC595893C6EE433::A14C324B8BE02E9A>** StaticGet_F761416CB0DCDDDB()
+	{
+		return (::Il2CppArray<::BDC595893C6EE433::A14C324B8BE02E9A>**)Il2CppClass::FromTypeDefinitionIndex(BE2557EC5AC2000D_TypeDefinitionIndex)->GetStaticField(0x10);
+	}
+	static ::Il2CppArray<::System::Boolean>** StaticGet_FE501D5914A5B885()
+	{
+		return (::Il2CppArray<::System::Boolean>**)Il2CppClass::FromTypeDefinitionIndex(BE2557EC5AC2000D_TypeDefinitionIndex)->GetStaticField(0x18);
+	}
+	static ::System::Collections::E6C6EEEB155967C0** StaticGet_BDBE26C3ACFC9228()
+	{
+		return (::System::Collections::E6C6EEEB155967C0**)Il2CppClass::FromTypeDefinitionIndex(BE2557EC5AC2000D_TypeDefinitionIndex)->GetStaticField(0x20);
+	}
+
+	static ::UnityEngine::Material* A787FCF0B7F5E32C(::System::Collections::E6C6EEEB155967C0* B4404E509E182AD1, ::System::UInt32 A40DBCE09300B075, ::BE2557EC5AC2000D_A5E9A4CC235B326B*& BE7C47EA00FC1BD9)
+	{
+		return ((::UnityEngine::Material*(*)(::System::Collections::E6C6EEEB155967C0*, ::System::UInt32, ::BE2557EC5AC2000D_A5E9A4CC235B326B*&))((::PBYTE)hIl2Cpp + BE2557EC5AC2000D_A787FCF0B7F5E32C_OFFSET))(B4404E509E182AD1, A40DBCE09300B075, BE7C47EA00FC1BD9);
+	}
+
+	static ::System::Void A6698A90374B8BAA(::UnityEngine::Material* A54EF53C742D300D, ::System::Int32 BF398C23E8499314, ::BDC595893C6EE433::A14C324B8BE02E9A E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::UnityEngine::Material*, ::System::Int32, ::BDC595893C6EE433::A14C324B8BE02E9A))((::PBYTE)hIl2Cpp + BE2557EC5AC2000D_A6698A90374B8BAA_OFFSET))(A54EF53C742D300D, BF398C23E8499314, E937D4885DAA1AE8);
+	}
+
+	static ::System::Void _cctor()
+	{
+		return ((::System::Void(*)())((::PBYTE)hIl2Cpp + BE2557EC5AC2000D__CCTOR_OFFSET))();
+	}
+
+	static ::UnityEngine::Material* A787FCF0B7F5E32C_1(::System::UInt32 A40DBCE09300B075, ::BE2557EC5AC2000D_FAE26CC0C01C2C20& BE7C47EA00FC1BD9)
+	{
+		return ((::UnityEngine::Material*(*)(::System::UInt32, ::BE2557EC5AC2000D_FAE26CC0C01C2C20&))((::PBYTE)hIl2Cpp + BE2557EC5AC2000D_A787FCF0B7F5E32C_1_OFFSET))(A40DBCE09300B075, BE7C47EA00FC1BD9);
+	}
+
+	static ::System::Void E1255B156145FA71(::UnityEngine::Material* A54EF53C742D300D, ::System::Int32 BF398C23E8499314, ::BDC595893C6EE433::EBEEDB1E8980A908 E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::UnityEngine::Material*, ::System::Int32, ::BDC595893C6EE433::EBEEDB1E8980A908))((::PBYTE)hIl2Cpp + BE2557EC5AC2000D_E1255B156145FA71_OFFSET))(A54EF53C742D300D, BF398C23E8499314, E937D4885DAA1AE8);
+	}
+
+	static ::UnityEngine::Material* E60C3D369DDD5E30(::UnityEngine::Shader* AD3E0DEBA7CD1D82, ::System::Boolean E721A8EF41C151C6)
+	{
+		return ((::UnityEngine::Material*(*)(::UnityEngine::Shader*, ::System::Boolean))((::PBYTE)hIl2Cpp + BE2557EC5AC2000D_E60C3D369DDD5E30_OFFSET))(AD3E0DEBA7CD1D82, E721A8EF41C151C6);
+	}
+};

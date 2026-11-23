@@ -1,0 +1,54 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/SystemException.h"
+#include "unitysdk/B6564CAC678AC465.h"
+
+class E519989062D53DE5;
+namespace System { class Exception; }
+namespace System { class String; }
+
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_CRYPTOGRAPHICEXCEPTION__CTOR_1_OFFSET UNITYSDK_OFFSET(0x3BF7D80)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_CRYPTOGRAPHICEXCEPTION__CTOR_2_OFFSET UNITYSDK_OFFSET(0x3BF7ED0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_CRYPTOGRAPHICEXCEPTION__CTOR_3_OFFSET UNITYSDK_OFFSET(0x3B5EFC0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_CRYPTOGRAPHICEXCEPTION__CTOR_4_OFFSET UNITYSDK_OFFSET(0x3BF7DD0)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_CRYPTOGRAPHICEXCEPTION__CTOR_5_OFFSET UNITYSDK_OFFSET(0x3BF7E80)
+#define SYSTEM_SECURITY_CRYPTOGRAPHY_CRYPTOGRAPHICEXCEPTION__CTOR_OFFSET UNITYSDK_OFFSET(0x3BF7E60)
+
+namespace System::Security::Cryptography
+{
+	inline static constexpr unsigned int CryptographicException_TypeDefinitionIndex = 11361;
+
+	class CryptographicException : public ::System::SystemException
+	{
+	public:
+		::System::Void _ctor(::System::String* B083BE7841B347C4, ::System::Exception* B7AF548FA9CF41FC)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::Exception*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_CRYPTOGRAPHICEXCEPTION__CTOR_OFFSET))(this, B083BE7841B347C4, B7AF548FA9CF41FC);
+		}
+
+		::System::Void _ctor_1(::System::Int32 A30F8FB91C509813)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Int32))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_CRYPTOGRAPHICEXCEPTION__CTOR_1_OFFSET))(this, A30F8FB91C509813);
+		}
+
+		::System::Void _ctor_2(::System::String* B083BE7841B347C4)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_CRYPTOGRAPHICEXCEPTION__CTOR_2_OFFSET))(this, B083BE7841B347C4);
+		}
+
+		::System::Void _ctor_3(::E519989062D53DE5* B29880F033C1F232, ::B6564CAC678AC465 E6CE7391633EEC68)
+		{
+			return ((::System::Void(*)(::PVOID, ::E519989062D53DE5*, ::B6564CAC678AC465))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_CRYPTOGRAPHICEXCEPTION__CTOR_3_OFFSET))(this, B29880F033C1F232, E6CE7391633EEC68);
+		}
+
+		::System::Void _ctor_4(::System::String* F1B74DA73881CF9B, ::System::String* FAEADAA710005B19)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_CRYPTOGRAPHICEXCEPTION__CTOR_4_OFFSET))(this, F1B74DA73881CF9B, FAEADAA710005B19);
+		}
+
+		::System::Void _ctor_5()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + SYSTEM_SECURITY_CRYPTOGRAPHY_CRYPTOGRAPHICEXCEPTION__CTOR_5_OFFSET))(this);
+		}
+	};
+}

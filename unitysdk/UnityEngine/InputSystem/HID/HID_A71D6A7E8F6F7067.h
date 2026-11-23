@@ -1,0 +1,63 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+
+namespace UnityEngine::InputSystem::HID
+{
+	inline static constexpr unsigned int HID_A71D6A7E8F6F7067_TypeDefinitionIndex = 14582;
+
+	enum class HID_A71D6A7E8F6F7067 : ::System::Int32
+	{
+		Undefined = 0,
+		FlightSimulationDevice = 1,
+		AutomobileSimulationDevice = 2,
+		TankSimulationDevice = 3,
+		SpaceshipSimulationDevice = 4,
+		SubmarineSimulationDevice = 5,
+		SailingSimulationDevice = 6,
+		MotorcycleSimulationDevice = 7,
+		SportsSimulationDevice = 8,
+		AirplaneSimulationDevice = 9,
+		HelicopterSimulationDevice = 10,
+		MagicCarpetSimulationDevice = 11,
+		BicylcleSimulationDevice = 12,
+		FlightControlStick = 32,
+		FlightStick = 33,
+		CyclicControl = 34,
+		CyclicTrim = 35,
+		FlightYoke = 36,
+		TrackControl = 37,
+		Aileron = 176,
+		AileronTrim = 177,
+		AntiTorqueControl = 178,
+		AutopilotEnable = 179,
+		ChaffRelease = 180,
+		CollectiveControl = 181,
+		DiveBreak = 182,
+		ElectronicCountermeasures = 183,
+		Elevator = 184,
+		ElevatorTrim = 185,
+		Rudder = 186,
+		Throttle = 187,
+		FlightCommunications = 188,
+		FlareRelease = 189,
+		LandingGear = 190,
+		ToeBreak = 191,
+		Trigger = 192,
+		WeaponsArm = 193,
+		WeaponsSelect = 194,
+		WingFlaps = 195,
+		Accelerator = 196,
+		Brake = 197,
+		Clutch = 198,
+		Shifter = 199,
+		Steering = 200,
+		TurretDirection = 201,
+		BarrelElevation = 202,
+		DivePlane = 203,
+		Ballast = 204,
+		BicycleCrank = 205,
+		HandleBars = 206,
+		FrontBrake = 207,
+		RearBrake = 208,
+	};
+}

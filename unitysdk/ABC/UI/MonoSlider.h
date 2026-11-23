@@ -1,0 +1,48 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/UI/Slider.h"
+
+namespace F5D9B2730D543D46 { class A9BDD7E8F3994CE6; }
+namespace System { class Action; }
+
+#define ABC_UI_MONOSLIDER_B28F51C3BC844AC9_OFFSET UNITYSDK_OFFSET(0x22B7DC0)
+#define ABC_UI_MONOSLIDER_B37BF25180155F79_OFFSET UNITYSDK_OFFSET(0x1FBAFE0)
+#define ABC_UI_MONOSLIDER_BA051EC1A3ADAF6C_OFFSET UNITYSDK_OFFSET(0x22B7F40)
+#define ABC_UI_MONOSLIDER_EDE40FB9FA10D37A_OFFSET UNITYSDK_OFFSET(0x22B7EB0)
+#define ABC_UI_MONOSLIDER__CTOR_OFFSET UNITYSDK_OFFSET(0x22B8030)
+
+namespace ABC::UI
+{
+	inline static constexpr unsigned int MonoSlider_TypeDefinitionIndex = 7141;
+
+	class MonoSlider : public ::UnityEngine::UI::Slider
+	{
+	public:
+		::System::Action* A8F02A5026F8B34A; // 0x168
+
+		::System::Void EDE40FB9FA10D37A(::F5D9B2730D543D46::A9BDD7E8F3994CE6* E7336521BA8945EE)
+		{
+			return ((::System::Void(*)(::PVOID, ::F5D9B2730D543D46::A9BDD7E8F3994CE6*))((::PBYTE)hIl2Cpp + ABC_UI_MONOSLIDER_EDE40FB9FA10D37A_OFFSET))(this, E7336521BA8945EE);
+		}
+
+		::System::Void BA051EC1A3ADAF6C(::System::Action* B65A1BE08597295C)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + ABC_UI_MONOSLIDER_BA051EC1A3ADAF6C_OFFSET))(this, B65A1BE08597295C);
+		}
+
+		::System::Void B28F51C3BC844AC9(::System::Action* B65A1BE08597295C)
+		{
+			return ((::System::Void(*)(::PVOID, ::System::Action*))((::PBYTE)hIl2Cpp + ABC_UI_MONOSLIDER_B28F51C3BC844AC9_OFFSET))(this, B65A1BE08597295C);
+		}
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + ABC_UI_MONOSLIDER__CTOR_OFFSET))(this);
+		}
+
+		::System::Void B37BF25180155F79(::F5D9B2730D543D46::A9BDD7E8F3994CE6* EF750947C30CE985)
+		{
+			return ((::System::Void(*)(::PVOID, ::F5D9B2730D543D46::A9BDD7E8F3994CE6*))((::PBYTE)hIl2Cpp + ABC_UI_MONOSLIDER_B37BF25180155F79_OFFSET))(this, EF750947C30CE985);
+		}
+	};
+}

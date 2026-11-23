@@ -1,0 +1,53 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/A418C49FA6A8C1F7/ED7915BCDEED130C.h"
+
+namespace A418C49FA6A8C1F7 { class E81532408800B0BB; }
+namespace UnityEngine { class ScriptableObject; }
+namespace UnityEngine::UIElements { class PanelSettings; }
+
+#define A418C49FA6A8C1F7_B7E632659A03B43C_A8095063AAB38215_OFFSET UNITYSDK_OFFSET(0x27BAC70)
+#define A418C49FA6A8C1F7_B7E632659A03B43C_E02954280801633F_OFFSET UNITYSDK_OFFSET(0x42F2C20)
+#define A418C49FA6A8C1F7_B7E632659A03B43C_F058C57E2E0D2D56_OFFSET UNITYSDK_OFFSET(0x42F2BC0)
+#define A418C49FA6A8C1F7_B7E632659A03B43C__CCTOR_OFFSET UNITYSDK_OFFSET(0x42F2CB0)
+#define A418C49FA6A8C1F7_B7E632659A03B43C__CTOR_OFFSET UNITYSDK_OFFSET(0x42F2D00)
+
+namespace A418C49FA6A8C1F7
+{
+	inline static constexpr unsigned int B7E632659A03B43C_TypeDefinitionIndex = 13380;
+
+	class B7E632659A03B43C : public ::A418C49FA6A8C1F7::ED7915BCDEED130C
+	{
+	public:
+		static ::A418C49FA6A8C1F7::E81532408800B0BB** StaticGet_EF3F4D30DD2B5A1D()
+		{
+			return (::A418C49FA6A8C1F7::E81532408800B0BB**)Il2CppClass::FromTypeDefinitionIndex(B7E632659A03B43C_TypeDefinitionIndex)->GetStaticField(0x0);
+		}
+		::UnityEngine::UIElements::PanelSettings* BFDA697AC89AA95D; // 0x1E8
+
+		::System::Void E02954280801633F()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + A418C49FA6A8C1F7_B7E632659A03B43C_E02954280801633F_OFFSET))(this);
+		}
+
+		::UnityEngine::UIElements::PanelSettings* A8095063AAB38215()
+		{
+			return ((::UnityEngine::UIElements::PanelSettings*(*)(::PVOID))((::PBYTE)hIl2Cpp + A418C49FA6A8C1F7_B7E632659A03B43C_A8095063AAB38215_OFFSET))(this);
+		}
+
+		::System::Void _ctor(::UnityEngine::ScriptableObject* A6ED3415555601E8)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::ScriptableObject*))((::PBYTE)hIl2Cpp + A418C49FA6A8C1F7_B7E632659A03B43C__CTOR_OFFSET))(this, A6ED3415555601E8);
+		}
+
+		static ::A418C49FA6A8C1F7::B7E632659A03B43C* F058C57E2E0D2D56(::UnityEngine::ScriptableObject* A6ED3415555601E8)
+		{
+			return ((::A418C49FA6A8C1F7::B7E632659A03B43C*(*)(::UnityEngine::ScriptableObject*))((::PBYTE)hIl2Cpp + A418C49FA6A8C1F7_B7E632659A03B43C_F058C57E2E0D2D56_OFFSET))(A6ED3415555601E8);
+		}
+
+		static ::System::Void _cctor()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + A418C49FA6A8C1F7_B7E632659A03B43C__CCTOR_OFFSET))();
+		}
+	};
+}

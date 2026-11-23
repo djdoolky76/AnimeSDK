@@ -1,0 +1,28 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/A418C49FA6A8C1F7/EC3D52C2D6F13E8C.h"
+#include "unitysdk/System/ValueType.h"
+
+#define UNITYENGINE_UIELEMENTS_STYLEVALUEHANDLE_GET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x40E9E70)
+#define UNITYENGINE_UIELEMENTS_STYLEVALUEHANDLE_SET_VALUETYPE_OFFSET UNITYSDK_OFFSET(0x1EAE190)
+
+namespace UnityEngine::UIElements
+{
+	inline static constexpr unsigned int StyleValueHandle_TypeDefinitionIndex = 13766;
+
+	struct alignas(4) StyleValueHandle
+	{
+		::A418C49FA6A8C1F7::EC3D52C2D6F13E8C m_ValueType; // 0x10
+		::System::Int32 valueIndex; // 0x14
+
+		::System::Void set_valueType(::A418C49FA6A8C1F7::EC3D52C2D6F13E8C E937D4885DAA1AE8)
+		{
+			return ((::System::Void(*)(::PVOID, ::A418C49FA6A8C1F7::EC3D52C2D6F13E8C))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEVALUEHANDLE_SET_VALUETYPE_OFFSET))(this, E937D4885DAA1AE8);
+		}
+
+		::A418C49FA6A8C1F7::EC3D52C2D6F13E8C get_valueType()
+		{
+			return ((::A418C49FA6A8C1F7::EC3D52C2D6F13E8C(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_UIELEMENTS_STYLEVALUEHANDLE_GET_VALUETYPE_OFFSET))(this);
+		}
+	};
+}

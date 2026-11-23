@@ -1,0 +1,50 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/B1CFDDBCB7FEF541.h"
+
+namespace TA::SceneLightComponent { class LightTestContrller; }
+
+#define B3C685CF4F20BB15_B8DAE4B066A1E600_OFFSET UNITYSDK_OFFSET(0x28611B0)
+#define B3C685CF4F20BB15_E0A987C9C21FAD9F_OFFSET UNITYSDK_OFFSET(0x2860F70)
+#define B3C685CF4F20BB15_F3E9BFF09C08956D_OFFSET UNITYSDK_OFFSET(0x2861130)
+#define B3C685CF4F20BB15_F8180B03515EEB75_OFFSET UNITYSDK_OFFSET(0x2860FE0)
+#define B3C685CF4F20BB15_F9BCDDB5FEA006BC_OFFSET UNITYSDK_OFFSET(0x2860F10)
+#define B3C685CF4F20BB15__CTOR_OFFSET UNITYSDK_OFFSET(0x28611A0)
+
+inline static constexpr unsigned int B3C685CF4F20BB15_TypeDefinitionIndex = 16039;
+
+class B3C685CF4F20BB15 : public ::B1CFDDBCB7FEF541
+{
+public:
+	::TA::SceneLightComponent::LightTestContrller* AB425AAA3ECE9FF3; // 0x30
+
+	::System::Void F3E9BFF09C08956D()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B3C685CF4F20BB15_F3E9BFF09C08956D_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B3C685CF4F20BB15__CTOR_OFFSET))(this);
+	}
+
+	::System::Void F9BCDDB5FEA006BC()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B3C685CF4F20BB15_F9BCDDB5FEA006BC_OFFSET))(this);
+	}
+
+	::System::Void E0A987C9C21FAD9F(::System::Single EB5670302F34D4B7)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + B3C685CF4F20BB15_E0A987C9C21FAD9F_OFFSET))(this, EB5670302F34D4B7);
+	}
+
+	::System::Void B8DAE4B066A1E600()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B3C685CF4F20BB15_B8DAE4B066A1E600_OFFSET))(this);
+	}
+
+	::System::Void F8180B03515EEB75()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + B3C685CF4F20BB15_F8180B03515EEB75_OFFSET))(this);
+	}
+};

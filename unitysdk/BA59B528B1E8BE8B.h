@@ -1,0 +1,40 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/EADE0CABA1B6337C.h"
+#include "unitysdk/FCC2F8EABCD6F945.h"
+#include "unitysdk/System/Numerics/BigInteger.h"
+
+namespace System { class String; }
+namespace System::Globalization { class BC10A13177D0F3FF; }
+
+#define BA59B528B1E8BE8B_AFA1DF6DF01B7FC3_OFFSET UNITYSDK_OFFSET(0x3E08080)
+#define BA59B528B1E8BE8B_B7B02BE05012221A_1_OFFSET UNITYSDK_OFFSET(0x3E08770)
+#define BA59B528B1E8BE8B_B7B02BE05012221A_OFFSET UNITYSDK_OFFSET(0x3E08680)
+#define BA59B528B1E8BE8B_FE431471300D68D3_OFFSET UNITYSDK_OFFSET(0x3E093C0)
+
+inline static constexpr unsigned int BA59B528B1E8BE8B_TypeDefinitionIndex = 21210;
+
+class BA59B528B1E8BE8B : public ::System::Object
+{
+public:
+	static ::System::String* B7B02BE05012221A(::System::Numerics::BigInteger E937D4885DAA1AE8, ::System::String* F1B74DA73881CF9B, ::System::Globalization::BC10A13177D0F3FF* B29880F033C1F232)
+	{
+		return ((::System::String*(*)(::System::Numerics::BigInteger, ::System::String*, ::System::Globalization::BC10A13177D0F3FF*))((::PBYTE)hIl2Cpp + BA59B528B1E8BE8B_B7B02BE05012221A_OFFSET))(E937D4885DAA1AE8, F1B74DA73881CF9B, B29880F033C1F232);
+	}
+
+	static ::System::String* B7B02BE05012221A_1(::System::Boolean BF0BF7B90CB4BC5F, ::System::Numerics::BigInteger E937D4885DAA1AE8, ::System::String* A30706FCE5AF29B5, ::FCC2F8EABCD6F945<::System::Char> B0AF5D38243501D3, ::System::Globalization::BC10A13177D0F3FF* B29880F033C1F232, ::EADE0CABA1B6337C<::System::Char> B80ACB93A9EE7636, ::System::Int32& BF87BDD6B4450E66, ::System::Boolean& F628FC97D4BC0760)
+	{
+		return ((::System::String*(*)(::System::Boolean, ::System::Numerics::BigInteger, ::System::String*, ::FCC2F8EABCD6F945<::System::Char>, ::System::Globalization::BC10A13177D0F3FF*, ::EADE0CABA1B6337C<::System::Char>, ::System::Int32&, ::System::Boolean&))((::PBYTE)hIl2Cpp + BA59B528B1E8BE8B_B7B02BE05012221A_1_OFFSET))(BF0BF7B90CB4BC5F, E937D4885DAA1AE8, A30706FCE5AF29B5, B0AF5D38243501D3, B29880F033C1F232, B80ACB93A9EE7636, BF87BDD6B4450E66, F628FC97D4BC0760);
+	}
+
+	static ::System::String* AFA1DF6DF01B7FC3(::System::Boolean BF0BF7B90CB4BC5F, ::System::Numerics::BigInteger E937D4885DAA1AE8, ::System::Char F1B74DA73881CF9B, ::System::Int32 F92B63DEB63D2101, ::System::Globalization::BC10A13177D0F3FF* B29880F033C1F232, ::EADE0CABA1B6337C<::System::Char> B80ACB93A9EE7636, ::System::Int32& BF87BDD6B4450E66, ::System::Boolean& F628FC97D4BC0760)
+	{
+		return ((::System::String*(*)(::System::Boolean, ::System::Numerics::BigInteger, ::System::Char, ::System::Int32, ::System::Globalization::BC10A13177D0F3FF*, ::EADE0CABA1B6337C<::System::Char>, ::System::Int32&, ::System::Boolean&))((::PBYTE)hIl2Cpp + BA59B528B1E8BE8B_AFA1DF6DF01B7FC3_OFFSET))(BF0BF7B90CB4BC5F, E937D4885DAA1AE8, F1B74DA73881CF9B, F92B63DEB63D2101, B29880F033C1F232, B80ACB93A9EE7636, BF87BDD6B4450E66, F628FC97D4BC0760);
+	}
+
+	static ::System::Char FE431471300D68D3(::FCC2F8EABCD6F945<::System::Char> F1B74DA73881CF9B, ::System::Int32& F92B63DEB63D2101)
+	{
+		return ((::System::Char(*)(::FCC2F8EABCD6F945<::System::Char>, ::System::Int32&))((::PBYTE)hIl2Cpp + BA59B528B1E8BE8B_FE431471300D68D3_OFFSET))(F1B74DA73881CF9B, F92B63DEB63D2101);
+	}
+};

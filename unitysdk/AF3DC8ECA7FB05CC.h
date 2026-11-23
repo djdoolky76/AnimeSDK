@@ -1,0 +1,58 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AB07E24B584983C1.h"
+#include "unitysdk/UnityEngine/Quaternion.h"
+#include "unitysdk/E12F55A5FCCCF1EC.h"
+
+class EC37A1FFFC8FF8B2;
+namespace ABC::Splines::CatmullRom { class Spline; }
+
+#define AF3DC8ECA7FB05CC_A3C2F655C6B4F5E2_OFFSET UNITYSDK_OFFSET(0x166CE90)
+#define AF3DC8ECA7FB05CC_A48E58F45545B952_OFFSET UNITYSDK_OFFSET(0x166C760)
+#define AF3DC8ECA7FB05CC_A73875EB89A0BA67_OFFSET UNITYSDK_OFFSET(0x166D090)
+#define AF3DC8ECA7FB05CC_AFD5178090BD77F2_OFFSET UNITYSDK_OFFSET(0x166CA70)
+#define AF3DC8ECA7FB05CC_E46F0F16C063D636_OFFSET UNITYSDK_OFFSET(0x166CF60)
+#define AF3DC8ECA7FB05CC__CTOR_OFFSET UNITYSDK_OFFSET(0x16514A0)
+
+inline static constexpr unsigned int AF3DC8ECA7FB05CC_TypeDefinitionIndex = 78;
+
+class AF3DC8ECA7FB05CC : public ::AB07E24B584983C1
+{
+public:
+	::EC37A1FFFC8FF8B2* F3597127D1687748; // 0x50
+	::ABC::Splines::CatmullRom::Spline* B9850AFF3DBCC0D9; // 0x58
+	::System::Single E0223101135EFF19; // 0x60
+	::System::Single FCBEA948D4CE1A8E; // 0x64
+	::System::Single F342E46022D43BCD; // 0x68
+	::UnityEngine::Quaternion BD62374071A4644F; // 0x6C
+
+	::System::Void A48E58F45545B952(::System::Single FF0A37159A523E06)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Single))((::PBYTE)hIl2Cpp + AF3DC8ECA7FB05CC_A48E58F45545B952_OFFSET))(this, FF0A37159A523E06);
+	}
+
+	::System::Boolean A73875EB89A0BA67(::ABC::Splines::CatmullRom::Spline*& F03E0BDCBABB08A2)
+	{
+		return ((::System::Boolean(*)(::PVOID, ::ABC::Splines::CatmullRom::Spline*&))((::PBYTE)hIl2Cpp + AF3DC8ECA7FB05CC_A73875EB89A0BA67_OFFSET))(this, F03E0BDCBABB08A2);
+	}
+
+	::System::Void AFD5178090BD77F2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AF3DC8ECA7FB05CC_AFD5178090BD77F2_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AF3DC8ECA7FB05CC__CTOR_OFFSET))(this);
+	}
+
+	::System::Void E46F0F16C063D636(::E12F55A5FCCCF1EC EB5670302F34D4B7)
+	{
+		return ((::System::Void(*)(::PVOID, ::E12F55A5FCCCF1EC))((::PBYTE)hIl2Cpp + AF3DC8ECA7FB05CC_E46F0F16C063D636_OFFSET))(this, EB5670302F34D4B7);
+	}
+
+	::System::Void A3C2F655C6B4F5E2()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + AF3DC8ECA7FB05CC_A3C2F655C6B4F5E2_OFFSET))(this);
+	}
+};

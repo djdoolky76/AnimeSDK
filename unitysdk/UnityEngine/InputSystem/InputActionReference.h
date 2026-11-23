@@ -1,0 +1,99 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/UnityEngine/ScriptableObject.h"
+
+namespace System { class String; }
+namespace UnityEngine::InputSystem { class InputAction; }
+namespace UnityEngine::InputSystem { class InputActionAsset; }
+
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE_A8A69CB4B390AD4F_OFFSET UNITYSDK_OFFSET(0x4009940)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE_A91D6DC3494737C7_OFFSET UNITYSDK_OFFSET(0x400A520)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE_AD0F0E5F6FA6E4B1_OFFSET UNITYSDK_OFFSET(0x400A200)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE_AF265198E4C6CD78_OFFSET UNITYSDK_OFFSET(0x4009A00)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE_B7A47A6D1301234F_OFFSET UNITYSDK_OFFSET(0x400A120)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE_B9A5BC696BEE68B7_1_OFFSET UNITYSDK_OFFSET(0x4009D50)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE_B9A5BC696BEE68B7_OFFSET UNITYSDK_OFFSET(0x4009E70)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE_E80B9F472EEFDF74_OFFSET UNITYSDK_OFFSET(0x400A210)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE_F058C57E2E0D2D56_OFFSET UNITYSDK_OFFSET(0x4009800)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE_F1E52CAFCE34B529_OFFSET UNITYSDK_OFFSET(0x400A450)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE_F2348921179AF9CC_OFFSET UNITYSDK_OFFSET(0x17F35A0)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE_F94F0F7E13CA23F5_OFFSET UNITYSDK_OFFSET(0x4009B50)
+#define UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE__CTOR_OFFSET UNITYSDK_OFFSET(0x1F270C0)
+
+namespace UnityEngine::InputSystem
+{
+	inline static constexpr unsigned int InputActionReference_TypeDefinitionIndex = 14554;
+
+	class InputActionReference : public ::UnityEngine::ScriptableObject
+	{
+	public:
+		::UnityEngine::InputSystem::InputActionAsset* m_Asset; // 0x18
+		::System::String* m_ActionId; // 0x20
+		::UnityEngine::InputSystem::InputAction* FAF57F6AD9824CC1; // 0x28
+
+		::System::Void _ctor()
+		{
+			return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE__CTOR_OFFSET))(this);
+		}
+
+		::UnityEngine::InputSystem::InputActionAsset* F2348921179AF9CC()
+		{
+			return ((::UnityEngine::InputSystem::InputActionAsset*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE_F2348921179AF9CC_OFFSET))(this);
+		}
+
+		::System::Void B9A5BC696BEE68B7(::UnityEngine::InputSystem::InputActionAsset* B286159CFDC40A9F, ::System::String* EC5AF1EF0B6D6F9D, ::System::String* E7C99297BCFC5085)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::InputSystem::InputActionAsset*, ::System::String*, ::System::String*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE_B9A5BC696BEE68B7_OFFSET))(this, B286159CFDC40A9F, EC5AF1EF0B6D6F9D, E7C99297BCFC5085);
+		}
+
+		static ::UnityEngine::InputSystem::InputAction* A91D6DC3494737C7(::UnityEngine::InputSystem::InputActionReference* F8B8A299BC4E648F)
+		{
+			return ((::UnityEngine::InputSystem::InputAction*(*)(::UnityEngine::InputSystem::InputActionReference*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE_A91D6DC3494737C7_OFFSET))(F8B8A299BC4E648F);
+		}
+
+		static ::UnityEngine::InputSystem::InputActionReference* F058C57E2E0D2D56(::UnityEngine::InputSystem::InputAction* BC288918C940C7A6)
+		{
+			return ((::UnityEngine::InputSystem::InputActionReference*(*)(::UnityEngine::InputSystem::InputAction*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE_F058C57E2E0D2D56_OFFSET))(BC288918C940C7A6);
+		}
+
+		::System::Void B9A5BC696BEE68B7_1(::UnityEngine::InputSystem::InputAction* BC288918C940C7A6)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::InputSystem::InputAction*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE_B9A5BC696BEE68B7_1_OFFSET))(this, BC288918C940C7A6);
+		}
+
+		::UnityEngine::InputSystem::InputAction* AD0F0E5F6FA6E4B1()
+		{
+			return ((::UnityEngine::InputSystem::InputAction*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE_AD0F0E5F6FA6E4B1_OFFSET))(this);
+		}
+
+		::System::Void F94F0F7E13CA23F5(::UnityEngine::InputSystem::InputActionAsset* B286159CFDC40A9F, ::UnityEngine::InputSystem::InputAction* BC288918C940C7A6)
+		{
+			return ((::System::Void(*)(::PVOID, ::UnityEngine::InputSystem::InputActionAsset*, ::UnityEngine::InputSystem::InputAction*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE_F94F0F7E13CA23F5_OFFSET))(this, B286159CFDC40A9F, BC288918C940C7A6);
+		}
+
+		::System::String* E80B9F472EEFDF74()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE_E80B9F472EEFDF74_OFFSET))(this);
+		}
+
+		::UnityEngine::InputSystem::InputAction* F1E52CAFCE34B529()
+		{
+			return ((::UnityEngine::InputSystem::InputAction*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE_F1E52CAFCE34B529_OFFSET))(this);
+		}
+
+		static ::System::String* A8A69CB4B390AD4F(::UnityEngine::InputSystem::InputAction* BC288918C940C7A6)
+		{
+			return ((::System::String*(*)(::UnityEngine::InputSystem::InputAction*))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE_A8A69CB4B390AD4F_OFFSET))(BC288918C940C7A6);
+		}
+
+		static ::System::Void AF265198E4C6CD78()
+		{
+			return ((::System::Void(*)())((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE_AF265198E4C6CD78_OFFSET))();
+		}
+
+		::System::String* B7A47A6D1301234F()
+		{
+			return ((::System::String*(*)(::PVOID))((::PBYTE)hIl2Cpp + UNITYENGINE_INPUTSYSTEM_INPUTACTIONREFERENCE_B7A47A6D1301234F_OFFSET))(this);
+		}
+	};
+}

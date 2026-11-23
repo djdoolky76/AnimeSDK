@@ -1,0 +1,41 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/AD61077CFCBEFAEA.h"
+#include "unitysdk/E68AA4EB51923C98/E003E9033ABCE537.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/BD3E6890C9C82A9E.h"
+
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define E240E5BB140F6DA6_AD354752D9B18CCE_OFFSET UNITYSDK_OFFSET(0x17D6400)
+#define E240E5BB140F6DA6_FBBF870EA90E1D92_OFFSET UNITYSDK_OFFSET(0x2699FA0)
+#define E240E5BB140F6DA6_FC862F2DEA3C32AA_OFFSET UNITYSDK_OFFSET(0x17D5EA0)
+#define E240E5BB140F6DA6__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int E240E5BB140F6DA6_TypeDefinitionIndex = 6563;
+
+class E240E5BB140F6DA6 : public ::System::Object
+{
+public:
+	::System::Collections::Generic::Dictionary_2<::E68AA4EB51923C98::E003E9033ABCE537, ::AD61077CFCBEFAEA>* E2321160DB50D233; // 0x10
+
+	::System::Void AD354752D9B18CCE(::System::Collections::Generic::Dictionary_2<::E68AA4EB51923C98::E003E9033ABCE537, ::AD61077CFCBEFAEA>* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::E68AA4EB51923C98::E003E9033ABCE537, ::AD61077CFCBEFAEA>*))((::PBYTE)hIl2Cpp + E240E5BB140F6DA6_AD354752D9B18CCE_OFFSET))(this, E937D4885DAA1AE8);
+	}
+
+	::System::Collections::Generic::Dictionary_2<::E68AA4EB51923C98::E003E9033ABCE537, ::AD61077CFCBEFAEA>* FC862F2DEA3C32AA()
+	{
+		return ((::System::Collections::Generic::Dictionary_2<::E68AA4EB51923C98::E003E9033ABCE537, ::AD61077CFCBEFAEA>*(*)(::PVOID))((::PBYTE)hIl2Cpp + E240E5BB140F6DA6_FC862F2DEA3C32AA_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + E240E5BB140F6DA6__CTOR_OFFSET))(this);
+	}
+
+	static ::System::Void FBBF870EA90E1D92(::BD3E6890C9C82A9E& F99B0FE319DB74D1, ::E240E5BB140F6DA6*& E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::BD3E6890C9C82A9E&, ::E240E5BB140F6DA6*&))((::PBYTE)hIl2Cpp + E240E5BB140F6DA6_FBBF870EA90E1D92_OFFSET))(F99B0FE319DB74D1, E937D4885DAA1AE8);
+	}
+};

@@ -1,0 +1,41 @@
+#pragma once
+#include "unitysdk/unitysdk.h"
+#include "unitysdk/E12F55A5FCCCF1EC.h"
+#include "unitysdk/E68AA4EB51923C98/A663E03344D85C3A.h"
+#include "unitysdk/System/Object.h"
+#include "unitysdk/BD3E6890C9C82A9E.h"
+
+namespace System::Collections::Generic { template <typename T1, typename T2> class Dictionary_2; }
+
+#define F20C8097E4D46FA8_B1FDFF68C570412F_OFFSET UNITYSDK_OFFSET(0x17D6400)
+#define F20C8097E4D46FA8_F66D49BD6902CCCB_OFFSET UNITYSDK_OFFSET(0x17D5EA0)
+#define F20C8097E4D46FA8_FBBF870EA90E1D92_OFFSET UNITYSDK_OFFSET(0x2617450)
+#define F20C8097E4D46FA8__CTOR_OFFSET UNITYSDK_OFFSET(0x1666CA0)
+
+inline static constexpr unsigned int F20C8097E4D46FA8_TypeDefinitionIndex = 5994;
+
+class F20C8097E4D46FA8 : public ::System::Object
+{
+public:
+	::System::Collections::Generic::Dictionary_2<::E68AA4EB51923C98::A663E03344D85C3A, ::E12F55A5FCCCF1EC>* A58EE140DFF1ABAA; // 0x10
+
+	static ::System::Void FBBF870EA90E1D92(::BD3E6890C9C82A9E& F99B0FE319DB74D1, ::F20C8097E4D46FA8*& E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::BD3E6890C9C82A9E&, ::F20C8097E4D46FA8*&))((::PBYTE)hIl2Cpp + F20C8097E4D46FA8_FBBF870EA90E1D92_OFFSET))(F99B0FE319DB74D1, E937D4885DAA1AE8);
+	}
+
+	::System::Collections::Generic::Dictionary_2<::E68AA4EB51923C98::A663E03344D85C3A, ::E12F55A5FCCCF1EC>* F66D49BD6902CCCB()
+	{
+		return ((::System::Collections::Generic::Dictionary_2<::E68AA4EB51923C98::A663E03344D85C3A, ::E12F55A5FCCCF1EC>*(*)(::PVOID))((::PBYTE)hIl2Cpp + F20C8097E4D46FA8_F66D49BD6902CCCB_OFFSET))(this);
+	}
+
+	::System::Void _ctor()
+	{
+		return ((::System::Void(*)(::PVOID))((::PBYTE)hIl2Cpp + F20C8097E4D46FA8__CTOR_OFFSET))(this);
+	}
+
+	::System::Void B1FDFF68C570412F(::System::Collections::Generic::Dictionary_2<::E68AA4EB51923C98::A663E03344D85C3A, ::E12F55A5FCCCF1EC>* E937D4885DAA1AE8)
+	{
+		return ((::System::Void(*)(::PVOID, ::System::Collections::Generic::Dictionary_2<::E68AA4EB51923C98::A663E03344D85C3A, ::E12F55A5FCCCF1EC>*))((::PBYTE)hIl2Cpp + F20C8097E4D46FA8_B1FDFF68C570412F_OFFSET))(this, E937D4885DAA1AE8);
+	}
+};
